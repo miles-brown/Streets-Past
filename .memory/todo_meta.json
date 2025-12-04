@@ -3,45 +3,31 @@
     "Coordinator": {
       "1": {
         "id": "1",
-        "content": "Download and process OS Open Names UK street dataset",
-        "details": "✅ COMPLETED: Added 217 postal districts today. Now have 1,554/2,997 (52%) covering major UK cities. Added 35 detailed street entries with full etymology and coordinates for Manchester, Newcastle, Nottingham, Northampton, London, and Gateshead.",
-        "status": "completed",
+        "content": "Research OpenStreetMap data access methods for UK street data",
+        "details": "1. Investigate Overpass API for querying UK streets 2. Research OSM data export options 3. Explore street data structure and available fields 4. Determine best data format and access method",
+        "status": "pending",
         "priority": "high"
       },
       "2": {
         "id": "2",
-        "content": "Design street-level database schema",
-        "details": "✅ COMPLETED: Website deployed with working street pages. Sample data inserted: 10 UK streets across Manchester, Newcastle, Nottingham, Northampton with coordinates and full functionality.",
-        "status": "completed",
+        "content": "Process and validate OSM street data for database import",
+        "details": "1. Create script to extract UK street data from OSM 2. Filter and clean street names (remove duplicates, invalid entries) 3. Extract metadata (county, post town, coordinates) 4. Format data to match database schema 5. Validate data quality",
+        "status": "pending",
         "priority": "high"
       },
       "3": {
         "id": "3",
-        "content": "Build street webpage generator system",
-        "details": "✅ COMPLETED: Full website deployed with individual street pages, search functionality, interactive maps, etymology display, and community contribution system.",
-        "status": "completed",
-        "priority": "high"
+        "content": "Import processed OSM street data into Supabase database",
+        "details": "1. Create import script for OSM-processed data 2. Batch insert street records 3. Handle duplicates and existing records 4. Verify successful import and data integrity 5. Update street count statistics",
+        "status": "pending",
+        "priority": "medium"
       },
       "4": {
         "id": "4",
-        "content": "Implement message board for each street",
-        "details": "✅ COMPLETED: Website live with working message board functionality through community contribution system. Users can submit etymology suggestions for each street.",
-        "status": "completed",
-        "priority": "medium"
-      },
-      "5": {
-        "id": "5",
-        "content": "Deploy UK street etymology website",
-        "details": "✅ COMPLETED: Website deployed successfully at https://q6he7ldj7ewi.space.minimax.io with search, street detail pages, maps, and contribution system.",
-        "status": "completed",
-        "priority": "high"
-      },
-      "6": {
-        "id": "6",
-        "content": "Prepare international expansion roadmap",
-        "details": "Research free data sources for Ireland, Belgium, Netherlands, Nordic countries, Germany, France, Spain, Italy, US, Canada, Australia/New Zealand.",
+        "content": "Set up automated OSM data updates (optional)",
+        "details": "1. Research incremental OSM data updates 2. Create automated script for periodic street data refresh 3. Implement change detection for new/modified streets 4. Set up scheduled updates if needed",
         "status": "pending",
-        "priority": "medium"
+        "priority": "low"
       }
     }
   }
