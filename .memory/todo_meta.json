@@ -3,10 +3,24 @@
     "Coordinator": {
       "1": {
         "id": "1",
-        "content": "Build the street etymology website using full-stack architecture",
-        "details": "Create a complete React-based street name etymology website with search, interactive maps, user contributions, and etymology suggestions using the researched tech stack",
-        "status": "completed",
+        "content": "Design comprehensive database schema for street etymology website",
+        "details": "Create detailed database schema including:\n- Core street data (names, coordinates, postal codes, local authority areas)\n- Historical information (first recorded year, development periods, architecture)\n- Charles Booth poverty guide integration with citations\n- User authentication and profiles system\n- Community contributions and contact posts\n- Comprehensive citations system for all information sources\n- Proper indexing and relationships",
+        "status": "in_progress",
         "priority": "high"
+      },
+      "2": {
+        "id": "2",
+        "content": "Implement database tables in Supabase",
+        "details": "Execute SQL migrations to create:\n- Streets table with comprehensive fields\n- Historical periods and architecture types\n- Charles Booth poverty data\n- User profiles and authentication\n- Community features (posts, comments, contributions)\n- Citations system with source tracking\n- Spatial indexes for location queries",
+        "status": "pending",
+        "priority": "high"
+      },
+      "3": {
+        "id": "3",
+        "content": "Set up sample data and test the schema",
+        "details": "Populate database with:\n- Enhanced sample UK streets with all new fields\n- Charles Booth poverty descriptions and sources\n- Example citations for various fact types\n- Test user accounts and community features\n- Verify spatial queries and performance",
+        "status": "pending",
+        "priority": "medium"
       }
     }
   }
