@@ -1,0 +1,993 @@
+2025-12-05 02:08:27,297 - INFO - === Final Corrected OSM Street Import ===
+2025-12-05 02:08:27,297 - INFO - Including ALL required database fields: street_name, street_type, county, country
+2025-12-05 02:08:27,575 - INFO - HTTP Request: GET https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?select=street_name "HTTP/2 200 OK"
+2025-12-05 02:08:27,576 - INFO - Found 29 existing street names
+2025-12-05 02:08:27,782 - INFO - Prepared 19291 streets for import (44009 skipped)
+2025-12-05 02:08:27,942 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:27,942 - ERROR - Batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:28,104 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:28,104 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:28,233 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:28,233 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:28,389 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:28,389 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:28,521 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:28,521 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:28,670 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:28,670 - ERROR - Batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:28,822 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:28,823 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:28,965 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:28,965 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:29,092 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:29,092 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:29,217 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:29,217 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:29,359 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:29,359 - ERROR - Batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:29,489 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:29,489 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:29,620 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:29,620 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:29,763 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:29,763 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:29,904 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:29,904 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:30,070 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:30,070 - ERROR - Batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:30,196 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:30,196 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:30,340 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:30,340 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:30,484 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:30,484 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:30,615 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:30,615 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:30,777 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:30,777 - ERROR - Batch 5 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:30,930 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:30,930 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:31,061 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:31,061 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:31,189 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:31,189 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:31,315 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:31,316 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:31,460 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:31,460 - ERROR - Batch 6 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:31,589 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:31,590 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:31,720 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:31,721 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:31,852 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:31,852 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:31,997 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:31,998 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:32,145 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:32,146 - ERROR - Batch 7 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:32,312 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:32,312 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:32,450 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:32,450 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:32,598 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:32,599 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:32,728 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:32,728 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:32,879 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:32,880 - ERROR - Batch 8 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:33,029 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:33,030 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:33,181 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:33,182 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:33,309 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:08:33,310 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:08:33,448 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:03,275 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:03,521 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:03,521 - ERROR - Batch 9 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:03,648 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:03,649 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:03,783 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:03,784 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:03,913 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:03,913 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:04,042 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:04,042 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:04,194 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:04,194 - ERROR - Batch 10 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:04,327 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:04,327 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:04,453 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:04,453 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:04,576 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:04,577 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:04,696 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:04,696 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:04,837 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:04,837 - ERROR - Batch 11 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:04,968 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:04,968 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:05,093 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:05,094 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:05,233 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:05,233 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:05,379 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:05,380 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:05,550 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:05,550 - ERROR - Batch 12 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:05,693 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:05,695 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:05,828 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:05,828 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:05,978 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:05,978 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:06,113 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:06,113 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:06,267 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:06,267 - ERROR - Batch 13 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:06,396 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:06,396 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:06,530 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:06,530 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:06,653 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:06,653 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:06,771 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:06,772 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:06,914 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:06,914 - ERROR - Batch 14 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:07,251 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:07,251 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:07,386 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:07,387 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:07,507 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:07,507 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:07,634 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:07,634 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:07,785 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:07,785 - ERROR - Batch 15 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:07,918 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:07,918 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:08,048 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:08,048 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:08,194 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:08,195 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:08,319 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:08,319 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:08,458 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:08,458 - ERROR - Batch 16 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:08,581 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:08,582 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:08,715 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:08,716 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:08,848 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:08,849 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:08,989 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:08,989 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:09,133 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:09,133 - ERROR - Batch 17 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:09,278 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:09,279 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:09,403 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:09,404 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:09,533 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:09,533 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:09,658 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:09,658 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:09,809 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:09,809 - ERROR - Batch 18 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:09,933 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:09,933 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:10,071 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:10,072 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:10,207 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:10,207 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:10,338 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:10,339 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:10,483 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:10,483 - ERROR - Batch 19 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:10,617 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:10,617 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:10,751 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:10,751 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:10,911 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:10,911 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:11,043 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:11,043 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:11,183 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:11,183 - ERROR - Batch 20 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:11,312 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:11,312 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:11,465 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:11,466 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:11,596 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:11,596 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:11,722 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:11,723 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:11,880 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:11,881 - ERROR - Batch 21 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:12,009 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:12,010 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:12,140 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:12,140 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:12,265 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:12,265 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:12,394 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:12,394 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:12,538 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:12,538 - ERROR - Batch 22 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:12,682 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:12,683 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:12,811 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:12,812 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:12,942 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:12,943 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:13,064 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:13,065 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:13,207 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:13,207 - ERROR - Batch 23 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:13,336 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:13,336 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:13,461 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:13,461 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:13,585 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:13,585 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:13,715 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:13,716 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:13,874 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:13,874 - ERROR - Batch 24 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:14,021 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:14,021 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:14,159 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:14,159 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:14,305 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:14,306 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:14,431 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:14,432 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:14,594 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:14,594 - ERROR - Batch 25 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:14,713 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:14,714 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:14,843 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:14,843 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:14,973 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:14,973 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:15,109 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:15,110 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:15,256 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:15,257 - ERROR - Batch 26 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:15,456 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:15,456 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:15,607 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:15,608 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:15,762 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:15,762 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:15,883 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:15,883 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:16,030 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:16,030 - ERROR - Batch 27 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:16,153 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:16,153 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:16,285 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:16,286 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:16,410 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:16,410 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:16,561 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:16,561 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:16,715 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:16,715 - ERROR - Batch 28 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:16,839 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:16,840 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:17,015 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:17,015 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:17,156 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:17,156 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:17,296 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:17,296 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:17,477 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:17,477 - ERROR - Batch 29 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:17,606 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:17,606 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:17,741 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:17,741 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:17,872 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:17,873 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:18,000 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:18,001 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:18,140 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:18,141 - ERROR - Batch 30 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:18,278 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:18,278 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:18,406 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:18,407 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:18,527 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:18,528 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:18,693 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:18,693 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:18,830 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:18,831 - ERROR - Batch 31 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:18,966 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:18,966 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:19,097 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:19,098 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:19,235 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:19,236 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:19,434 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:19,435 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:19,582 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:19,582 - ERROR - Batch 32 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:19,702 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:19,702 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:19,833 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:19,833 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:19,965 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:19,966 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:20,118 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:20,118 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:20,264 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:20,265 - ERROR - Batch 33 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:20,390 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:20,391 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:20,536 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:20,536 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:20,658 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:20,659 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:20,807 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:20,808 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:20,957 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:20,958 - ERROR - Batch 34 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:21,090 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:21,090 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:21,235 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:21,235 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:21,361 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:21,361 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:21,493 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:21,493 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:21,640 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:21,640 - ERROR - Batch 35 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:21,775 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:21,776 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:21,916 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:21,916 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:22,050 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:22,050 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:22,173 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:22,173 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:22,323 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:22,323 - ERROR - Batch 36 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:22,464 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:22,464 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:22,602 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:22,603 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:22,728 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:22,728 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:22,854 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:22,854 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:22,998 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:22,998 - ERROR - Batch 37 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:23,124 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:23,125 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:23,247 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:23,248 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:23,377 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:23,377 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:23,499 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:23,499 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:23,648 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:23,648 - ERROR - Batch 38 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:23,785 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:23,785 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:23,904 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:23,904 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:24,043 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:24,043 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:24,188 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:24,188 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:24,333 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:24,333 - ERROR - Batch 39 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:24,462 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:24,462 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:24,593 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:24,593 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:24,724 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:24,724 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:24,852 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:24,853 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:25,006 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:25,006 - ERROR - Batch 40 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:25,137 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:25,137 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:25,311 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:25,312 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:25,449 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:25,449 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:25,571 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:25,572 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:25,723 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:25,723 - ERROR - Batch 41 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:25,853 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:25,853 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:26,006 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:26,006 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:26,133 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:26,133 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:26,260 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:26,261 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:26,396 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:26,396 - ERROR - Batch 42 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:26,539 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:26,539 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:26,659 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:26,660 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:26,787 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:26,787 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:26,925 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:26,925 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:27,071 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:27,071 - ERROR - Batch 43 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:27,197 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:27,197 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:27,317 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:27,317 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:27,440 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:27,441 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:27,602 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:27,602 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:27,741 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:27,742 - ERROR - Batch 44 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:27,875 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:27,875 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:28,000 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:28,000 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:28,140 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:28,140 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:28,273 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:28,273 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:28,428 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:28,428 - ERROR - Batch 45 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:28,550 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:28,550 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:28,681 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:28,681 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:28,819 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:28,819 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:28,937 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:28,938 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:29,075 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:29,075 - ERROR - Batch 46 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:29,218 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:29,219 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:29,361 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:29,362 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:29,487 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:29,487 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:29,615 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:29,615 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:29,761 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:29,762 - ERROR - Batch 47 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:29,928 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:29,929 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:30,056 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:30,057 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:30,188 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:30,188 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:30,318 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:30,318 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:30,482 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:30,483 - ERROR - Batch 48 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:30,628 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:30,628 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:30,769 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:30,769 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:30,908 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:30,908 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:31,036 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:31,036 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:31,189 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:31,189 - ERROR - Batch 49 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:31,321 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:31,321 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:31,462 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:31,462 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:31,587 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:31,588 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:31,709 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:31,709 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:31,859 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:31,859 - ERROR - Batch 50 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:31,997 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:31,997 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:32,144 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:32,144 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:32,301 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:32,302 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:32,441 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:32,441 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:32,580 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:32,581 - ERROR - Batch 51 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:32,730 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:32,730 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:32,862 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:32,862 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:32,994 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:32,994 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:33,119 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:33,119 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:33,281 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:33,281 - ERROR - Batch 52 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:33,426 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:33,426 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:33,553 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:33,553 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:33,679 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:33,680 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:33,801 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:33,802 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:33,950 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:33,951 - ERROR - Batch 53 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:34,078 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:34,079 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:34,213 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:34,214 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:34,346 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:34,346 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:34,471 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:34,472 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:34,646 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:34,646 - ERROR - Batch 54 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:34,781 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:34,781 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:34,909 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:34,909 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:35,033 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:35,034 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:35,157 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:35,158 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:35,302 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:35,303 - ERROR - Batch 55 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:35,429 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:35,429 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:35,583 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:35,583 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:35,708 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:35,708 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:35,846 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:35,846 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:36,026 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:36,026 - ERROR - Batch 56 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:36,154 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:36,154 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:36,288 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:36,288 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:36,407 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:36,407 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:36,530 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:36,530 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:36,668 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:36,669 - ERROR - Batch 57 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:36,798 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:36,798 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:36,921 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:36,921 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:37,044 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:37,044 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:37,175 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:37,175 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:37,311 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:37,311 - ERROR - Batch 58 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:37,473 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:37,474 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:37,603 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:37,603 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:37,746 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:37,747 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:37,872 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:37,872 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:38,016 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:38,016 - ERROR - Batch 59 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:38,138 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:38,138 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:38,271 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:38,271 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:38,394 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:38,395 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:38,517 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:38,518 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:38,697 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:38,697 - ERROR - Batch 60 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:38,832 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:38,832 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:38,966 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:38,967 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:39,081 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:39,082 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:39,209 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:39,209 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:39,349 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:39,349 - ERROR - Batch 61 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:39,476 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:39,482 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:39,608 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:39,609 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:39,730 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:39,730 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:39,856 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:39,856 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:40,002 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:40,002 - ERROR - Batch 62 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:40,141 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:40,142 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:40,302 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:40,302 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:40,430 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:40,433 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:40,562 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:40,563 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:40,707 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:40,708 - ERROR - Batch 63 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:40,834 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:40,834 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:40,959 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:40,960 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:41,096 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:41,097 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:41,228 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:41,228 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:41,378 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:41,378 - ERROR - Batch 64 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:41,513 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:41,513 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:41,637 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:41,638 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:41,778 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:41,778 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:41,907 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:41,907 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:42,045 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:42,045 - ERROR - Batch 65 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:42,172 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:42,173 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:42,290 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:42,291 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:42,437 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:42,437 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:42,561 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:42,562 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:42,724 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:42,725 - ERROR - Batch 66 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:42,853 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:42,853 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:42,977 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:42,977 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:43,101 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:43,101 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:43,220 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:43,220 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:43,376 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:43,376 - ERROR - Batch 67 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:43,620 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:43,621 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:43,748 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:43,749 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:43,883 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:43,883 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:44,025 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:44,025 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:44,166 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:44,167 - ERROR - Batch 68 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:44,290 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:44,290 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:44,415 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:44,415 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:44,538 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:44,539 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:44,662 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:44,662 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:44,802 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:44,803 - ERROR - Batch 69 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:44,932 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:44,932 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:45,065 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:45,065 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:45,196 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:45,197 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:45,330 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:45,330 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:45,479 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:45,479 - ERROR - Batch 70 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:45,597 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:45,597 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:45,720 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:45,720 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:45,854 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:45,855 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:46,000 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:46,000 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:46,138 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:46,138 - ERROR - Batch 71 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:46,265 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:46,265 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:46,396 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:46,396 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:46,543 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:46,544 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:46,673 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:46,673 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:46,812 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:46,813 - ERROR - Batch 72 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:46,933 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:46,933 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:47,067 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:47,067 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:47,198 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:47,198 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:47,333 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:47,334 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:47,470 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:47,470 - ERROR - Batch 73 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:47,597 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:47,597 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:47,719 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:47,719 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:47,847 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:47,847 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:47,969 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:47,970 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:48,108 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:48,109 - ERROR - Batch 74 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:48,237 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:48,238 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:48,359 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:48,360 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:48,490 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:48,490 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:48,612 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:48,613 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:48,750 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:48,751 - ERROR - Batch 75 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:48,878 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:48,878 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:49,009 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:49,010 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:49,144 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:49,144 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:49,274 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:49,274 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:49,424 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:49,424 - ERROR - Batch 76 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:49,564 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:49,564 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:49,713 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:49,713 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:49,839 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:49,839 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:49,962 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:49,962 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:50,103 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:50,103 - ERROR - Batch 77 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:50,226 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:50,226 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:50,349 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:50,349 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:50,473 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:50,478 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:50,604 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:50,604 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:50,751 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:50,751 - ERROR - Batch 78 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:50,906 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:50,906 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:51,038 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:51,039 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:51,159 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:51,159 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:51,284 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:51,284 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:51,425 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:51,425 - ERROR - Batch 79 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:51,548 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:51,548 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:51,676 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:51,676 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:51,799 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:51,800 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:51,920 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:51,921 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:52,065 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:52,065 - ERROR - Batch 80 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:52,192 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:52,192 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:52,321 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:52,322 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:52,443 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:52,444 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:52,588 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:52,589 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:52,726 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:52,726 - ERROR - Batch 81 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:52,855 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:52,855 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:52,979 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:52,979 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:53,116 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:53,116 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:53,241 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:53,241 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:53,378 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:53,378 - ERROR - Batch 82 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:53,506 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:53,506 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:53,643 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:53,643 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:53,762 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:53,762 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:53,884 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:53,884 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:54,029 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:54,029 - ERROR - Batch 83 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:54,158 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:54,158 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:54,291 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:54,291 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:54,444 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:54,444 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:54,594 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:54,594 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:54,738 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:54,738 - ERROR - Batch 84 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:54,873 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:54,874 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:55,006 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:55,006 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:55,144 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:55,145 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:55,289 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:55,290 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:55,443 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:55,443 - ERROR - Batch 85 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:55,574 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:55,574 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:55,711 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:55,711 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:55,840 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:55,840 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:55,986 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:55,987 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:56,146 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:56,147 - ERROR - Batch 86 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:56,281 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:56,281 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:56,408 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:56,409 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:56,539 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:56,540 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:56,676 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:56,676 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:56,829 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:56,829 - ERROR - Batch 87 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:56,958 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:56,958 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:57,085 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:57,086 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:57,214 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:57,214 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:57,374 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:57,375 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:57,516 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:57,516 - ERROR - Batch 88 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:57,651 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:57,651 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:57,779 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:57,779 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:57,914 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:57,915 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:58,047 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:58,048 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:58,203 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:58,204 - ERROR - Batch 89 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:58,345 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:58,345 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:58,482 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:58,482 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:58,649 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:58,650 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:58,783 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:58,784 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:58,933 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:58,933 - ERROR - Batch 90 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:59,060 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:59,060 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:59,223 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:59,224 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:59,361 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:59,361 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:59,490 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:59,491 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:59,642 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:59,643 - ERROR - Batch 91 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:59,800 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:59,800 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:10:59,929 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:10:59,929 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:00,084 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:00,084 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:00,223 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:00,223 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:00,368 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:00,369 - ERROR - Batch 92 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:00,500 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:00,500 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:00,626 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:00,626 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:00,773 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:00,774 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:00,915 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:00,915 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:01,055 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:01,056 - ERROR - Batch 93 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:01,201 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:01,201 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:01,356 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:01,357 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:01,516 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:01,517 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:01,658 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:01,658 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:01,803 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:01,803 - ERROR - Batch 94 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:01,936 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:01,936 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:02,067 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:02,067 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:02,194 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:02,195 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:02,337 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:02,338 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:02,487 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:02,487 - ERROR - Batch 95 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:02,636 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:02,637 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:02,785 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:02,785 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:02,919 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:02,919 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:03,054 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:03,054 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:03,213 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:03,214 - ERROR - Batch 96 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:03,345 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:03,345 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:03,491 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:03,492 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:03,637 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:03,638 - ERROR - Small batch 3 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:03,824 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:03,824 - ERROR - Small batch 4 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:03,978 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:03,978 - ERROR - Batch 97 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:04,114 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:04,115 - ERROR - Small batch 1 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:04,243 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_type%22%2C%22country%22%2C%22county%22%2C%22street_name%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:11:04,244 - ERROR - Small batch 2 failed: {'message': "Could not find the 'country' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:11:04,244 - INFO - === IMPORT COMPLETE ===
+2025-12-05 02:11:04,244 - INFO - Total imported: 0
+2025-12-05 02:11:04,244 - INFO - Total skipped: 44009
+2025-12-05 02:11:04,398 - INFO - HTTP Request: GET https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?select=street_name%2Cstreet_type%2Ccounty "HTTP/2 200 OK"
+2025-12-05 02:11:04,399 - INFO - === FINAL VERIFICATION ===
+2025-12-05 02:11:04,399 - INFO - Total streets in DB: 35
+2025-12-05 02:11:04,399 - INFO - New OSM streets imported: 0
+2025-12-05 02:11:04,399 - INFO - Database growth: +0 streets (from 35 to 35)
+2025-12-05 02:11:04,399 - INFO - 
+Sample streets in database:
+2025-12-05 02:11:04,399 - INFO -  1. High Street (Street) - Greater Manchester
+2025-12-05 02:11:04,399 - INFO -  2. King Street (Street) - Greater Manchester
+2025-12-05 02:11:04,399 - INFO -  3. Church Lane (Lane) - Greater Manchester
+2025-12-05 02:11:04,399 - INFO -  4. Market Square (Square) - Greater Manchester
+2025-12-05 02:11:04,399 - INFO -  5. Victoria Road (Road) - Greater Manchester
+2025-12-05 02:11:04,399 - INFO -  6. Grey Street (Street) - Tyne and Wear
+2025-12-05 02:11:04,399 - INFO -  7. High Street (Street) - Tyne and Wear
+2025-12-05 02:11:04,399 - INFO -  8. High Street (Street) - Nottinghamshire
+2025-12-05 02:11:04,399 - INFO -  9. Maid Marian Way (Way) - Nottinghamshire
+2025-12-05 02:11:04,399 - INFO - 10. London Road (Road) - Northamptonshire
+2025-12-05 02:11:04,399 - INFO - 
+⚠️  Import completed but no new streets were added

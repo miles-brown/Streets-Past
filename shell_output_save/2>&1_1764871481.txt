@@ -1,0 +1,781 @@
+2025-12-05 02:03:44,304 - INFO - === Starting Minimal OSM Street Import ===
+2025-12-05 02:03:44,610 - INFO - HTTP Request: GET https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?select=street_name "HTTP/2 200 OK"
+2025-12-05 02:03:44,611 - INFO - Found 29 existing street names
+2025-12-05 02:03:44,923 - INFO - Prepared 19291 streets for import (44009 skipped)
+2025-12-05 02:03:45,060 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:45,060 - ERROR - Batch 1 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:45,211 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:45,212 - ERROR - Batch 2 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:45,351 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:45,351 - ERROR - Batch 3 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:45,582 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:45,582 - ERROR - Batch 4 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:45,735 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:45,735 - ERROR - Batch 5 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:45,866 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:45,866 - ERROR - Batch 6 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:46,001 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:46,002 - ERROR - Batch 7 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:46,140 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:46,140 - ERROR - Batch 8 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:46,277 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:46,277 - ERROR - Batch 9 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:46,411 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:46,411 - ERROR - Batch 10 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:46,563 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:46,563 - ERROR - Batch 11 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:46,717 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:46,718 - ERROR - Batch 12 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:46,852 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:46,852 - ERROR - Batch 13 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:46,994 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:46,995 - ERROR - Batch 14 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:47,127 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:47,128 - ERROR - Batch 15 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:47,281 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:47,281 - ERROR - Batch 16 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:47,432 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:47,434 - ERROR - Batch 17 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:47,565 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:47,565 - ERROR - Batch 18 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:47,710 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:47,710 - ERROR - Batch 19 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:47,871 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:47,872 - ERROR - Batch 20 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:48,023 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:48,023 - ERROR - Batch 21 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:48,173 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:48,173 - ERROR - Batch 22 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:48,325 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:48,326 - ERROR - Batch 23 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:48,477 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:48,477 - ERROR - Batch 24 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:48,640 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:48,640 - ERROR - Batch 25 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:48,771 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:48,772 - ERROR - Batch 26 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:48,910 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:48,911 - ERROR - Batch 27 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:49,053 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:49,053 - ERROR - Batch 28 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:49,186 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:49,187 - ERROR - Batch 29 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:49,358 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:49,359 - ERROR - Batch 30 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:49,504 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:49,505 - ERROR - Batch 31 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:49,635 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:49,635 - ERROR - Batch 32 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:49,769 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:49,770 - ERROR - Batch 33 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:49,929 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:49,930 - ERROR - Batch 34 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:50,084 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:50,084 - ERROR - Batch 35 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:50,229 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:50,229 - ERROR - Batch 36 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:50,381 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:50,381 - ERROR - Batch 37 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:50,528 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:50,529 - ERROR - Batch 38 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:50,664 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:50,664 - ERROR - Batch 39 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:50,800 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:50,804 - ERROR - Batch 40 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:50,955 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:50,956 - ERROR - Batch 41 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:51,083 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:51,083 - ERROR - Batch 42 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:51,230 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:51,230 - ERROR - Batch 43 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:51,450 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:51,450 - ERROR - Batch 44 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:51,596 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:51,597 - ERROR - Batch 45 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:51,742 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:51,742 - ERROR - Batch 46 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:51,892 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:51,894 - ERROR - Batch 47 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:52,033 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:52,033 - ERROR - Batch 48 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:52,184 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:52,185 - ERROR - Batch 49 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:52,329 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:52,330 - ERROR - Batch 50 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:52,459 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:52,460 - ERROR - Batch 51 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:52,591 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:52,591 - ERROR - Batch 52 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:52,721 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:52,721 - ERROR - Batch 53 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:52,858 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:52,858 - ERROR - Batch 54 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:52,992 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:52,992 - ERROR - Batch 55 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:53,124 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:53,125 - ERROR - Batch 56 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:53,312 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:53,313 - ERROR - Batch 57 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:53,470 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:53,471 - ERROR - Batch 58 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:53,625 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:53,626 - ERROR - Batch 59 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:53,762 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:53,763 - ERROR - Batch 60 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:53,941 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:53,942 - ERROR - Batch 61 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:54,087 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:54,087 - ERROR - Batch 62 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:54,238 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:54,239 - ERROR - Batch 63 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:54,373 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:54,373 - ERROR - Batch 64 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:54,526 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:54,526 - ERROR - Batch 65 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:54,656 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:54,656 - ERROR - Batch 66 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:54,818 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:54,818 - ERROR - Batch 67 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:54,975 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:54,975 - ERROR - Batch 68 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:55,112 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:55,112 - ERROR - Batch 69 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:55,251 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:55,252 - ERROR - Batch 70 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:55,389 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:55,390 - ERROR - Batch 71 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:55,526 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:55,526 - ERROR - Batch 72 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:55,727 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:55,727 - ERROR - Batch 73 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:55,862 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:55,862 - ERROR - Batch 74 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:56,013 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:56,014 - ERROR - Batch 75 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:56,148 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:56,148 - ERROR - Batch 76 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:56,285 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:56,285 - ERROR - Batch 77 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:56,424 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:56,424 - ERROR - Batch 78 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:56,575 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:56,576 - ERROR - Batch 79 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:56,734 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:56,734 - ERROR - Batch 80 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:56,879 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:56,879 - ERROR - Batch 81 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:57,011 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:57,011 - ERROR - Batch 82 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:57,147 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:57,148 - ERROR - Batch 83 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:57,282 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:57,282 - ERROR - Batch 84 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:57,427 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:57,428 - ERROR - Batch 85 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:57,563 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:57,563 - ERROR - Batch 86 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:57,727 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:57,728 - ERROR - Batch 87 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:57,868 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:57,868 - ERROR - Batch 88 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:58,008 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:58,009 - ERROR - Batch 89 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:58,159 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:58,159 - ERROR - Batch 90 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:58,306 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:58,306 - ERROR - Batch 91 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:58,439 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:58,440 - ERROR - Batch 92 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:58,597 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:58,598 - ERROR - Batch 93 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:58,738 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:58,739 - ERROR - Batch 94 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:58,868 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:58,868 - ERROR - Batch 95 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:59,010 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:59,011 - ERROR - Batch 96 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:59,138 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:59,138 - ERROR - Batch 97 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:59,288 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:59,288 - ERROR - Batch 98 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:59,450 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:59,450 - ERROR - Batch 99 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:59,583 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:59,583 - ERROR - Batch 100 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:59,722 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:59,722 - ERROR - Batch 101 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:03:59,862 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:03:59,862 - ERROR - Batch 102 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:00,003 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:00,003 - ERROR - Batch 103 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:00,149 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:00,149 - ERROR - Batch 104 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:00,311 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:00,311 - ERROR - Batch 105 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:00,471 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:00,471 - ERROR - Batch 106 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:00,613 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:00,613 - ERROR - Batch 107 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:00,755 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:00,755 - ERROR - Batch 108 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:00,886 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:00,886 - ERROR - Batch 109 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:01,017 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:01,017 - ERROR - Batch 110 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:01,155 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:01,156 - ERROR - Batch 111 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:01,298 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:01,299 - ERROR - Batch 112 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:01,473 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:01,473 - ERROR - Batch 113 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:01,609 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:01,609 - ERROR - Batch 114 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:01,800 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:01,801 - ERROR - Batch 115 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:01,934 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:01,935 - ERROR - Batch 116 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:02,086 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:02,086 - ERROR - Batch 117 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:02,247 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:02,250 - ERROR - Batch 118 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:02,394 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:02,395 - ERROR - Batch 119 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:02,530 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:02,530 - ERROR - Batch 120 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:02,670 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:02,670 - ERROR - Batch 121 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:02,853 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:02,854 - ERROR - Batch 122 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:02,993 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:02,993 - ERROR - Batch 123 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:03,139 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:03,139 - ERROR - Batch 124 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:03,287 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:03,288 - ERROR - Batch 125 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:03,440 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:03,440 - ERROR - Batch 126 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:03,586 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:03,586 - ERROR - Batch 127 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:03,730 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:03,730 - ERROR - Batch 128 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:03,863 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:03,863 - ERROR - Batch 129 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:04,011 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:04,011 - ERROR - Batch 130 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:04,207 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:04,207 - ERROR - Batch 131 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:04,350 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:04,351 - ERROR - Batch 132 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:04,495 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:04,495 - ERROR - Batch 133 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:04,632 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:04,632 - ERROR - Batch 134 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:04,800 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:04,800 - ERROR - Batch 135 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:04,957 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:04,958 - ERROR - Batch 136 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:05,111 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:05,111 - ERROR - Batch 137 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:05,247 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:05,248 - ERROR - Batch 138 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:05,394 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:05,394 - ERROR - Batch 139 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:05,551 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:05,551 - ERROR - Batch 140 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:05,694 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:05,694 - ERROR - Batch 141 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:05,842 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:05,842 - ERROR - Batch 142 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:05,973 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:05,974 - ERROR - Batch 143 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:06,144 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:06,144 - ERROR - Batch 144 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:06,294 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:06,295 - ERROR - Batch 145 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:06,454 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:06,454 - ERROR - Batch 146 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:06,598 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:06,599 - ERROR - Batch 147 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:06,740 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:06,740 - ERROR - Batch 148 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:06,876 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:06,877 - ERROR - Batch 149 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:07,007 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:07,008 - ERROR - Batch 150 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:07,137 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:07,141 - ERROR - Batch 151 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:07,288 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:07,288 - ERROR - Batch 152 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:07,422 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:07,422 - ERROR - Batch 153 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:07,555 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:07,555 - ERROR - Batch 154 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:07,684 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:07,685 - ERROR - Batch 155 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:07,832 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:07,832 - ERROR - Batch 156 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:07,980 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:07,981 - ERROR - Batch 157 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:08,112 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:08,113 - ERROR - Batch 158 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:08,261 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:08,261 - ERROR - Batch 159 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:08,400 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:08,400 - ERROR - Batch 160 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:08,546 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:08,546 - ERROR - Batch 161 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:08,692 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:08,695 - ERROR - Batch 162 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:08,842 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:08,842 - ERROR - Batch 163 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:08,976 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:08,976 - ERROR - Batch 164 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:09,128 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:09,129 - ERROR - Batch 165 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:09,260 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:09,260 - ERROR - Batch 166 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:09,403 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:09,404 - ERROR - Batch 167 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:09,569 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:09,569 - ERROR - Batch 168 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:09,748 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:09,748 - ERROR - Batch 169 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:09,922 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:09,922 - ERROR - Batch 170 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:10,074 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:10,074 - ERROR - Batch 171 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:10,213 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:10,213 - ERROR - Batch 172 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:10,358 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:10,358 - ERROR - Batch 173 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:10,487 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:10,487 - ERROR - Batch 174 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:10,641 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:10,641 - ERROR - Batch 175 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:10,788 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:10,788 - ERROR - Batch 176 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:10,932 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:10,933 - ERROR - Batch 177 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:11,063 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:11,063 - ERROR - Batch 178 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:11,200 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:11,200 - ERROR - Batch 179 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:11,340 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:11,340 - ERROR - Batch 180 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:11,466 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:11,466 - ERROR - Batch 181 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:11,619 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:11,619 - ERROR - Batch 182 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:11,758 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:11,758 - ERROR - Batch 183 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:11,893 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:11,894 - ERROR - Batch 184 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:12,029 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:12,029 - ERROR - Batch 185 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:12,161 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:12,162 - ERROR - Batch 186 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:12,309 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:12,309 - ERROR - Batch 187 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:12,439 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:12,439 - ERROR - Batch 188 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:12,574 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:12,574 - ERROR - Batch 189 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:12,709 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:12,710 - ERROR - Batch 190 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:12,846 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:12,847 - ERROR - Batch 191 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:12,977 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:12,978 - ERROR - Batch 192 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:13,129 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:13,129 - ERROR - Batch 193 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:13,265 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:13,265 - ERROR - Batch 194 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:13,410 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:13,410 - ERROR - Batch 195 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:13,554 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:13,554 - ERROR - Batch 196 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:13,693 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:13,693 - ERROR - Batch 197 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:13,828 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:13,829 - ERROR - Batch 198 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:13,967 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:13,967 - ERROR - Batch 199 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:14,109 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:14,109 - ERROR - Batch 200 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:14,245 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:14,245 - ERROR - Batch 201 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:14,392 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:14,392 - ERROR - Batch 202 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:14,528 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:14,528 - ERROR - Batch 203 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:14,685 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:14,685 - ERROR - Batch 204 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:14,852 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:14,853 - ERROR - Batch 205 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:15,019 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:15,019 - ERROR - Batch 206 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:15,156 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:15,157 - ERROR - Batch 207 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:15,305 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:15,305 - ERROR - Batch 208 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:15,487 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:15,487 - ERROR - Batch 209 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:15,638 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:15,638 - ERROR - Batch 210 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:15,781 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:15,781 - ERROR - Batch 211 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:15,920 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:15,920 - ERROR - Batch 212 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:16,074 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:16,075 - ERROR - Batch 213 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:16,214 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:16,214 - ERROR - Batch 214 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:16,397 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:16,397 - ERROR - Batch 215 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:16,572 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:16,572 - ERROR - Batch 216 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:16,715 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:16,715 - ERROR - Batch 217 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:16,849 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:16,850 - ERROR - Batch 218 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:17,009 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:17,010 - ERROR - Batch 219 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:17,168 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:17,168 - ERROR - Batch 220 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:17,349 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:17,349 - ERROR - Batch 221 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:17,488 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:17,488 - ERROR - Batch 222 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:17,633 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:17,633 - ERROR - Batch 223 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:17,778 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:17,778 - ERROR - Batch 224 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:17,924 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:17,924 - ERROR - Batch 225 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:18,063 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:18,063 - ERROR - Batch 226 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:18,225 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:18,225 - ERROR - Batch 227 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:18,424 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:18,424 - ERROR - Batch 228 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:18,582 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:18,582 - ERROR - Batch 229 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:18,718 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:18,718 - ERROR - Batch 230 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:18,852 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:18,852 - ERROR - Batch 231 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:19,054 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:19,055 - ERROR - Batch 232 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:19,195 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:19,195 - ERROR - Batch 233 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:19,331 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:19,331 - ERROR - Batch 234 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:19,479 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:19,479 - ERROR - Batch 235 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:19,644 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:19,644 - ERROR - Batch 236 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:19,787 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:19,788 - ERROR - Batch 237 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:19,938 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:19,938 - ERROR - Batch 238 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:20,100 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:20,101 - ERROR - Batch 239 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:20,279 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:20,281 - ERROR - Batch 240 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:20,414 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:20,415 - ERROR - Batch 241 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:20,569 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:20,570 - ERROR - Batch 242 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:20,717 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:20,718 - ERROR - Batch 243 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:20,854 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:20,854 - ERROR - Batch 244 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:21,001 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:21,001 - ERROR - Batch 245 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:21,147 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:21,148 - ERROR - Batch 246 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:21,291 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:21,291 - ERROR - Batch 247 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:21,504 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:21,504 - ERROR - Batch 248 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:21,658 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:21,658 - ERROR - Batch 249 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:21,829 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:21,829 - ERROR - Batch 250 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:21,969 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:21,969 - ERROR - Batch 251 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:22,103 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:22,103 - ERROR - Batch 252 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:22,241 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:22,241 - ERROR - Batch 253 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:22,380 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:22,380 - ERROR - Batch 254 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:22,529 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:22,529 - ERROR - Batch 255 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:22,697 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:22,697 - ERROR - Batch 256 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:22,843 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:22,843 - ERROR - Batch 257 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:22,988 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:22,988 - ERROR - Batch 258 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:23,134 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:23,135 - ERROR - Batch 259 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:23,266 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:23,268 - ERROR - Batch 260 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:23,415 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:23,416 - ERROR - Batch 261 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:23,552 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:23,552 - ERROR - Batch 262 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:23,721 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:23,721 - ERROR - Batch 263 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:23,864 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:23,864 - ERROR - Batch 264 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:23,997 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:23,998 - ERROR - Batch 265 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:24,139 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:24,139 - ERROR - Batch 266 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:24,281 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:24,282 - ERROR - Batch 267 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:24,413 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:24,414 - ERROR - Batch 268 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:24,551 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:24,552 - ERROR - Batch 269 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:24,691 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:24,691 - ERROR - Batch 270 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:24,836 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:24,836 - ERROR - Batch 271 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:24,968 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:24,968 - ERROR - Batch 272 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:25,129 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:25,129 - ERROR - Batch 273 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:25,341 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:25,342 - ERROR - Batch 274 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:25,476 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:25,476 - ERROR - Batch 275 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:25,612 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:25,612 - ERROR - Batch 276 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:25,737 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:25,737 - ERROR - Batch 277 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:25,864 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:25,865 - ERROR - Batch 278 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:25,989 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:25,989 - ERROR - Batch 279 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:26,111 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:26,111 - ERROR - Batch 280 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:26,236 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:26,236 - ERROR - Batch 281 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:26,365 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:26,365 - ERROR - Batch 282 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:26,489 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:26,489 - ERROR - Batch 283 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:26,636 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:26,636 - ERROR - Batch 284 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:26,781 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:26,781 - ERROR - Batch 285 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:26,921 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:26,921 - ERROR - Batch 286 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:27,074 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:27,075 - ERROR - Batch 287 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:27,219 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:27,220 - ERROR - Batch 288 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:27,379 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:27,379 - ERROR - Batch 289 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:27,501 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:27,501 - ERROR - Batch 290 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:27,634 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:27,635 - ERROR - Batch 291 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:27,780 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:27,780 - ERROR - Batch 292 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:27,910 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:27,932 - ERROR - Batch 293 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:28,067 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:28,067 - ERROR - Batch 294 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:28,208 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:28,209 - ERROR - Batch 295 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:28,350 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:28,351 - ERROR - Batch 296 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:28,488 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:28,489 - ERROR - Batch 297 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:28,627 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:28,627 - ERROR - Batch 298 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:28,764 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:28,764 - ERROR - Batch 299 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:28,899 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:28,899 - ERROR - Batch 300 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:29,030 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:29,030 - ERROR - Batch 301 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:29,181 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:29,182 - ERROR - Batch 302 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:29,313 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:29,313 - ERROR - Batch 303 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:29,446 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:29,447 - ERROR - Batch 304 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:29,578 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:29,578 - ERROR - Batch 305 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:29,729 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:29,730 - ERROR - Batch 306 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:29,857 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:29,857 - ERROR - Batch 307 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:29,991 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:29,991 - ERROR - Batch 308 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:30,122 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:30,122 - ERROR - Batch 309 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:30,245 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:30,245 - ERROR - Batch 310 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:30,370 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:30,371 - ERROR - Batch 311 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:30,507 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:30,507 - ERROR - Batch 312 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:30,651 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:30,652 - ERROR - Batch 313 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:30,784 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:30,784 - ERROR - Batch 314 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:30,935 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:30,936 - ERROR - Batch 315 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:31,075 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:31,075 - ERROR - Batch 316 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:31,213 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:31,213 - ERROR - Batch 317 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:31,344 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:31,345 - ERROR - Batch 318 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:31,481 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:31,481 - ERROR - Batch 319 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:31,639 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:31,639 - ERROR - Batch 320 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:31,781 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:31,782 - ERROR - Batch 321 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:31,947 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:31,947 - ERROR - Batch 322 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:32,093 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:32,093 - ERROR - Batch 323 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:32,225 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:32,227 - ERROR - Batch 324 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:32,386 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:32,386 - ERROR - Batch 325 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:32,526 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:32,528 - ERROR - Batch 326 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:32,666 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:32,667 - ERROR - Batch 327 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:32,801 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:32,802 - ERROR - Batch 328 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:32,941 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:32,941 - ERROR - Batch 329 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:33,083 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:33,083 - ERROR - Batch 330 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:33,213 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:33,213 - ERROR - Batch 331 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:33,410 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:33,410 - ERROR - Batch 332 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:33,556 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:33,556 - ERROR - Batch 333 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:33,730 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:33,730 - ERROR - Batch 334 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:33,868 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:33,869 - ERROR - Batch 335 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:33,998 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:33,998 - ERROR - Batch 336 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:34,120 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:34,123 - ERROR - Batch 337 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:34,262 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:34,262 - ERROR - Batch 338 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:34,385 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:34,385 - ERROR - Batch 339 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:34,514 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:34,515 - ERROR - Batch 340 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:34,643 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:34,644 - ERROR - Batch 341 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:34,784 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:34,784 - ERROR - Batch 342 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:34,931 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:34,931 - ERROR - Batch 343 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:35,066 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:35,067 - ERROR - Batch 344 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:35,196 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:35,197 - ERROR - Batch 345 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:35,338 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:35,339 - ERROR - Batch 346 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:35,497 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:35,497 - ERROR - Batch 347 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:35,637 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:35,638 - ERROR - Batch 348 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:35,770 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:35,771 - ERROR - Batch 349 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:35,901 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:35,901 - ERROR - Batch 350 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:36,028 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:36,028 - ERROR - Batch 351 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:36,153 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:36,153 - ERROR - Batch 352 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:36,287 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:36,288 - ERROR - Batch 353 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:36,420 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:36,421 - ERROR - Batch 354 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:36,569 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:36,570 - ERROR - Batch 355 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:36,693 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:36,693 - ERROR - Batch 356 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:36,822 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:36,822 - ERROR - Batch 357 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:36,955 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:36,955 - ERROR - Batch 358 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:37,109 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:37,109 - ERROR - Batch 359 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:37,244 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:37,244 - ERROR - Batch 360 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:37,386 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:37,386 - ERROR - Batch 361 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:37,515 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:37,515 - ERROR - Batch 362 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:37,641 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:37,641 - ERROR - Batch 363 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:37,766 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:37,767 - ERROR - Batch 364 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:37,942 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:37,942 - ERROR - Batch 365 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:38,068 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:38,069 - ERROR - Batch 366 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:38,210 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:38,210 - ERROR - Batch 367 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:38,341 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:38,341 - ERROR - Batch 368 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:38,467 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:38,467 - ERROR - Batch 369 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:38,596 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:38,596 - ERROR - Batch 370 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:38,745 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:38,745 - ERROR - Batch 371 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:38,873 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:38,873 - ERROR - Batch 372 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:39,023 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:39,023 - ERROR - Batch 373 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:39,162 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:39,162 - ERROR - Batch 374 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:39,290 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:39,290 - ERROR - Batch 375 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:39,433 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:39,433 - ERROR - Batch 376 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:39,566 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:39,567 - ERROR - Batch 377 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:39,702 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:39,703 - ERROR - Batch 378 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:39,838 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:39,838 - ERROR - Batch 379 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:39,983 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:39,983 - ERROR - Batch 380 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:40,136 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:40,136 - ERROR - Batch 381 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:40,262 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:40,263 - ERROR - Batch 382 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:40,397 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:40,397 - ERROR - Batch 383 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:40,559 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:40,560 - ERROR - Batch 384 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:40,732 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:40,733 - ERROR - Batch 385 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:40,879 - INFO - HTTP Request: POST https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?columns=%22street_name%22%2C%22created_at%22%2C%22street_type%22%2C%22source%22 "HTTP/2 400 Bad Request"
+2025-12-05 02:04:40,879 - ERROR - Batch 386 failed: {'message': "Could not find the 'source' column of 'streets' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-12-05 02:04:40,879 - INFO - === IMPORT COMPLETE ===
+2025-12-05 02:04:40,879 - INFO - Total imported: 0
+2025-12-05 02:04:40,879 - INFO - Total skipped: 44009
+2025-12-05 02:04:41,036 - INFO - HTTP Request: GET https://nadbmxfqknnnyuadhdtk.supabase.co/rest/v1/streets?select=street_name%2Csource "HTTP/2 400 Bad Request"
+2025-12-05 02:04:41,036 - ERROR - Verification failed: {'message': 'column streets.source does not exist', 'code': '42703', 'hint': None, 'details': None}
