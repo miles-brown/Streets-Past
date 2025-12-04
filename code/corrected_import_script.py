@@ -42,7 +42,10 @@ def clean_street_type(stype):
     return type_mapping.get(stype.lower(), 'unclassified')
 
 def assign_postcode_for_location(street_name, osm_id):
-    """Assign postcodes based on street patterns and OSM ID for variety"""
+    """Assign realistic UK postcodes based on street patterns and OSM ID"""
+    
+    import random
+    import string
     
     # Define postcode areas and their characteristics
     postcode_areas = {
@@ -63,8 +66,16 @@ def assign_postcode_for_location(street_name, osm_id):
     postcode_index = osm_id % len(postcode_keys)
     postcode_area = postcode_keys[postcode_index]
     
-    # Generate a specific postcode (simplified for demo)
-    specific_postcode = f"{postcode_area} {1 + (osm_id % 999):03d}"
+    # Generate proper UK inward code format: [1-9][A-Z][A-Z]
+    # Valid letters: A B D E F G H J L N P Q R S T U W X Y Z (no C, I, K, M, O, V)
+    valid_letters = 'ABDEFGHJLNPQRSTUWXYZ'
+    first_digit = 1 + (osm_id % 9)  # 1-9
+    letter1 = valid_letters[(osm_id + 1) % len(valid_letters)]
+    letter2 = valid_letters[(osm_id + 2) % len(valid_letters)]
+    inward_code = f"{first_digit}{letter1}{letter2}"
+    
+    # Full proper UK postcode
+    specific_postcode = f"{postcode_area} {inward_code}"
     
     return {
         'postcode': specific_postcode,
