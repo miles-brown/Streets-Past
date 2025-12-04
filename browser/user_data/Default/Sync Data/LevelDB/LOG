@@ -1,3 +1,3 @@
-2025/12/04-08:54:35.572 a5d Reusing MANIFEST /workspace/browser/user_data/Default/Sync Data/LevelDB/MANIFEST-000001
-2025/12/04-08:54:35.576 a5d Recovering log #3
-2025/12/04-08:54:35.579 a5d Reusing old log /workspace/browser/user_data/Default/Sync Data/LevelDB/000003.log 
+2025/12/04-15:58:15.270 1368 Reusing MANIFEST /workspace/browser/user_data/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/12/04-15:58:15.276 1368 Recovering log #3
+2025/12/04-15:58:15.279 1368 Reusing old log /workspace/browser/user_data/Default/Sync Data/LevelDB/000003.log 
