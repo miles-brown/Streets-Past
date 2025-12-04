@@ -32,7 +32,7 @@ export function SearchPage() {
         const { data, error } = await supabase
           .from('streets')
           .select('*')
-          .order('name');
+          .order('street_name');
 
         if (error) throw error;
 
@@ -41,7 +41,7 @@ export function SearchPage() {
 
         // Extract unique counties and cities
         const uniqueCounties = [...new Set(data?.map(s => s.county).filter(Boolean))] as string[];
-        const uniqueCities = [...new Set(data?.map(s => s.city).filter(Boolean))] as string[];
+        const uniqueCities = [...new Set(data?.map(s => s.post_town).filter(Boolean))] as string[];
         
         setCounties(uniqueCounties.sort());
         setCities(uniqueCities.sort());
@@ -63,8 +63,9 @@ export function SearchPage() {
     if (searchQuery) {
       const query = searchQuery.toLowerCase();
       result = result.filter(s => 
-        s.name.toLowerCase().includes(query) ||
-        s.etymology_suggestion?.toLowerCase().includes(query)
+        s.street_name.toLowerCase().includes(query) ||
+        s.brief_description?.toLowerCase().includes(query) ||
+        s.post_town?.toLowerCase().includes(query)
       );
     }
 
@@ -75,23 +76,23 @@ export function SearchPage() {
 
     // Filter by city
     if (selectedCity) {
-      result = result.filter(s => s.city === selectedCity);
+      result = result.filter(s => s.post_town === selectedCity);
     }
 
     // Filter by verified
     if (verifiedOnly) {
-      result = result.filter(s => s.etymology_verified);
+      result = result.filter(s => s.verified_status === 'Verified');
     }
 
     // Sort
     result.sort((a, b) => {
       switch (sortBy) {
         case 'name':
-          return a.name.localeCompare(b.name);
+          return a.street_name.localeCompare(b.street_name);
         case 'city':
-          return (a.city || '').localeCompare(b.city || '');
+          return (a.post_town || '').localeCompare(b.post_town || '');
         case 'date':
-          return (a.first_recorded_date || '').localeCompare(b.first_recorded_date || '');
+          return (a.year_first_recorded || 0) - (b.year_first_recorded || 0);
         default:
           return 0;
       }
@@ -262,20 +263,20 @@ export function SearchPage() {
                 <div className="flex items-start justify-between mb-2">
                   <div className="flex items-center space-x-2 text-sm text-stone-500">
                     <MapPin className="w-4 h-4 text-amber-600" />
-                    <span>{street.city || street.county}</span>
+                    <span>{street.post_town || street.county}</span>
                   </div>
-                  {street.etymology_verified && (
+                  {street.verified_status === 'Verified' && (
                     <CheckCircle className="w-5 h-5 text-green-600" />
                   )}
                 </div>
 
                 <h3 className="text-lg font-semibold text-stone-800 group-hover:text-amber-700 transition-colors mb-2">
-                  {street.name}
+                  {street.street_name}
                 </h3>
 
-                {street.etymology_suggestion ? (
+                {street.brief_description ? (
                   <p className="text-sm text-stone-600 line-clamp-2 mb-3">
-                    {street.etymology_suggestion}
+                    {street.brief_description}
                   </p>
                 ) : (
                   <p className="text-sm text-stone-400 italic mb-3">
@@ -284,15 +285,15 @@ export function SearchPage() {
                 )}
 
                 <div className="flex items-center justify-between text-xs text-stone-500">
-                  {street.first_recorded_date && (
+                  {street.year_first_recorded && (
                     <div className="flex items-center space-x-1">
                       <Clock className="w-3 h-3" />
-                      <span>{street.first_recorded_date}</span>
+                      <span>{street.year_first_recorded}</span>
                     </div>
                   )}
-                  {street.postcode_area && (
+                  {street.postcode && (
                     <span className="px-2 py-0.5 bg-stone-100 rounded">
-                      {street.postcode_area}
+                      {street.postcode}
                     </span>
                   )}
                 </div>

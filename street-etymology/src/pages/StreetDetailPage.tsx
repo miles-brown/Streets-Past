@@ -69,7 +69,7 @@ export function StreetDetailPage() {
     setIsGeneratingAI(true);
     try {
       const { data, error } = await supabase.functions.invoke('suggest-etymology', {
-        body: { streetName: street.name }
+        body: { streetName: street.street_name }
       });
 
       if (error) throw error;
@@ -88,7 +88,7 @@ export function StreetDetailPage() {
 
   const shareStreet = async () => {
     const url = window.location.href;
-    const text = `Discover the etymology of ${street?.name} in the UK`;
+    const text = `Discover the etymology of ${street?.street_name} in the UK`;
 
     if (navigator.share) {
       try {
@@ -106,20 +106,21 @@ export function StreetDetailPage() {
     if (!street) return;
 
     const data = {
-      name: street.name,
+      name: street.street_name,
       location: {
-        city: street.city,
+        city: street.post_town,
         county: street.county,
-        postcode_area: street.postcode_area,
+        postcode: street.postcode,
         coordinates: {
           latitude: street.latitude,
           longitude: street.longitude,
         },
       },
-      etymology: street.etymology_suggestion,
-      verified: street.etymology_verified,
-      first_recorded: street.first_recorded_date,
-      historical_notes: street.historical_notes,
+      street_type: street.street_type,
+      local_authority_area: street.local_authority_area,
+      verified: street.verified_status === 'Verified',
+      first_recorded: street.year_first_recorded,
+      description: street.brief_description,
       exported_at: new Date().toISOString(),
     };
 
@@ -127,7 +128,7 @@ export function StreetDetailPage() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${street.name.replace(/\s+/g, '_')}_etymology.json`;
+    a.download = `${street.street_name.replace(/\s+/g, '_')}_etymology.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -168,7 +169,7 @@ export function StreetDetailPage() {
             <ChevronRight className="w-4 h-4 text-stone-400" />
             <Link to="/search" className="text-stone-500 hover:text-stone-700">Search</Link>
             <ChevronRight className="w-4 h-4 text-stone-400" />
-            <span className="text-stone-800 font-medium">{street.name}</span>
+            <span className="text-stone-800 font-medium">{street.street_name}</span>
           </nav>
         </div>
       </div>
@@ -183,20 +184,20 @@ export function StreetDetailPage() {
                 <div>
                   <div className="flex items-center space-x-2 text-sm text-stone-500 mb-2">
                     <MapPin className="w-4 h-4 text-amber-600" />
-                    <span>{[street.city, street.county].filter(Boolean).join(', ')}</span>
-                    {street.postcode_area && (
+                    <span>{[street.post_town, street.county].filter(Boolean).join(', ')}</span>
+                    {street.postcode && (
                       <span className="px-2 py-0.5 bg-stone-100 rounded text-xs">
-                        {street.postcode_area}
+                        {street.postcode}
                       </span>
                     )}
                   </div>
                   <h1 className="text-3xl font-serif font-bold text-stone-800">
-                    {street.name}
+                    {street.street_name}
                   </h1>
                 </div>
                 
                 <div className="flex items-center space-x-2">
-                  {street.etymology_verified ? (
+                  {street.verified_status === 'Verified' ? (
                     <span className="flex items-center space-x-1 px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">
                       <CheckCircle className="w-4 h-4" />
                       <span>Verified</span>
@@ -204,7 +205,7 @@ export function StreetDetailPage() {
                   ) : (
                     <span className="flex items-center space-x-1 px-3 py-1 bg-amber-100 text-amber-700 rounded-full text-sm font-medium">
                       <AlertCircle className="w-4 h-4" />
-                      <span>Unverified</span>
+                      <span>{street.verified_status || 'Unverified'}</span>
                     </span>
                   )}
                 </div>
@@ -236,10 +237,10 @@ export function StreetDetailPage() {
                 <h2 className="text-xl font-semibold text-stone-800">Etymology</h2>
               </div>
 
-              {street.etymology_suggestion ? (
+              {street.brief_description ? (
                 <div className="prose prose-stone max-w-none">
                   <p className="text-stone-700 leading-relaxed whitespace-pre-line">
-                    {street.etymology_suggestion}
+                    {street.brief_description}
                   </p>
                 </div>
               ) : (
@@ -262,10 +263,10 @@ export function StreetDetailPage() {
                 </div>
               )}
 
-              {street.etymology_source && (
+              {street.charles_booth_reference && (
                 <div className="mt-4 pt-4 border-t border-stone-200">
                   <p className="text-sm text-stone-500">
-                    <span className="font-medium">Source:</span> {street.etymology_source}
+                    <span className="font-medium">Historical Reference:</span> {street.charles_booth_reference}
                   </p>
                 </div>
               )}
@@ -288,22 +289,22 @@ export function StreetDetailPage() {
             )}
 
             {/* Historical Notes */}
-            {street.historical_notes && (
+            {street.building_description && (
               <div className="bg-white rounded-xl shadow-sm border border-stone-200 p-6">
-                <h2 className="text-xl font-semibold text-stone-800 mb-4">Historical Notes</h2>
+                <h2 className="text-xl font-semibold text-stone-800 mb-4">Building Description</h2>
                 <p className="text-stone-700 leading-relaxed">
-                  {street.historical_notes}
+                  {street.building_description}
                 </p>
               </div>
             )}
 
             {/* Date Information */}
-            {street.first_recorded_date && (
+            {street.year_first_recorded && (
               <div className="bg-white rounded-xl shadow-sm border border-stone-200 p-6">
                 <div className="flex items-center space-x-2">
                   <Clock className="w-5 h-5 text-amber-600" />
                   <span className="text-stone-700">
-                    <span className="font-medium">First Recorded:</span> {street.first_recorded_date}
+                    <span className="font-medium">First Recorded:</span> {street.year_first_recorded}
                   </span>
                 </div>
               </div>
@@ -365,7 +366,7 @@ export function StreetDetailPage() {
               </p>
               <ContributionForm
                 streetId={street.id}
-                streetName={street.name}
+                streetName={street.street_name}
               />
             </div>
           </div>

@@ -1,0 +1,28 @@
+📄 Extracted from page: OS Open Names | Open Data Downloads | Data | OS Data Hub
+URL: https://osdatahub.os.uk/data/downloads/open/OpenNames
+
+Extracted content:
+```json
+{
+  "title": "OS Open Names | Open Data Downloads | Data | OS Data Hub",
+  "url": "https://osdatahub.os.uk/data/downloads/open/OpenNames",
+  "summary": "OS Open Names is a comprehensive and freely available dataset provided by Ordnance Survey, covering all of Great Britain. It includes detailed information such as place names, road numbers, and postcodes. The data is structured as vector data and can be downloaded in multiple formats: CSV, GML, and GeoPackage. The current version date is listed as October 2025. This dataset is distributed under the Open Government Licence, allowing for free use and reproduction with acknowledgement.",
+  "key_points": [
+    "Comprehensive dataset of place names, road numbers, and postcodes for Great Britain.",
+    "Covers the entirety of Great Britain.",
+    "Data is structured as vector data.",
+    "Available in CSV, GML, and GeoPackage supply formats.",
+    "The listed version date is October 2025.",
+    "Freely downloadable under the Open Government Licence (version 3).",
+    "Provided by Ordnance Survey."
+  ],
+  "relevant_links": [
+    "https://docs.os.uk/os-downloads/addressing-and-location/os-open-names/os-open-names-overview",
+    "https://docs.os.uk/os-downloads/addressing-and-location/os-open-names/os-open-names-technical-specification",
+    "https://docs.os.uk/os-downloads/addressing-and-location/os-open-names/os-open-names-getting-started-guide",
+    "https://api.os.uk/downloads/v1/products/OpenNames/downloads?area=GB&format=CSV&redirect",
+    "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+  ],
+  "file_name": "os_open_names_summary.json"
+}
+```
