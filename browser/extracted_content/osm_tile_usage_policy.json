@@ -1,0 +1,42 @@
+📄 Extracted from page: Tile Usage Policy
+URL: https://operations.osmfoundation.org/policies/tiles/
+
+Extracted content:
+```json
+{
+    "title": "Tile Usage Policy",
+    "url": "https://operations.osmfoundation.org/policies/tiles/",
+    "summary": "This page outlines the detailed usage policy for OpenStreetMap (OSM) raster tiles served by `tile.openstreetmap.org`. It emphasizes that while OSM data is free, the tile servers are funded by donations and have limited capacity. The policy specifies mandatory requirements for attribution, technical identification (User-Agent, Referer), and caching. It explicitly prohibits bulk downloading, scraping, and offline use of tiles from `tile.openstreetmap.org` due to the strain on community-funded resources. The policy also recommends using alternatives like self-hosting or commercial providers if these requirements cannot be met. Access may be blocked without notice for policy violations. Please note that this page does not contain any information about Netlify's free tier or Starter plan.",
+    "key_points": [
+        "OSM tile servers are community-funded with limited capacity; not for heavy or inappropriate use.",
+        "Availability is best-effort with no SLA or guarantee.",
+        "**Mandatory requirements**: Use `https://tile.openstreetmap.org/{z}/{x}/{y}.png`, provide visible attribution (© OpenStreetMap contributors), send a valid HTTP User-Agent and (for web) HTTP Referer, and cache tiles locally for at least 7 days (or according to HTTP headers).",
+        "**Prohibited actions**: Bulk downloading, scraping, pre-seeding, building tile archives, or any offline use features relying on prefetch/bulk download. Do not send `no-cache` headers, set restrictive Referrer-Policy, or masquerade User-Agents.",
+        "Traffic using generic/default User-Agents or stripped Referers will be blocked without notice.",
+        "Caching proxies must identify themselves with a clear, contactable User-Agent and honour caching rules.",
+        "The policy may change at any time, and access may be blocked without prior notice.",
+        "Alternatives for heavy use, offline maps, or those unable to meet requirements include: other OSM-derived services, commercial providers, self-hosting, or vector tiles (from `vector.openstreetmap.org` or third-parties).",
+        "This policy specifically applies to Standard (\"OpenStreetMap Carto\") raster tiles from `tile.openstreetmap.org` and not to other layers or vector tiles."
+    ],
+    "relevant_links": [
+        "https://supporting.openstreetmap.org/donate/",
+        "https://hardware.openstreetmap.org/thanks/",
+        "https://osmfoundation.org/",
+        "https://wiki.osmfoundation.org/wiki/Terms_of_Use",
+        "https://wiki.osmfoundation.org/wiki/Licence/Attribution_Guidelines",
+        "https://www.openstreetmap.org/copyright",
+        "https://www.openstreetmap.org/fixthemap",
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Conditional_requests",
+        "https://wiki.openstreetmap.org/wiki/Vector_tiles",
+        "http://wiki.osmfoundation.org/wiki/Privacy_Policy",
+        "https://planet.openstreetmap.org/tile_logs/",
+        "https://wiki.openstreetmap.org/wiki/Raster_tile_providers",
+        "https://wiki.openstreetmap.org/wiki/Commercial_OSM_Software_and_Services",
+        "http://switch2osm.org/providers/",
+        "http://switch2osm.org/",
+        "https://operations.osmfoundation.org/policies/vector/",
+        "https://github.com/openstreetmap/owg-website"
+    ],
+    "file_name": "osm_tile_usage_policy.json"
+}
+```

@@ -5,70 +5,70 @@
         "id": "1",
         "content": "Research and validate cost-effective hosting options",
         "details": "Compare GitHub Pages, Cloudflare Pages, Netlify free tiers. Validate 1M record handling capability, SSL, custom domain support, build minutes, bandwidth limits",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "2": {
         "id": "2",
         "content": "Research database solutions for scalability path",
         "details": "Compare SQLite→PostgreSQL migration options, Supabase free tier limits, PlanetScale free tier, Railway free tier for PostgreSQL with PostGIS",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "3": {
         "id": "3",
         "content": "Investigate domain and SSL costs",
         "details": "Research .org domain registrars with best pricing, free SSL options through hosting providers, cost analysis for year 1 and 2",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "4": {
         "id": "4",
         "content": "Research mapping and geolocation solutions",
         "details": "OpenStreetMap usage limits, MapLibre GL JS integration, free geocoding APIs, PostGIS spatial query capabilities",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "5": {
         "id": "5",
         "content": "Research authentication and community features",
         "details": "Supabase Auth free tier, GitHub OAuth integration, Discord/Slack integration for community, commenting systems",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       },
       "6": {
         "id": "6",
         "content": "Research storage solutions for historical images",
         "details": "Cloudinary free tier, Supabase Storage, GitHub LFS, image optimization and CDN options",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       },
       "7": {
         "id": "7",
         "content": "Research AI/ML capabilities within budget",
         "details": "OpenAI API costs, local ML models (spaCy, NLTK), street name etymology prediction tools, integration costs",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       },
       "8": {
         "id": "8",
         "content": "Research open data sources for UK street names",
         "details": "OS OpenNames, UK postcodes data, historical mapping sources, data licensing and usage terms",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "9": {
         "id": "9",
         "content": "Create complete architecture and cost breakdown",
         "details": "Design system architecture, create detailed monthly cost breakdown for Year 1/2, scalability roadmap, total cost of ownership analysis",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "10": {
         "id": "10",
         "content": "Create step-by-step setup guide",
         "details": "Non-technical founder friendly setup instructions, template repository recommendations, deployment automation, monitoring setup",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       }
     }

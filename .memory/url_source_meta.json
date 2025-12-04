@@ -1,0 +1,374 @@
+{
+  "_source_id": 51,
+  "sources": {
+    "Storage Solutions Analysis - Historical Map Images & Street Photos": {
+      "https://supabase.com/pricing": {
+        "id": 1,
+        "publisher": "Supabase",
+        "url": "https://supabase.com/pricing",
+        "title": "Supabase Pricing & Plans",
+        "info": "Supabase Storage: 1GB free storage, 5GB egress bandwidth, 50MB max upload. Paid: $0.021/GB storage, $0.09/GB egress. Basic CDN in free, Smart CDN in paid tiers."
+      },
+      "https://cloudinary.com/pricing": {
+        "id": 2,
+        "publisher": "Cloudinary",
+        "url": "https://cloudinary.com/pricing",
+        "title": "Cloudinary Pricing & Plans",
+        "info": "Free tier: 25GB storage (DAM) or 25 credits (API). Paid tiers: Plus $99/month, Advanced $249/month. Full image optimization suite, CDN included, high-performance delivery."
+      },
+      "https://docs.github.com/billing/managing-billing-for-git-large-file-storage/about-billing-for-git-large-file-storage": {
+        "id": 3,
+        "publisher": "GitHub",
+        "url": "https://docs.github.com/billing/managing-billing-for-git-large-file-storage/about-billing-for-git-large-file-storage",
+        "title": "Git LFS Billing Documentation",
+        "info": "GitHub LFS free tier: 10GB storage, 10GB bandwidth. Paid: $0.07/GiB storage, bandwidth billed. No explicit file size limits, designed for large files with version control."
+      },
+      "https://aws.amazon.com/s3/pricing/": {
+        "id": 4,
+        "publisher": "Amazon Web Services",
+        "url": "https://aws.amazon.com/s3/pricing/",
+        "title": "AWS S3 Pricing",
+        "info": "AWS S3 free tier: 5GB Standard storage for 12 months, 20K GET requests, 2K PUT requests. Standard storage: $0.023/GB, Infrequent Access: $0.0125/GB. First 100GB/month transfer free across AWS services."
+      },
+      "https://www.cloudflare.com/plans/free/": {
+        "id": 5,
+        "publisher": "Cloudflare",
+        "url": "https://www.cloudflare.com/plans/free/",
+        "title": "Cloudflare Free Plan",
+        "info": "Free tier includes unlimited CDN bandwidth, security features, DDoS protection. Separate Images product for optimization, R2 for storage. Global edge locations for content delivery."
+      },
+      "https://www.cachefly.com/news/sustainability-and-efficiency-the-green-side-of-image-optimization-with-cdns/": {
+        "id": 6,
+        "publisher": "CacheFly",
+        "url": "https://www.cachefly.com/news/sustainability-and-efficiency-the-green-side-of-image-optimization-with-cdns/",
+        "title": "Image Optimization and CDN Cost Reduction",
+        "info": "Image optimization can achieve 25-40% file size reduction with WebP, and up to 50% with AVIF compared to JPEG. Modern compression tools and responsive images significantly reduce bandwidth consumption."
+      },
+      "https://www.inxy.hosting/blog-posts/optimize-cdn-costs-strategies-and-best-practices": {
+        "id": 7,
+        "publisher": "INXY Hosting",
+        "url": "https://www.inxy.hosting/blog-posts/optimize-cdn-costs-strategies-and-best-practices",
+        "title": "CDN Cost Optimization Strategies",
+        "info": "CDN optimization strategies include multi-CDN setups (up to 40% cost reduction), efficient caching techniques, regional load distribution, and content compression. CDN can significantly reduce cloud egress fees."
+      }
+    },
+    "UK Open Data Sources Analysis": {
+      "https://www.data.gov.uk/dataset/4949c88e-89b7-49b5-a0cf-8a3a2a4dac9d/os-open-names1": {
+        "id": 8,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.data.gov.uk/dataset/4949c88e-89b7-49b5-a0cf-8a3a2a4dac9d/os-open-names1",
+        "title": "OS OpenNames Dataset",
+        "info": "Comprehensive dataset of place names, road numbers and postcodes for Great Britain. Available in CSV, GML, and GeoPackage formats. Updated quarterly and free to use under open data terms."
+      },
+      "https://www.ordnancesurvey.co.uk/products/os-open-names": {
+        "id": 9,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names",
+        "title": "OS OpenNames Product Specification",
+        "info": "OS OpenNames contains over 870,000 named and numbered roads, nearly 44,000 settlements, and over 1.6 million postcodes. Updated every three months (January, April, July, October) and free for commercial use."
+      },
+      "https://www.data.gov.uk/dataset/c1e0176d-59fb-4a8c-92c9-c8b376a80687/code-point-open2": {
+        "id": 10,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.data.gov.uk/dataset/c1e0176d-59fb-4a8c-92c9-c8b376a80687/code-point-open2",
+        "title": "Code-Point Open Dataset",
+        "info": "Postcode units with precise geographical location for England, Scotland and Wales. Approximately 1.7 million postcodes with average of fifteen addresses per unit. Updated quarterly and free to use."
+      },
+      "https://www.ordnancesurvey.co.uk/products/boundary-line": {
+        "id": 11,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/boundary-line",
+        "title": "OS Boundary-Line Dataset",
+        "info": "Maps administrative boundaries across Great Britain including parliamentary constituencies and council wards. Updated twice a year (May and October), quality-assured to 1:10,000 scale."
+      },
+      "https://historicengland.org.uk/listing/the-list/data-downloads/": {
+        "id": 12,
+        "publisher": "Historic England",
+        "url": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "title": "National Heritage List for England Data Downloads",
+        "info": "Official register of all nationally protected historic buildings and sites in England. Available as GIS spatial data, polygons, and points. Updated regularly with over 378,400 entries."
+      },
+      "https://historicengland.org.uk/terms/website-terms-conditions/open-data-hub/": {
+        "id": 13,
+        "publisher": "Historic England",
+        "url": "https://historicengland.org.uk/terms/website-terms-conditions/open-data-hub/",
+        "title": "Historic England Open Data Hub Terms and Conditions",
+        "info": "Historic England open data hub datasets are licensed under Open Government Licence v3 (OGL) for commercial and non-commercial use. Free worldwide, perpetual, non-exclusive licence."
+      },
+      "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/": {
+        "id": 14,
+        "publisher": "The National Archives",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "title": "Open Government Licence v3.0",
+        "info": "Comprehensive licensing framework allowing free, flexible use of public sector information including copying, adapting, and commercial/non-commercial use with attribution requirements."
+      },
+      "https://www.ons.gov.uk/methodology/geography/licences": {
+        "id": 15,
+        "publisher": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/methodology/geography/licences",
+        "title": "ONS Postcode Licensing Terms",
+        "info": "Postcode products derived from Code-Point Open are subject to Open Government Licence v3.0. Includes attribution requirements for OS and Royal Mail data."
+      },
+      "https://www.gov.uk/guidance/local-authority-transport-how-to-publish-your-data": {
+        "id": 16,
+        "publisher": "UK Government Department for Transport",
+        "url": "https://www.gov.uk/guidance/local-authority-transport-how-to-publish-your-data",
+        "title": "Local Authority Transport Data Publishing Guidance",
+        "info": "Official guidance for local authorities on publishing transport data, covering standards, licensing requirements, and open data practices including OS data publishing criteria."
+      },
+      "https://www.bl.uk/collection": {
+        "id": 17,
+        "publisher": "British Library",
+        "url": "https://www.bl.uk/collection",
+        "title": "British Library Collections",
+        "info": "Free access to over 170 million collection items including books, newspapers, maps, audio recordings, photos, patents, and stamps. Free Reader Pass required for physical materials."
+      },
+      "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/census-records/": {
+        "id": 18,
+        "publisher": "The National Archives",
+        "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/census-records/",
+        "title": "UK Census Records Research Guide",
+        "info": "Comprehensive access to historical UK census records from 1841 to 1921. Street-level data available from 1851 onwards, with detailed address information and building descriptions."
+      },
+      "https://www.freeukgenealogy.org.uk/": {
+        "id": 19,
+        "publisher": "Free UK Genealogy",
+        "url": "https://www.freeukgenealogy.org.uk/",
+        "title": "Free UK Genealogy Platform",
+        "info": "Free online access to family history records under Creative Commons CC0 Public Domain Dedication. 295M birth/marriage/death records, 50M census individuals, 62M parish registers."
+      },
+      "https://ukdataservice.ac.uk/help/data-types/census-data/": {
+        "id": 20,
+        "publisher": "UK Data Service",
+        "url": "https://ukdataservice.ac.uk/help/data-types/census-data/",
+        "title": "UK Data Service Census Data",
+        "info": "Access to census data including aggregate data, microdata, flow data, and boundary datasets. Many datasets available under Open Government Licence with Common GIS formats."
+      }
+    },
+    "Database Solutions Analysis for Street Name History Website": {
+      "https://supabase.com/pricing": {
+        "id": 21,
+        "publisher": "Supabase",
+        "url": "https://supabase.com/pricing",
+        "title": "Supabase Pricing and Plans",
+        "info": "Free tier: 500MB database, 1GB file storage, 50,000 MAUs, shared CPU/500MB RAM. Pro tier $25/month for 8GB disk, 100,000 MAUs."
+      },
+      "https://supabase.com/docs/guides/database/extensions/postgis": {
+        "id": 22,
+        "publisher": "Supabase",
+        "url": "https://supabase.com/docs/guides/database/extensions/postgis",
+        "title": "PostGIS Extension on Supabase",
+        "info": "PostGIS support via Postgres extension with spatial data types (Point, Polygon, LineString), GIST indexing, and geographic distance queries using <-> operator."
+      },
+      "https://neon.com/pricing": {
+        "id": 23,
+        "publisher": "Neon",
+        "url": "https://neon.com/pricing",
+        "title": "Neon Pricing Plans",
+        "info": "Free tier: 0.5GB database storage, 100 CU-hours compute, up to 2 CU (8GB RAM), autoscaling, PostGIS support, 20 projects, built-in connection pooling."
+      },
+      "https://neon.com/docs/extensions/postgis": {
+        "id": 24,
+        "publisher": "Neon",
+        "url": "https://neon.com/docs/extensions/postgis",
+        "title": "Neon PostGIS Documentation",
+        "info": "Full PostGIS extension support with GEOMETRY/GEOGRAPHY types, GIST indexing, spatial functions like ST_DWithin, ST_Intersects, ST_Buffer for geographic operations."
+      },
+      "https://railway.com/pricing": {
+        "id": 25,
+        "publisher": "Railway",
+        "url": "https://railway.com/pricing",
+        "title": "Railway Pricing and Plans",
+        "info": "Free tier: 30-day trial with $5 credits, then $1/month minimum. PostgreSQL hosting based on CPU/memory usage: $0.00000386/GB/sec memory, $0.00000772/vCPU/sec CPU."
+      },
+      "https://planetscale.com/pricing": {
+        "id": 26,
+        "publisher": "PlanetScale",
+        "url": "https://planetscale.com/pricing",
+        "title": "PlanetScale Pricing and Plans",
+        "info": "No free tier - Scaler Pro from $29/month, includes 25GB storage, 50M writes, 100B reads. Single-node PostgreSQL $5/month. Enterprise plans with custom pricing."
+      },
+      "https://pgloader.readthedocs.io/en/latest/ref/sqlite.html": {
+        "id": 27,
+        "publisher": "pgloader Documentation",
+        "url": "https://pgloader.readthedocs.io/en/latest/ref/sqlite.html",
+        "title": "SQLite to PostgreSQL Migration with pgloader",
+        "info": "Comprehensive migration tool supporting automatic schema discovery, data type conversion, index building, and partial migrations. Handles SQLite to PostgreSQL conversion with minimal configuration."
+      },
+      "https://sqlite.org/limits.html": {
+        "id": 28,
+        "publisher": "SQLite.org",
+        "url": "https://sqlite.org/limits.html",
+        "title": "SQLite Implementation Limits",
+        "info": "Database size limits: 281TB maximum (3.33+), 2000 max columns, 1 billion byte max string length. Concurrency limitations for production use with multiple users."
+      },
+      "https://chat2db.ai/resources/blog/comparing-the-performance-of-mysql-and-postgresql-in-handling-large-datasets": {
+        "id": 29,
+        "publisher": "Chat2DB",
+        "url": "https://chat2db.ai/resources/blog/comparing-the-performance-of-mysql-and-postgresql-in-handling-large-datasets",
+        "title": "MySQL vs PostgreSQL Performance Comparison",
+        "info": "PostgreSQL excels in complex queries with advanced indexing (GiST, GIN), while MySQL is faster for read-heavy workloads. PostgreSQL better for 1M+ records with proper indexing."
+      }
+    },
+    "AI/ML Street Name Etymology Analysis": {
+      "https://openai.com/api/pricing/": {
+        "id": 30,
+        "publisher": "OpenAI",
+        "url": "https://openai.com/api/pricing/",
+        "title": "API Pricing - OpenAI",
+        "info": "Detailed pricing for GPT models including GPT-4o mini ($0.15/1M input tokens, $0.60/1M output tokens), GPT-5.1 ($1.25/1M input, $10/1M output), and cost optimization features"
+      },
+      "https://huggingface.co/pricing": {
+        "id": 31,
+        "publisher": "Hugging Face",
+        "url": "https://huggingface.co/pricing",
+        "title": "Hugging Face Pricing",
+        "info": "Pricing structure with $9/month PRO account, starting inference endpoints at $0.033/hour, hourly rates for various CPU/GPU/TPU instances"
+      },
+      "https://research.google.com/colaboratory/faq.html": {
+        "id": 32,
+        "publisher": "Google",
+        "url": "https://research.google.com/colaboratory/faq.html",
+        "title": "Google Colab FAQ",
+        "info": "Free GPU access with heavily restricted usage, session duration up to 12 hours, hardware varies over time, no guarantees on availability"
+      },
+      "https://github.com/tatuylonen/wiktextract": {
+        "id": 33,
+        "publisher": "GitHub/tatuylonen",
+        "url": "https://github.com/tatuylonen/wiktextract",
+        "title": "Wiktionary Data Extractor",
+        "info": "Comprehensive Wiktionary data extraction tool processing English edition in ~1.25 hours on 128-core system, extracts etymologies and linguistic data"
+      },
+      "https://github.com/droher/etymology-db": {
+        "id": 34,
+        "publisher": "GitHub/droher",
+        "url": "https://github.com/droher/etymology-db",
+        "title": "Etymology Database",
+        "info": "4.2M+ etymological relationships across 2M+ terms in 3300+ languages/dialects, derived from Wiktionary data with 31 relationship types"
+      },
+      "https://huggingface.co/docs/hub/en/rate-limits": {
+        "id": 35,
+        "publisher": "Hugging Face",
+        "url": "https://huggingface.co/docs/hub/en/rate-limits",
+        "title": "Hub Rate Limits",
+        "info": "Free tier limits: 5000 requests/5min for resolvers, 1000/5min for Hub APIs, 200/5min for pages. Premium accounts get higher limits"
+      }
+    },
+    "UK Street Mapping Solutions Analysis": {
+      "https://operations.osmfoundation.org/policies/tiles/": {
+        "id": 36,
+        "publisher": "OpenStreetMap Foundation",
+        "url": "https://operations.osmfoundation.org/policies/tiles/",
+        "title": "OpenStreetMap Tile Usage Policy",
+        "info": "Free service funded by donations with no pricing. Prohibits bulk downloading, pre-seeding, automated scans at high zoom levels (z≥14), and commercial usage. Requires local caching and proper attribution. Access can be withdrawn without notice."
+      },
+      "https://operations.osmfoundation.org/policies/nominatim/": {
+        "id": 37,
+        "publisher": "OpenStreetMap Foundation",
+        "url": "https://operations.osmfoundation.org/policies/nominatim/",
+        "title": "Nominatim Usage Policy",
+        "info": "Maximum 1 request per second per website/application. Requires valid HTTP Referer or User-Agent. Commercial applications permitted but usage may be unstable. Not suitable for serving paying customers due to limited capacity."
+      },
+      "https://opencagedata.com/pricing": {
+        "id": 38,
+        "publisher": "OpenCage",
+        "url": "https://opencagedata.com/pricing",
+        "title": "OpenCage Geocoding API Pricing",
+        "info": "Free trial: 2,500 requests/day, 1 request/second. Paid plans from $50/month (10,000 requests/day, 15 rps) to Enterprise ($2000+/month). Soft limits allowed, no surge pricing. Store data permanently permitted."
+      },
+      "https://locationiq.com/pricing": {
+        "id": 39,
+        "publisher": "LocationIQ",
+        "url": "https://locationiq.com/pricing",
+        "title": "LocationIQ Pricing Tiers",
+        "info": "Free tier: 5,000 requests/day, 2 rps, commercial use with link-back required. Paid plans from $45/month (10,000 map views/day) to Enterprise (custom limits). Soft daily limits allow 100% additional requests for most paid plans."
+      },
+      "https://www.maptiler.com/cloud/pricing/": {
+        "id": 40,
+        "publisher": "MapTiler",
+        "url": "https://www.maptiler.com/cloud/pricing/",
+        "title": "MapTiler Cloud Pricing",
+        "info": "Free: 5,000 sessions/month, 100,000 requests/month, non-commercial use only. Paid plans: Flex $25/month (25,000 sessions, 500k requests), Unlimited $295/month (300k sessions, 5M requests). Vector tiles cost 1 request per tile."
+      },
+      "https://stadiamaps.com/pricing/": {
+        "id": 41,
+        "publisher": "Stadia Maps",
+        "url": "https://stadiamaps.com/pricing/",
+        "title": "Stadia Maps Pricing and Credit System",
+        "info": "Free: 200,000 monthly credits, no commercial use. Starter: $20/month (1M credits), $3/1000 additional. Standard: $80/month (7.5M credits), $2/1000 additional. Professional: $250/month (25M credits), $1.5/1000 additional. Various credit costs for different services (tiles, geocoding, routing)."
+      },
+      "https://www.maplibre.org/maplibre-gl-js/docs/guides/large-data/": {
+        "id": 42,
+        "publisher": "MapLibre",
+        "url": "https://www.maplibre.org/maplibre-gl-js/docs/guides/large-data/",
+        "title": "MapLibre GL JS Large Dataset Performance Guide",
+        "info": "WebGL-based high-performance rendering for large datasets and smooth animations. More resource-intensive but excellent for complex maps with dynamic features. Supports vector tiles, clustering, and optimized data loading. Ideal for handling 1M+ markers with proper optimization."
+      },
+      "https://blog.jawg.io/maplibre-gl-vs-leaflet-choosing-the-right-tool-for-your-interactive-map/": {
+        "id": 43,
+        "publisher": "Jawg",
+        "url": "https://blog.jawg.io/maplibre-gl-vs-leaflet-choosing-the-right-tool-for-your-interactive-map/",
+        "title": "MapLibre GL JS vs Leaflet Performance Comparison",
+        "info": "Standard HTML/CSS/JS without WebGL. Lightweight and lower resource consumption but less performant for heavy maps. Suitable for simpler maps where performance isn't the primary concern. Limited scalability with large datasets."
+      },
+      "https://postgis.net/docs/using_postgis_query.html": {
+        "id": 44,
+        "publisher": "PostGIS Documentation",
+        "url": "https://postgis.net/docs/using_postgis_query.html",
+        "title": "PostGIS Spatial Queries and Performance",
+        "info": "Comprehensive spatial query capabilities with DE-9IM model, named predicates (ST_Contains, ST_Intersects, etc.), and performance optimization via spatial indexes. Bounding box operators (&&) and distance operators (<?->) for efficient querying. Index-aware functions crucial for large dataset performance."
+      },
+      "https://wiki.openstreetmap.org/wiki/Raster_tile_providers": {
+        "id": 45,
+        "publisher": "OpenStreetMap Wiki",
+        "url": "https://wiki.openstreetmap.org/wiki/Raster_tile_providers",
+        "title": "Commercial Raster Tile Providers",
+        "info": "Various commercial raster tile providers including Carto, Thunderforest, Geofabrik, Lima Labs, Tracestrack. Most offer free tiers for non-commercial use (20M-200k tiles/month) but require registration. Pricing typically ranges from free to several hundred dollars per month for commercial use."
+      },
+      "https://coordable.co/blog/country-analysis/best-geocoding-providers-united-kingdom/": {
+        "id": 46,
+        "publisher": "Coordable",
+        "url": "https://coordable.co/blog/country-analysis/best-geocoding-providers-united-kingdom/",
+        "title": "Best Geocoding Providers for United Kingdom",
+        "info": "Comprehensive UK-focused analysis comparing geocoding providers. UK uses PAF/AddressBase/UPRN for postal-grade validation. OS Places API (£1000/month free via PSGA) best for government. Commercial options: Google (40k/month free, $5/1000), HERE (30k/month free, $1/1000), TomTom (75k/month free, $0.75/1000). OpenCage: 75k/month free, starting $0.15/1000."
+      }
+    },
+    "Street Name Etymology Hosting Analysis": {
+      "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits": {
+        "id": 47,
+        "publisher": "GitHub",
+        "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits",
+        "title": "GitHub Pages Limits Documentation",
+        "info": "Official documentation detailing GitHub Pages free tier limits including 100GB bandwidth, 1GB storage, 10 builds/hour, 1GB source repository, and 10-minute deployment timeout"
+      },
+      "https://developers.cloudflare.com/pages/platform/limits/": {
+        "id": 48,
+        "publisher": "Cloudflare",
+        "url": "https://developers.cloudflare.com/pages/platform/limits/",
+        "title": "Cloudflare Pages Limits Documentation",
+        "info": "Comprehensive limits for Cloudflare Pages free tier: 500 builds/month, 20,000 files maximum, 25 MiB per file, 100 custom domains per project, and unlimited bandwidth (no explicit limits stated)"
+      },
+      "https://vercel.com/docs/limits": {
+        "id": 49,
+        "publisher": "Vercel",
+        "url": "https://vercel.com/docs/limits",
+        "title": "Vercel Limits Documentation",
+        "info": "Complete Vercel Hobby plan limits including 100GB bandwidth, 1M function invocations, 45-minute build time, 1M edge requests, and various other constraints for free tier usage"
+      },
+      "https://developers.cloudflare.com/workers/platform/pricing/": {
+        "id": 50,
+        "publisher": "Cloudflare",
+        "url": "https://developers.cloudflare.com/workers/platform/pricing/",
+        "title": "Cloudflare Workers and Pages Functions Pricing",
+        "info": "Free tier details for Cloudflare Workers and Pages Functions: 100,000 requests/day, 10ms CPU time per invocation, 1GB storage, and no data transfer charges for static requests"
+      },
+      "https://vercel.com/docs/plans/hobby": {
+        "id": 51,
+        "publisher": "Vercel",
+        "url": "https://vercel.com/docs/plans/hobby",
+        "title": "Vercel Hobby Plan Documentation",
+        "info": "Detailed Hobby plan specifications: free for personal use, 1M function invocations, 4 CPU-hours active, 360 GB-hours provisioned memory, 1M edge requests, and various feature limitations"
+      }
+    }
+  }
+}
