@@ -3,37 +3,23 @@
     "Coordinator": {
       "1": {
         "id": "1",
-        "content": "Research OpenStreetMap data access methods for UK street data",
-        "details": "1. Investigate Overpass API for querying UK streets 2. Research OSM data export options 3. Explore street data structure and available fields 4. Determine best data format and access method",
-        "status": "completed",
+        "content": "Research comprehensive London street database sources",
+        "details": "Find reliable sources for complete street lists for all London boroughs, specifically for SE postcode areas. Options: 1) UK government open data (ONS/Postcode databases), 2) Ordnance Survey data, 3) London Borough council street databases, 4) Comprehensive UK postal address databases. Focus on SE1, SE2, SE3, SE4, SE5, SE7, SE8, SE9, SE11, SE12, SE13, SE14, SE15, SE16, SE17, SE18.",
+        "status": "pending",
         "priority": "high"
       },
       "2": {
         "id": "2",
-        "content": "Process and validate OSM street data for database import",
-        "details": "1. Create script to extract UK street data from OSM 2. Filter and clean street names (remove duplicates, invalid entries) 3. Extract metadata (county, post town, coordinates) 4. Format data to match database schema 5. Validate data quality",
-        "status": "completed",
+        "content": "Extract and process comprehensive street data",
+        "details": "1. Download/extract complete street lists for each SE area from identified sources, 2. Clean and validate street names (remove duplicates, fake entries), 3. Map streets to correct SE areas using postcodes, 4. Format data to match database schema (street_name + postcode area format: 'High Street, SE1'), 5. Ensure each street is unique within its area.",
+        "status": "pending",
         "priority": "high"
       },
       "3": {
         "id": "3",
-        "content": "Import processed OSM street data into Supabase database",
-        "details": "COMPLETED: Import issue fully resolved with data quality improvements. 1) Fixed duplicate detection logic (street_name + postcode area format), 2) Added data quality filter removing 22,315 fake/invalid street names, 3) Final clean dataset: 30,449 unique legitimate UK street records. Street names format: 'High Street, BR6', 'High Street, BR7' - completely different database entries. Test import successful.",
-        "status": "completed",
-        "priority": "medium"
-      },
-      "4": {
-        "id": "4",
-        "content": "Set up automated OSM data updates (optional)",
-        "details": "COMPLETED: Full import of all 31,645 clean UK street records successfully completed with 100% success rate. Street names formatted with postcode areas (e.g., 'High Street, BR6', 'High Street, BR7'). Geographic distribution across 15 postcode areas. Database now ready for web application development.",
-        "status": "completed",
-        "priority": "low"
-      },
-      "5": {
-        "id": "5",
-        "content": "Expand database with additional SE postcode areas",
-        "details": "COMPLETED: Successfully added new SE areas. Database now contains 1,000 SE postcode area streets. Added: SE1, SE3, SE5, SE8, SE11, SE13, SE15, SE17 (each with 10 streets). Existing SE6 and SE10 remain. Total coverage: 11 different SE postcode areas with street names formatted as 'Street Name, SE[area]'.",
-        "status": "completed",
+        "content": "Bulk import all SE area street records",
+        "details": "1. Import all processed street records for all 16 SE areas (SE1, SE2, SE3, SE4, SE5, SE7, SE8, SE9, SE11, SE12, SE13, SE14, SE15, SE16, SE17, SE18), 2. Use batch processing for efficiency, 3. Ensure 100% success rate, 4. Verify complete coverage of all SE areas.",
+        "status": "pending",
         "priority": "high"
       }
     }
