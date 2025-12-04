@@ -1,2 +1,3 @@
-2025/12/04-05:28:30.621 10b0 Creating DB /workspace/browser/user_data/Default/Extension Rules since it was missing.
-2025/12/04-05:28:30.648 10b0 Reusing MANIFEST /workspace/browser/user_data/Default/Extension Rules/MANIFEST-000001
+2025/12/04-08:54:35.739 a5b Reusing MANIFEST /workspace/browser/user_data/Default/Extension Rules/MANIFEST-000001
+2025/12/04-08:54:35.745 a5b Recovering log #3
+2025/12/04-08:54:35.748 a5b Reusing old log /workspace/browser/user_data/Default/Extension Rules/000003.log 
