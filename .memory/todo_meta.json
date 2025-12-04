@@ -4,7 +4,7 @@
       "1": {
         "id": "1",
         "content": "Design comprehensive database schema for street etymology website",
-        "details": "Create detailed database schema including:\n- Core street data (names, coordinates, postal codes, local authority areas)\n- Historical information (first recorded year, development periods, architecture)\n- Charles Booth poverty guide integration with citations\n- User authentication and profiles system\n- Community contributions and contact posts\n- Comprehensive citations system for all information sources\n- Proper indexing and relationships",
+        "details": "Create detailed database schema including:\n- Core street data (names, coordinates, postal codes, local authority areas)\n- Historical information (first recorded year, development periods, architecture)\n- Charles Booth poverty guide integration with citations\n- User authentication and profiles system\n- Community contributions and contact posts\n- Comprehensive citations system for all information sources\n- **Street name history tracking**: previous names, dates, linking system\n- **Interconnected street pages**: old names link to current names and vice versa\n- **Multiple name changes**: track 3+ name changes with proper linking\n- Proper indexing and relationships",
         "status": "in_progress",
         "priority": "high"
       },
