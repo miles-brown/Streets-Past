@@ -1,0 +1,362 @@
+la_id,la_name,la_name_welsh,gss_la_code,country,authority_type,source_reference
+9b8d4443-4592-4aeb-97d2-e11d8936be2c,Hartlepool,,E06000001,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+e56bc261-9881-46be-80b4-ab9f00e03cec,Middlesbrough,,E06000002,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+0dd108a2-39ea-452e-811f-2f67eabc0171,Redcar and Cleveland,,E06000003,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+80095caf-43a1-407a-ae83-568800646fc0,Stockton-on-Tees,,E06000004,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+2f08fc12-0c8a-4d33-bfaa-8c9461092186,Darlington,,E06000005,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+eb416d7f-7591-4a33-80d3-223b1e721a8b,Halton,,E06000006,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+dc25297a-772a-43ba-bd31-c8407ece3aa9,Warrington,,E06000007,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+fd91595f-a445-43ab-a2ac-650890f61f2c,Blackburn with Darwen,,E06000008,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+39a21be7-844b-4a89-a070-6c6b2d1c51e8,Blackpool,,E06000009,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+e16d9c0c-a513-49e2-aa43-f6db8e0c81cd,"Kingston upon Hull, City of",,E06000010,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+b9f0471a-8d94-4b30-aed1-0c7461fc9a1a,East Riding of Yorkshire,,E06000011,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+f014207b-14d8-458c-a3e8-764977aa8098,North East Lincolnshire,,E06000012,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+7d031e68-8c3a-402a-aa79-abc73d14393a,North Lincolnshire,,E06000013,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+1e39a87b-2925-40d0-95e4-30a29f6cc3c9,York,,E06000014,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+09418f76-3808-4590-bae2-cbbb42a3ba9e,Derby,,E06000015,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+42077086-96a6-4375-b68e-7009c86afe09,Leicester,,E06000016,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+27cbf63e-a411-44f9-9f99-7ccd71237528,Rutland,,E06000017,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+973660f4-f4e3-4a5f-8c4c-e8cd50280a5d,Nottingham,,E06000018,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+fe8cef95-fe73-4aeb-b8c2-bdb54b1c4357,"Herefordshire, County of",,E06000019,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+be1bb131-4742-4352-901f-8fd900a4cb6e,Telford and Wrekin,,E06000020,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+b2348d94-4314-460d-96d6-0c0059190d90,Stoke-on-Trent,,E06000021,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+4ee3721e-1d77-4e51-b9c1-8432f2a8078b,Bath and North East Somerset,,E06000022,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+cf173e43-d01d-4088-bbd9-5ad2d5e96e77,"Bristol, City of",,E06000023,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+8fe8887f-f3f0-42a8-a6a5-a4ac117426cb,North Somerset,,E06000024,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+13590f72-a37c-4531-98a0-b915d58365cf,South Gloucestershire,,E06000025,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+49e66275-3189-4d0f-9092-506d5a6b4e7b,Plymouth,,E06000026,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+cbdaf103-8a53-457e-9294-231a9d19c337,Torbay,,E06000027,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+1154e118-a53d-479c-8540-b20124fcb536,Swindon,,E06000030,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+94aaa968-acee-4f59-abca-fb6893a42069,Peterborough,,E06000031,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+2df72b6a-3dc2-4b5a-852a-87af19b5e3e9,Luton,,E06000032,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+f8d56834-f2f5-4e67-b3e6-d08f372ecb46,Southend-on-Sea,,E06000033,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+d5ef475b-f19e-46ce-9f2e-40ba1fefdd82,Thurrock,,E06000034,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+664e0bde-7b85-493c-80a5-5ae5198a3d63,Medway,,E06000035,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+71c83dd0-7eb5-470e-a8a4-da72773eaeff,Bracknell Forest,,E06000036,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+94b34e37-17bb-434a-8141-0ea6f70b7bc0,West Berkshire,,E06000037,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+21772348-594f-4940-b273-1487d7f02ace,Reading,,E06000038,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+6566658b-2b16-461c-a638-d2bc6f23f9df,Slough,,E06000039,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+23123de0-4476-45dd-b88e-bcb4787a54a6,Windsor and Maidenhead,,E06000040,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+01e4450d-939f-4b86-9f68-57ee1a0ee2f0,Wokingham,,E06000041,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+52498ef2-e37d-4b05-8711-b1c2edad6bcd,Milton Keynes,,E06000042,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+64446df5-be93-4a22-b923-d342e647a15f,Brighton and Hove,,E06000043,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+8094f54a-a4e4-494f-8b12-5104b6b45945,Portsmouth,,E06000044,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+38fa4940-ef63-47a4-9420-91bd1f7c3090,Southampton,,E06000045,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+d776df8b-3aad-45a4-8df2-13e51ee825fd,Isle of Wight,,E06000046,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+df6ccae8-7e39-40e7-aea9-9880b86404a7,County Durham,,E06000047,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+242895fe-d9a5-489f-928a-2b14c9565b96,Cheshire East,,E06000049,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+b5c7a3e3-f908-459a-9fc9-baef406f4789,Cheshire West and Chester,,E06000050,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+f5b0e8f9-6d03-478d-a321-7ac615825a39,Shropshire,,E06000051,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+2335618c-29a1-414b-a403-fe5d23eb517f,Cornwall,,E06000052,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+e5b5cbb8-6d51-4569-ba65-383079382992,Isles of Scilly,,E06000053,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+7cf679ce-f54b-4edc-8526-0076da63aed6,Wiltshire,,E06000054,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+19dc22d2-eba8-435e-9226-d1b8c66282ca,Bedford,,E06000055,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+a86183ac-79f8-43f5-b5bf-8aadf74edd55,Gloucester,,E07000081,England,District,Local Authority Districts (April 2025) Names and Codes
+6a520839-d68d-4db7-ab07-8cc5e87820de,Stroud,,E07000082,England,District,Local Authority Districts (April 2025) Names and Codes
+8c2cbef5-a782-4e01-94f0-82c0f29f22ae,Tewkesbury,,E07000083,England,District,Local Authority Districts (April 2025) Names and Codes
+d72a5798-6a29-451a-b094-42f905341d2e,Basingstoke and Deane,,E07000084,England,District,Local Authority Districts (April 2025) Names and Codes
+62942afd-9b6a-4ef8-b9ec-ca597513c060,East Hampshire,,E07000085,England,District,Local Authority Districts (April 2025) Names and Codes
+fc814cbf-c10e-4fbc-b97f-fa8d5a129c7e,Eastleigh,,E07000086,England,District,Local Authority Districts (April 2025) Names and Codes
+209f1a85-34de-4b85-8275-27ef053bed08,Fareham,,E07000087,England,District,Local Authority Districts (April 2025) Names and Codes
+d25fbe56-c046-42cb-8c4b-09b8b9afac30,Gosport,,E07000088,England,District,Local Authority Districts (April 2025) Names and Codes
+d50d5ef2-3a05-4c9f-b426-2bc66b3cb2c2,Hart,,E07000089,England,District,Local Authority Districts (April 2025) Names and Codes
+ace5151a-f7af-4812-bf3d-b41093dc6747,Havant,,E07000090,England,District,Local Authority Districts (April 2025) Names and Codes
+6faf8bdd-0b2f-414a-a042-9a735ddfdfe7,New Forest,,E07000091,England,District,Local Authority Districts (April 2025) Names and Codes
+754d385e-5728-45b8-9d79-932943ab3868,Rushmoor,,E07000092,England,District,Local Authority Districts (April 2025) Names and Codes
+3382c4e2-ccf1-41c8-a0d3-2c880a035793,Test Valley,,E07000093,England,District,Local Authority Districts (April 2025) Names and Codes
+3681ab11-8694-4c59-886e-7750150ff45c,Winchester,,E07000094,England,District,Local Authority Districts (April 2025) Names and Codes
+445850fc-e2b2-4f1f-8287-303883bab844,Broxbourne,,E07000095,England,District,Local Authority Districts (April 2025) Names and Codes
+2ddea85b-4c3b-4749-89f0-ed0668c78cca,Dacorum,,E07000096,England,District,Local Authority Districts (April 2025) Names and Codes
+b300d39c-02b1-4c6b-b746-7f1f55018121,Hertsmere,,E07000098,England,District,Local Authority Districts (April 2025) Names and Codes
+d940f1a9-bc06-46c9-a0df-b2e4b89b5424,North Hertfordshire,,E07000099,England,District,Local Authority Districts (April 2025) Names and Codes
+b568fdc0-3f0e-40e3-a7d9-4505d194109a,Three Rivers,,E07000102,England,District,Local Authority Districts (April 2025) Names and Codes
+ee09cbe8-fec1-46cb-97e8-a13965db822a,Watford,,E07000103,England,District,Local Authority Districts (April 2025) Names and Codes
+4bb8acca-ecbc-4e10-a29e-bd14507a28f3,Ashford,,E07000105,England,District,Local Authority Districts (April 2025) Names and Codes
+e60963a8-6a1f-4705-943c-03863ebc635b,Canterbury,,E07000106,England,District,Local Authority Districts (April 2025) Names and Codes
+2fe5e1eb-e972-44be-a236-4bd1a6a2cf4b,Dartford,,E07000107,England,District,Local Authority Districts (April 2025) Names and Codes
+4aa454a5-6a1f-4845-aef8-1b48272b9dbc,Dover,,E07000108,England,District,Local Authority Districts (April 2025) Names and Codes
+19c1aa9f-5bad-4222-a025-173da447c2c6,Gravesham,,E07000109,England,District,Local Authority Districts (April 2025) Names and Codes
+8d8a9981-0194-4350-bfe7-61aa7a0facc8,Maidstone,,E07000110,England,District,Local Authority Districts (April 2025) Names and Codes
+2ce409dc-e89f-4b53-a260-af193c76b81a,Sevenoaks,,E07000111,England,District,Local Authority Districts (April 2025) Names and Codes
+811d05d0-0fcf-4317-a07e-b3b1186dbb7e,Folkestone and Hythe,,E07000112,England,District,Local Authority Districts (April 2025) Names and Codes
+0e123489-8f7b-436a-bc80-6e3e67a8fe55,Swale,,E07000113,England,District,Local Authority Districts (April 2025) Names and Codes
+1eed0191-6945-405b-9d99-aae06ce30142,Thanet,,E07000114,England,District,Local Authority Districts (April 2025) Names and Codes
+9602d1ea-edf3-4a9f-9d81-0344df8b2eb6,Tonbridge and Malling,,E07000115,England,District,Local Authority Districts (April 2025) Names and Codes
+07755e15-3da1-486b-a1e3-89a2a3e2da4e,Tunbridge Wells,,E07000116,England,District,Local Authority Districts (April 2025) Names and Codes
+a6a2d7a1-6cb1-4112-b297-ec822efb39ce,Burnley,,E07000117,England,District,Local Authority Districts (April 2025) Names and Codes
+652b71f9-985f-453c-be00-4ccd1cdb9777,Chorley,,E07000118,England,District,Local Authority Districts (April 2025) Names and Codes
+f732138b-6521-41d2-b699-6cf74d3ca9a2,Fylde,,E07000119,England,District,Local Authority Districts (April 2025) Names and Codes
+1174a641-fa91-47be-8fe0-5c7c25545e96,Hyndburn,,E07000120,England,District,Local Authority Districts (April 2025) Names and Codes
+128d95d4-e848-4119-a6bb-8631885fa016,Lancaster,,E07000121,England,District,Local Authority Districts (April 2025) Names and Codes
+7041684e-293b-46e8-94c3-0651fdc742f7,Pendle,,E07000122,England,District,Local Authority Districts (April 2025) Names and Codes
+9dab5bb3-a99f-4d40-b9e8-3d4f4c819fb0,Preston,,E07000123,England,District,Local Authority Districts (April 2025) Names and Codes
+e5bd974e-4edb-4468-86d7-0713070df6c1,Ribble Valley,,E07000124,England,District,Local Authority Districts (April 2025) Names and Codes
+c5074d13-bd9d-49e6-b386-cea3143769cd,Rossendale,,E07000125,England,District,Local Authority Districts (April 2025) Names and Codes
+a0ccc1d5-dc05-4244-828a-f17d2fb68086,South Ribble,,E07000126,England,District,Local Authority Districts (April 2025) Names and Codes
+45efcb5e-20b9-4151-9ed5-969dbe0f1fb8,West Lancashire,,E07000127,England,District,Local Authority Districts (April 2025) Names and Codes
+63fc88ba-8841-414e-9cf7-822b40b7113d,Wyre,,E07000128,England,District,Local Authority Districts (April 2025) Names and Codes
+a46a9343-4234-41d4-9436-57b0841f5a9d,Blaby,,E07000129,England,District,Local Authority Districts (April 2025) Names and Codes
+e263ca5f-5476-4e07-9e26-8b52b9401abb,Charnwood,,E07000130,England,District,Local Authority Districts (April 2025) Names and Codes
+544cd904-3c7b-4cd4-ae62-6c3e16e7f39d,Harborough,,E07000131,England,District,Local Authority Districts (April 2025) Names and Codes
+dd4e0797-2e50-4881-b0ee-197b607a3c67,Hinckley and Bosworth,,E07000132,England,District,Local Authority Districts (April 2025) Names and Codes
+f41a766d-d917-48f2-903d-2c0c89b1c180,Melton,,E07000133,England,District,Local Authority Districts (April 2025) Names and Codes
+537d8a1c-5454-4c70-a72e-86d83879dd55,North West Leicestershire,,E07000134,England,District,Local Authority Districts (April 2025) Names and Codes
+158b5649-9dcb-4120-88f1-64bfed937f42,Oadby and Wigston,,E07000135,England,District,Local Authority Districts (April 2025) Names and Codes
+b2a75033-063d-4f60-80c0-5b8284db1b2d,Boston,,E07000136,England,District,Local Authority Districts (April 2025) Names and Codes
+4e6bf249-6978-4750-8a2a-85e99c709573,Gateshead,,E08000037,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+f161c8eb-f434-4ef2-8166-0afb02b0ce9e,Barnsley,,E08000038,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+05f4f5d0-7f1d-49f5-9899-7c322b69bd04,Sheffield,,E08000039,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+e957994e-13e7-4cd7-a605-d1181c6b104d,City of London,,E09000001,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+92da13ad-133d-46da-bf83-ad3e253755a7,Barking and Dagenham,,E09000002,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+a52954ef-cc20-40d4-b700-ca29985331da,Barnet,,E09000003,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+91ebc36e-a920-4c95-a1b6-bc51016c7314,Bexley,,E09000004,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+1741628a-a52a-4121-986d-e68594fee83e,Brent,,E09000005,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+0ceafe88-fae5-4d35-9a58-68ff3aeef8dc,Bromley,,E09000006,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+0d064798-1379-4bdf-bdb9-f69e0f5ae9ad,Camden,,E09000007,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+114316d9-deda-4e7c-9b7a-b58ba0e84727,Croydon,,E09000008,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+a0a4bfa0-e091-42bd-a93c-bd9b931b9ea9,Ealing,,E09000009,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+cace2833-4e72-4d70-8a02-0c2595614417,Enfield,,E09000010,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+7aad5f14-e444-413d-a5f0-2bb31d73b72c,Greenwich,,E09000011,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+ebe0ee72-059d-46fa-bc9d-0763343733dc,Hackney,,E09000012,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+287bec78-6a52-44de-82a3-c8a3e96158fd,Hammersmith and Fulham,,E09000013,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+ef137766-cfa6-47c5-b8ba-208fde8f5957,Haringey,,E09000014,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+a641cf34-aa7a-476d-9caa-e045b2ea1349,Harrow,,E09000015,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+bb8012f9-3946-41db-87dd-217158a004c6,Havering,,E09000016,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+4d9f89cb-862b-4414-80c1-cca0115717d2,Hillingdon,,E09000017,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+df3940ec-54cd-4f98-9436-76ce5ea0e41f,Hounslow,,E09000018,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+5c184407-3160-4078-8235-49bfa874f234,Islington,,E09000019,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+8922397a-b28f-4ea9-9fca-938cc5032eb9,Kensington and Chelsea,,E09000020,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+f5c09fe4-2aff-4526-97dd-bcbc4f92bfee,Kingston upon Thames,,E09000021,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+e14d375b-ecaa-4eff-89bb-2a315c9e459b,Lambeth,,E09000022,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+2fe6bedd-744c-4426-be66-b97afd82a1bd,Lewisham,,E09000023,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+f7776409-4d1a-418a-9668-6cbb81f3fb01,Merton,,E09000024,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+c09a0fc2-18e5-40b5-950f-7a2963c0ae20,Newham,,E09000025,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+19049cfe-428b-4973-b4e8-f0897f2913ed,Redbridge,,E09000026,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+12abfd2c-54c6-4c48-abe5-11cdba457cc5,Richmond upon Thames,,E09000027,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+99b04068-19b6-4507-9f1e-247e1e48b946,Southwark,,E09000028,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+144c508d-a9ad-4e1b-b731-c61eea77012b,Sutton,,E09000029,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+1671af94-918a-4366-9eed-e2976fb473a0,Tower Hamlets,,E09000030,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+200bd00e-2f1b-4a75-9990-9c24f44aaa81,Waltham Forest,,E09000031,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+1e190f1c-e99b-4854-9bb1-43fca523dc28,Wandsworth,,E09000032,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+c5f89530-694b-4758-8e5c-b85d0d11f2ff,Westminster,,E09000033,England,London Borough,Local Authority Districts (April 2025) Names and Codes
+68473da2-020d-4a62-a80a-fcb0eac52847,Antrim and Newtownabbey,,N09000001,Northern Ireland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+3c3ecbf7-e799-41f9-acaa-121b6961cc06,"Armagh City, Banbridge and Craigavon",,N09000002,Northern Ireland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+b47fd2a1-d7f6-4a29-9e65-f674b4babe65,Belfast,,N09000003,Northern Ireland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+6a27bb39-a025-4cd1-8727-b29428c71c60,Causeway Coast and Glens,,N09000004,Northern Ireland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+164734a0-c6ad-4565-bed6-4f4ee118da08,Derry City and Strabane,,N09000005,Northern Ireland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+772d8120-332c-42f6-aa23-613f8026c352,Fermanagh and Omagh,,N09000006,Northern Ireland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+a0dba655-9a8b-4009-b4ea-e05b12faab5d,Lisburn and Castlereagh,,N09000007,Northern Ireland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+b1849791-81cb-4c06-a3e9-3f3a6d35dd7b,Mid and East Antrim,,N09000008,Northern Ireland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+f4e70d52-bf43-4154-9a0d-be654e637bf3,Mid Ulster,,N09000009,Northern Ireland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+acea440e-2d72-4c99-85d0-5dd5d6f867db,"Newry, Mourne and Down",,N09000010,Northern Ireland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+990187c4-09ed-4f30-b7d0-bad9787c6c43,Ards and North Down,,N09000011,Northern Ireland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+6b7bc9bb-0668-4225-87fa-c96815ced46f,Clackmannanshire,,S12000005,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+be746cc5-d5ca-4b44-b74a-f0614f72b685,Dumfries and Galloway,,S12000006,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+efba9866-a144-4af4-af88-6a43358d67b3,East Ayrshire,,S12000008,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+8653e30c-8ebe-427c-b9d4-7955e7148eb4,East Lothian,,S12000010,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+37b963a4-47f1-4eab-b676-85029a5a1d9a,East Renfrewshire,,S12000011,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+bee3bdbc-c77d-43a7-b777-075a82adca78,Adur,,E07000223,England,District,Local Authority Districts (April 2025) Names and Codes
+3ca9d0be-49bd-4fa0-b736-c54af36d44d0,Arun,,E07000224,England,District,Local Authority Districts (April 2025) Names and Codes
+1afb727a-791f-49d6-a619-25375187e6e1,Chichester,,E07000225,England,District,Local Authority Districts (April 2025) Names and Codes
+e661b9a0-4208-4a59-92a7-928ec493617a,Crawley,,E07000226,England,District,Local Authority Districts (April 2025) Names and Codes
+fd6ed524-fa49-4a38-b411-a4cae191ec06,Horsham,,E07000227,England,District,Local Authority Districts (April 2025) Names and Codes
+417e9cd1-7350-4ff6-88d7-68d062f62466,Mid Sussex,,E07000228,England,District,Local Authority Districts (April 2025) Names and Codes
+f2e79438-402e-4318-a18d-e12e62b305f7,Worthing,,E07000229,England,District,Local Authority Districts (April 2025) Names and Codes
+745bdb69-aaa3-41ee-90f9-15efff47efca,Bromsgrove,,E07000234,England,District,Local Authority Districts (April 2025) Names and Codes
+fcc9ca68-ab06-4883-a12a-6544169ccf52,Malvern Hills,,E07000235,England,District,Local Authority Districts (April 2025) Names and Codes
+53dbffdb-0066-46ea-b590-a2cdc2531236,Redditch,,E07000236,England,District,Local Authority Districts (April 2025) Names and Codes
+ce092b9f-c934-427c-a9a5-43b128ebda7d,Worcester,,E07000237,England,District,Local Authority Districts (April 2025) Names and Codes
+c7809a1c-fbff-4e95-a562-109ac96f5f3f,Wychavon,,E07000238,England,District,Local Authority Districts (April 2025) Names and Codes
+5224a01a-d8ae-4bc4-8589-c10d39b334b6,Wyre Forest,,E07000239,England,District,Local Authority Districts (April 2025) Names and Codes
+12422f30-57db-4229-96ed-8bf8a296499b,St Albans,,E07000240,England,District,Local Authority Districts (April 2025) Names and Codes
+84b08e24-866a-4d4b-8dcf-538bf23b4dfa,Welwyn Hatfield,,E07000241,England,District,Local Authority Districts (April 2025) Names and Codes
+b9927468-ceed-43b4-915d-5fbe2b434da9,East Hertfordshire,,E07000242,England,District,Local Authority Districts (April 2025) Names and Codes
+360926f7-f7eb-4f70-a88e-afa69c14b9b1,Stevenage,,E07000243,England,District,Local Authority Districts (April 2025) Names and Codes
+5731813a-4d06-4778-9b4b-218928376d6e,East Suffolk,,E07000244,England,District,Local Authority Districts (April 2025) Names and Codes
+07475987-e064-4cdf-a702-587539da3136,West Suffolk,,E07000245,England,District,Local Authority Districts (April 2025) Names and Codes
+a84059fb-ef72-417f-8732-1f45d7c1e570,Bolton,,E08000001,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+9e247ad9-b023-4600-bd24-82f24b3d2fc3,Bury,,E08000002,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+ec39794b-7abc-4e62-ae72-573c93f0a5da,Manchester,,E08000003,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+ce31895a-9603-4b40-a9b8-b27d7e0b4cb4,Oldham,,E08000004,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+42e000fc-7019-44c2-8d73-3a0dbd973e09,Rochdale,,E08000005,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+724e8d9f-b10c-4d54-a6f2-74c86979dc7f,Salford,,E08000006,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+4b6f413f-4e78-4326-bdb2-ab64bd72c8da,Stockport,,E08000007,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+429b8e86-e4bb-4805-b50a-0557235aa078,Tameside,,E08000008,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+0f525213-659e-49c8-a5bb-86f155483f8f,Trafford,,E08000009,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+386d0348-6e72-4f54-bdde-c543d5f785af,Wigan,,E08000010,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+0b5b18a3-8379-4866-a25e-e68cac4d7f75,Knowsley,,E08000011,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+ce7a7ded-b765-4d1a-9aef-52ea82eac021,Liverpool,,E08000012,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+58402d40-4e76-4257-ac02-2b5b69a518d8,St. Helens,,E08000013,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+f3426876-8f5c-40e1-9618-53c0a97b00a4,Sefton,,E08000014,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+4164244d-b775-4d44-84ef-6bd0856fdb36,Wirral,,E08000015,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+87bdaa61-07aa-472e-9661-9058d2447537,Doncaster,,E08000017,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+359d61e2-1796-4c0b-befe-b1cae071cc35,Rotherham,,E08000018,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+c69ff623-95b7-41cc-8beb-a594042e3275,Newcastle upon Tyne,,E08000021,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+0aa1fcc4-98a1-4131-91c4-364d8d796ca8,North Tyneside,,E08000022,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+1c26120b-dff7-4d7b-b45d-47fba50cf235,South Tyneside,,E08000023,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+6f8edb38-f1be-4155-ae40-c2419b6cbafa,Sunderland,,E08000024,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+b67ae351-a143-4de0-ba95-c4d9f30e260a,Birmingham,,E08000025,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+d0d8e1b0-f0e3-4a09-ab78-a591b9892938,Coventry,,E08000026,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+9711f6b6-17db-431a-9bfc-866b88f78d3f,Dudley,,E08000027,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+37628446-8b37-4b1a-8be2-e3622d521533,Sandwell,,E08000028,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+2db7228e-4de4-446d-b23a-cf9e261e22c9,Solihull,,E08000029,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+7bbf1899-ab2e-4786-97d2-635027e9d235,Walsall,,E08000030,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+bbbe35c5-accd-4127-9280-3c454361564c,Wolverhampton,,E08000031,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+63b83937-51c8-45ae-921d-9462745ccd1f,Bradford,,E08000032,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+88bcfa67-52b2-47b8-9558-9759b705877b,Calderdale,,E08000033,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+fe3b74ec-45d7-4b41-b097-2e696a05b272,Kirklees,,E08000034,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+19f3aae7-e111-4d66-80a9-be3f025cff10,Leeds,,E08000035,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+fdf21487-1575-4491-8683-9ada5a14ec24,Wakefield,,E08000036,England,Metropolitan District,Local Authority Districts (April 2025) Names and Codes
+5239d45e-2af9-4a7f-9add-d91183c98aa6,Central Bedfordshire,,E06000056,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+0662a20d-0f2b-4d52-a1de-51de86007695,Northumberland,,E06000057,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+46c99167-1bea-4a6a-928f-4e76e3280aa7,"Bournemouth, Christchurch and Poole",,E06000058,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+7bfde47d-7ffa-4f95-8442-b719c8dc5608,Dorset,,E06000059,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+6c41ded7-da72-401b-bcfb-5d9ec8bbf944,Buckinghamshire,,E06000060,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+c07d680a-c7a6-437b-a32c-ac125a7d19e8,North Northamptonshire,,E06000061,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+66d80501-0d1a-4f36-9bf5-4f4418cec57e,West Northamptonshire,,E06000062,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+4bfce7ac-505c-47fb-87cb-46c277284efc,Cumberland,,E06000063,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+69cbf140-6fba-4429-bee5-2a48fabc8b92,Westmorland and Furness,,E06000064,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+0e9a6804-41f1-4d1b-89cc-b894b31e0554,North Yorkshire,,E06000065,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+10dadde1-5cbc-4e2a-bcfd-d07c679c27ef,Somerset,,E06000066,England,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+3f588cce-49ac-4ea3-8a6b-5dbc7c3867e1,Cambridge,,E07000008,England,District,Local Authority Districts (April 2025) Names and Codes
+5e651cac-5e22-4bb8-8abb-5cd437732ffe,East Cambridgeshire,,E07000009,England,District,Local Authority Districts (April 2025) Names and Codes
+df354a44-6554-45d6-92e1-e9021114fef5,Fenland,,E07000010,England,District,Local Authority Districts (April 2025) Names and Codes
+a4174657-fc66-4dc3-9702-a5566fc4e3b8,Huntingdonshire,,E07000011,England,District,Local Authority Districts (April 2025) Names and Codes
+064617a9-7dd6-44ea-942e-2ba6a73dc6b2,South Cambridgeshire,,E07000012,England,District,Local Authority Districts (April 2025) Names and Codes
+65164a57-c54d-4b2d-85bc-42f2e72fc954,Amber Valley,,E07000032,England,District,Local Authority Districts (April 2025) Names and Codes
+eba8203b-a9ef-4609-b763-ed6ce1345da0,Bolsover,,E07000033,England,District,Local Authority Districts (April 2025) Names and Codes
+51e0428e-b58f-4722-a803-675d2b3a63a1,Chesterfield,,E07000034,England,District,Local Authority Districts (April 2025) Names and Codes
+83173c38-4e98-4656-b683-42e357c00b70,Derbyshire Dales,,E07000035,England,District,Local Authority Districts (April 2025) Names and Codes
+b74d1c7b-d654-411b-b3b7-49f3259cf526,Erewash,,E07000036,England,District,Local Authority Districts (April 2025) Names and Codes
+b191bc0f-9dbe-44cf-910b-f143ca325610,High Peak,,E07000037,England,District,Local Authority Districts (April 2025) Names and Codes
+36ae41cf-5f36-4842-b49f-d992ef48345c,North East Derbyshire,,E07000038,England,District,Local Authority Districts (April 2025) Names and Codes
+c3f1d384-c207-42c5-93a7-8b1256554e20,South Derbyshire,,E07000039,England,District,Local Authority Districts (April 2025) Names and Codes
+f567ae72-36c6-4e7d-84e4-4569b4fea6ad,East Devon,,E07000040,England,District,Local Authority Districts (April 2025) Names and Codes
+fb765937-012f-4cda-a928-98fc0affbc53,Exeter,,E07000041,England,District,Local Authority Districts (April 2025) Names and Codes
+b565c4c0-3769-4a81-b02a-0c727cb2f94e,Mid Devon,,E07000042,England,District,Local Authority Districts (April 2025) Names and Codes
+510b8471-acb7-4110-9377-f7898aafff99,North Devon,,E07000043,England,District,Local Authority Districts (April 2025) Names and Codes
+160cd456-59a9-493b-a012-a7a036decfb2,South Hams,,E07000044,England,District,Local Authority Districts (April 2025) Names and Codes
+143375bf-348c-40d3-a7e0-2321a3c1fbb7,Teignbridge,,E07000045,England,District,Local Authority Districts (April 2025) Names and Codes
+d81b2111-c9f0-4a8a-acb4-68c7fba5deff,Torridge,,E07000046,England,District,Local Authority Districts (April 2025) Names and Codes
+28320c23-5bb6-422d-8ab0-8b8389b74ad6,West Devon,,E07000047,England,District,Local Authority Districts (April 2025) Names and Codes
+8aa85312-6732-407c-9c5c-33836c9249f8,Eastbourne,,E07000061,England,District,Local Authority Districts (April 2025) Names and Codes
+370ab794-f8a2-4b50-8598-d22124ec6d31,Hastings,,E07000062,England,District,Local Authority Districts (April 2025) Names and Codes
+784c9533-454a-4b95-a52c-b38e1a5c6fda,Lewes,,E07000063,England,District,Local Authority Districts (April 2025) Names and Codes
+7aac51de-2196-4d76-8add-cd638b1e4209,Rother,,E07000064,England,District,Local Authority Districts (April 2025) Names and Codes
+e67618ea-0cfb-4be5-85d3-fc94e029a20c,Wealden,,E07000065,England,District,Local Authority Districts (April 2025) Names and Codes
+9805438b-9a03-4d39-a756-a38eff967755,Basildon,,E07000066,England,District,Local Authority Districts (April 2025) Names and Codes
+b2a01b70-3caf-4c6d-9155-6c373c8ac94a,Braintree,,E07000067,England,District,Local Authority Districts (April 2025) Names and Codes
+fc22b4ee-f353-47af-ad90-368bb817d30a,Brentwood,,E07000068,England,District,Local Authority Districts (April 2025) Names and Codes
+6fd5a6bc-e7c1-49a5-b7e7-0aba0212897c,Castle Point,,E07000069,England,District,Local Authority Districts (April 2025) Names and Codes
+55657f7c-e2fa-46e2-b1fa-b3f279deb6df,Chelmsford,,E07000070,England,District,Local Authority Districts (April 2025) Names and Codes
+9e629ce5-1d2e-4fd0-8880-3889590d6fff,Colchester,,E07000071,England,District,Local Authority Districts (April 2025) Names and Codes
+ec7345ee-36b7-49ad-a13c-5b33dc7c415d,Epping Forest,,E07000072,England,District,Local Authority Districts (April 2025) Names and Codes
+1d024e19-4245-48c1-8c1f-ed1d99fc9a07,Harlow,,E07000073,England,District,Local Authority Districts (April 2025) Names and Codes
+99923ee8-c4cb-48e5-ad9c-0f171c2eedb6,Maldon,,E07000074,England,District,Local Authority Districts (April 2025) Names and Codes
+f0499661-d804-435d-9fd9-8c1003a05a7f,Rochford,,E07000075,England,District,Local Authority Districts (April 2025) Names and Codes
+4d33262d-2c14-4330-a454-71519c524bf0,Tendring,,E07000076,England,District,Local Authority Districts (April 2025) Names and Codes
+f53c8f3c-ee0c-4b6f-9c39-78d78a3a1c2f,Uttlesford,,E07000077,England,District,Local Authority Districts (April 2025) Names and Codes
+86f94548-dc1e-406d-aff1-fc83d00203de,Cheltenham,,E07000078,England,District,Local Authority Districts (April 2025) Names and Codes
+e30aaedb-c5bb-4c08-9f70-224ead46b7cb,Cotswold,,E07000079,England,District,Local Authority Districts (April 2025) Names and Codes
+5be136cc-f513-4813-b298-0f8c1487fade,Forest of Dean,,E07000080,England,District,Local Authority Districts (April 2025) Names and Codes
+15d7ff00-9ff6-467d-aaa9-9da52fe5ce9d,Na h-Eileanan Siar,,S12000013,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+eeb6a9d2-9bc6-405a-8097-d7e55c4b4442,Falkirk,,S12000014,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+4bda6bdc-3cae-4034-a75d-906cb0ce86e5,Highland,,S12000017,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+b0883b24-2cc6-4cc7-8371-912e552447ff,Inverclyde,,S12000018,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+a57cbe93-11b2-4768-9f35-b8cb3f263cbd,Midlothian,,S12000019,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+1e1ac6d0-3139-4063-9b3c-9ae31d1a388a,Moray,,S12000020,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+7f6d9035-0f6c-43e1-aaa0-92596eb97fb9,North Ayrshire,,S12000021,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+6c322fb3-0447-4739-859f-380b670d31d5,Orkney Islands,,S12000023,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+6959e04a-1d5b-4b8e-836e-9e22acbf2018,Scottish Borders,,S12000026,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+2396e10e-e668-4cbc-81ce-208bf796c070,Shetland Islands,,S12000027,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+7f575d32-46cc-4cbf-adc9-275fa4310f77,South Ayrshire,,S12000028,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+86415af5-e1f1-4840-8ae4-37b5fd87496d,South Lanarkshire,,S12000029,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+f2f86500-002c-4697-b492-349ca9f80cf0,Stirling,,S12000030,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+9a96610f-7f7a-4df3-892b-1b7eb3245cfc,Aberdeen City,,S12000033,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+6f1b7218-1fdd-4f1f-a18d-cf7dd3cdb4ff,Aberdeenshire,,S12000034,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+fac20431-29d1-40a4-b43a-4cbd9c9c0c46,Argyll and Bute,,S12000035,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+a63ce452-46d7-4518-9427-86bbc556229a,City of Edinburgh,,S12000036,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+20fcb5f2-12f7-440d-a4d2-dc37dc096f20,Renfrewshire,,S12000038,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+eddbb4e3-fa63-4286-898f-df4713f56380,West Dunbartonshire,,S12000039,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+ef70c393-d7a0-40c5-b6c9-874b84e8c4de,West Lothian,,S12000040,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+4059bed4-e102-495a-a4b4-4d9c50ef4cf2,Angus,,S12000041,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+e6f1e9b7-49ff-4909-b9ed-9ee9dea38f07,Dundee City,,S12000042,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+aed8a337-6fb4-4a95-a122-43456828aa1b,East Dunbartonshire,,S12000045,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+0baeecd4-4199-4787-97b8-5024e88ecc0f,Fife,,S12000047,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+dfda6184-9322-4ee7-9f62-31e0ae0acb5c,Perth and Kinross,,S12000048,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+951aa778-8c5b-4d60-a89e-b306881b8ed1,Glasgow City,,S12000049,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+c59a9b3c-6451-497a-91d8-74fb372a3de9,North Lanarkshire,,S12000050,Scotland,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+97138a2f-54d6-4001-acb1-4f7386d9e5ac,Isle of Anglesey,Ynys Môn,W06000001,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+fe6e5c67-c7d2-400e-8b5a-5a63d71ff275,Gwynedd,Gwynedd,W06000002,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+85212c3a-0dcd-405c-ac58-dcc6ea5d6278,Conwy,Conwy,W06000003,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+0b75ecde-d9c3-4ec7-9460-5303ed0dc475,Denbighshire,Sir Ddinbych,W06000004,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+0b6778a5-ecd7-4064-9e22-57c261eb6fa2,Flintshire,Sir y Fflint,W06000005,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+47e65901-28a2-4bfc-a041-c09a46fe688a,Wrexham,Wrecsam,W06000006,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+f55e47bb-bb86-434d-906b-ccd2e3375b28,Ceredigion,Ceredigion,W06000008,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+35283dd8-bb4c-4754-a21e-b79dd43884e7,Pembrokeshire,Sir Benfro,W06000009,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+e802ef77-8a78-4868-b40d-2ac9e5b60cfc,Carmarthenshire,Sir Gaerfyrddin,W06000010,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+72c669a5-5eb5-48a3-8e95-789b60c86561,Swansea,Abertawe,W06000011,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+da4cf054-db21-4680-9111-f1cd80b111dc,Neath Port Talbot,Castell-nedd Port Talbot,W06000012,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+fed99567-9452-469e-acf6-82e34059c4ff,Bridgend,Pen-y-bont ar Ogwr,W06000013,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+746c276f-59dd-4b2d-99e8-75da645124f3,Vale of Glamorgan,Bro Morgannwg,W06000014,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+89608a7f-d43b-4fe8-9dc1-844c23b04c0c,Cardiff,Caerdydd,W06000015,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+478ba76c-4db0-4ade-96ce-7fdf70aa66d6,Rhondda Cynon Taf,Rhondda Cynon Taf,W06000016,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+95ffc040-0daa-4d6c-8b29-619b9affc7db,Caerphilly,Caerffili,W06000018,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+3ee89e5a-11f5-4cd7-8c37-f30011d1e293,Blaenau Gwent,Blaenau Gwent,W06000019,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+b06fc9b8-4f68-45d7-933b-c754dd867399,Torfaen,Torfaen,W06000020,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+2d9bf9e9-8f1e-4d66-99a6-a88d207694ca,Monmouthshire,Sir Fynwy,W06000021,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+a28d8589-e0f5-4609-9f61-c03343880e59,Newport,Casnewydd,W06000022,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+fb992063-42f1-4a3c-9668-b06c3834ae61,Powys,Powys,W06000023,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+2eb40c52-45c2-4de2-8741-bec129437ea5,Merthyr Tydfil,Merthyr Tudful,W06000024,Wales,Unitary Authority,Local Authority Districts (April 2025) Names and Codes
+de37a141-9b69-4504-ba63-42cfcc512cf8,East Lindsey,,E07000137,England,District,Local Authority Districts (April 2025) Names and Codes
+0fb06f14-7d44-4fd8-ae4f-8e55b606f498,Lincoln,,E07000138,England,District,Local Authority Districts (April 2025) Names and Codes
+67dc75aa-b5f1-4c4e-a14d-8b3b71f03b44,North Kesteven,,E07000139,England,District,Local Authority Districts (April 2025) Names and Codes
+4c226c76-ad2a-4992-911c-bac5bac4e935,South Holland,,E07000140,England,District,Local Authority Districts (April 2025) Names and Codes
+2bb462d5-4b9a-4175-9fff-bdac050d935c,South Kesteven,,E07000141,England,District,Local Authority Districts (April 2025) Names and Codes
+2de5d20f-374d-4429-853e-6c66d6f1832d,West Lindsey,,E07000142,England,District,Local Authority Districts (April 2025) Names and Codes
+173cdd86-be91-4add-8bee-f8623470f46b,Breckland,,E07000143,England,District,Local Authority Districts (April 2025) Names and Codes
+328b8ce2-ea9b-4114-8288-de10efd543e4,Broadland,,E07000144,England,District,Local Authority Districts (April 2025) Names and Codes
+b986422f-ff69-4ce1-9660-79b94f7adc57,Great Yarmouth,,E07000145,England,District,Local Authority Districts (April 2025) Names and Codes
+7f092f1d-de40-459d-86f5-0b5748e95b8a,King's Lynn and West Norfolk,,E07000146,England,District,Local Authority Districts (April 2025) Names and Codes
+75afcc98-bb82-425a-8e0c-79fba36fd852,North Norfolk,,E07000147,England,District,Local Authority Districts (April 2025) Names and Codes
+2be003ae-d403-4ccc-946d-09343bc0264c,Norwich,,E07000148,England,District,Local Authority Districts (April 2025) Names and Codes
+19ca5a9e-0515-43cf-af2d-7e3a39730413,South Norfolk,,E07000149,England,District,Local Authority Districts (April 2025) Names and Codes
+dfd472b2-ae8f-4b44-a6b8-1c2db23e328a,Ashfield,,E07000170,England,District,Local Authority Districts (April 2025) Names and Codes
+9f1b70ee-e45e-4883-9760-74cbffab41b8,Bassetlaw,,E07000171,England,District,Local Authority Districts (April 2025) Names and Codes
+d81764bd-736f-4eae-bba6-87ec0e9ec163,Broxtowe,,E07000172,England,District,Local Authority Districts (April 2025) Names and Codes
+e375d124-cf0f-4245-a1bd-bf14f61ff49e,Gedling,,E07000173,England,District,Local Authority Districts (April 2025) Names and Codes
+32ac577e-1ee8-480a-9379-fb5a06dbb405,Mansfield,,E07000174,England,District,Local Authority Districts (April 2025) Names and Codes
+b2ae35a6-c728-4647-844b-8d6308a1ba69,Newark and Sherwood,,E07000175,England,District,Local Authority Districts (April 2025) Names and Codes
+0de1e472-7486-448e-8a68-999d0435128a,Rushcliffe,,E07000176,England,District,Local Authority Districts (April 2025) Names and Codes
+7476582b-a7b7-48b3-93b0-75c30a18851c,Cherwell,,E07000177,England,District,Local Authority Districts (April 2025) Names and Codes
+d3bf375b-733e-41fc-a2ed-2166c6305d3f,Oxford,,E07000178,England,District,Local Authority Districts (April 2025) Names and Codes
+88b2e041-f3ad-4d9b-a97c-e110dfedc78c,South Oxfordshire,,E07000179,England,District,Local Authority Districts (April 2025) Names and Codes
+b576abe6-10c2-4c2c-a43b-fd215c8cd16e,Vale of White Horse,,E07000180,England,District,Local Authority Districts (April 2025) Names and Codes
+8019088b-bd64-4600-b72d-1f3dd8498737,West Oxfordshire,,E07000181,England,District,Local Authority Districts (April 2025) Names and Codes
+b06ce722-7338-4f71-9f3e-aadcd14682fa,Cannock Chase,,E07000192,England,District,Local Authority Districts (April 2025) Names and Codes
+9e8638dc-caec-4d54-b32d-653b32299be8,East Staffordshire,,E07000193,England,District,Local Authority Districts (April 2025) Names and Codes
+0f1a4e53-6f7a-4bec-8f93-b37816d90839,Lichfield,,E07000194,England,District,Local Authority Districts (April 2025) Names and Codes
+e651a1fa-d2d4-4bd7-9fba-38d5d59e5e44,Newcastle-under-Lyme,,E07000195,England,District,Local Authority Districts (April 2025) Names and Codes
+91beaa6c-e154-47fe-95ad-60534e1bfade,South Staffordshire,,E07000196,England,District,Local Authority Districts (April 2025) Names and Codes
+1e10705b-4969-4f92-af02-90e68c798e71,Stafford,,E07000197,England,District,Local Authority Districts (April 2025) Names and Codes
+feb492cc-a63f-4e9e-b469-7d65a3b14a60,Staffordshire Moorlands,,E07000198,England,District,Local Authority Districts (April 2025) Names and Codes
+15b3d6b7-b3b8-4b34-bcc4-2ff049a0d66f,Tamworth,,E07000199,England,District,Local Authority Districts (April 2025) Names and Codes
+e4d2384d-2d15-41f1-9258-48e97473cc71,Babergh,,E07000200,England,District,Local Authority Districts (April 2025) Names and Codes
+5fed39b0-75dc-4d32-821f-32df07698fca,Ipswich,,E07000202,England,District,Local Authority Districts (April 2025) Names and Codes
+fae44ca0-e154-4d54-92ee-c21445ee7685,Mid Suffolk,,E07000203,England,District,Local Authority Districts (April 2025) Names and Codes
+36d129ce-a0bf-434e-94e8-1bba47cbd217,Elmbridge,,E07000207,England,District,Local Authority Districts (April 2025) Names and Codes
+ec275742-08f2-487b-af1b-c656a4841062,Epsom and Ewell,,E07000208,England,District,Local Authority Districts (April 2025) Names and Codes
+a376f35c-4a98-484e-9247-186b3a49ee05,Guildford,,E07000209,England,District,Local Authority Districts (April 2025) Names and Codes
+0ce6d0cf-ffef-4ed3-8076-973056ce87d1,Mole Valley,,E07000210,England,District,Local Authority Districts (April 2025) Names and Codes
+12f69f8a-6b71-4f64-af8d-ac5e80562d87,Reigate and Banstead,,E07000211,England,District,Local Authority Districts (April 2025) Names and Codes
+6fbc774d-e94e-4e7e-838c-4f77354f75fe,Runnymede,,E07000212,England,District,Local Authority Districts (April 2025) Names and Codes
+dc5cf5b9-b2d5-4197-981a-db5b724db7d6,Spelthorne,,E07000213,England,District,Local Authority Districts (April 2025) Names and Codes
+800d1201-189e-43b1-a554-4a590d3815c4,Surrey Heath,,E07000214,England,District,Local Authority Districts (April 2025) Names and Codes
+2942ab06-28dd-4334-8b93-6db130c5d014,Tandridge,,E07000215,England,District,Local Authority Districts (April 2025) Names and Codes
+fd7159f9-98eb-40b1-b8f5-faf9d3aab0bf,Waverley,,E07000216,England,District,Local Authority Districts (April 2025) Names and Codes
+2f8d9473-3adf-4588-86ed-7d181a085aa8,Woking,,E07000217,England,District,Local Authority Districts (April 2025) Names and Codes
+f7a3914f-6049-4d86-a421-dc898a96de37,North Warwickshire,,E07000218,England,District,Local Authority Districts (April 2025) Names and Codes
+6b4d385e-3509-4a4d-a064-419d3a270bf2,Nuneaton and Bedworth,,E07000219,England,District,Local Authority Districts (April 2025) Names and Codes
+f71f4ba0-3409-4004-b148-8aba8362ca45,Rugby,,E07000220,England,District,Local Authority Districts (April 2025) Names and Codes
+4dc6bf08-e73f-4bb3-a53e-120680ea6c64,Stratford-on-Avon,,E07000221,England,District,Local Authority Districts (April 2025) Names and Codes
+ff706ce4-d776-4211-b490-8a212c097423,Warwick,,E07000222,England,District,Local Authority Districts (April 2025) Names and Codes

@@ -1,5 +1,5 @@
 {
-  "_source_id": 51,
+  "_source_id": 75,
   "sources": {
     "Storage Solutions Analysis - Historical Map Images & Street Photos": {
       "https://supabase.com/pricing": {
@@ -368,6 +368,162 @@
         "url": "https://vercel.com/docs/plans/hobby",
         "title": "Vercel Hobby Plan Documentation",
         "info": "Detailed Hobby plan specifications: free for personal use, 1M function invocations, 4 CPU-hours active, 360 GB-hours provisioned memory, 1M edge requests, and various feature limitations"
+      }
+    },
+    "UK Government Data Sources Analysis": {
+      "https://www.ons.gov.uk/methodology/geography/geographicalproducts/postcodeproducts": {
+        "id": 52,
+        "publisher": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/methodology/geography/geographicalproducts/postcodeproducts",
+        "title": "ONS Postcode Products - Postcode products overview",
+        "info": "Comprehensive information about ONS postcode products including ONSPD and NSPL, with data formats (CSV, TXT), licensing (free), coverage (UK), and quarterly update frequency"
+      },
+      "https://www.ordnancesurvey.co.uk/products/addressbase": {
+        "id": 53,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/addressbase",
+        "title": "AddressBase - Data Products",
+        "info": "Detailed specifications for Ordnance Survey AddressBase products, covering 29 million addresses with UPRN matching, CSV/GML formats, 6-week updates, and Great Britain coverage"
+      },
+      "https://www.ordnancesurvey.co.uk/products/os-open-names": {
+        "id": 54,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names",
+        "title": "OS Open Names - Data Products",
+        "info": "Information on OS Open Names dataset with over 870,000 roads, 44,000 settlements, and 1.6 million postcodes, updated quarterly under OS OpenData Plan"
+      },
+      "https://www.poweredbypaf.com/": {
+        "id": 55,
+        "publisher": "Royal Mail Group Ltd",
+        "url": "https://www.poweredbypaf.com/",
+        "title": "Powered by PAF - Official PAF Information",
+        "info": "Details on PAF as UK's most accurate address database with 32+ million addresses and 1.8+ million postcodes, updated weekly with 50,000+ business users"
+      },
+      "https://www.ons.gov.uk/methodology/geography/geographicalproducts/namescodesandlookups/namesandcodeslistings": {
+        "id": 58,
+        "publisher": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/methodology/geography/geographicalproducts/namescodesandlookups/namesandcodeslistings",
+        "title": "ONS Names and Codes Listings",
+        "info": "ONS names and codes listings for UK administrative geographies including counties, regions, wards with GSS codes in CSV/Excel formats"
+      },
+      "https://geoportal.statistics.gov.uk/datasets/e14b1475ecf74b58804cf667b6740706": {
+        "id": 59,
+        "publisher": "ONS Geography",
+        "url": "https://geoportal.statistics.gov.uk/datasets/e14b1475ecf74b58804cf667b6740706",
+        "title": "ONS Postcode Directory (February 2024) for the UK",
+        "info": "ONS Postcode Directory February 2024 - 231MB quarterly updated dataset linking postcodes to administrative areas under custom license"
+      },
+      "https://www.data.gov.uk/dataset/7ec10db7-c8f4-4a40-8d82-8921935b4865/national-statistics-postcode-lookup-uk": {
+        "id": 60,
+        "publisher": "ONS Geography",
+        "url": "https://www.data.gov.uk/dataset/7ec10db7-c8f4-4a40-8d82-8921935b4865/national-statistics-postcode-lookup-uk",
+        "title": "National Statistics Postcode Lookup UK",
+        "info": "National Statistics Postcode Lookup dataset for UK with 2021 Census basis, free access under OGL v3.0 with XML/JSON/RDF/CSV formats"
+      },
+      "https://www.planning.data.gov.uk/dataset/local-authority-district": {
+        "id": 61,
+        "publisher": "ONS / MHCLG",
+        "url": "https://www.planning.data.gov.uk/dataset/local-authority-district",
+        "title": "Local Authority District Dataset",
+        "info": "Local authority district dataset in England with 344 districts, available in CSV/JSON/GeoJSON formats under OGL v3.0"
+      },
+      "https://www.data.gov.uk/dataset/a76a9de2-d0f4-4fd7-bcc9-e63bbf28bbb5/local-authority-district-to-county-and-unitary-authority-april-2025-lookup-in-ew-v21": {
+        "id": 62,
+        "publisher": "ONS Geography",
+        "url": "https://www.data.gov.uk/dataset/a76a9de2-d0f4-4fd7-bcc9-e63bbf28bbb5/local-authority-district-to-county-and-unitary-authority-april-2025-lookup-in-ew-v21",
+        "title": "Local Authority District to County and Unitary Authority Lookup (April 2025)",
+        "info": "LAD to County and Unitary Authority lookup for England and Wales as of April 2025, with KML/GeoJSON/CSV formats available"
+      },
+      "https://www.ordnancesurvey.co.uk/products/boundary-line": {
+        "id": 63,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/boundary-line",
+        "title": "Boundary-Line - OS Data Products",
+        "info": "Ordnance Survey Boundary-Line dataset covering all administrative boundaries in Great Britain, updated twice yearly, available under OGL"
+      },
+      "https://www.ons.gov.uk/methodology/geography/geographicalproducts/digitalboundaries": {
+        "id": 64,
+        "publisher": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/methodology/geography/geographicalproducts/digitalboundaries",
+        "title": "ONS Digital Boundaries",
+        "info": "ONS digital boundaries in various formats including Shapefile, with different resolutions and coastal extent options, under OGL v3.0"
+      },
+      "https://geoportal.statistics.gov.uk/datasets/ons::counties-and-unitary-authorities-december-2024-boundaries-uk-bgc-1/about": {
+        "id": 65,
+        "publisher": "ONS Geography",
+        "url": "https://geoportal.statistics.gov.uk/datasets/ons::counties-and-unitary-authorities-december-2024-boundaries-uk-bgc-1/about",
+        "title": "Counties and Unitary Authorities Boundaries UK (December 2024)",
+        "info": "Counties and Unitary Authorities boundaries dataset for UK as of December 2024, generalised 20m resolution, with API access"
+      },
+      "https://www.ordnancesurvey.co.uk/products/os-open-roads": {
+        "id": 66,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-roads",
+        "title": "OS Open Roads - Data Products",
+        "info": "OS Open Roads dataset covering high-level road network in Great Britain with motorways to country lanes, updated twice yearly, free under OS OpenData Plan"
+      },
+      "https://www.ordnancesurvey.co.uk/products/addressbase-premium": {
+        "id": 67,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/addressbase-premium",
+        "title": "AddressBase Premium - Data Products",
+        "info": "AddressBase Premium containing 40+ million addresses with UPRN unique references, updated every 6 weeks, covering Great Britain"
+      },
+      "https://www.ordnancesurvey.co.uk/products/os-names-api": {
+        "id": 68,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-names-api",
+        "title": "OS Names API - Data Products",
+        "info": "OS Names API providing 2.5M identifiable places, 44k settlements, 870k+ roads, updated quarterly, free API with RESTful interface"
+      },
+      "https://www.data.gov.uk/dataset/03d48dba-529b-4bd5-93a5-6d41d1b20ff9/national-address-gazetteer": {
+        "id": 69,
+        "publisher": "GeoPlace LLP",
+        "url": "https://www.data.gov.uk/dataset/03d48dba-529b-4bd5-93a5-6d41d1b20ff9/national-address-gazetteer",
+        "title": "National Address Gazetteer Dataset",
+        "info": "National Address Gazetteer created by GeoPlace combining local authority and Ordnance Survey data with UPRN/USRN unique identifiers"
+      },
+      "https://www.geoplace.co.uk/addresses-streets/street-data-and-services": {
+        "id": 70,
+        "publisher": "GeoPlace LLP",
+        "url": "https://www.geoplace.co.uk/addresses-streets/street-data-and-services",
+        "title": "GeoPlace Street Data and Services",
+        "info": "GeoPlace street data services including National Street Gazetteer, USRN identifiers, and API access for England and Wales street network"
+      },
+      "https://www.poweredbypaf.com/pricing/": {
+        "id": 71,
+        "publisher": "Royal Mail Group Ltd",
+        "url": "https://www.poweredbypaf.com/pricing/",
+        "title": "PAF Pricing Solutions",
+        "info": "PAF pricing information from Royal Mail including £105+VAT per user licence, commercial and public sector pricing tiers"
+      },
+      "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/": {
+        "id": 72,
+        "publisher": "The National Archives",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "title": "Open Government Licence v3.0",
+        "info": "Open Government Licence v3.0 terms and conditions for UK government datasets with attribution requirements and commercial use rights"
+      },
+      "https://www.ons.gov.uk/methodology/geography/licences": {
+        "id": 73,
+        "publisher": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/methodology/geography/licences",
+        "title": "ONS Licensing Terms",
+        "info": "ONS licensing terms and conditions for geographic datasets including custom licenses and OGL compliance"
+      },
+      "https://osdatahub.os.uk/plans": {
+        "id": 74,
+        "publisher": "Ordnance Survey",
+        "url": "https://osdatahub.os.uk/plans",
+        "title": "OS Data Hub Plans and Pricing",
+        "info": "OS Data Hub plans including Premium API pricing, PSGA membership for free public sector access, and transaction limits"
+      },
+      "https://www.ordnancesurvey.co.uk/customers/public-sector/public-sector-geospatial-agreement": {
+        "id": 75,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/customers/public-sector/public-sector-geospatial-agreement",
+        "title": "PSGA Membership Terms",
+        "info": "Public Sector Geospatial Agreement providing free access to Premium OS data for public sector members including cost structure"
       }
     }
   }

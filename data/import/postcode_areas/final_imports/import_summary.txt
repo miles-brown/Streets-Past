@@ -1,0 +1,39 @@
+UK Postcode Area Data Import Summary
+=====================================
+
+Processing Date: 2025-12-04
+Source: Sample data from Doogal and ONS datasets
+
+Total postcode areas: 122
+Total outward codes with post towns: 2966
+
+Files created:
+- postcode_areas_import.csv: Area-level data with coverage and sample mappings
+- postcode_outward_codes_import.csv: Detailed outward code to post town mappings
+- import_summary.txt: This summary file
+
+Sample data preview:
+-------------------
+Postcode Areas (first 10):
+  AB: Aberdeen
+  AL: St Albans
+  B: Birmingham
+  BA: Bath
+  BB: Blackburn
+  BD: Bradford
+  BF: British Forces
+  BH: Bournemouth
+  BL: Bolton
+  BN: Brighton
+
+Outward Code Mappings (first 10):
+  AB10 (AB): Aberdeen - Aberdeen
+  AB11 (AB): Aberdeen - Aberdeen
+  AB12 (AB): Aberdeen - Aberdeen
+  AB13 (AB): Milltimber - Aberdeen
+  AB14 (AB): Peterculter - Aberdeen
+  AB15 (AB): Aberdeen - Aberdeen
+  AB16 (AB): Aberdeen - Aberdeen
+  AB21 (AB): Aberdeen - Aberdeen
+  AB22 (AB): Aberdeen - Aberdeen
+  AB23 (AB): Aberdeen - Aberdeen

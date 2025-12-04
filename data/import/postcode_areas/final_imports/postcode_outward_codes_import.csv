@@ -1,0 +1,2967 @@
+outward_code,post_town,area_code,sample_area_covered
+AB10,Aberdeen,AB,Aberdeen
+AB11,Aberdeen,AB,Aberdeen
+AB12,Aberdeen,AB,Aberdeen
+AB13,Milltimber,AB,Aberdeen
+AB14,Peterculter,AB,Aberdeen
+AB15,Aberdeen,AB,Aberdeen
+AB16,Aberdeen,AB,Aberdeen
+AB21,Aberdeen,AB,Aberdeen
+AB22,Aberdeen,AB,Aberdeen
+AB23,Aberdeen,AB,Aberdeen
+AB24,Aberdeen,AB,Aberdeen
+AB25,Aberdeen,AB,Aberdeen
+AB30,Laurencekirk,AB,Aberdeen
+AB31,Banchory,AB,Aberdeen
+AB32,Westhill,AB,Aberdeen
+AB33,Alford,AB,Aberdeen
+AB34,Aboyne,AB,Aberdeen
+AB35,Ballater,AB,Aberdeen
+AB36,Strathdon,AB,Aberdeen
+AB37,Ballindalloch,AB,Aberdeen
+AB38,Aberlour,AB,Aberdeen
+AB39,Stonehaven,AB,Aberdeen
+AB41,Ellon,AB,Aberdeen
+AB42,Peterhead,AB,Aberdeen
+AB43,Fraserburgh,AB,Aberdeen
+AB44,Macduff,AB,Aberdeen
+AB45,Banff,AB,Aberdeen
+AB51,Inverurie,AB,Aberdeen
+AB52,Insch,AB,Aberdeen
+AB53,Turriff,AB,Aberdeen
+AB54,Huntly,AB,Aberdeen
+AB55,Keith,AB,Aberdeen
+AB56,Buckie,AB,Aberdeen
+AB99,Aberdeen,AB,Aberdeen
+AL1,St. Albans,AL,St Albans
+AL10,Hatfield,AL,St Albans
+AL2,St. Albans,AL,St Albans
+AL3,St. Albans,AL,St Albans
+AL4,St. Albans,AL,St Albans
+AL5,Harpenden,AL,St Albans
+AL6,Welwyn,AL,St Albans
+AL7,"Welwyn, Welwyn Garden City",AL,St Albans
+AL8,Welwyn Garden City,AL,St Albans
+AL9,Hatfield,AL,St Albans
+B1,Birmingham,B1,Unknown
+B10,Birmingham,B1,Unknown
+B11,Birmingham,B1,Unknown
+B12,Birmingham,B1,Unknown
+B13,Birmingham,B1,Unknown
+B14,Birmingham,B1,Unknown
+B15,Birmingham,B1,Unknown
+B16,Birmingham,B1,Unknown
+B17,Birmingham,B1,Unknown
+B18,Birmingham,B1,Unknown
+B19,Birmingham,B1,Unknown
+B2,Birmingham,B2,Unknown
+B20,Birmingham,B2,Unknown
+B21,Birmingham,B2,Unknown
+B23,Birmingham,B2,Unknown
+B24,Birmingham,B2,Unknown
+B25,Birmingham,B2,Unknown
+B26,Birmingham,B2,Unknown
+B27,Birmingham,B2,Unknown
+B28,Birmingham,B2,Unknown
+B29,Birmingham,B2,Unknown
+B3,Birmingham,B3,Unknown
+B30,Birmingham,B3,Unknown
+B31,Birmingham,B3,Unknown
+B32,Birmingham,B3,Unknown
+B33,Birmingham,B3,Unknown
+B34,Birmingham,B3,Unknown
+B35,Birmingham,B3,Unknown
+B36,Birmingham,B3,Unknown
+B37,Birmingham,B3,Unknown
+B38,Birmingham,B3,Unknown
+B4,Birmingham,B4,Unknown
+B40,Birmingham,B4,Unknown
+B42,Birmingham,B4,Unknown
+B43,Birmingham,B4,Unknown
+B44,Birmingham,B4,Unknown
+B45,Birmingham,B4,Unknown
+B46,Birmingham,B4,Unknown
+B47,Birmingham,B4,Unknown
+B48,Birmingham,B4,Unknown
+B49,Alcester,B4,Unknown
+B5,Birmingham,B5,Unknown
+B50,Alcester,B5,Unknown
+B6,Birmingham,B6,Unknown
+B60,Bromsgrove,B6,Unknown
+B61,Bromsgrove,B6,Unknown
+B62,Halesowen,B6,Unknown
+B63,Halesowen,B6,Unknown
+B64,Cradley Heath,B6,Unknown
+B65,Rowley Regis,B6,Unknown
+B66,Smethwick,B6,Unknown
+B67,Smethwick,B6,Unknown
+B68,Oldbury,B6,Unknown
+B69,Oldbury,B6,Unknown
+B7,Birmingham,B7,Unknown
+B70,West Bromwich,B7,Unknown
+B71,West Bromwich,B7,Unknown
+B72,Sutton Coldfield,B7,Unknown
+B73,Sutton Coldfield,B7,Unknown
+B74,Sutton Coldfield,B7,Unknown
+B75,Sutton Coldfield,B7,Unknown
+B76,Sutton Coldfield,B7,Unknown
+B77,Tamworth,B7,Unknown
+B78,Tamworth,B7,Unknown
+B79,Tamworth,B7,Unknown
+B8,Birmingham,B8,Unknown
+B80,Studley,B8,Unknown
+B9,Birmingham,B9,Unknown
+B90,Solihull,B9,Unknown
+B91,Solihull,B9,Unknown
+B92,Solihull,B9,Unknown
+B93,Solihull,B9,Unknown
+B94,Solihull,B9,Unknown
+B95,Henley-in-Arden,B9,Unknown
+B96,Redditch,B9,Unknown
+B97,Redditch,B9,Unknown
+B98,Redditch,B9,Unknown
+B99,Birmingham,B9,Unknown
+BA1,Bath,BA,Bath
+BA10,Bruton,BA,Bath
+BA11,Frome,BA,Bath
+BA12,Warminster,BA,Bath
+BA13,Westbury,BA,Bath
+BA14,Trowbridge,BA,Bath
+BA15,Bradford-on-Avon,BA,Bath
+BA16,Street,BA,Bath
+BA2,Bath,BA,Bath
+BA20,Yeovil,BA,Bath
+BA21,Yeovil,BA,Bath
+BA22,Yeovil,BA,Bath
+BA3,Radstock,BA,Bath
+BA4,Shepton Mallet,BA,Bath
+BA5,Wells,BA,Bath
+BA6,Glastonbury,BA,Bath
+BA7,Castle Cary,BA,Bath
+BA8,Templecombe,BA,Bath
+BA9,"Wincanton, Bruton",BA,Bath
+BB1,Blackburn,BB,Blackburn
+BB10,Burnley,BB,Blackburn
+BB11,Burnley,BB,Blackburn
+BB12,Burnley,BB,Blackburn
+BB18,Barnoldswick,BB,Blackburn
+BB2,Blackburn,BB,Blackburn
+BB3,Darwen,BB,Blackburn
+BB4,Rossendale,BB,Blackburn
+BB5,Accrington,BB,Blackburn
+BB6,Blackburn,BB,Blackburn
+BB7,Clitheroe,BB,Blackburn
+BB8,Colne,BB,Blackburn
+BB9,Nelson,BB,Blackburn
+BB94,Barnoldswick,BB,Blackburn
+BD1,Bradford,BD,Bradford
+BD10,Bradford,BD,Bradford
+BD11,Bradford,BD,Bradford
+BD12,Bradford,BD,Bradford
+BD13,Bradford,BD,Bradford
+BD14,Bradford,BD,Bradford
+BD15,Bradford,BD,Bradford
+BD16,Bingley,BD,Bradford
+BD17,Shipley,BD,Bradford
+BD18,Shipley,BD,Bradford
+BD19,Cleckheaton,BD,Bradford
+BD2,Bradford,BD,Bradford
+BD20,Keighley,BD,Bradford
+BD21,Keighley,BD,Bradford
+BD22,Keighley,BD,Bradford
+BD23,Skipton,BD,Bradford
+BD24,"Skipton, Settle",BD,Bradford
+BD3,Bradford,BD,Bradford
+BD4,Bradford,BD,Bradford
+BD5,Bradford,BD,Bradford
+BD6,Bradford,BD,Bradford
+BD7,Bradford,BD,Bradford
+BD8,Bradford,BD,Bradford
+BD9,Bradford,BD,Bradford
+BD97,Bingley,BD,Bradford
+BD98,"Bradford, Shipley",BD,Bradford
+BD99,Bradford,BD,Bradford
+BF1,BFPO,BF,British Forces
+BH1,Bournemouth,BH,Bournemouth
+BH10,Bournemouth,BH,Bournemouth
+BH11,Bournemouth,BH,Bournemouth
+BH12,Poole,BH,Bournemouth
+BH13,Poole,BH,Bournemouth
+BH14,Poole,BH,Bournemouth
+BH15,Poole,BH,Bournemouth
+BH16,Poole,BH,Bournemouth
+BH17,Poole,BH,Bournemouth
+BH18,Broadstone,BH,Bournemouth
+BH19,Swanage,BH,Bournemouth
+BH2,Bournemouth,BH,Bournemouth
+BH20,Wareham,BH,Bournemouth
+BH21,Wimborne,BH,Bournemouth
+BH22,Ferndown,BH,Bournemouth
+BH23,Christchurch,BH,Bournemouth
+BH24,Ringwood,BH,Bournemouth
+BH25,New Milton,BH,Bournemouth
+BH3,Bournemouth,BH,Bournemouth
+BH31,Verwood,BH,Bournemouth
+BH4,Bournemouth,BH,Bournemouth
+BH5,Bournemouth,BH,Bournemouth
+BH6,Bournemouth,BH,Bournemouth
+BH7,Bournemouth,BH,Bournemouth
+BH8,Bournemouth,BH,Bournemouth
+BH9,Bournemouth,BH,Bournemouth
+BL0,Bury,BL,Bolton
+BL1,Bolton,BL,Bolton
+BL11,Bolton,BL,Bolton
+BL2,Bolton,BL,Bolton
+BL3,Bolton,BL,Bolton
+BL4,Bolton,BL,Bolton
+BL5,Bolton,BL,Bolton
+BL6,Bolton,BL,Bolton
+BL7,Bolton,BL,Bolton
+BL78,Bolton,BL,Bolton
+BL8,Bury,BL,Bolton
+BL9,Bury,BL,Bolton
+BN1,Brighton,BN,Brighton
+BN10,Peacehaven,BN,Brighton
+BN11,Worthing,BN,Brighton
+BN12,Worthing,BN,Brighton
+BN13,Worthing,BN,Brighton
+BN14,Worthing,BN,Brighton
+BN15,Lancing,BN,Brighton
+BN16,Littlehampton,BN,Brighton
+BN17,Littlehampton,BN,Brighton
+BN18,Arundel,BN,Brighton
+BN2,Brighton,BN,Brighton
+BN20,Eastbourne,BN,Brighton
+BN21,Eastbourne,BN,Brighton
+BN22,Eastbourne,BN,Brighton
+BN23,Eastbourne,BN,Brighton
+BN24,Pevensey,BN,Brighton
+BN25,Seaford,BN,Brighton
+BN26,Polegate,BN,Brighton
+BN27,Hailsham,BN,Brighton
+BN3,Hove,BN,Brighton
+BN41,Brighton,BN,Brighton
+BN42,Brighton,BN,Brighton
+BN43,Shoreham-by-Sea,BN,Brighton
+BN44,Steyning,BN,Brighton
+BN45,Brighton,BN,Brighton
+BN5,Henfield,BN,Brighton
+BN50,Brighton,BN,Brighton
+BN51,Brighton,BN,Brighton
+BN52,Hove,BN,Brighton
+BN6,Hassocks,BN,Brighton
+BN7,Lewes,BN,Brighton
+BN8,Lewes,BN,Brighton
+BN88,Brighton,BN,Brighton
+BN9,Newhaven,BN,Brighton
+BN91,Worthing,BN,Brighton
+BN99,"Worthing, Lancing",BN,Brighton
+BR1,Bromley,BR,Bromley
+BR2,"Bromley, Keston",BR,Bromley
+BR3,Beckenham,BR,Bromley
+BR4,West Wickham,BR,Bromley
+BR5,Orpington,BR,Bromley
+BR6,Orpington,BR,Bromley
+BR7,Chislehurst,BR,Bromley
+BR8,Swanley,BR,Bromley
+BS0,Bristol,BS,Bristol
+BS1,Bristol,BS,Bristol
+BS10,Bristol,BS,Bristol
+BS11,Bristol,BS,Bristol
+BS13,Bristol,BS,Bristol
+BS14,Bristol,BS,Bristol
+BS15,Bristol,BS,Bristol
+BS16,Bristol,BS,Bristol
+BS2,Bristol,BS,Bristol
+BS20,Bristol,BS,Bristol
+BS21,Clevedon,BS,Bristol
+BS22,Weston-super-Mare,BS,Bristol
+BS23,Weston-super-Mare,BS,Bristol
+BS24,Weston-super-Mare,BS,Bristol
+BS25,Winscombe,BS,Bristol
+BS26,Axbridge,BS,Bristol
+BS27,Cheddar,BS,Bristol
+BS28,Wedmore,BS,Bristol
+BS29,Banwell,BS,Bristol
+BS3,Bristol,BS,Bristol
+BS30,Bristol,BS,Bristol
+BS31,Bristol,BS,Bristol
+BS32,Bristol,BS,Bristol
+BS34,Bristol,BS,Bristol
+BS35,Bristol,BS,Bristol
+BS36,Bristol,BS,Bristol
+BS37,Bristol,BS,Bristol
+BS39,Bristol,BS,Bristol
+BS4,Bristol,BS,Bristol
+BS40,Bristol,BS,Bristol
+BS41,Bristol,BS,Bristol
+BS48,Bristol,BS,Bristol
+BS49,Bristol,BS,Bristol
+BS5,Bristol,BS,Bristol
+BS6,Bristol,BS,Bristol
+BS7,Bristol,BS,Bristol
+BS8,Bristol,BS,Bristol
+BS80,Bristol,BS,Bristol
+BS9,Bristol,BS,Bristol
+BS98,Bristol,BS,Bristol
+BS99,Bristol,BS,Bristol
+BT1,Belfast,BT,Northern Ireland
+BT10,Belfast,BT,Northern Ireland
+BT11,Belfast,BT,Northern Ireland
+BT12,Belfast,BT,Northern Ireland
+BT13,Belfast,BT,Northern Ireland
+BT14,Belfast,BT,Northern Ireland
+BT15,Belfast,BT,Northern Ireland
+BT16,Belfast,BT,Northern Ireland
+BT17,Belfast,BT,Northern Ireland
+BT18,Holywood,BT,Northern Ireland
+BT19,Bangor,BT,Northern Ireland
+BT2,Belfast,BT,Northern Ireland
+BT20,Bangor,BT,Northern Ireland
+BT21,Donaghadee,BT,Northern Ireland
+BT22,Newtownards,BT,Northern Ireland
+BT23,Newtownards,BT,Northern Ireland
+BT24,Ballynahinch,BT,Northern Ireland
+BT25,Dromore,BT,Northern Ireland
+BT26,Hillsborough,BT,Northern Ireland
+BT27,Lisburn,BT,Northern Ireland
+BT28,Lisburn,BT,Northern Ireland
+BT29,"Belfast, Crumlin",BT,Northern Ireland
+BT3,Belfast,BT,Northern Ireland
+BT30,Downpatrick,BT,Northern Ireland
+BT31,Castlewellan,BT,Northern Ireland
+BT32,Banbridge,BT,Northern Ireland
+BT33,Newcastle,BT,Northern Ireland
+BT34,Newry,BT,Northern Ireland
+BT35,Newry,BT,Northern Ireland
+BT36,Newtownabbey,BT,Northern Ireland
+BT37,Newtownabbey,BT,Northern Ireland
+BT38,Carrickfergus,BT,Northern Ireland
+BT39,Ballyclare,BT,Northern Ireland
+BT4,Belfast,BT,Northern Ireland
+BT40,Larne,BT,Northern Ireland
+BT41,Antrim,BT,Northern Ireland
+BT42,Ballymena,BT,Northern Ireland
+BT43,Ballymena,BT,Northern Ireland
+BT44,Ballymena,BT,Northern Ireland
+BT45,Magherafelt,BT,Northern Ireland
+BT46,Maghera,BT,Northern Ireland
+BT47,Londonderry,BT,Northern Ireland
+BT48,Londonderry,BT,Northern Ireland
+BT49,Limavady,BT,Northern Ireland
+BT5,Belfast,BT,Northern Ireland
+BT51,Coleraine,BT,Northern Ireland
+BT52,Coleraine,BT,Northern Ireland
+BT53,Ballymoney,BT,Northern Ireland
+BT54,Ballycastle,BT,Northern Ireland
+BT55,Portstewart,BT,Northern Ireland
+BT56,Portrush,BT,Northern Ireland
+BT57,Bushmills,BT,Northern Ireland
+BT58,Newtownabbey,BT,Northern Ireland
+BT6,Belfast,BT,Northern Ireland
+BT60,Armagh,BT,Northern Ireland
+BT61,Armagh,BT,Northern Ireland
+BT62,Craigavon,BT,Northern Ireland
+BT63,Craigavon,BT,Northern Ireland
+BT64,Craigavon,BT,Northern Ireland
+BT65,Craigavon,BT,Northern Ireland
+BT66,Craigavon,BT,Northern Ireland
+BT67,Craigavon,BT,Northern Ireland
+BT68,Caledon,BT,Northern Ireland
+BT69,Aughnacloy,BT,Northern Ireland
+BT7,Belfast,BT,Northern Ireland
+BT70,Dungannon,BT,Northern Ireland
+BT71,Dungannon,BT,Northern Ireland
+BT74,Enniskillen,BT,Northern Ireland
+BT75,Fivemiletown,BT,Northern Ireland
+BT76,Clogher,BT,Northern Ireland
+BT77,Augher,BT,Northern Ireland
+BT78,Omagh,BT,Northern Ireland
+BT79,Omagh,BT,Northern Ireland
+BT8,Belfast,BT,Northern Ireland
+BT80,Cookstown,BT,Northern Ireland
+BT81,Castlederg,BT,Northern Ireland
+BT82,Strabane,BT,Northern Ireland
+BT9,Belfast,BT,Northern Ireland
+BT92,Enniskillen,BT,Northern Ireland
+BT93,Enniskillen,BT,Northern Ireland
+BT94,Enniskillen,BT,Northern Ireland
+CA1,Carlisle,CA,Carlisle
+CA10,Penrith,CA,Carlisle
+CA11,Penrith,CA,Carlisle
+CA12,Keswick,CA,Carlisle
+CA13,Cockermouth,CA,Carlisle
+CA14,Workington,CA,Carlisle
+CA15,Maryport,CA,Carlisle
+CA16,Appleby-in-Westmorland,CA,Carlisle
+CA17,Kirkby Stephen,CA,Carlisle
+CA18,Ravenglass,CA,Carlisle
+CA19,Holmrook,CA,Carlisle
+CA2,Carlisle,CA,Carlisle
+CA20,Seascale,CA,Carlisle
+CA21,Beckermet,CA,Carlisle
+CA22,Egremont,CA,Carlisle
+CA23,Cleator,CA,Carlisle
+CA24,Moor Row,CA,Carlisle
+CA25,Cleator Moor,CA,Carlisle
+CA26,Frizington,CA,Carlisle
+CA27,St. Bees,CA,Carlisle
+CA28,Whitehaven,CA,Carlisle
+CA3,Carlisle,CA,Carlisle
+CA4,Carlisle,CA,Carlisle
+CA5,Carlisle,CA,Carlisle
+CA6,Carlisle,CA,Carlisle
+CA7,Wigton,CA,Carlisle
+CA8,Brampton,CA,Carlisle
+CA9,Alston,CA,Carlisle
+CA95,Workington,CA,Carlisle
+CA99,Carlisle,CA,Carlisle
+CB1,Cambridge,CB,Cambridge
+CB10,Saffron Walden,CB,Cambridge
+CB11,Saffron Walden,CB,Cambridge
+CB2,Cambridge,CB,Cambridge
+CB21,Cambridge,CB,Cambridge
+CB22,Cambridge,CB,Cambridge
+CB23,Cambridge,CB,Cambridge
+CB24,Cambridge,CB,Cambridge
+CB25,Cambridge,CB,Cambridge
+CB3,Cambridge,CB,Cambridge
+CB4,Cambridge,CB,Cambridge
+CB5,Cambridge,CB,Cambridge
+CB6,Ely,CB,Cambridge
+CB7,Ely,CB,Cambridge
+CB8,Newmarket,CB,Cambridge
+CB9,Haverhill,CB,Cambridge
+CF10,Cardiff,CF,Cardiff
+CF11,Cardiff,CF,Cardiff
+CF14,Cardiff,CF,Cardiff
+CF15,Cardiff,CF,Cardiff
+CF23,Cardiff,CF,Cardiff
+CF24,Cardiff,CF,Cardiff
+CF3,Cardiff,CF,Cardiff
+CF30,Cardiff,CF,Cardiff
+CF31,Bridgend,CF,Cardiff
+CF32,Bridgend,CF,Cardiff
+CF33,Bridgend,CF,Cardiff
+CF34,Maesteg,CF,Cardiff
+CF35,Bridgend,CF,Cardiff
+CF36,Porthcawl,CF,Cardiff
+CF37,Pontypridd,CF,Cardiff
+CF38,Pontypridd,CF,Cardiff
+CF39,Porth,CF,Cardiff
+CF40,Tonypandy,CF,Cardiff
+CF41,Pentre,CF,Cardiff
+CF42,Treorchy,CF,Cardiff
+CF43,Ferndale,CF,Cardiff
+CF44,Aberdare,CF,Cardiff
+CF45,Mountain Ash,CF,Cardiff
+CF46,Treharris,CF,Cardiff
+CF47,Merthyr Tydfil,CF,Cardiff
+CF48,Merthyr Tydfil,CF,Cardiff
+CF5,Cardiff,CF,Cardiff
+CF61,Llantwit Major,CF,Cardiff
+CF62,Barry,CF,Cardiff
+CF63,Barry,CF,Cardiff
+CF64,"Dinas Powys, Penarth",CF,Cardiff
+CF71,"Llantwit Major, Cowbridge",CF,Cardiff
+CF72,Pontyclun,CF,Cardiff
+CF81,Bargoed,CF,Cardiff
+CF82,Hengoed,CF,Cardiff
+CF83,Caerphilly,CF,Cardiff
+CF91,Cardiff,CF,Cardiff
+CF95,Cardiff,CF,Cardiff
+CF99,Cardiff,CF,Cardiff
+CH1,Chester,CH,Chester
+CH2,Chester,CH,Chester
+CH25,Birkenhead,CH,Chester
+CH26,Prenton,CH,Chester
+CH27,Wallasey,CH,Chester
+CH28,Wirral,CH,Chester
+CH29,Wirral,CH,Chester
+CH3,Chester,CH,Chester
+CH30,Wirral,CH,Chester
+CH31,Wirral,CH,Chester
+CH32,Wirral,CH,Chester
+CH33,Neston,CH,Chester
+CH34,Ellesmere Port,CH,Chester
+CH4,Chester,CH,Chester
+CH41,Birkenhead,CH,Chester
+CH42,Birkenhead,CH,Chester
+CH43,Prenton,CH,Chester
+CH44,Wallasey,CH,Chester
+CH45,Wallasey,CH,Chester
+CH46,Wirral,CH,Chester
+CH47,Wirral,CH,Chester
+CH48,Wirral,CH,Chester
+CH49,Wirral,CH,Chester
+CH5,Deeside,CH,Chester
+CH6,"Bagillt, Flint",CH,Chester
+CH60,Wirral,CH,Chester
+CH61,Wirral,CH,Chester
+CH62,Wirral,CH,Chester
+CH63,Wirral,CH,Chester
+CH64,Neston,CH,Chester
+CH65,Ellesmere Port,CH,Chester
+CH66,Ellesmere Port,CH,Chester
+CH7,"Buckley, Mold",CH,Chester
+CH70,Chester,CH,Chester
+CH8,Holywell,CH,Chester
+CH88,Chester,CH,Chester
+CH99,Chester,CH,Chester
+CM0,"Burnham-on-Crouch, Southminster",CM,Chelmsford
+CM1,Chelmsford,CM,Chelmsford
+CM11,Billericay,CM,Chelmsford
+CM12,Billericay,CM,Chelmsford
+CM13,Brentwood,CM,Chelmsford
+CM14,Brentwood,CM,Chelmsford
+CM15,Brentwood,CM,Chelmsford
+CM16,Epping,CM,Chelmsford
+CM17,Harlow,CM,Chelmsford
+CM18,Harlow,CM,Chelmsford
+CM19,Harlow,CM,Chelmsford
+CM2,Chelmsford,CM,Chelmsford
+CM20,Harlow,CM,Chelmsford
+CM21,Sawbridgeworth,CM,Chelmsford
+CM22,Bishop's Stortford,CM,Chelmsford
+CM23,Bishop's Stortford,CM,Chelmsford
+CM24,Stansted,CM,Chelmsford
+CM3,Chelmsford,CM,Chelmsford
+CM4,Ingatestone,CM,Chelmsford
+CM5,Ongar,CM,Chelmsford
+CM6,Dunmow,CM,Chelmsford
+CM7,"Dunmow, Braintree",CM,Chelmsford
+CM77,Braintree,CM,Chelmsford
+CM8,Witham,CM,Chelmsford
+CM9,Maldon,CM,Chelmsford
+CM92,Chelmsford,CM,Chelmsford
+CM98,Chelmsford,CM,Chelmsford
+CM99,Chelmsford,CM,Chelmsford
+CO1,Colchester,CO,Colchester
+CO10,Sudbury,CO,Colchester
+CO11,Manningtree,CO,Colchester
+CO12,Harwich,CO,Colchester
+CO13,Frinton-on-Sea,CO,Colchester
+CO14,Walton-on-the-Naze,CO,Colchester
+CO15,Clacton-on-Sea,CO,Colchester
+CO16,Clacton-on-Sea,CO,Colchester
+CO2,Colchester,CO,Colchester
+CO3,Colchester,CO,Colchester
+CO4,Colchester,CO,Colchester
+CO5,Colchester,CO,Colchester
+CO6,Colchester,CO,Colchester
+CO7,Colchester,CO,Colchester
+CO8,Bures,CO,Colchester
+CO9,Halstead,CO,Colchester
+CR0,Croydon,CR,Croydon
+CR2,South Croydon,CR,Croydon
+CR3,"Caterham, Whyteleafe",CR,Croydon
+CR4,Mitcham,CR,Croydon
+CR44,Croydon,CR,Croydon
+CR5,Coulsdon,CR,Croydon
+CR6,Warlingham,CR,Croydon
+CR7,Thornton Heath,CR,Croydon
+CR8,"Kenley, Purley",CR,Croydon
+CR9,Croydon,CR,Croydon
+CR90,Croydon,CR,Croydon
+CT1,Canterbury,CT,Canterbury
+CT10,Broadstairs,CT,Canterbury
+CT11,Ramsgate,CT,Canterbury
+CT12,Ramsgate,CT,Canterbury
+CT13,Sandwich,CT,Canterbury
+CT14,Deal,CT,Canterbury
+CT15,Dover,CT,Canterbury
+CT16,Dover,CT,Canterbury
+CT17,Dover,CT,Canterbury
+CT18,Folkestone,CT,Canterbury
+CT19,Folkestone,CT,Canterbury
+CT2,Canterbury,CT,Canterbury
+CT20,Folkestone,CT,Canterbury
+CT21,Hythe,CT,Canterbury
+CT3,Canterbury,CT,Canterbury
+CT4,Canterbury,CT,Canterbury
+CT5,Whitstable,CT,Canterbury
+CT50,Folkestone,CT,Canterbury
+CT6,Herne Bay,CT,Canterbury
+CT7,Birchington,CT,Canterbury
+CT8,Westgate-on-Sea,CT,Canterbury
+CT9,"Margate, Birchington",CT,Canterbury
+CV1,Coventry,CV,Coventry
+CV10,Nuneaton,CV,Coventry
+CV11,Nuneaton,CV,Coventry
+CV12,Bedworth,CV,Coventry
+CV13,Nuneaton,CV,Coventry
+CV2,Coventry,CV,Coventry
+CV21,Rugby,CV,Coventry
+CV22,Rugby,CV,Coventry
+CV23,Rugby,CV,Coventry
+CV3,Coventry,CV,Coventry
+CV31,Leamington Spa,CV,Coventry
+CV32,Leamington Spa,CV,Coventry
+CV33,Leamington Spa,CV,Coventry
+CV34,Warwick,CV,Coventry
+CV35,Warwick,CV,Coventry
+CV36,Shipston-on-Stour,CV,Coventry
+CV37,"Shipston-on-Stour, Stratford-upon-Avon",CV,Coventry
+CV4,Coventry,CV,Coventry
+CV47,Southam,CV,Coventry
+CV5,Coventry,CV,Coventry
+CV6,Coventry,CV,Coventry
+CV7,Coventry,CV,Coventry
+CV8,"Coventry, Kenilworth",CV,Coventry
+CV9,Atherstone,CV,Coventry
+CW1,Crewe,CW,Crewe
+CW10,Middlewich,CW,Crewe
+CW11,Sandbach,CW,Crewe
+CW12,Congleton,CW,Crewe
+CW2,Crewe,CW,Crewe
+CW3,Crewe,CW,Crewe
+CW4,Crewe,CW,Crewe
+CW5,Nantwich,CW,Crewe
+CW6,Tarporley,CW,Crewe
+CW7,Winsford,CW,Crewe
+CW8,Northwich,CW,Crewe
+CW9,Northwich,CW,Crewe
+CW98,Crewe,CW,Crewe
+DA1,Dartford,DA,Dartford
+DA10,"Dartford, Swanscombe",DA,Dartford
+DA11,Gravesend,DA,Dartford
+DA12,Gravesend,DA,Dartford
+DA13,Gravesend,DA,Dartford
+DA14,Sidcup,DA,Dartford
+DA15,Sidcup,DA,Dartford
+DA16,Welling,DA,Dartford
+DA17,Belvedere,DA,Dartford
+DA18,Erith,DA,Dartford
+DA2,Dartford,DA,Dartford
+DA3,Longfield,DA,Dartford
+DA4,Dartford,DA,Dartford
+DA5,Bexley,DA,Dartford
+DA6,Bexleyheath,DA,Dartford
+DA7,"Bexleyheath, Welling",DA,Dartford
+DA8,Erith,DA,Dartford
+DA9,Greenhithe,DA,Dartford
+DD1,Dundee,DD,Dundee
+DD10,Montrose,DD,Dundee
+DD11,Arbroath,DD,Dundee
+DD2,Dundee,DD,Dundee
+DD3,Dundee,DD,Dundee
+DD4,Dundee,DD,Dundee
+DD5,Dundee,DD,Dundee
+DD6,"Newport-on-Tay, Tayport",DD,Dundee
+DD7,Carnoustie,DD,Dundee
+DD8,"Forfar, Kirriemuir",DD,Dundee
+DD9,Brechin,DD,Dundee
+DE1,Derby,DE,Derby
+DE11,Swadlincote,DE,Derby
+DE12,Swadlincote,DE,Derby
+DE13,Burton-on-Trent,DE,Derby
+DE14,Burton-on-Trent,DE,Derby
+DE15,Burton-on-Trent,DE,Derby
+DE21,Derby,DE,Derby
+DE22,Derby,DE,Derby
+DE23,Derby,DE,Derby
+DE24,Derby,DE,Derby
+DE3,Derby,DE,Derby
+DE4,Matlock,DE,Derby
+DE45,Bakewell,DE,Derby
+DE5,Ripley,DE,Derby
+DE55,Alfreton,DE,Derby
+DE56,Belper,DE,Derby
+DE6,Ashbourne,DE,Derby
+DE65,Derby,DE,Derby
+DE7,Ilkeston,DE,Derby
+DE72,Derby,DE,Derby
+DE73,Derby,DE,Derby
+DE74,Derby,DE,Derby
+DE75,Heanor,DE,Derby
+DE99,Derby,DE,Derby
+DG1,Dumfries,DG,Dumfries and Galloway
+DG10,Moffat,DG,Dumfries and Galloway
+DG11,Lockerbie,DG,Dumfries and Galloway
+DG12,Annan,DG,Dumfries and Galloway
+DG13,Langholm,DG,Dumfries and Galloway
+DG14,Canonbie,DG,Dumfries and Galloway
+DG16,Gretna,DG,Dumfries and Galloway
+DG2,Dumfries,DG,Dumfries and Galloway
+DG3,Thornhill,DG,Dumfries and Galloway
+DG4,Sanquhar,DG,Dumfries and Galloway
+DG5,Dalbeattie,DG,Dumfries and Galloway
+DG6,Kirkcudbright,DG,Dumfries and Galloway
+DG7,Castle Douglas,DG,Dumfries and Galloway
+DG8,Newton Stewart,DG,Dumfries and Galloway
+DG9,Stranraer,DG,Dumfries and Galloway
+DH1,Durham,DH,Durham
+DH2,Chester le Street,DH,Durham
+DH3,Chester le Street,DH,Durham
+DH4,Houghton le Spring,DH,Durham
+DH5,Houghton le Spring,DH,Durham
+DH6,Durham,DH,Durham
+DH7,Durham,DH,Durham
+DH8,"Durham, Stanley, Consett",DH,Durham
+DH9,Stanley,DH,Durham
+DH97,Durham,DH,Durham
+DH98,Durham,DH,Durham
+DH99,Durham,DH,Durham
+DL1,Darlington,DL,Darlington
+DL10,Richmond,DL,Darlington
+DL11,Richmond,DL,Darlington
+DL12,Barnard Castle,DL,Darlington
+DL13,Bishop Auckland,DL,Darlington
+DL14,Bishop Auckland,DL,Darlington
+DL15,Crook,DL,Darlington
+DL16,"Spennymoor, Ferryhill",DL,Darlington
+DL17,Ferryhill,DL,Darlington
+DL2,Darlington,DL,Darlington
+DL3,Darlington,DL,Darlington
+DL4,Shildon,DL,Darlington
+DL5,Newton Aycliffe,DL,Darlington
+DL6,Northallerton,DL,Darlington
+DL7,Northallerton,DL,Darlington
+DL8,"Bedale, Hawes, Leyburn",DL,Darlington
+DL9,Catterick Garrison,DL,Darlington
+DL98,Darlington,DL,Darlington
+DN1,Doncaster,DN,Doncaster
+DN10,Doncaster,DN,Doncaster
+DN11,Doncaster,DN,Doncaster
+DN12,Doncaster,DN,Doncaster
+DN14,Goole,DN,Doncaster
+DN15,Scunthorpe,DN,Doncaster
+DN16,Scunthorpe,DN,Doncaster
+DN17,Scunthorpe,DN,Doncaster
+DN18,Barton-upon-Humber,DN,Doncaster
+DN19,Barrow-upon-Humber,DN,Doncaster
+DN2,Doncaster,DN,Doncaster
+DN20,Brigg,DN,Doncaster
+DN21,Gainsborough,DN,Doncaster
+DN22,Retford,DN,Doncaster
+DN3,Doncaster,DN,Doncaster
+DN31,Grimsby,DN,Doncaster
+DN32,Grimsby,DN,Doncaster
+DN33,Grimsby,DN,Doncaster
+DN34,Grimsby,DN,Doncaster
+DN35,Cleethorpes,DN,Doncaster
+DN36,Grimsby,DN,Doncaster
+DN37,Grimsby,DN,Doncaster
+DN38,Barnetby,DN,Doncaster
+DN39,Ulceby,DN,Doncaster
+DN4,Doncaster,DN,Doncaster
+DN40,Immingham,DN,Doncaster
+DN41,Grimsby,DN,Doncaster
+DN5,Doncaster,DN,Doncaster
+DN55,Doncaster,DN,Doncaster
+DN6,Doncaster,DN,Doncaster
+DN7,Doncaster,DN,Doncaster
+DN8,Doncaster,DN,Doncaster
+DN9,Doncaster,DN,Doncaster
+DT1,Dorchester,DT,Dorchester
+DT10,Sturminster Newton,DT,Dorchester
+DT11,Blandford Forum,DT,Dorchester
+DT2,Dorchester,DT,Dorchester
+DT3,Weymouth,DT,Dorchester
+DT4,Weymouth,DT,Dorchester
+DT5,Portland,DT,Dorchester
+DT6,Bridport,DT,Dorchester
+DT7,Lyme Regis,DT,Dorchester
+DT8,Beaminster,DT,Dorchester
+DT9,Sherborne,DT,Dorchester
+DY1,Dudley,DY,Dudley
+DY10,Kidderminster,DY,Dudley
+DY11,Kidderminster,DY,Dudley
+DY12,Bewdley,DY,Dudley
+DY13,Stourport-on-Severn,DY,Dudley
+DY14,Kidderminster,DY,Dudley
+DY2,Dudley,DY,Dudley
+DY3,Dudley,DY,Dudley
+DY4,Tipton,DY,Dudley
+DY5,Brierley Hill,DY,Dudley
+DY6,Kingswinford,DY,Dudley
+DY7,Stourbridge,DY,Dudley
+DY8,Stourbridge,DY,Dudley
+DY9,Stourbridge,DY,Dudley
+E1,London,E1,Unknown
+E10,London,E1,Unknown
+E11,London,E1,Unknown
+E12,London,E1,Unknown
+E13,London,E1,Unknown
+E14,London,E1,Unknown
+E15,London,E1,Unknown
+E16,London,E1,Unknown
+E17,London,E1,Unknown
+E18,London,E1,Unknown
+E1W,London,E1,Unknown
+E2,London,E2,Unknown
+E20,London,E2,Unknown
+E3,London,E3,Unknown
+E4,London,E4,Unknown
+E5,London,E5,Unknown
+E6,London,E6,Unknown
+E7,London,E7,Unknown
+E8,London,E8,Unknown
+E9,London,E9,Unknown
+E98,London,E9,Unknown
+EC1A,London,EC,Central London
+EC1M,London,EC,Central London
+EC1N,London,EC,Central London
+EC1P,London,EC,Central London
+EC1R,London,EC,Central London
+EC1V,London,EC,Central London
+EC1Y,London,EC,Central London
+EC2A,London,EC,Central London
+EC2M,London,EC,Central London
+EC2N,London,EC,Central London
+EC2P,London,EC,Central London
+EC2R,London,EC,Central London
+EC2V,London,EC,Central London
+EC2Y,London,EC,Central London
+EC3A,London,EC,Central London
+EC3M,London,EC,Central London
+EC3N,London,EC,Central London
+EC3P,London,EC,Central London
+EC3R,London,EC,Central London
+EC3V,London,EC,Central London
+EC4A,London,EC,Central London
+EC4M,London,EC,Central London
+EC4N,London,EC,Central London
+EC4P,London,EC,Central London
+EC4R,London,EC,Central London
+EC4V,London,EC,Central London
+EC4Y,London,EC,Central London
+EH1,Edinburgh,EH,Edinburgh
+EH10,Edinburgh,EH,Edinburgh
+EH11,Edinburgh,EH,Edinburgh
+EH12,Edinburgh,EH,Edinburgh
+EH13,Edinburgh,EH,Edinburgh
+EH14,"Edinburgh, Balerno, Currie, Juniper Green",EH,Edinburgh
+EH15,Edinburgh,EH,Edinburgh
+EH16,Edinburgh,EH,Edinburgh
+EH17,Edinburgh,EH,Edinburgh
+EH18,Lasswade,EH,Edinburgh
+EH19,Bonnyrigg,EH,Edinburgh
+EH2,Edinburgh,EH,Edinburgh
+EH20,Loanhead,EH,Edinburgh
+EH21,Musselburgh,EH,Edinburgh
+EH22,Dalkeith,EH,Edinburgh
+EH23,Gorebridge,EH,Edinburgh
+EH24,Rosewell,EH,Edinburgh
+EH25,Roslin,EH,Edinburgh
+EH26,Penicuik,EH,Edinburgh
+EH27,Kirknewton,EH,Edinburgh
+EH28,Newbridge,EH,Edinburgh
+EH29,Kirkliston,EH,Edinburgh
+EH3,Edinburgh,EH,Edinburgh
+EH30,South Queensferry,EH,Edinburgh
+EH31,Gullane,EH,Edinburgh
+EH32,"Longniddry, Prestonpans",EH,Edinburgh
+EH33,Tranent,EH,Edinburgh
+EH34,Tranent,EH,Edinburgh
+EH35,Tranent,EH,Edinburgh
+EH36,Humbie,EH,Edinburgh
+EH37,Pathhead,EH,Edinburgh
+EH38,Heriot,EH,Edinburgh
+EH39,North Berwick,EH,Edinburgh
+EH4,Edinburgh,EH,Edinburgh
+EH40,East Linton,EH,Edinburgh
+EH41,Haddington,EH,Edinburgh
+EH42,Dunbar,EH,Edinburgh
+EH43,Walkerburn,EH,Edinburgh
+EH44,Innerleithen,EH,Edinburgh
+EH45,Peebles,EH,Edinburgh
+EH46,West Linton,EH,Edinburgh
+EH47,Bathgate,EH,Edinburgh
+EH48,Bathgate,EH,Edinburgh
+EH49,Linlithgow,EH,Edinburgh
+EH5,Edinburgh,EH,Edinburgh
+EH51,Bo'ness,EH,Edinburgh
+EH52,Broxburn,EH,Edinburgh
+EH53,Livingston,EH,Edinburgh
+EH54,Livingston,EH,Edinburgh
+EH55,West Calder,EH,Edinburgh
+EH6,Edinburgh,EH,Edinburgh
+EH7,Edinburgh,EH,Edinburgh
+EH8,Edinburgh,EH,Edinburgh
+EH9,Edinburgh,EH,Edinburgh
+EH91,Edinburgh,EH,Edinburgh
+EH95,Edinburgh,EH,Edinburgh
+EH99,Edinburgh,EH,Edinburgh
+EN1,Enfield,EN,Enfield
+EN10,Broxbourne,EN,Enfield
+EN11,"Broxbourne, Hoddesdon",EN,Enfield
+EN2,Enfield,EN,Enfield
+EN3,Enfield,EN,Enfield
+EN4,Barnet,EN,Enfield
+EN5,Barnet,EN,Enfield
+EN6,Potters Bar,EN,Enfield
+EN7,Waltham Cross,EN,Enfield
+EN77,Waltham Cross,EN,Enfield
+EN8,Waltham Cross,EN,Enfield
+EN9,Waltham Abbey,EN,Enfield
+EX1,Exeter,EX,Exeter
+EX10,Sidmouth,EX,Exeter
+EX11,Ottery St. Mary,EX,Exeter
+EX12,Seaton,EX,Exeter
+EX13,Axminster,EX,Exeter
+EX14,Honiton,EX,Exeter
+EX15,Cullompton,EX,Exeter
+EX16,Tiverton,EX,Exeter
+EX17,Crediton,EX,Exeter
+EX18,Chulmleigh,EX,Exeter
+EX19,Winkleigh,EX,Exeter
+EX2,Exeter,EX,Exeter
+EX20,"North Tawton, Okehampton",EX,Exeter
+EX21,Beaworthy,EX,Exeter
+EX22,Holsworthy,EX,Exeter
+EX23,Bude,EX,Exeter
+EX24,Colyton,EX,Exeter
+EX3,Exeter,EX,Exeter
+EX31,Barnstaple,EX,Exeter
+EX32,Barnstaple,EX,Exeter
+EX33,Braunton,EX,Exeter
+EX34,"Ilfracombe, Woolacombe",EX,Exeter
+EX35,"Lynmouth, Lynton",EX,Exeter
+EX36,South Molton,EX,Exeter
+EX37,Umberleigh,EX,Exeter
+EX38,Torrington,EX,Exeter
+EX39,Bideford,EX,Exeter
+EX4,Exeter,EX,Exeter
+EX5,Exeter,EX,Exeter
+EX6,Exeter,EX,Exeter
+EX7,Dawlish,EX,Exeter
+EX8,Exmouth,EX,Exeter
+EX9,Budleigh Salterton,EX,Exeter
+FK1,Falkirk,FK,Falkirk and Stirling
+FK10,"Alloa, Clackmannan",FK,Falkirk and Stirling
+FK11,Menstrie,FK,Falkirk and Stirling
+FK12,Alva,FK,Falkirk and Stirling
+FK13,Tillicoultry,FK,Falkirk and Stirling
+FK14,Dollar,FK,Falkirk and Stirling
+FK15,Dunblane,FK,Falkirk and Stirling
+FK16,Doune,FK,Falkirk and Stirling
+FK17,Callander,FK,Falkirk and Stirling
+FK18,Callander,FK,Falkirk and Stirling
+FK19,Lochearnhead,FK,Falkirk and Stirling
+FK2,Falkirk,FK,Falkirk and Stirling
+FK20,Crianlarich,FK,Falkirk and Stirling
+FK21,Killin,FK,Falkirk and Stirling
+FK3,Grangemouth,FK,Falkirk and Stirling
+FK4,Bonnybridge,FK,Falkirk and Stirling
+FK5,Larbert,FK,Falkirk and Stirling
+FK6,Denny,FK,Falkirk and Stirling
+FK7,Stirling,FK,Falkirk and Stirling
+FK8,Stirling,FK,Falkirk and Stirling
+FK9,Stirling,FK,Falkirk and Stirling
+FY0,Blackpool,FY,Blackpool
+FY1,Blackpool,FY,Blackpool
+FY2,Blackpool,FY,Blackpool
+FY3,Blackpool,FY,Blackpool
+FY4,Blackpool,FY,Blackpool
+FY5,Thornton-Cleveleys,FY,Blackpool
+FY6,Poulton-le-Fylde,FY,Blackpool
+FY7,Fleetwood,FY,Blackpool
+FY8,Lytham St. Annes,FY,Blackpool
+G1,Glasgow,G1,Unknown
+G11,Glasgow,G1,Unknown
+G12,Glasgow,G1,Unknown
+G13,Glasgow,G1,Unknown
+G14,Glasgow,G1,Unknown
+G15,Glasgow,G1,Unknown
+G2,Glasgow,G2,Unknown
+G20,Glasgow,G2,Unknown
+G21,Glasgow,G2,Unknown
+G22,Glasgow,G2,Unknown
+G23,Glasgow,G2,Unknown
+G3,Glasgow,G3,Unknown
+G31,Glasgow,G3,Unknown
+G32,Glasgow,G3,Unknown
+G33,Glasgow,G3,Unknown
+G34,Glasgow,G3,Unknown
+G4,Glasgow,G4,Unknown
+G40,Glasgow,G4,Unknown
+G41,Glasgow,G4,Unknown
+G42,Glasgow,G4,Unknown
+G43,Glasgow,G4,Unknown
+G44,Glasgow,G4,Unknown
+G45,Glasgow,G4,Unknown
+G46,Glasgow,G4,Unknown
+G5,Glasgow,G5,Unknown
+G51,Glasgow,G5,Unknown
+G52,Glasgow,G5,Unknown
+G53,Glasgow,G5,Unknown
+G58,Glasgow,G5,Unknown
+G60,Glasgow,G6,Unknown
+G61,Glasgow,G6,Unknown
+G62,Glasgow,G6,Unknown
+G63,Glasgow,G6,Unknown
+G64,Glasgow,G6,Unknown
+G65,Glasgow,G6,Unknown
+G66,Glasgow,G6,Unknown
+G67,Glasgow,G6,Unknown
+G68,Glasgow,G6,Unknown
+G69,Glasgow,G6,Unknown
+G70,Glasgow,G7,Unknown
+G71,Glasgow,G7,Unknown
+G72,Glasgow,G7,Unknown
+G73,Glasgow,G7,Unknown
+G74,Glasgow,G7,Unknown
+G75,Glasgow,G7,Unknown
+G76,Glasgow,G7,Unknown
+G77,Glasgow,G7,Unknown
+G78,Glasgow,G7,Unknown
+G79,Glasgow,G7,Unknown
+G81,Clydebank,G8,Unknown
+G82,Dumbarton,G8,Unknown
+G83,"Alexandria, Arrochar",G8,Unknown
+G84,Helensburgh,G8,Unknown
+G9,Glasgow,G9,Unknown
+G90,Glasgow,G9,Unknown
+GIR,Bootle,GI,Unknown
+GL1,Gloucester,GL,Gloucester
+GL10,Stonehouse,GL,Gloucester
+GL11,"Dursley, Wotton-under-Edge",GL,Gloucester
+GL12,Wotton-under-Edge,GL,Gloucester
+GL13,Berkeley,GL,Gloucester
+GL14,"Cinderford, Newnham, Westbury-on-Severn",GL,Gloucester
+GL15,"Blakeney, Lydney",GL,Gloucester
+GL16,Coleford,GL,Gloucester
+GL17,"Drybrook, Longhope, Lydbrook, Mitcheldean, Ruardean",GL,Gloucester
+GL18,"Dymock, Newent",GL,Gloucester
+GL19,Gloucester,GL,Gloucester
+GL2,Gloucester,GL,Gloucester
+GL20,Tewkesbury,GL,Gloucester
+GL3,Gloucester,GL,Gloucester
+GL4,Gloucester,GL,Gloucester
+GL5,Stroud,GL,Gloucester
+GL50,Cheltenham,GL,Gloucester
+GL51,Cheltenham,GL,Gloucester
+GL52,Cheltenham,GL,Gloucester
+GL53,Cheltenham,GL,Gloucester
+GL54,Cheltenham,GL,Gloucester
+GL55,Chipping Campden,GL,Gloucester
+GL56,Moreton-in-Marsh,GL,Gloucester
+GL6,Stroud,GL,Gloucester
+GL7,"Cirencester, Fairford, Lechlade",GL,Gloucester
+GL8,Tetbury,GL,Gloucester
+GL9,Badminton,GL,Gloucester
+GU1,Guildford,GU,Guildford
+GU10,Farnham,GU,Guildford
+GU11,Aldershot,GU,Guildford
+GU12,Aldershot,GU,Guildford
+GU14,Farnborough,GU,Guildford
+GU15,Camberley,GU,Guildford
+GU16,Camberley,GU,Guildford
+GU17,"Farnborough, Camberley",GU,Guildford
+GU18,Lightwater,GU,Guildford
+GU19,Bagshot,GU,Guildford
+GU2,Guildford,GU,Guildford
+GU20,Windlesham,GU,Guildford
+GU21,Woking,GU,Guildford
+GU22,Woking,GU,Guildford
+GU23,Woking,GU,Guildford
+GU24,Woking,GU,Guildford
+GU25,Virginia Water,GU,Guildford
+GU26,Hindhead,GU,Guildford
+GU27,"Hindhead, Haslemere",GU,Guildford
+GU28,Petworth,GU,Guildford
+GU29,Midhurst,GU,Guildford
+GU3,Guildford,GU,Guildford
+GU30,Liphook,GU,Guildford
+GU31,Petersfield,GU,Guildford
+GU32,Petersfield,GU,Guildford
+GU33,Liss,GU,Guildford
+GU34,Alton,GU,Guildford
+GU35,Bordon,GU,Guildford
+GU4,Guildford,GU,Guildford
+GU46,Yateley,GU,Guildford
+GU47,Sandhurst,GU,Guildford
+GU5,Guildford,GU,Guildford
+GU51,Fleet,GU,Guildford
+GU52,Fleet,GU,Guildford
+GU6,Cranleigh,GU,Guildford
+GU7,Godalming,GU,Guildford
+GU8,Godalming,GU,Guildford
+GU9,Farnham,GU,Guildford
+GU95,Camberley,GU,Guildford
+HA0,Wembley,HA,Harrow
+HA1,Harrow,HA,Harrow
+HA2,Harrow,HA,Harrow
+HA3,Harrow,HA,Harrow
+HA4,Ruislip,HA,Harrow
+HA5,Pinner,HA,Harrow
+HA6,Northwood,HA,Harrow
+HA7,Stanmore,HA,Harrow
+HA8,Edgware,HA,Harrow
+HA9,Wembley,HA,Harrow
+HD1,Huddersfield,HD,Huddersfield
+HD2,Huddersfield,HD,Huddersfield
+HD3,Huddersfield,HD,Huddersfield
+HD4,Huddersfield,HD,Huddersfield
+HD5,Huddersfield,HD,Huddersfield
+HD6,Brighouse,HD,Huddersfield
+HD7,Huddersfield,HD,Huddersfield
+HD8,Huddersfield,HD,Huddersfield
+HD9,Holmfirth,HD,Huddersfield
+HG1,Harrogate,HG,Harrogate
+HG2,Harrogate,HG,Harrogate
+HG3,Harrogate,HG,Harrogate
+HG4,Ripon,HG,Harrogate
+HG5,Knaresborough,HG,Harrogate
+HP1,Hemel Hempstead,HP,Hemel Hempstead
+HP10,High Wycombe,HP,Hemel Hempstead
+HP11,High Wycombe,HP,Hemel Hempstead
+HP12,High Wycombe,HP,Hemel Hempstead
+HP13,High Wycombe,HP,Hemel Hempstead
+HP14,High Wycombe,HP,Hemel Hempstead
+HP15,High Wycombe,HP,Hemel Hempstead
+HP16,Great Missenden,HP,Hemel Hempstead
+HP17,Aylesbury,HP,Hemel Hempstead
+HP18,Aylesbury,HP,Hemel Hempstead
+HP19,Aylesbury,HP,Hemel Hempstead
+HP2,Hemel Hempstead,HP,Hemel Hempstead
+HP20,Aylesbury,HP,Hemel Hempstead
+HP21,Aylesbury,HP,Hemel Hempstead
+HP22,"Aylesbury, Princes Risborough",HP,Hemel Hempstead
+HP23,Tring,HP,Hemel Hempstead
+HP27,Princes Risborough,HP,Hemel Hempstead
+HP3,Hemel Hempstead,HP,Hemel Hempstead
+HP4,Berkhamsted,HP,Hemel Hempstead
+HP5,Chesham,HP,Hemel Hempstead
+HP6,Amersham,HP,Hemel Hempstead
+HP7,Amersham,HP,Hemel Hempstead
+HP8,Chalfont St. Giles,HP,Hemel Hempstead
+HP9,Beaconsfield,HP,Hemel Hempstead
+HR1,Hereford,HR,Hereford
+HR2,Hereford,HR,Hereford
+HR3,Hereford,HR,Hereford
+HR4,Hereford,HR,Hereford
+HR5,Kington,HR,Hereford
+HR6,Leominster,HR,Hereford
+HR7,Bromyard,HR,Hereford
+HR8,Ledbury,HR,Hereford
+HR9,Ross-on-Wye,HR,Hereford
+HS1,Stornoway,HS,Outer Hebrides
+HS2,Isle of Lewis,HS,Outer Hebrides
+HS3,Isle of Harris,HS,Outer Hebrides
+HS4,Isle of Scalpay,HS,Outer Hebrides
+HS5,Isle of Harris,HS,Outer Hebrides
+HS6,Isle of North Uist,HS,Outer Hebrides
+HS7,Isle of Benbecula,HS,Outer Hebrides
+HS8,Isle of South Uist,HS,Outer Hebrides
+HS9,Isle of Barra,HS,Outer Hebrides
+HU1,Hull,HU,Hull
+HU10,Hull,HU,Hull
+HU11,Hull,HU,Hull
+HU12,Hull,HU,Hull
+HU13,Hessle,HU,Hull
+HU14,North Ferriby,HU,Hull
+HU15,Brough,HU,Hull
+HU16,Cottingham,HU,Hull
+HU17,Beverley,HU,Hull
+HU18,Hornsea,HU,Hull
+HU19,Withernsea,HU,Hull
+HU2,Hull,HU,Hull
+HU20,Cottingham,HU,Hull
+HU3,Hull,HU,Hull
+HU4,Hull,HU,Hull
+HU5,Hull,HU,Hull
+HU6,Hull,HU,Hull
+HU7,Hull,HU,Hull
+HU8,Hull,HU,Hull
+HU9,Hull,HU,Hull
+HX1,"Halifax, Elland",HX,Halifax
+HX2,Halifax,HX,Halifax
+HX3,Halifax,HX,Halifax
+HX4,Halifax,HX,Halifax
+HX5,Elland,HX,Halifax
+HX6,Sowerby Bridge,HX,Halifax
+HX7,Hebden Bridge,HX,Halifax
+IG1,Ilford,IG,Ilford
+IG10,Loughton,IG,Ilford
+IG11,Barking,IG,Ilford
+IG2,Ilford,IG,Ilford
+IG3,Ilford,IG,Ilford
+IG4,Ilford,IG,Ilford
+IG5,Ilford,IG,Ilford
+IG6,Ilford,IG,Ilford
+IG7,Chigwell,IG,Ilford
+IG8,"Chigwell, Woodford Green",IG,Ilford
+IG9,Buckhurst Hill,IG,Ilford
+IP1,Ipswich,IP,Ipswich
+IP10,Ipswich,IP,Ipswich
+IP11,Felixstowe,IP,Ipswich
+IP12,Woodbridge,IP,Ipswich
+IP13,Woodbridge,IP,Ipswich
+IP14,Stowmarket,IP,Ipswich
+IP15,Aldeburgh,IP,Ipswich
+IP16,Leiston,IP,Ipswich
+IP17,Saxmundham,IP,Ipswich
+IP18,Southwold,IP,Ipswich
+IP19,Halesworth,IP,Ipswich
+IP2,Ipswich,IP,Ipswich
+IP20,Harleston,IP,Ipswich
+IP21,"Diss, Eye",IP,Ipswich
+IP22,Diss,IP,Ipswich
+IP23,Eye,IP,Ipswich
+IP24,Thetford,IP,Ipswich
+IP25,Thetford,IP,Ipswich
+IP26,Thetford,IP,Ipswich
+IP27,Brandon,IP,Ipswich
+IP28,Bury St. Edmunds,IP,Ipswich
+IP29,Bury St. Edmunds,IP,Ipswich
+IP3,Ipswich,IP,Ipswich
+IP30,Bury St. Edmunds,IP,Ipswich
+IP31,Bury St. Edmunds,IP,Ipswich
+IP32,Bury St. Edmunds,IP,Ipswich
+IP33,Bury St. Edmunds,IP,Ipswich
+IP4,Ipswich,IP,Ipswich
+IP5,Ipswich,IP,Ipswich
+IP6,Ipswich,IP,Ipswich
+IP7,Ipswich,IP,Ipswich
+IP8,Ipswich,IP,Ipswich
+IP9,Ipswich,IP,Ipswich
+IP98,Diss,IP,Ipswich
+IV1,Inverness,IV,Inverness
+IV10,Fortrose,IV,Inverness
+IV11,Cromarty,IV,Inverness
+IV12,Nairn,IV,Inverness
+IV13,Inverness,IV,Inverness
+IV14,Strathpeffer,IV,Inverness
+IV15,Dingwall,IV,Inverness
+IV16,Dingwall,IV,Inverness
+IV17,Alness,IV,Inverness
+IV18,Invergordon,IV,Inverness
+IV19,Tain,IV,Inverness
+IV2,Inverness,IV,Inverness
+IV20,Tain,IV,Inverness
+IV21,Gairloch,IV,Inverness
+IV22,Achnasheen,IV,Inverness
+IV23,Garve,IV,Inverness
+IV24,Ardgay,IV,Inverness
+IV25,Dornoch,IV,Inverness
+IV26,Ullapool,IV,Inverness
+IV27,Lairg,IV,Inverness
+IV28,Rogart,IV,Inverness
+IV3,Inverness,IV,Inverness
+IV30,Elgin,IV,Inverness
+IV31,Lossiemouth,IV,Inverness
+IV32,Fochabers,IV,Inverness
+IV36,Forres,IV,Inverness
+IV4,Beauly,IV,Inverness
+IV40,Kyle,IV,Inverness
+IV41,Isle of Skye,IV,Inverness
+IV42,Isle of Skye,IV,Inverness
+IV43,Isle of Skye,IV,Inverness
+IV44,Isle of Skye,IV,Inverness
+IV45,Isle of Skye,IV,Inverness
+IV46,Isle of Skye,IV,Inverness
+IV47,Isle of Skye,IV,Inverness
+IV48,Isle of Skye,IV,Inverness
+IV49,Isle of Skye,IV,Inverness
+IV5,Inverness,IV,Inverness
+IV51,Portree,IV,Inverness
+IV52,Plockton,IV,Inverness
+IV53,Strome Ferry,IV,Inverness
+IV54,Strathcarron,IV,Inverness
+IV55,Isle of Skye,IV,Inverness
+IV56,Isle of Skye,IV,Inverness
+IV6,Muir of Ord,IV,Inverness
+IV63,Inverness,IV,Inverness
+IV7,Dingwall,IV,Inverness
+IV8,Munlochy,IV,Inverness
+IV9,Avoch,IV,Inverness
+IV99,Inverness,IV,Inverness
+KA1,Kilmarnock,KA,Kilmarnock
+KA10,Troon,KA,Kilmarnock
+KA11,Irvine,KA,Kilmarnock
+KA12,Irvine,KA,Kilmarnock
+KA13,Kilwinning,KA,Kilmarnock
+KA14,Beith,KA,Kilmarnock
+KA15,Beith,KA,Kilmarnock
+KA16,Newmilns,KA,Kilmarnock
+KA17,Darvel,KA,Kilmarnock
+KA18,Cumnock,KA,Kilmarnock
+KA19,Maybole,KA,Kilmarnock
+KA2,Kilmarnock,KA,Kilmarnock
+KA20,Stevenston,KA,Kilmarnock
+KA21,Saltcoats,KA,Kilmarnock
+KA22,Ardrossan,KA,Kilmarnock
+KA23,West Kilbride,KA,Kilmarnock
+KA24,Dalry,KA,Kilmarnock
+KA25,Kilbirnie,KA,Kilmarnock
+KA26,Girvan,KA,Kilmarnock
+KA27,Isle of Arran,KA,Kilmarnock
+KA28,Isle of Cumbrae,KA,Kilmarnock
+KA29,Largs,KA,Kilmarnock
+KA3,Kilmarnock,KA,Kilmarnock
+KA30,Largs,KA,Kilmarnock
+KA4,Galston,KA,Kilmarnock
+KA5,Mauchline,KA,Kilmarnock
+KA6,Ayr,KA,Kilmarnock
+KA7,Ayr,KA,Kilmarnock
+KA8,Ayr,KA,Kilmarnock
+KA9,Prestwick,KA,Kilmarnock
+KT1,Kingston upon Thames,KT,Kingston upon Thames
+KT10,Esher,KT,Kingston upon Thames
+KT11,Cobham,KT,Kingston upon Thames
+KT12,Walton-on-Thames,KT,Kingston upon Thames
+KT13,Weybridge,KT,Kingston upon Thames
+KT14,West Byfleet,KT,Kingston upon Thames
+KT15,Addlestone,KT,Kingston upon Thames
+KT16,Chertsey,KT,Kingston upon Thames
+KT17,Epsom,KT,Kingston upon Thames
+KT18,Epsom,KT,Kingston upon Thames
+KT19,Epsom,KT,Kingston upon Thames
+KT2,Kingston upon Thames,KT,Kingston upon Thames
+KT20,Tadworth,KT,Kingston upon Thames
+KT21,Ashtead,KT,Kingston upon Thames
+KT22,Leatherhead,KT,Kingston upon Thames
+KT23,Leatherhead,KT,Kingston upon Thames
+KT24,Leatherhead,KT,Kingston upon Thames
+KT3,New Malden,KT,Kingston upon Thames
+KT4,Worcester Park,KT,Kingston upon Thames
+KT5,Surbiton,KT,Kingston upon Thames
+KT6,Surbiton,KT,Kingston upon Thames
+KT7,Thames Ditton,KT,Kingston upon Thames
+KT8,"East Molesey, West Molesey",KT,Kingston upon Thames
+KT9,Chessington,KT,Kingston upon Thames
+KW1,Wick,KW,Kirkwall
+KW10,Golspie,KW,Kirkwall
+KW11,Kinbrace,KW,Kirkwall
+KW12,Halkirk,KW,Kirkwall
+KW13,Forsinard,KW,Kirkwall
+KW14,Thurso,KW,Kirkwall
+KW15,Kirkwall,KW,Kirkwall
+KW16,Stromness,KW,Kirkwall
+KW17,Orkney,KW,Kirkwall
+KW2,Lybster,KW,Kirkwall
+KW3,Lybster,KW,Kirkwall
+KW5,Latheron,KW,Kirkwall
+KW6,Dunbeath,KW,Kirkwall
+KW7,Berriedale,KW,Kirkwall
+KW8,Helmsdale,KW,Kirkwall
+KW9,Brora,KW,Kirkwall
+KY1,Kirkcaldy,KY,Kirkcaldy
+KY10,Anstruther,KY,Kirkcaldy
+KY11,"Dunfermline, Inverkeithing",KY,Kirkcaldy
+KY12,Dunfermline,KY,Kirkcaldy
+KY13,Kinross,KY,Kirkcaldy
+KY14,Cupar,KY,Kirkcaldy
+KY15,Cupar,KY,Kirkcaldy
+KY16,St. Andrews,KY,Kirkcaldy
+KY2,Kirkcaldy,KY,Kirkcaldy
+KY3,Burntisland,KY,Kirkcaldy
+KY4,"Cowdenbeath, Kelty",KY,Kirkcaldy
+KY5,Lochgelly,KY,Kirkcaldy
+KY6,Glenrothes,KY,Kirkcaldy
+KY7,Glenrothes,KY,Kirkcaldy
+KY8,Leven,KY,Kirkcaldy
+KY9,Leven,KY,Kirkcaldy
+KY99,Dunfermline,KY,Kirkcaldy
+L1,Liverpool,L1,Unknown
+L10,Liverpool,L1,Unknown
+L11,Liverpool,L1,Unknown
+L12,Liverpool,L1,Unknown
+L13,Liverpool,L1,Unknown
+L14,Liverpool,L1,Unknown
+L15,Liverpool,L1,Unknown
+L16,Liverpool,L1,Unknown
+L17,Liverpool,L1,Unknown
+L18,Liverpool,L1,Unknown
+L19,Liverpool,L1,Unknown
+L2,Liverpool,L2,Unknown
+L20,"Liverpool, Bootle",L2,Unknown
+L21,Liverpool,L2,Unknown
+L22,Liverpool,L2,Unknown
+L23,Liverpool,L2,Unknown
+L24,Liverpool,L2,Unknown
+L25,Liverpool,L2,Unknown
+L26,Liverpool,L2,Unknown
+L27,Liverpool,L2,Unknown
+L28,Liverpool,L2,Unknown
+L29,Liverpool,L2,Unknown
+L3,Liverpool,L3,Unknown
+L30,Bootle,L3,Unknown
+L31,Liverpool,L3,Unknown
+L32,Liverpool,L3,Unknown
+L33,Liverpool,L3,Unknown
+L34,Prescot,L3,Unknown
+L35,Prescot,L3,Unknown
+L36,Liverpool,L3,Unknown
+L37,Liverpool,L3,Unknown
+L38,Liverpool,L3,Unknown
+L39,Ormskirk,L3,Unknown
+L4,Liverpool,L4,Unknown
+L40,Ormskirk,L4,Unknown
+L5,Liverpool,L5,Unknown
+L6,Liverpool,L6,Unknown
+L67,Liverpool,L6,Unknown
+L68,Liverpool,L6,Unknown
+L69,"Liverpool, Bootle",L6,Unknown
+L7,Liverpool,L7,Unknown
+L70,Liverpool,L7,Unknown
+L71,Liverpool,L7,Unknown
+L72,Liverpool,L7,Unknown
+L73,Liverpool,L7,Unknown
+L74,Liverpool,L7,Unknown
+L75,Liverpool,L7,Unknown
+L8,Liverpool,L8,Unknown
+L80,Bootle,L8,Unknown
+L9,Liverpool,L9,Unknown
+LA1,Lancaster,LA,Lancaster
+LA10,Sedbergh,LA,Lancaster
+LA11,Grange-over-Sands,LA,Lancaster
+LA12,Ulverston,LA,Lancaster
+LA13,Barrow-in-Furness,LA,Lancaster
+LA14,"Barrow-in-Furness, Dalton-in-Furness",LA,Lancaster
+LA15,Dalton-in-Furness,LA,Lancaster
+LA16,Askam-in-Furness,LA,Lancaster
+LA17,Kirkby-in-Furness,LA,Lancaster
+LA18,Millom,LA,Lancaster
+LA19,Millom,LA,Lancaster
+LA2,Lancaster,LA,Lancaster
+LA20,Broughton-in-Furness,LA,Lancaster
+LA21,Coniston,LA,Lancaster
+LA22,Ambleside,LA,Lancaster
+LA23,Windermere,LA,Lancaster
+LA3,Morecambe,LA,Lancaster
+LA4,Morecambe,LA,Lancaster
+LA5,Carnforth,LA,Lancaster
+LA6,Carnforth,LA,Lancaster
+LA7,Milnthorpe,LA,Lancaster
+LA8,Kendal,LA,Lancaster
+LA9,Kendal,LA,Lancaster
+LD1,Llandrindod Wells,LD,Llandrindod Wells
+LD2,Builth Wells,LD,Llandrindod Wells
+LD3,Brecon,LD,Llandrindod Wells
+LD4,Llangammarch Wells,LD,Llandrindod Wells
+LD5,Llanwrtyd Wells,LD,Llandrindod Wells
+LD6,Rhayader,LD,Llandrindod Wells
+LD7,Knighton,LD,Llandrindod Wells
+LD8,Presteigne,LD,Llandrindod Wells
+LE1,Leicester,LE,Leicester
+LE10,Hinckley,LE,Leicester
+LE11,Loughborough,LE,Leicester
+LE12,Loughborough,LE,Leicester
+LE13,Melton Mowbray,LE,Leicester
+LE14,Melton Mowbray,LE,Leicester
+LE15,Oakham,LE,Leicester
+LE16,Market Harborough,LE,Leicester
+LE17,Lutterworth,LE,Leicester
+LE18,Wigston,LE,Leicester
+LE19,Leicester,LE,Leicester
+LE2,Leicester,LE,Leicester
+LE21,Leicester,LE,Leicester
+LE3,Leicester,LE,Leicester
+LE4,Leicester,LE,Leicester
+LE41,Leicester,LE,Leicester
+LE5,Leicester,LE,Leicester
+LE55,Leicester,LE,Leicester
+LE6,Leicester,LE,Leicester
+LE65,Ashby-de-la-Zouch,LE,Leicester
+LE67,"Coalville, Ibstock, Markfield",LE,Leicester
+LE7,Leicester,LE,Leicester
+LE8,Leicester,LE,Leicester
+LE87,Leicester,LE,Leicester
+LE9,Leicester,LE,Leicester
+LE94,Leicester,LE,Leicester
+LE95,Leicester,LE,Leicester
+LL11,Wrexham,LL,Llandudno
+LL12,Wrexham,LL,Llandudno
+LL13,Wrexham,LL,Llandudno
+LL14,Wrexham,LL,Llandudno
+LL15,Ruthin,LL,Llandudno
+LL16,Denbigh,LL,Llandudno
+LL17,St. Asaph,LL,Llandudno
+LL18,"St. Asaph, Rhyl",LL,Llandudno
+LL19,Prestatyn,LL,Llandudno
+LL20,Llangollen,LL,Llandudno
+LL21,Corwen,LL,Llandudno
+LL22,Abergele,LL,Llandudno
+LL23,Bala,LL,Llandudno
+LL24,Betws-y-Coed,LL,Llandudno
+LL25,Dolwyddelan,LL,Llandudno
+LL26,Llanrwst,LL,Llandudno
+LL27,Trefriw,LL,Llandudno
+LL28,Colwyn Bay,LL,Llandudno
+LL29,Colwyn Bay,LL,Llandudno
+LL30,Llandudno,LL,Llandudno
+LL31,"Conwy, Llandudno Junction",LL,Llandudno
+LL32,Conwy,LL,Llandudno
+LL33,Llanfairfechan,LL,Llandudno
+LL34,Penmaenmawr,LL,Llandudno
+LL35,Aberdyfi,LL,Llandudno
+LL36,Tywyn,LL,Llandudno
+LL37,Llwyngwril,LL,Llandudno
+LL38,Fairbourne,LL,Llandudno
+LL39,Arthog,LL,Llandudno
+LL40,Dolgellau,LL,Llandudno
+LL41,Blaenau Ffestiniog,LL,Llandudno
+LL42,Barmouth,LL,Llandudno
+LL43,Talybont,LL,Llandudno
+LL44,Dyffryn Ardudwy,LL,Llandudno
+LL45,Llanbedr,LL,Llandudno
+LL46,Harlech,LL,Llandudno
+LL47,Talsarnau,LL,Llandudno
+LL48,Penrhyndeudraeth,LL,Llandudno
+LL49,Porthmadog,LL,Llandudno
+LL51,Garndolbenmaen,LL,Llandudno
+LL52,Criccieth,LL,Llandudno
+LL53,Pwllheli,LL,Llandudno
+LL54,Caernarfon,LL,Llandudno
+LL55,Caernarfon,LL,Llandudno
+LL56,Y Felinheli,LL,Llandudno
+LL57,Bangor,LL,Llandudno
+LL58,Beaumaris,LL,Llandudno
+LL59,Menai Bridge,LL,Llandudno
+LL60,Gaerwen,LL,Llandudno
+LL61,Llanfairpwllgwyngyll,LL,Llandudno
+LL62,Bodorgan,LL,Llandudno
+LL63,Ty Croes,LL,Llandudno
+LL64,Rhosneigr,LL,Llandudno
+LL65,Holyhead,LL,Llandudno
+LL66,Rhosgoch,LL,Llandudno
+LL67,Cemaes Bay,LL,Llandudno
+LL68,Amlwch,LL,Llandudno
+LL69,Penysarn,LL,Llandudno
+LL70,Dulas,LL,Llandudno
+LL71,Llanerchymedd,LL,Llandudno
+LL72,Moelfre,LL,Llandudno
+LL73,Marianglas,LL,Llandudno
+LL74,Tyn-y-Gongl,LL,Llandudno
+LL75,Pentraeth,LL,Llandudno
+LL76,Llanbedrgoch,LL,Llandudno
+LL77,"Rhosneigr, Llangefni",LL,Llandudno
+LL78,Brynteg,LL,Llandudno
+LN1,Lincoln,LN,Lincoln
+LN10,Woodhall Spa,LN,Lincoln
+LN11,Louth,LN,Lincoln
+LN12,Mablethorpe,LN,Lincoln
+LN13,Alford,LN,Lincoln
+LN2,Lincoln,LN,Lincoln
+LN3,Lincoln,LN,Lincoln
+LN4,Lincoln,LN,Lincoln
+LN5,Lincoln,LN,Lincoln
+LN6,Lincoln,LN,Lincoln
+LN7,Market Rasen,LN,Lincoln
+LN8,Market Rasen,LN,Lincoln
+LN9,Horncastle,LN,Lincoln
+LS1,Leeds,LS,Leeds
+LS10,Leeds,LS,Leeds
+LS11,Leeds,LS,Leeds
+LS12,Leeds,LS,Leeds
+LS13,Leeds,LS,Leeds
+LS14,Leeds,LS,Leeds
+LS15,Leeds,LS,Leeds
+LS16,Leeds,LS,Leeds
+LS17,Leeds,LS,Leeds
+LS18,Leeds,LS,Leeds
+LS19,Leeds,LS,Leeds
+LS2,Leeds,LS,Leeds
+LS20,Leeds,LS,Leeds
+LS21,Otley,LS,Leeds
+LS22,Wetherby,LS,Leeds
+LS23,Wetherby,LS,Leeds
+LS24,Tadcaster,LS,Leeds
+LS25,Leeds,LS,Leeds
+LS26,Leeds,LS,Leeds
+LS27,Leeds,LS,Leeds
+LS28,Pudsey,LS,Leeds
+LS29,Ilkley,LS,Leeds
+LS3,Leeds,LS,Leeds
+LS4,Leeds,LS,Leeds
+LS5,Leeds,LS,Leeds
+LS6,Leeds,LS,Leeds
+LS7,Leeds,LS,Leeds
+LS78,Leeds,LS,Leeds
+LS8,Leeds,LS,Leeds
+LS88,Leeds,LS,Leeds
+LS9,Leeds,LS,Leeds
+LS98,Leeds,LS,Leeds
+LS99,Leeds,LS,Leeds
+LU1,Luton,LU,Luton
+LU2,Luton,LU,Luton
+LU3,Luton,LU,Luton
+LU4,Luton,LU,Luton
+LU5,Dunstable,LU,Luton
+LU6,Dunstable,LU,Luton
+LU7,Leighton Buzzard,LU,Luton
+M1,Manchester,M1,Unknown
+M11,Manchester,M1,Unknown
+M12,Manchester,M1,Unknown
+M13,Manchester,M1,Unknown
+M14,Manchester,M1,Unknown
+M15,Manchester,M1,Unknown
+M16,Manchester,M1,Unknown
+M17,Manchester,M1,Unknown
+M18,Manchester,M1,Unknown
+M19,Manchester,M1,Unknown
+M2,Manchester,M2,Unknown
+M20,Manchester,M2,Unknown
+M21,Manchester,M2,Unknown
+M22,Manchester,M2,Unknown
+M23,Manchester,M2,Unknown
+M24,Manchester,M2,Unknown
+M25,Manchester,M2,Unknown
+M26,Manchester,M2,Unknown
+M27,Manchester,M2,Unknown
+M28,Manchester,M2,Unknown
+M29,Manchester,M2,Unknown
+M3,"Manchester, Salford",M3,Unknown
+M30,Manchester,M3,Unknown
+M31,Manchester,M3,Unknown
+M32,Manchester,M3,Unknown
+M33,Manchester,M3,Unknown
+M34,Manchester,M3,Unknown
+M35,Manchester,M3,Unknown
+M38,Manchester,M3,Unknown
+M4,Manchester,M4,Unknown
+M40,Manchester,M4,Unknown
+M41,Manchester,M4,Unknown
+M43,Manchester,M4,Unknown
+M44,Manchester,M4,Unknown
+M45,Manchester,M4,Unknown
+M46,Manchester,M4,Unknown
+M5,Salford,M5,Unknown
+M50,Salford,M5,Unknown
+M6,Salford,M6,Unknown
+M60,"Manchester, Salford",M6,Unknown
+M61,Manchester,M6,Unknown
+M7,Salford,M7,Unknown
+M8,Manchester,M8,Unknown
+M9,Manchester,M9,Unknown
+M90,Manchester,M9,Unknown
+M99,Manchester,M9,Unknown
+ME1,Rochester,ME,Rochester
+ME10,Sittingbourne,ME,Rochester
+ME11,Queenborough,ME,Rochester
+ME12,Sheerness,ME,Rochester
+ME13,Faversham,ME,Rochester
+ME14,Maidstone,ME,Rochester
+ME15,Maidstone,ME,Rochester
+ME16,Maidstone,ME,Rochester
+ME17,Maidstone,ME,Rochester
+ME18,Maidstone,ME,Rochester
+ME19,West Malling,ME,Rochester
+ME2,Rochester,ME,Rochester
+ME20,Aylesford,ME,Rochester
+ME3,Rochester,ME,Rochester
+ME4,Chatham,ME,Rochester
+ME5,Chatham,ME,Rochester
+ME6,"Aylesford, Snodland, West Malling",ME,Rochester
+ME7,Gillingham,ME,Rochester
+ME8,Gillingham,ME,Rochester
+ME9,Sittingbourne,ME,Rochester
+ME99,Maidstone,ME,Rochester
+MK1,Milton Keynes,MK,Milton Keynes
+MK10,Milton Keynes,MK,Milton Keynes
+MK11,Milton Keynes,MK,Milton Keynes
+MK12,Milton Keynes,MK,Milton Keynes
+MK13,Milton Keynes,MK,Milton Keynes
+MK14,Milton Keynes,MK,Milton Keynes
+MK15,Milton Keynes,MK,Milton Keynes
+MK16,Newport Pagnell,MK,Milton Keynes
+MK17,Milton Keynes,MK,Milton Keynes
+MK18,Buckingham,MK,Milton Keynes
+MK19,Milton Keynes,MK,Milton Keynes
+MK2,Milton Keynes,MK,Milton Keynes
+MK3,Milton Keynes,MK,Milton Keynes
+MK4,Milton Keynes,MK,Milton Keynes
+MK40,Bedford,MK,Milton Keynes
+MK41,Bedford,MK,Milton Keynes
+MK42,Bedford,MK,Milton Keynes
+MK43,Bedford,MK,Milton Keynes
+MK44,Bedford,MK,Milton Keynes
+MK45,Bedford,MK,Milton Keynes
+MK46,Olney,MK,Milton Keynes
+MK5,Milton Keynes,MK,Milton Keynes
+MK6,Milton Keynes,MK,Milton Keynes
+MK7,Milton Keynes,MK,Milton Keynes
+MK77,Milton Keynes,MK,Milton Keynes
+MK8,Milton Keynes,MK,Milton Keynes
+MK9,Milton Keynes,MK,Milton Keynes
+ML1,Motherwell,ML,Motherwell
+ML10,Strathaven,ML,Motherwell
+ML11,Lanark,ML,Motherwell
+ML12,Biggar,ML,Motherwell
+ML2,Wishaw,ML,Motherwell
+ML3,Hamilton,ML,Motherwell
+ML4,Bellshill,ML,Motherwell
+ML5,Coatbridge,ML,Motherwell
+ML6,Airdrie,ML,Motherwell
+ML7,Shotts,ML,Motherwell
+ML8,Carluke,ML,Motherwell
+ML9,Larkhall,ML,Motherwell
+N1,London,N1,Unknown
+N10,London,N1,Unknown
+N11,London,N1,Unknown
+N12,London,N1,Unknown
+N13,London,N1,Unknown
+N14,London,N1,Unknown
+N15,London,N1,Unknown
+N16,London,N1,Unknown
+N17,London,N1,Unknown
+N18,London,N1,Unknown
+N19,London,N1,Unknown
+N1C,London,N1,Unknown
+N1P,London,N1,Unknown
+N2,London,N2,Unknown
+N20,London,N2,Unknown
+N21,London,N2,Unknown
+N22,London,N2,Unknown
+N3,London,N3,Unknown
+N4,London,N4,Unknown
+N5,London,N5,Unknown
+N6,London,N6,Unknown
+N7,London,N7,Unknown
+N8,London,N8,Unknown
+N81,London,N8,Unknown
+N9,London,N9,Unknown
+NE1,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE10,Gateshead,NE,Newcastle upon Tyne
+NE11,Gateshead,NE,Newcastle upon Tyne
+NE12,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE13,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE15,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE16,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE17,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE18,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE19,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE2,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE20,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE21,Blaydon-on-Tyne,NE,Newcastle upon Tyne
+NE22,Bedlington,NE,Newcastle upon Tyne
+NE23,Cramlington,NE,Newcastle upon Tyne
+NE24,Blyth,NE,Newcastle upon Tyne
+NE25,Whitley Bay,NE,Newcastle upon Tyne
+NE26,Whitley Bay,NE,Newcastle upon Tyne
+NE27,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE28,Wallsend,NE,Newcastle upon Tyne
+NE29,North Shields,NE,Newcastle upon Tyne
+NE3,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE30,North Shields,NE,Newcastle upon Tyne
+NE31,Hebburn,NE,Newcastle upon Tyne
+NE32,Jarrow,NE,Newcastle upon Tyne
+NE33,South Shields,NE,Newcastle upon Tyne
+NE34,South Shields,NE,Newcastle upon Tyne
+NE35,Boldon Colliery,NE,Newcastle upon Tyne
+NE36,East Boldon,NE,Newcastle upon Tyne
+NE37,Washington,NE,Newcastle upon Tyne
+NE38,Washington,NE,Newcastle upon Tyne
+NE39,Rowlands Gill,NE,Newcastle upon Tyne
+NE4,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE40,Ryton,NE,Newcastle upon Tyne
+NE41,Wylam,NE,Newcastle upon Tyne
+NE42,Prudhoe,NE,Newcastle upon Tyne
+NE43,Stocksfield,NE,Newcastle upon Tyne
+NE44,Riding Mill,NE,Newcastle upon Tyne
+NE45,Corbridge,NE,Newcastle upon Tyne
+NE46,Hexham,NE,Newcastle upon Tyne
+NE47,Hexham,NE,Newcastle upon Tyne
+NE48,Hexham,NE,Newcastle upon Tyne
+NE49,Haltwhistle,NE,Newcastle upon Tyne
+NE5,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE6,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE61,Morpeth,NE,Newcastle upon Tyne
+NE62,Choppington,NE,Newcastle upon Tyne
+NE63,Ashington,NE,Newcastle upon Tyne
+NE64,Newbiggin-by-the-Sea,NE,Newcastle upon Tyne
+NE65,Morpeth,NE,Newcastle upon Tyne
+NE66,"Alnwick, Bamburgh",NE,Newcastle upon Tyne
+NE67,Chathill,NE,Newcastle upon Tyne
+NE68,Seahouses,NE,Newcastle upon Tyne
+NE69,Bamburgh,NE,Newcastle upon Tyne
+NE7,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE70,Belford,NE,Newcastle upon Tyne
+NE71,Wooler,NE,Newcastle upon Tyne
+NE8,Gateshead,NE,Newcastle upon Tyne
+NE82,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE83,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE85,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE88,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE9,Gateshead,NE,Newcastle upon Tyne
+NE92,Gateshead,NE,Newcastle upon Tyne
+NE98,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NE99,Newcastle upon Tyne,NE,Newcastle upon Tyne
+NG1,Nottingham,NG,Nottingham
+NG10,Nottingham,NG,Nottingham
+NG11,Nottingham,NG,Nottingham
+NG12,Nottingham,NG,Nottingham
+NG13,Nottingham,NG,Nottingham
+NG14,Nottingham,NG,Nottingham
+NG15,Nottingham,NG,Nottingham
+NG16,Nottingham,NG,Nottingham
+NG17,"Nottingham, Sutton-in-Ashfield",NG,Nottingham
+NG18,Mansfield,NG,Nottingham
+NG19,Mansfield,NG,Nottingham
+NG2,Nottingham,NG,Nottingham
+NG20,Mansfield,NG,Nottingham
+NG21,Mansfield,NG,Nottingham
+NG22,Newark,NG,Nottingham
+NG23,Newark,NG,Nottingham
+NG24,Newark,NG,Nottingham
+NG25,Southwell,NG,Nottingham
+NG3,Nottingham,NG,Nottingham
+NG31,Grantham,NG,Nottingham
+NG32,Grantham,NG,Nottingham
+NG33,Grantham,NG,Nottingham
+NG34,Sleaford,NG,Nottingham
+NG4,Nottingham,NG,Nottingham
+NG5,Nottingham,NG,Nottingham
+NG6,Nottingham,NG,Nottingham
+NG7,Nottingham,NG,Nottingham
+NG70,Mansfield,NG,Nottingham
+NG8,Nottingham,NG,Nottingham
+NG80,Nottingham,NG,Nottingham
+NG9,Nottingham,NG,Nottingham
+NG90,Nottingham,NG,Nottingham
+NN1,Northampton,NN,Northampton
+NN10,Rushden,NN,Northampton
+NN11,Daventry,NN,Northampton
+NN12,Towcester,NN,Northampton
+NN13,Brackley,NN,Northampton
+NN14,Kettering,NN,Northampton
+NN15,Kettering,NN,Northampton
+NN16,Kettering,NN,Northampton
+NN17,Corby,NN,Northampton
+NN18,Corby,NN,Northampton
+NN2,Northampton,NN,Northampton
+NN29,Wellingborough,NN,Northampton
+NN3,Northampton,NN,Northampton
+NN4,Northampton,NN,Northampton
+NN5,Northampton,NN,Northampton
+NN6,Northampton,NN,Northampton
+NN7,Northampton,NN,Northampton
+NN8,Wellingborough,NN,Northampton
+NN9,Wellingborough,NN,Northampton
+NP10,Newport,NP,Newport
+NP11,Newport,NP,Newport
+NP12,Blackwood,NP,Newport
+NP13,Abertillery,NP,Newport
+NP15,Usk,NP,Newport
+NP16,Chepstow,NP,Newport
+NP18,Newport,NP,Newport
+NP19,Newport,NP,Newport
+NP20,Newport,NP,Newport
+NP22,Tredegar,NP,Newport
+NP23,Ebbw Vale,NP,Newport
+NP24,New Tredegar,NP,Newport
+NP25,Monmouth,NP,Newport
+NP26,Caldicot,NP,Newport
+NP4,Pontypool,NP,Newport
+NP44,Cwmbran,NP,Newport
+NP7,"Abergavenny, Crickhowell",NP,Newport
+NP8,Crickhowell,NP,Newport
+NR1,Norwich,NR,Norwich
+NR10,Norwich,NR,Norwich
+NR11,Norwich,NR,Norwich
+NR12,Norwich,NR,Norwich
+NR13,Norwich,NR,Norwich
+NR14,Norwich,NR,Norwich
+NR15,Norwich,NR,Norwich
+NR16,Norwich,NR,Norwich
+NR17,Attleborough,NR,Norwich
+NR18,"Norwich, Wymondham",NR,Norwich
+NR19,"Norwich, Dereham",NR,Norwich
+NR2,Norwich,NR,Norwich
+NR20,Dereham,NR,Norwich
+NR21,Fakenham,NR,Norwich
+NR22,Walsingham,NR,Norwich
+NR23,Wells-next-the-Sea,NR,Norwich
+NR24,Melton Constable,NR,Norwich
+NR25,Holt,NR,Norwich
+NR26,"Norwich, Sheringham",NR,Norwich
+NR27,Cromer,NR,Norwich
+NR28,"Norwich, North Walsham",NR,Norwich
+NR29,Great Yarmouth,NR,Norwich
+NR3,Norwich,NR,Norwich
+NR30,Great Yarmouth,NR,Norwich
+NR31,Great Yarmouth,NR,Norwich
+NR32,Lowestoft,NR,Norwich
+NR33,Lowestoft,NR,Norwich
+NR34,Beccles,NR,Norwich
+NR35,Bungay,NR,Norwich
+NR4,Norwich,NR,Norwich
+NR5,Norwich,NR,Norwich
+NR6,Norwich,NR,Norwich
+NR7,Norwich,NR,Norwich
+NR8,Norwich,NR,Norwich
+NR9,Norwich,NR,Norwich
+NR99,Norwich,NR,Norwich
+NW1,London,NW,North West London
+NW10,London,NW,North West London
+NW11,London,NW,North West London
+NW1W,London,NW,North West London
+NW2,London,NW,North West London
+NW26,London,NW,North West London
+NW3,London,NW,North West London
+NW4,London,NW,North West London
+NW5,London,NW,North West London
+NW6,London,NW,North West London
+NW7,London,NW,North West London
+NW8,London,NW,North West London
+NW9,London,NW,North West London
+OL1,Oldham,OL,Oldham
+OL10,Heywood,OL,Oldham
+OL11,Rochdale,OL,Oldham
+OL12,Rochdale,OL,Oldham
+OL13,Bacup,OL,Oldham
+OL14,Todmorden,OL,Oldham
+OL15,Littleborough,OL,Oldham
+OL16,"Rochdale, Littleborough",OL,Oldham
+OL2,Oldham,OL,Oldham
+OL3,Oldham,OL,Oldham
+OL4,Oldham,OL,Oldham
+OL5,Ashton-under-Lyne,OL,Oldham
+OL6,Ashton-under-Lyne,OL,Oldham
+OL7,Ashton-under-Lyne,OL,Oldham
+OL8,Oldham,OL,Oldham
+OL9,Oldham,OL,Oldham
+OL95,Oldham,OL,Oldham
+OX1,Oxford,OX,Oxford
+OX10,Wallingford,OX,Oxford
+OX11,Didcot,OX,Oxford
+OX12,Wantage,OX,Oxford
+OX13,Abingdon,OX,Oxford
+OX14,Abingdon,OX,Oxford
+OX15,Banbury,OX,Oxford
+OX16,Banbury,OX,Oxford
+OX17,Banbury,OX,Oxford
+OX18,"Bampton, Burford, Carterton",OX,Oxford
+OX2,Oxford,OX,Oxford
+OX20,Woodstock,OX,Oxford
+OX25,Bicester,OX,Oxford
+OX26,Bicester,OX,Oxford
+OX27,Bicester,OX,Oxford
+OX28,Witney,OX,Oxford
+OX29,Witney,OX,Oxford
+OX3,Oxford,OX,Oxford
+OX33,Oxford,OX,Oxford
+OX39,Chinnor,OX,Oxford
+OX4,Oxford,OX,Oxford
+OX44,Oxford,OX,Oxford
+OX49,Watlington,OX,Oxford
+OX5,Kidlington,OX,Oxford
+OX7,Chipping Norton,OX,Oxford
+OX9,Thame,OX,Oxford
+PA1,Paisley,PA,Paisley
+PA10,Johnstone,PA,Paisley
+PA11,Bridge of Weir,PA,Paisley
+PA12,Lochwinnoch,PA,Paisley
+PA13,Kilmacolm,PA,Paisley
+PA14,Port Glasgow,PA,Paisley
+PA15,Greenock,PA,Paisley
+PA16,Greenock,PA,Paisley
+PA17,Skelmorlie,PA,Paisley
+PA18,Wemyss Bay,PA,Paisley
+PA19,Gourock,PA,Paisley
+PA2,Paisley,PA,Paisley
+PA20,Isle of Bute,PA,Paisley
+PA21,Tighnabruaich,PA,Paisley
+PA22,Colintraive,PA,Paisley
+PA23,Dunoon,PA,Paisley
+PA24,Cairndow,PA,Paisley
+PA25,Cairndow,PA,Paisley
+PA26,Cairndow,PA,Paisley
+PA27,Cairndow,PA,Paisley
+PA28,Campbeltown,PA,Paisley
+PA29,Tarbert,PA,Paisley
+PA3,Paisley,PA,Paisley
+PA30,Lochgilphead,PA,Paisley
+PA31,Lochgilphead,PA,Paisley
+PA32,Inveraray,PA,Paisley
+PA33,Dalmally,PA,Paisley
+PA34,Oban,PA,Paisley
+PA35,Taynuilt,PA,Paisley
+PA36,Bridge of Orchy,PA,Paisley
+PA37,Oban,PA,Paisley
+PA38,Appin,PA,Paisley
+PA4,Renfrew,PA,Paisley
+PA41,Isle of Gigha,PA,Paisley
+PA42,Isle of Islay,PA,Paisley
+PA43,Isle of Islay,PA,Paisley
+PA44,Isle of Islay,PA,Paisley
+PA45,Isle of Islay,PA,Paisley
+PA46,Isle of Islay,PA,Paisley
+PA47,Isle of Islay,PA,Paisley
+PA48,Isle of Islay,PA,Paisley
+PA49,Isle of Islay,PA,Paisley
+PA5,Johnstone,PA,Paisley
+PA6,Johnstone,PA,Paisley
+PA60,Isle of Jura,PA,Paisley
+PA61,Isle of Colonsay,PA,Paisley
+PA62,Isle of Mull,PA,Paisley
+PA63,Isle of Mull,PA,Paisley
+PA64,Isle of Mull,PA,Paisley
+PA65,Isle of Mull,PA,Paisley
+PA66,Isle of Mull,PA,Paisley
+PA67,Isle of Mull,PA,Paisley
+PA68,Isle of Mull,PA,Paisley
+PA69,Isle of Mull,PA,Paisley
+PA7,Bishopton,PA,Paisley
+PA70,Isle of Mull,PA,Paisley
+PA71,Isle of Mull,PA,Paisley
+PA72,Isle of Mull,PA,Paisley
+PA73,Isle of Mull,PA,Paisley
+PA74,Isle of Mull,PA,Paisley
+PA75,Isle of Mull,PA,Paisley
+PA76,Isle of Iona,PA,Paisley
+PA77,Isle of Tiree,PA,Paisley
+PA78,Isle of Coll,PA,Paisley
+PA8,Erskine,PA,Paisley
+PA80,Oban,PA,Paisley
+PA9,Johnstone,PA,Paisley
+PE1,Peterborough,PE,Peterborough
+PE10,Bourne,PE,Peterborough
+PE11,Spalding,PE,Peterborough
+PE12,Spalding,PE,Peterborough
+PE13,Wisbech,PE,Peterborough
+PE14,Wisbech,PE,Peterborough
+PE15,March,PE,Peterborough
+PE16,Chatteris,PE,Peterborough
+PE19,St. Neots,PE,Peterborough
+PE2,Peterborough,PE,Peterborough
+PE20,Boston,PE,Peterborough
+PE21,Boston,PE,Peterborough
+PE22,Boston,PE,Peterborough
+PE23,Spilsby,PE,Peterborough
+PE24,Skegness,PE,Peterborough
+PE25,Skegness,PE,Peterborough
+PE26,Huntingdon,PE,Peterborough
+PE27,St. Ives,PE,Peterborough
+PE28,Huntingdon,PE,Peterborough
+PE29,Huntingdon,PE,Peterborough
+PE3,Peterborough,PE,Peterborough
+PE30,King's Lynn,PE,Peterborough
+PE31,King's Lynn,PE,Peterborough
+PE32,King's Lynn,PE,Peterborough
+PE33,King's Lynn,PE,Peterborough
+PE34,King's Lynn,PE,Peterborough
+PE35,Sandringham,PE,Peterborough
+PE36,Hunstanton,PE,Peterborough
+PE37,Swaffham,PE,Peterborough
+PE38,Downham Market,PE,Peterborough
+PE4,Peterborough,PE,Peterborough
+PE5,Peterborough,PE,Peterborough
+PE6,Peterborough,PE,Peterborough
+PE7,Peterborough,PE,Peterborough
+PE8,Peterborough,PE,Peterborough
+PE9,Stamford,PE,Peterborough
+PE99,Peterborough,PE,Peterborough
+PH1,Perth,PH,Perth
+PH10,Blairgowrie,PH,Perth
+PH11,Blairgowrie,PH,Perth
+PH12,Blairgowrie,PH,Perth
+PH13,Blairgowrie,PH,Perth
+PH14,Perth,PH,Perth
+PH15,Aberfeldy,PH,Perth
+PH16,Pitlochry,PH,Perth
+PH17,Pitlochry,PH,Perth
+PH18,Pitlochry,PH,Perth
+PH19,Dalwhinnie,PH,Perth
+PH2,Perth,PH,Perth
+PH20,Newtonmore,PH,Perth
+PH21,Kingussie,PH,Perth
+PH22,Aviemore,PH,Perth
+PH23,Carrbridge,PH,Perth
+PH24,Boat of Garten,PH,Perth
+PH25,Nethy Bridge,PH,Perth
+PH26,Grantown-on-Spey,PH,Perth
+PH3,Auchterarder,PH,Perth
+PH30,Corrour,PH,Perth
+PH31,Roy Bridge,PH,Perth
+PH32,Fort Augustus,PH,Perth
+PH33,Fort William,PH,Perth
+PH34,Spean Bridge,PH,Perth
+PH35,Invergarry,PH,Perth
+PH36,Acharacle,PH,Perth
+PH37,Glenfinnan,PH,Perth
+PH38,Lochailort,PH,Perth
+PH39,Arisaig,PH,Perth
+PH4,Auchterarder,PH,Perth
+PH40,Mallaig,PH,Perth
+PH41,Mallaig,PH,Perth
+PH42,Isle of Eigg,PH,Perth
+PH43,Isle of Rum,PH,Perth
+PH44,Isle of Canna,PH,Perth
+PH49,Ballachulish,PH,Perth
+PH5,Crieff,PH,Perth
+PH50,Kinlochleven,PH,Perth
+PH6,Crieff,PH,Perth
+PH7,Crieff,PH,Perth
+PH8,Dunkeld,PH,Perth
+PH9,Pitlochry,PH,Perth
+PL1,Plymouth,PL,Plymouth
+PL10,Torpoint,PL,Plymouth
+PL11,Torpoint,PL,Plymouth
+PL12,Saltash,PL,Plymouth
+PL13,Looe,PL,Plymouth
+PL14,Liskeard,PL,Plymouth
+PL15,Launceston,PL,Plymouth
+PL16,Lifton,PL,Plymouth
+PL17,Callington,PL,Plymouth
+PL18,"Calstock, Gunnislake",PL,Plymouth
+PL19,Tavistock,PL,Plymouth
+PL2,Plymouth,PL,Plymouth
+PL20,Yelverton,PL,Plymouth
+PL21,Ivybridge,PL,Plymouth
+PL22,Lostwithiel,PL,Plymouth
+PL23,Fowey,PL,Plymouth
+PL24,Par,PL,Plymouth
+PL25,St. Austell,PL,Plymouth
+PL26,St. Austell,PL,Plymouth
+PL27,Wadebridge,PL,Plymouth
+PL28,Padstow,PL,Plymouth
+PL29,Port Isaac,PL,Plymouth
+PL3,Plymouth,PL,Plymouth
+PL30,Bodmin,PL,Plymouth
+PL31,Bodmin,PL,Plymouth
+PL32,Camelford,PL,Plymouth
+PL33,Delabole,PL,Plymouth
+PL34,Tintagel,PL,Plymouth
+PL35,Boscastle,PL,Plymouth
+PL4,Plymouth,PL,Plymouth
+PL5,Plymouth,PL,Plymouth
+PL6,Plymouth,PL,Plymouth
+PL7,Plymouth,PL,Plymouth
+PL8,Plymouth,PL,Plymouth
+PL9,Plymouth,PL,Plymouth
+PL95,Plymouth,PL,Plymouth
+PO1,Portsmouth,PO,Portsmouth
+PO10,Emsworth,PO,Portsmouth
+PO11,Hayling Island,PO,Portsmouth
+PO12,"Gosport, Lee-on-the-Solent",PO,Portsmouth
+PO13,"Gosport, Lee-on-the-Solent",PO,Portsmouth
+PO14,Fareham,PO,Portsmouth
+PO15,Fareham,PO,Portsmouth
+PO16,Fareham,PO,Portsmouth
+PO17,Fareham,PO,Portsmouth
+PO18,Chichester,PO,Portsmouth
+PO19,Chichester,PO,Portsmouth
+PO2,Portsmouth,PO,Portsmouth
+PO20,Chichester,PO,Portsmouth
+PO21,Bognor Regis,PO,Portsmouth
+PO22,Bognor Regis,PO,Portsmouth
+PO3,Portsmouth,PO,Portsmouth
+PO30,"Newport, Yarmouth",PO,Portsmouth
+PO31,Cowes,PO,Portsmouth
+PO32,East Cowes,PO,Portsmouth
+PO33,Ryde,PO,Portsmouth
+PO34,Seaview,PO,Portsmouth
+PO35,Bembridge,PO,Portsmouth
+PO36,"Sandown, Shanklin",PO,Portsmouth
+PO37,Shanklin,PO,Portsmouth
+PO38,Ventnor,PO,Portsmouth
+PO39,Totland Bay,PO,Portsmouth
+PO4,Southsea,PO,Portsmouth
+PO40,Freshwater,PO,Portsmouth
+PO41,Yarmouth,PO,Portsmouth
+PO5,Southsea,PO,Portsmouth
+PO6,Portsmouth,PO,Portsmouth
+PO7,Waterlooville,PO,Portsmouth
+PO8,Waterlooville,PO,Portsmouth
+PO9,"Havant, Rowland's Castle",PO,Portsmouth
+PR0,Preston,PR,Preston
+PR1,Preston,PR,Preston
+PR11,Preston,PR,Preston
+PR2,Preston,PR,Preston
+PR25,Leyland,PR,Preston
+PR26,Leyland,PR,Preston
+PR3,Preston,PR,Preston
+PR4,Preston,PR,Preston
+PR5,Preston,PR,Preston
+PR6,Chorley,PR,Preston
+PR7,Chorley,PR,Preston
+PR8,Southport,PR,Preston
+PR9,Southport,PR,Preston
+RG1,Reading,RG,Reading
+RG10,Reading,RG,Reading
+RG12,Bracknell,RG,Reading
+RG14,Newbury,RG,Reading
+RG17,Hungerford,RG,Reading
+RG18,Thatcham,RG,Reading
+RG19,"Reading, Thatcham",RG,Reading
+RG2,Reading,RG,Reading
+RG20,Newbury,RG,Reading
+RG21,Basingstoke,RG,Reading
+RG22,Basingstoke,RG,Reading
+RG23,Basingstoke,RG,Reading
+RG24,Basingstoke,RG,Reading
+RG25,Basingstoke,RG,Reading
+RG26,Tadley,RG,Reading
+RG27,Hook,RG,Reading
+RG28,"Basingstoke, Whitchurch",RG,Reading
+RG29,Hook,RG,Reading
+RG30,Reading,RG,Reading
+RG31,Reading,RG,Reading
+RG4,Reading,RG,Reading
+RG40,Wokingham,RG,Reading
+RG41,Wokingham,RG,Reading
+RG42,Bracknell,RG,Reading
+RG45,Crowthorne,RG,Reading
+RG5,Reading,RG,Reading
+RG6,Reading,RG,Reading
+RG7,Reading,RG,Reading
+RG8,Reading,RG,Reading
+RG9,Henley-on-Thames,RG,Reading
+RH1,Redhill,RH,Redhill
+RH10,Crawley,RH,Redhill
+RH11,Crawley,RH,Redhill
+RH12,Horsham,RH,Redhill
+RH13,Horsham,RH,Redhill
+RH14,Billingshurst,RH,Redhill
+RH15,Burgess Hill,RH,Redhill
+RH16,Haywards Heath,RH,Redhill
+RH17,Haywards Heath,RH,Redhill
+RH18,Forest Row,RH,Redhill
+RH19,East Grinstead,RH,Redhill
+RH2,Reigate,RH,Redhill
+RH20,Pulborough,RH,Redhill
+RH3,Betchworth,RH,Redhill
+RH4,"Betchworth, Dorking",RH,Redhill
+RH5,Dorking,RH,Redhill
+RH6,"Gatwick, Horley",RH,Redhill
+RH7,Lingfield,RH,Redhill
+RH77,Crawley,RH,Redhill
+RH8,Oxted,RH,Redhill
+RH9,Godstone,RH,Redhill
+RM1,Romford,RM,Romford
+RM10,Dagenham,RM,Romford
+RM11,Hornchurch,RM,Romford
+RM12,Hornchurch,RM,Romford
+RM13,Rainham,RM,Romford
+RM14,Upminster,RM,Romford
+RM15,South Ockendon,RM,Romford
+RM16,Grays,RM,Romford
+RM17,Grays,RM,Romford
+RM18,Tilbury,RM,Romford
+RM19,Purfleet,RM,Romford
+RM2,Romford,RM,Romford
+RM20,Grays,RM,Romford
+RM3,Romford,RM,Romford
+RM4,Romford,RM,Romford
+RM5,Romford,RM,Romford
+RM6,Romford,RM,Romford
+RM7,Romford,RM,Romford
+RM8,Dagenham,RM,Romford
+RM9,Dagenham,RM,Romford
+S1,Sheffield,S1,Unknown
+S10,Sheffield,S1,Unknown
+S11,Sheffield,S1,Unknown
+S12,Sheffield,S1,Unknown
+S13,Sheffield,S1,Unknown
+S14,Sheffield,S1,Unknown
+S17,Sheffield,S1,Unknown
+S18,Dronfield,S1,Unknown
+S2,Sheffield,S2,Unknown
+S20,Sheffield,S2,Unknown
+S21,Sheffield,S2,Unknown
+S25,Sheffield,S2,Unknown
+S26,Sheffield,S2,Unknown
+S3,Sheffield,S3,Unknown
+S32,Hope Valley,S3,Unknown
+S33,Hope Valley,S3,Unknown
+S35,Sheffield,S3,Unknown
+S36,Sheffield,S3,Unknown
+S4,Sheffield,S4,Unknown
+S40,Chesterfield,S4,Unknown
+S41,Chesterfield,S4,Unknown
+S42,Chesterfield,S4,Unknown
+S43,Chesterfield,S4,Unknown
+S44,Chesterfield,S4,Unknown
+S45,Chesterfield,S4,Unknown
+S49,Chesterfield,S4,Unknown
+S5,Sheffield,S5,Unknown
+S6,Sheffield,S6,Unknown
+S60,Rotherham,S6,Unknown
+S61,Rotherham,S6,Unknown
+S62,Rotherham,S6,Unknown
+S63,Rotherham,S6,Unknown
+S64,Mexborough,S6,Unknown
+S65,Rotherham,S6,Unknown
+S66,Rotherham,S6,Unknown
+S7,Sheffield,S7,Unknown
+S70,Barnsley,S7,Unknown
+S71,Barnsley,S7,Unknown
+S72,Barnsley,S7,Unknown
+S73,Barnsley,S7,Unknown
+S74,Barnsley,S7,Unknown
+S75,Barnsley,S7,Unknown
+S8,Sheffield,S8,Unknown
+S80,Worksop,S8,Unknown
+S81,Worksop,S8,Unknown
+S9,Sheffield,S9,Unknown
+S95,Sheffield,S9,Unknown
+S96,Sheffield,S9,Unknown
+S97,"Sheffield, Rotherham",S9,Unknown
+S98,Sheffield,S9,Unknown
+S99,Sheffield,S9,Unknown
+SA1,Swansea,SA,Swansea
+SA10,Neath,SA,Swansea
+SA11,Neath,SA,Swansea
+SA12,Port Talbot,SA,Swansea
+SA13,Port Talbot,SA,Swansea
+SA14,Llanelli,SA,Swansea
+SA15,Llanelli,SA,Swansea
+SA16,Burry Port,SA,Swansea
+SA17,"Ferryside, Kidwelly",SA,Swansea
+SA18,Ammanford,SA,Swansea
+SA19,"Llandeilo, Llangadog, Llanwrda",SA,Swansea
+SA2,Swansea,SA,Swansea
+SA20,Llandovery,SA,Swansea
+SA3,Swansea,SA,Swansea
+SA31,Carmarthen,SA,Swansea
+SA32,Carmarthen,SA,Swansea
+SA33,Carmarthen,SA,Swansea
+SA34,Whitland,SA,Swansea
+SA35,Llanfyrnach,SA,Swansea
+SA36,Glogue,SA,Swansea
+SA37,Boncath,SA,Swansea
+SA38,Newcastle Emlyn,SA,Swansea
+SA39,Pencader,SA,Swansea
+SA4,Swansea,SA,Swansea
+SA40,Llanybydder,SA,Swansea
+SA41,Crymych,SA,Swansea
+SA42,Newport,SA,Swansea
+SA43,Cardigan,SA,Swansea
+SA44,Llandysul,SA,Swansea
+SA45,New Quay,SA,Swansea
+SA46,Aberaeron,SA,Swansea
+SA47,Llanarth,SA,Swansea
+SA48,"Aberaeron, Lampeter",SA,Swansea
+SA5,Swansea,SA,Swansea
+SA6,Swansea,SA,Swansea
+SA61,Haverfordwest,SA,Swansea
+SA62,Haverfordwest,SA,Swansea
+SA63,Clarbeston Road,SA,Swansea
+SA64,Goodwick,SA,Swansea
+SA65,Fishguard,SA,Swansea
+SA66,Clynderwen,SA,Swansea
+SA67,Narberth,SA,Swansea
+SA68,Kilgetty,SA,Swansea
+SA69,Saundersfoot,SA,Swansea
+SA7,Swansea,SA,Swansea
+SA70,Tenby,SA,Swansea
+SA71,Pembroke,SA,Swansea
+SA72,"Pembroke, Pembroke Dock",SA,Swansea
+SA73,Milford Haven,SA,Swansea
+SA8,Swansea,SA,Swansea
+SA80,Swansea,SA,Swansea
+SA9,Swansea,SA,Swansea
+SA99,Swansea,SA,Swansea
+SE1,London,SE,South East London
+SE10,London,SE,South East London
+SE11,London,SE,South East London
+SE12,London,SE,South East London
+SE13,London,SE,South East London
+SE14,London,SE,South East London
+SE15,London,SE,South East London
+SE16,London,SE,South East London
+SE17,London,SE,South East London
+SE18,London,SE,South East London
+SE19,London,SE,South East London
+SE1P,London,SE,South East London
+SE2,London,SE,South East London
+SE20,London,SE,South East London
+SE21,London,SE,South East London
+SE22,London,SE,South East London
+SE23,London,SE,South East London
+SE24,London,SE,South East London
+SE25,London,SE,South East London
+SE26,London,SE,South East London
+SE27,London,SE,South East London
+SE28,London,SE,South East London
+SE3,London,SE,South East London
+SE4,London,SE,South East London
+SE5,London,SE,South East London
+SE6,London,SE,South East London
+SE7,London,SE,South East London
+SE8,London,SE,South East London
+SE9,London,SE,South East London
+SG1,Stevenage,SG,Stevenage
+SG10,Much Hadham,SG,Stevenage
+SG11,Ware,SG,Stevenage
+SG12,Ware,SG,Stevenage
+SG13,Hertford,SG,Stevenage
+SG14,Hertford,SG,Stevenage
+SG15,Arlesey,SG,Stevenage
+SG16,Henlow,SG,Stevenage
+SG17,Shefford,SG,Stevenage
+SG18,Biggleswade,SG,Stevenage
+SG19,Sandy,SG,Stevenage
+SG2,Stevenage,SG,Stevenage
+SG3,Knebworth,SG,Stevenage
+SG4,Hitchin,SG,Stevenage
+SG5,Hitchin,SG,Stevenage
+SG6,"Hitchin, Letchworth Garden City",SG,Stevenage
+SG7,Baldock,SG,Stevenage
+SG8,Royston,SG,Stevenage
+SG9,Buntingford,SG,Stevenage
+SK1,Stockport,SK,Stockport
+SK10,Macclesfield,SK,Stockport
+SK11,Macclesfield,SK,Stockport
+SK12,Stockport,SK,Stockport
+SK13,Glossop,SK,Stockport
+SK14,Hyde,SK,Stockport
+SK15,Stalybridge,SK,Stockport
+SK16,Dukinfield,SK,Stockport
+SK17,Buxton,SK,Stockport
+SK2,Stockport,SK,Stockport
+SK22,High Peak,SK,Stockport
+SK23,High Peak,SK,Stockport
+SK3,Stockport,SK,Stockport
+SK4,Stockport,SK,Stockport
+SK5,Stockport,SK,Stockport
+SK6,Stockport,SK,Stockport
+SK7,Stockport,SK,Stockport
+SK8,Cheadle,SK,Stockport
+SK9,"Alderley Edge, Wilmslow",SK,Stockport
+SL0,Iver,SL,Slough
+SL1,Slough,SL,Slough
+SL2,Slough,SL,Slough
+SL3,Slough,SL,Slough
+SL4,Windsor,SL,Slough
+SL5,Ascot,SL,Slough
+SL6,Maidenhead,SL,Slough
+SL60,Maidenhead,SL,Slough
+SL7,Marlow,SL,Slough
+SL8,Bourne End,SL,Slough
+SL9,Gerrards Cross,SL,Slough
+SL95,Slough,SL,Slough
+SM1,Sutton,SM,Sutton
+SM2,Sutton,SM,Sutton
+SM3,Sutton,SM,Sutton
+SM4,Morden,SM,Sutton
+SM5,Carshalton,SM,Sutton
+SM6,Wallington,SM,Sutton
+SM7,Banstead,SM,Sutton
+SN1,Swindon,SN,Swindon
+SN10,Devizes,SN,Swindon
+SN11,Calne,SN,Swindon
+SN12,Melksham,SN,Swindon
+SN13,Corsham,SN,Swindon
+SN14,Chippenham,SN,Swindon
+SN15,"Corsham, Chippenham",SN,Swindon
+SN16,Malmesbury,SN,Swindon
+SN2,Swindon,SN,Swindon
+SN25,Swindon,SN,Swindon
+SN26,Swindon,SN,Swindon
+SN3,Swindon,SN,Swindon
+SN38,Swindon,SN,Swindon
+SN4,Swindon,SN,Swindon
+SN5,Swindon,SN,Swindon
+SN6,Swindon,SN,Swindon
+SN7,Faringdon,SN,Swindon
+SN8,Marlborough,SN,Swindon
+SN9,Pewsey,SN,Swindon
+SN99,Swindon,SN,Swindon
+SO14,Southampton,SO,Southampton
+SO15,Southampton,SO,Southampton
+SO16,Southampton,SO,Southampton
+SO17,Southampton,SO,Southampton
+SO18,Southampton,SO,Southampton
+SO19,Southampton,SO,Southampton
+SO20,Stockbridge,SO,Southampton
+SO21,Winchester,SO,Southampton
+SO22,Winchester,SO,Southampton
+SO23,Winchester,SO,Southampton
+SO24,Alresford,SO,Southampton
+SO25,Winchester,SO,Southampton
+SO30,Southampton,SO,Southampton
+SO31,Southampton,SO,Southampton
+SO32,Southampton,SO,Southampton
+SO40,"Southampton, Lyndhurst",SO,Southampton
+SO41,Lymington,SO,Southampton
+SO42,Brockenhurst,SO,Southampton
+SO43,Lyndhurst,SO,Southampton
+SO45,Southampton,SO,Southampton
+SO50,Eastleigh,SO,Southampton
+SO51,Romsey,SO,Southampton
+SO52,Southampton,SO,Southampton
+SO53,Eastleigh,SO,Southampton
+SO97,Southampton,SO,Southampton
+SP1,Salisbury,SP,Salisbury
+SP10,Andover,SP,Salisbury
+SP11,Andover,SP,Salisbury
+SP2,Salisbury,SP,Salisbury
+SP3,Salisbury,SP,Salisbury
+SP4,Salisbury,SP,Salisbury
+SP5,Salisbury,SP,Salisbury
+SP6,Fordingbridge,SP,Salisbury
+SP7,Shaftesbury,SP,Salisbury
+SP8,Gillingham,SP,Salisbury
+SP9,Tidworth,SP,Salisbury
+SR1,Sunderland,SR,Sunderland
+SR2,Sunderland,SR,Sunderland
+SR3,Sunderland,SR,Sunderland
+SR4,Sunderland,SR,Sunderland
+SR5,Sunderland,SR,Sunderland
+SR6,Sunderland,SR,Sunderland
+SR7,Seaham,SR,Sunderland
+SR8,Peterlee,SR,Sunderland
+SR9,Sunderland,SR,Sunderland
+SS0,Westcliff-on-Sea,SS,Southend-on-Sea
+SS1,"Westcliff-on-Sea, Southend-on-Sea",SS,Southend-on-Sea
+SS11,Wickford,SS,Southend-on-Sea
+SS12,Wickford,SS,Southend-on-Sea
+SS13,Basildon,SS,Southend-on-Sea
+SS14,Basildon,SS,Southend-on-Sea
+SS15,Basildon,SS,Southend-on-Sea
+SS16,Basildon,SS,Southend-on-Sea
+SS17,Stanford-le-Hope,SS,Southend-on-Sea
+SS2,Southend-on-Sea,SS,Southend-on-Sea
+SS22,Southend-on-Sea,SS,Southend-on-Sea
+SS3,Southend-on-Sea,SS,Southend-on-Sea
+SS4,Rochford,SS,Southend-on-Sea
+SS5,Hockley,SS,Southend-on-Sea
+SS6,Rayleigh,SS,Southend-on-Sea
+SS7,Benfleet,SS,Southend-on-Sea
+SS8,Canvey Island,SS,Southend-on-Sea
+SS9,Leigh-on-Sea,SS,Southend-on-Sea
+SS99,Southend-on-Sea,SS,Southend-on-Sea
+ST1,Stoke-on-Trent,ST,Stoke-on-Trent
+ST10,Stoke-on-Trent,ST,Stoke-on-Trent
+ST11,Stoke-on-Trent,ST,Stoke-on-Trent
+ST12,Stoke-on-Trent,ST,Stoke-on-Trent
+ST13,Leek,ST,Stoke-on-Trent
+ST14,Uttoxeter,ST,Stoke-on-Trent
+ST15,Stone,ST,Stoke-on-Trent
+ST16,Stafford,ST,Stoke-on-Trent
+ST17,Stafford,ST,Stoke-on-Trent
+ST18,Stafford,ST,Stoke-on-Trent
+ST19,Stafford,ST,Stoke-on-Trent
+ST2,Stoke-on-Trent,ST,Stoke-on-Trent
+ST20,Stafford,ST,Stoke-on-Trent
+ST21,Stafford,ST,Stoke-on-Trent
+ST3,Stoke-on-Trent,ST,Stoke-on-Trent
+ST4,Stoke-on-Trent,ST,Stoke-on-Trent
+ST5,Newcastle,ST,Stoke-on-Trent
+ST55,Newcastle,ST,Stoke-on-Trent
+ST6,Stoke-on-Trent,ST,Stoke-on-Trent
+ST7,Stoke-on-Trent,ST,Stoke-on-Trent
+ST8,Stoke-on-Trent,ST,Stoke-on-Trent
+ST9,Stoke-on-Trent,ST,Stoke-on-Trent
+SW10,London,SW,South West London
+SW11,London,SW,South West London
+SW12,London,SW,South West London
+SW13,London,SW,South West London
+SW14,London,SW,South West London
+SW15,London,SW,South West London
+SW16,London,SW,South West London
+SW17,London,SW,South West London
+SW18,London,SW,South West London
+SW19,London,SW,South West London
+SW1A,London,SW,South West London
+SW1E,London,SW,South West London
+SW1H,London,SW,South West London
+SW1P,London,SW,South West London
+SW1V,London,SW,South West London
+SW1W,London,SW,South West London
+SW1X,London,SW,South West London
+SW1Y,London,SW,South West London
+SW2,London,SW,South West London
+SW20,London,SW,South West London
+SW3,London,SW,South West London
+SW4,London,SW,South West London
+SW5,London,SW,South West London
+SW6,London,SW,South West London
+SW7,London,SW,South West London
+SW8,London,SW,South West London
+SW9,London,SW,South West London
+SW95,London,SW,South West London
+SY1,Shrewsbury,SY,Shrewsbury
+SY10,Oswestry,SY,Shrewsbury
+SY11,Oswestry,SY,Shrewsbury
+SY12,Ellesmere,SY,Shrewsbury
+SY13,Whitchurch,SY,Shrewsbury
+SY14,Malpas,SY,Shrewsbury
+SY15,Montgomery,SY,Shrewsbury
+SY16,Newtown,SY,Shrewsbury
+SY17,"Caersws, Llandinam",SY,Shrewsbury
+SY18,Llanidloes,SY,Shrewsbury
+SY19,Llanbrynmair,SY,Shrewsbury
+SY2,Shrewsbury,SY,Shrewsbury
+SY20,Machynlleth,SY,Shrewsbury
+SY21,Welshpool,SY,Shrewsbury
+SY22,"Llanfechain, Llanfyllin, Llansantffraid, Llanymynech, Meifod",SY,Shrewsbury
+SY23,"Aberystwyth, Llanon, Llanrhystud",SY,Shrewsbury
+SY24,"Borth, Bow Street, Talybont",SY,Shrewsbury
+SY25,"Tregaron, Ystrad Meurig",SY,Shrewsbury
+SY3,Shrewsbury,SY,Shrewsbury
+SY4,Shrewsbury,SY,Shrewsbury
+SY5,Shrewsbury,SY,Shrewsbury
+SY6,Church Stretton,SY,Shrewsbury
+SY7,"Bucknell, Craven Arms, Lydbury North",SY,Shrewsbury
+SY8,Ludlow,SY,Shrewsbury
+SY9,Bishops Castle,SY,Shrewsbury
+SY99,Shrewsbury,SY,Shrewsbury
+TA1,Taunton,TA,Taunton
+TA10,Langport,TA,Taunton
+TA11,Somerton,TA,Taunton
+TA12,Martock,TA,Taunton
+TA13,South Petherton,TA,Taunton
+TA14,Stoke-sub-Hamdon,TA,Taunton
+TA15,Montacute,TA,Taunton
+TA16,Merriott,TA,Taunton
+TA17,Hinton St. George,TA,Taunton
+TA18,Crewkerne,TA,Taunton
+TA19,Ilminster,TA,Taunton
+TA2,Taunton,TA,Taunton
+TA20,Chard,TA,Taunton
+TA21,Wellington,TA,Taunton
+TA22,Dulverton,TA,Taunton
+TA23,Watchet,TA,Taunton
+TA24,Minehead,TA,Taunton
+TA3,Taunton,TA,Taunton
+TA4,Taunton,TA,Taunton
+TA5,Bridgwater,TA,Taunton
+TA6,Bridgwater,TA,Taunton
+TA7,Bridgwater,TA,Taunton
+TA8,Burnham-on-Sea,TA,Taunton
+TA9,Highbridge,TA,Taunton
+TD1,Galashiels,TD,Galashiels
+TD10,Duns,TD,Galashiels
+TD11,Duns,TD,Galashiels
+TD12,"Coldstream, Cornhill-on-Tweed, Mindrum",TD,Galashiels
+TD13,Cockburnspath,TD,Galashiels
+TD14,Eyemouth,TD,Galashiels
+TD15,Berwick-upon-Tweed,TD,Galashiels
+TD2,Lauder,TD,Galashiels
+TD3,Gordon,TD,Galashiels
+TD4,Earlston,TD,Galashiels
+TD5,Kelso,TD,Galashiels
+TD6,Melrose,TD,Galashiels
+TD7,Selkirk,TD,Galashiels
+TD8,Jedburgh,TD,Galashiels
+TD9,"Hawick, Newcastleton",TD,Galashiels
+TF1,Telford,TF,Telford
+TF10,Newport,TF,Telford
+TF11,Shifnal,TF,Telford
+TF12,Broseley,TF,Telford
+TF13,Much Wenlock,TF,Telford
+TF2,Telford,TF,Telford
+TF3,Telford,TF,Telford
+TF4,Telford,TF,Telford
+TF5,Telford,TF,Telford
+TF6,Telford,TF,Telford
+TF7,Telford,TF,Telford
+TF8,Telford,TF,Telford
+TF9,Market Drayton,TF,Telford
+TN1,Tunbridge Wells,TN,Tonbridge
+TN10,Tonbridge,TN,Tonbridge
+TN11,Tonbridge,TN,Tonbridge
+TN12,Tonbridge,TN,Tonbridge
+TN13,Sevenoaks,TN,Tonbridge
+TN14,Sevenoaks,TN,Tonbridge
+TN15,Sevenoaks,TN,Tonbridge
+TN16,Westerham,TN,Tonbridge
+TN17,Cranbrook,TN,Tonbridge
+TN18,Cranbrook,TN,Tonbridge
+TN19,Etchingham,TN,Tonbridge
+TN2,"Tunbridge Wells, Wadhurst",TN,Tonbridge
+TN20,Mayfield,TN,Tonbridge
+TN21,Heathfield,TN,Tonbridge
+TN22,Uckfield,TN,Tonbridge
+TN23,Ashford,TN,Tonbridge
+TN24,Ashford,TN,Tonbridge
+TN25,Ashford,TN,Tonbridge
+TN26,Ashford,TN,Tonbridge
+TN27,Ashford,TN,Tonbridge
+TN28,New Romney,TN,Tonbridge
+TN29,Romney Marsh,TN,Tonbridge
+TN3,Tunbridge Wells,TN,Tonbridge
+TN30,Tenterden,TN,Tonbridge
+TN31,Rye,TN,Tonbridge
+TN32,Robertsbridge,TN,Tonbridge
+TN33,Battle,TN,Tonbridge
+TN34,Hastings,TN,Tonbridge
+TN35,Hastings,TN,Tonbridge
+TN36,Winchelsea,TN,Tonbridge
+TN37,St. Leonards-on-Sea,TN,Tonbridge
+TN38,St. Leonards-on-Sea,TN,Tonbridge
+TN39,Bexhill-on-Sea,TN,Tonbridge
+TN4,Tunbridge Wells,TN,Tonbridge
+TN40,Bexhill-on-Sea,TN,Tonbridge
+TN5,Wadhurst,TN,Tonbridge
+TN6,Crowborough,TN,Tonbridge
+TN7,Hartfield,TN,Tonbridge
+TN8,Edenbridge,TN,Tonbridge
+TN9,Tonbridge,TN,Tonbridge
+TQ1,Torquay,TQ,Torquay
+TQ10,South Brent,TQ,Torquay
+TQ11,Buckfastleigh,TQ,Torquay
+TQ12,Newton Abbot,TQ,Torquay
+TQ13,Newton Abbot,TQ,Torquay
+TQ14,Teignmouth,TQ,Torquay
+TQ2,Torquay,TQ,Torquay
+TQ3,Paignton,TQ,Torquay
+TQ4,Paignton,TQ,Torquay
+TQ5,Brixham,TQ,Torquay
+TQ6,Dartmouth,TQ,Torquay
+TQ7,Kingsbridge,TQ,Torquay
+TQ8,Salcombe,TQ,Torquay
+TQ9,"Totnes, South Brent",TQ,Torquay
+TR1,Truro,TR,Truro
+TR10,Penryn,TR,Truro
+TR11,Falmouth,TR,Truro
+TR12,Helston,TR,Truro
+TR13,Helston,TR,Truro
+TR14,Camborne,TR,Truro
+TR15,Redruth,TR,Truro
+TR16,Redruth,TR,Truro
+TR17,Marazion,TR,Truro
+TR18,Penzance,TR,Truro
+TR19,Penzance,TR,Truro
+TR2,Truro,TR,Truro
+TR20,Penzance,TR,Truro
+TR21,Isles of Scilly,TR,Truro
+TR22,Isles of Scilly,TR,Truro
+TR23,Isles of Scilly,TR,Truro
+TR24,Isles of Scilly,TR,Truro
+TR25,Isles of Scilly,TR,Truro
+TR26,St. Ives,TR,Truro
+TR27,Hayle,TR,Truro
+TR3,Truro,TR,Truro
+TR4,Truro,TR,Truro
+TR5,St. Agnes,TR,Truro
+TR6,Perranporth,TR,Truro
+TR7,Newquay,TR,Truro
+TR8,Newquay,TR,Truro
+TR9,St. Columb,TR,Truro
+TS1,Middlesbrough,TS,Cleveland
+TS10,Redcar,TS,Cleveland
+TS11,Redcar,TS,Cleveland
+TS12,Saltburn-by-the-Sea,TS,Cleveland
+TS13,Saltburn-by-the-Sea,TS,Cleveland
+TS14,Guisborough,TS,Cleveland
+TS15,Yarm,TS,Cleveland
+TS16,Stockton-on-Tees,TS,Cleveland
+TS17,Stockton-on-Tees,TS,Cleveland
+TS18,Stockton-on-Tees,TS,Cleveland
+TS19,Stockton-on-Tees,TS,Cleveland
+TS2,Middlesbrough,TS,Cleveland
+TS20,Stockton-on-Tees,TS,Cleveland
+TS21,Stockton-on-Tees,TS,Cleveland
+TS22,Billingham,TS,Cleveland
+TS23,Billingham,TS,Cleveland
+TS24,Hartlepool,TS,Cleveland
+TS25,Hartlepool,TS,Cleveland
+TS26,Hartlepool,TS,Cleveland
+TS27,Hartlepool,TS,Cleveland
+TS28,Wingate,TS,Cleveland
+TS29,Trimdon Station,TS,Cleveland
+TS3,Middlesbrough,TS,Cleveland
+TS4,Middlesbrough,TS,Cleveland
+TS5,Middlesbrough,TS,Cleveland
+TS6,Middlesbrough,TS,Cleveland
+TS7,Middlesbrough,TS,Cleveland
+TS8,Middlesbrough,TS,Cleveland
+TS9,Middlesbrough,TS,Cleveland
+TW1,Twickenham,TW,Twickenham
+TW10,Richmond,TW,Twickenham
+TW11,Teddington,TW,Twickenham
+TW12,Hampton,TW,Twickenham
+TW13,Feltham,TW,Twickenham
+TW14,Feltham,TW,Twickenham
+TW15,Ashford,TW,Twickenham
+TW16,Sunbury-on-Thames,TW,Twickenham
+TW17,Shepperton,TW,Twickenham
+TW18,Staines-upon-Thames,TW,Twickenham
+TW19,Staines-upon-Thames,TW,Twickenham
+TW2,Twickenham,TW,Twickenham
+TW20,Egham,TW,Twickenham
+TW3,Hounslow,TW,Twickenham
+TW4,Hounslow,TW,Twickenham
+TW5,Hounslow,TW,Twickenham
+TW6,Hounslow,TW,Twickenham
+TW7,Isleworth,TW,Twickenham
+TW8,Brentford,TW,Twickenham
+TW9,Richmond,TW,Twickenham
+UB1,Southall,UB,Southall
+UB10,Uxbridge,UB,Southall
+UB11,Uxbridge,UB,Southall
+UB18,Greenford,UB,Southall
+UB2,Southall,UB,Southall
+UB3,"Southall, Hayes",UB,Southall
+UB4,Hayes,UB,Southall
+UB5,"Northolt, Greenford",UB,Southall
+UB6,Greenford,UB,Southall
+UB7,West Drayton,UB,Southall
+UB8,"West Drayton, Uxbridge",UB,Southall
+UB9,Uxbridge,UB,Southall
+W10,London,W1,Unknown
+W11,London,W1,Unknown
+W12,London,W1,Unknown
+W13,London,W1,Unknown
+W14,London,W1,Unknown
+W1A,London,W1,Unknown
+W1B,London,W1,Unknown
+W1C,London,W1,Unknown
+W1D,London,W1,Unknown
+W1F,London,W1,Unknown
+W1G,London,W1,Unknown
+W1H,London,W1,Unknown
+W1J,London,W1,Unknown
+W1K,London,W1,Unknown
+W1S,London,W1,Unknown
+W1T,London,W1,Unknown
+W1U,London,W1,Unknown
+W1W,London,W1,Unknown
+W2,London,W2,Unknown
+W3,London,W3,Unknown
+W4,London,W4,Unknown
+W5,London,W5,Unknown
+W6,London,W6,Unknown
+W7,London,W7,Unknown
+W8,London,W8,Unknown
+W9,London,W9,Unknown
+WA1,Warrington,WA,Warrington
+WA10,St. Helens,WA,Warrington
+WA11,St. Helens,WA,Warrington
+WA12,Newton-le-Willows,WA,Warrington
+WA13,Lymm,WA,Warrington
+WA14,Altrincham,WA,Warrington
+WA15,Altrincham,WA,Warrington
+WA16,Knutsford,WA,Warrington
+WA2,Warrington,WA,Warrington
+WA3,Warrington,WA,Warrington
+WA4,Warrington,WA,Warrington
+WA5,Warrington,WA,Warrington
+WA55,Warrington,WA,Warrington
+WA6,Frodsham,WA,Warrington
+WA7,Runcorn,WA,Warrington
+WA8,Widnes,WA,Warrington
+WA88,Widnes,WA,Warrington
+WA9,St. Helens,WA,Warrington
+WC1A,London,WC,Central London
+WC1B,London,WC,Central London
+WC1E,London,WC,Central London
+WC1H,London,WC,Central London
+WC1N,London,WC,Central London
+WC1R,London,WC,Central London
+WC1V,London,WC,Central London
+WC1X,London,WC,Central London
+WC2A,London,WC,Central London
+WC2B,London,WC,Central London
+WC2E,London,WC,Central London
+WC2H,London,WC,Central London
+WC2N,London,WC,Central London
+WC2R,London,WC,Central London
+WD17,Watford,WD,Watford
+WD18,"Kings Langley, Watford",WD,Watford
+WD19,Watford,WD,Watford
+WD23,Bushey,WD,Watford
+WD24,Watford,WD,Watford
+WD25,Watford,WD,Watford
+WD3,Rickmansworth,WD,Watford
+WD4,Kings Langley,WD,Watford
+WD5,Abbots Langley,WD,Watford
+WD6,Borehamwood,WD,Watford
+WD7,Radlett,WD,Watford
+WD99,Watford,WD,Watford
+WF1,Wakefield,WF,Wakefield
+WF10,"Normanton, Castleford",WF,Wakefield
+WF11,Knottingley,WF,Wakefield
+WF12,Dewsbury,WF,Wakefield
+WF13,Dewsbury,WF,Wakefield
+WF14,Mirfield,WF,Wakefield
+WF15,Liversedge,WF,Wakefield
+WF16,"Liversedge, Heckmondwike",WF,Wakefield
+WF17,Batley,WF,Wakefield
+WF2,Wakefield,WF,Wakefield
+WF3,Wakefield,WF,Wakefield
+WF4,Wakefield,WF,Wakefield
+WF5,Ossett,WF,Wakefield
+WF6,Normanton,WF,Wakefield
+WF7,Pontefract,WF,Wakefield
+WF8,Pontefract,WF,Wakefield
+WF9,Pontefract,WF,Wakefield
+WF90,Wakefield,WF,Wakefield
+WN1,Wigan,WN,Wigan
+WN2,Wigan,WN,Wigan
+WN3,Wigan,WN,Wigan
+WN4,Wigan,WN,Wigan
+WN5,Wigan,WN,Wigan
+WN6,Wigan,WN,Wigan
+WN7,Leigh,WN,Wigan
+WN8,"Wigan, Skelmersdale",WN,Wigan
+WR1,Worcester,WR,Worcester
+WR10,Pershore,WR,Worcester
+WR11,"Evesham, Broadway",WR,Worcester
+WR12,Broadway,WR,Worcester
+WR13,Malvern,WR,Worcester
+WR14,Malvern,WR,Worcester
+WR15,Tenbury Wells,WR,Worcester
+WR2,Worcester,WR,Worcester
+WR3,Worcester,WR,Worcester
+WR4,Worcester,WR,Worcester
+WR5,Worcester,WR,Worcester
+WR6,Worcester,WR,Worcester
+WR7,Worcester,WR,Worcester
+WR78,Worcester,WR,Worcester
+WR8,Worcester,WR,Worcester
+WR9,Droitwich,WR,Worcester
+WR99,Worcester,WR,Worcester
+WS1,Walsall,WS,Walsall
+WS10,Wednesbury,WS,Walsall
+WS11,Cannock,WS,Walsall
+WS12,Cannock,WS,Walsall
+WS13,Lichfield,WS,Walsall
+WS14,Lichfield,WS,Walsall
+WS15,Rugeley,WS,Walsall
+WS2,Walsall,WS,Walsall
+WS3,Walsall,WS,Walsall
+WS4,Walsall,WS,Walsall
+WS5,Walsall,WS,Walsall
+WS6,Walsall,WS,Walsall
+WS7,Burntwood,WS,Walsall
+WS8,Walsall,WS,Walsall
+WS9,Walsall,WS,Walsall
+WV1,"Wolverhampton, Willenhall",WV,Wolverhampton
+WV10,Wolverhampton,WV,Wolverhampton
+WV11,Wolverhampton,WV,Wolverhampton
+WV12,Willenhall,WV,Wolverhampton
+WV13,Willenhall,WV,Wolverhampton
+WV14,Bilston,WV,Wolverhampton
+WV15,Bridgnorth,WV,Wolverhampton
+WV16,Bridgnorth,WV,Wolverhampton
+WV2,Wolverhampton,WV,Wolverhampton
+WV3,Wolverhampton,WV,Wolverhampton
+WV4,Wolverhampton,WV,Wolverhampton
+WV5,Wolverhampton,WV,Wolverhampton
+WV6,Wolverhampton,WV,Wolverhampton
+WV7,Wolverhampton,WV,Wolverhampton
+WV8,Wolverhampton,WV,Wolverhampton
+WV9,Wolverhampton,WV,Wolverhampton
+WV98,Wolverhampton,WV,Wolverhampton
+YO1,York,YO,York
+YO10,York,YO,York
+YO11,Scarborough,YO,York
+YO12,Scarborough,YO,York
+YO13,Scarborough,YO,York
+YO14,Filey,YO,York
+YO15,Bridlington,YO,York
+YO16,Bridlington,YO,York
+YO17,Malton,YO,York
+YO18,Pickering,YO,York
+YO19,York,YO,York
+YO21,Whitby,YO,York
+YO22,Whitby,YO,York
+YO23,York,YO,York
+YO24,York,YO,York
+YO25,Driffield,YO,York
+YO26,York,YO,York
+YO30,York,YO,York
+YO31,York,YO,York
+YO32,York,YO,York
+YO41,York,YO,York
+YO42,York,YO,York
+YO43,York,YO,York
+YO51,York,YO,York
+YO60,York,YO,York
+YO61,York,YO,York
+YO62,York,YO,York
+YO7,Thirsk,YO,York
+YO8,Selby,YO,York
+YO90,York,YO,York
+YO91,York,YO,York
+ZE1,Shetland,ZE,Lerwick
+ZE2,Shetland,ZE,Lerwick
+ZE3,Shetland,ZE,Lerwick
