@@ -81,9 +81,9 @@ def import_all_osm_streets_final():
     print("✅ These are COMPLETELY DIFFERENT street names in the database")
     print("✅ No duplicate detection needed - different names = different streets")
     
-    # Load OSM data
+    # Load CLEANED OSM data (invalid street names removed)
     try:
-        with open('/workspace/data/osm_sample_uk_streets.json', 'r') as f:
+        with open('/workspace/data/cleaned_osm_streets.json', 'r') as f:
             osm_data = json.load(f)
     except Exception as e:
         print(f"Error loading JSON: {e}")
