@@ -1,0 +1,35 @@
+SE London Accurate Data Analysis
+========================================
+
+SE1: 2114 streets
+SE11: 608 streets
+SE12: 781 streets
+SE13: 878 streets
+SE14: 1336 streets
+SE15: 966 streets
+SE16: 1624 streets
+SE18: 371 streets
+SE2: 368 streets
+SE3: 1887 streets
+SE4: 1138 streets
+SE5: 927 streets
+SE7: 650 streets
+SE8: 1231 streets
+SE9: 460 streets
+
+Total accurate streets: 15339
+
+SE3 Streets Sample (first 10):
+------------------------------
+ 1. Shooters Hill Road
+ 2. Stratheden Road
+ 3. Eastcombe Avenue
+ 4. Gallions Road
+ 5. Anchor And Hope Lane
+ 6. Woolwich Road
+ 7. Horn Lane
+ 8. Rathmore Road
+ 9. Troughton Road
+10. Charlton Road
+
+Total SE3 streets: 1887

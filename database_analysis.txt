@@ -1,0 +1,8 @@
+Database Analysis Report
+========================
+
+Total streets in database: 0
+Expected accurate streets: 15,339
+Excess streets: -15339
+Streets needing postcode correction: 0
+
