@@ -1,5 +1,5 @@
 {
-  "_source_id": 75,
+  "_source_id": 106,
   "sources": {
     "Storage Solutions Analysis - Historical Map Images & Street Photos": {
       "https://supabase.com/pricing": {
@@ -524,6 +524,229 @@
         "url": "https://www.ordnancesurvey.co.uk/customers/public-sector/public-sector-geospatial-agreement",
         "title": "PSGA Membership Terms",
         "info": "Public Sector Geospatial Agreement providing free access to Premium OS data for public sector members including cost structure"
+      }
+    },
+    "London Borough Street Databases and Open Data Sources": {
+      "https://data.southwark.gov.uk/": {
+        "id": 76,
+        "publisher": "Southwark Council",
+        "url": "https://data.southwark.gov.uk/",
+        "title": "Southwark Data Portal",
+        "info": "Main data portal providing free access to local data on communities, health, housing, environment, and economy. Features 8 data themes and postcode-based ward profile search. Built on Esri UK platform."
+      },
+      "https://lewisham.gov.uk/mayorandcouncil/aboutthecouncil/open-data-and-transparency": {
+        "id": 77,
+        "publisher": "Lewisham Council",
+        "url": "https://lewisham.gov.uk/mayorandcouncil/aboutthecouncil/open-data-and-transparency",
+        "title": "Lewisham Open Data and Transparency",
+        "info": "Council open data initiative page but detailed content extraction failed - may require browser interaction"
+      },
+      "https://dataobservatory.royalgreenwich.gov.uk/": {
+        "id": 78,
+        "publisher": "Royal Borough of Greenwich",
+        "url": "https://dataobservatory.royalgreenwich.gov.uk/",
+        "title": "Royal Greenwich Data Observatory",
+        "info": "Data observatory providing interactive intelligence about the borough with postcode/ward search and interactive mapping. Covers population, health, housing, crime, economy, and environment data."
+      },
+      "https://www.westminster.gov.uk/about-council/data": {
+        "id": 79,
+        "publisher": "Westminster City Council",
+        "url": "https://www.westminster.gov.uk/about-council/data",
+        "title": "Westminster City Council Data Portal",
+        "info": "Council data hub page providing access to various datasets about Westminster, population, environment, and other measures. Contains links to specific data categories."
+      },
+      "https://www.bexley.gov.uk/discover-bexley/bexley-data-hub/what-data-hub": {
+        "id": 80,
+        "publisher": "London Borough of Bexley",
+        "url": "https://www.bexley.gov.uk/discover-bexley/bexley-data-hub/what-data-hub",
+        "title": "Bexley Data Hub",
+        "info": "One-stop-shop for Bexley data providing insights into borough demographics and council services. Links to external public datasets and allows comparison across different years and areas."
+      },
+      "https://lb-lewisham.github.io/open-data-lewisham/": {
+        "id": 81,
+        "publisher": "Lewisham Council",
+        "url": "https://lb-lewisham.github.io/open-data-lewisham/",
+        "title": "Open Data Lewisham Portal",
+        "info": "Detailed access to street datasets, transport data, and geospatial information. Provides SQLite databases with JSON API endpoints, including FixMyStreet history, electric vehicle chargepoints, ward boundaries, and planning consultations."
+      },
+      "https://www.bexley.gov.uk/services/parking-transport-and-streets/highway-records/publicly-maintained-highway": {
+        "id": 82,
+        "publisher": "London Borough of Bexley",
+        "url": "https://www.bexley.gov.uk/services/parking-transport-and-streets/highway-records/publicly-maintained-highway",
+        "title": "Bexley Publicly Maintained Highway Records",
+        "info": "Comprehensive list of streets maintained by the borough authority, categorized by maintenance responsibility (public, private, mixed). Includes street descriptions, maintenance status, and traffic scheme information. Last updated October 2023."
+      },
+      "https://gis-tfl.opendata.arcgis.com/": {
+        "id": 83,
+        "publisher": "Transport for London",
+        "url": "https://gis-tfl.opendata.arcgis.com/",
+        "title": "TfL GIS Open Data Hub",
+        "info": "Main TfL GIS platform providing free access to geospatial transport data under OGL. Features categorized datasets including road, transport, and boundary data with RSS feeds, DCAT feeds, and OGC API access methods."
+      },
+      "https://www.royalgreenwich.gov.uk/downloads/download/861/road_register": {
+        "id": 84,
+        "publisher": "Royal Borough of Greenwich",
+        "url": "https://www.royalgreenwich.gov.uk/downloads/download/861/road_register",
+        "title": "Greenwich Road Register Download",
+        "info": "Direct access to Greenwich road register in both PDF (1.04 MB) and CSV (294 KB) formats. Lists all streets in the borough with no special access requirements."
+      }
+    },
+    "UK Postal Address and Street Datasets - SE London Coverage": {
+      "https://postcodes.io/": {
+        "id": 85,
+        "publisher": "Ideal Postcodes",
+        "url": "https://postcodes.io/",
+        "title": "Postcodes.io: Postcode & Geolocation API for the UK",
+        "info": "Free, open-source API for UK postcode lookup and geolocation with regular updates from OS and ONS data sources"
+      },
+      "https://getaddress.io/": {
+        "id": 86,
+        "publisher": "getAddress.io",
+        "url": "https://getaddress.io/",
+        "title": "Simple APIs for UK Addresses",
+        "info": "UK address APIs with flexible subscription pricing from £3-240/month, daily updates from multiple data sources including Ordnance Survey"
+      },
+      "https://www.gov.uk/guidance/access-free-address-data-using-addressbase": {
+        "id": 87,
+        "publisher": "UK Government",
+        "url": "https://www.gov.uk/guidance/access-free-address-data-using-addressbase",
+        "title": "Access free address data using AddressBase",
+        "info": "Free address data through AddressBase products for PSGA members, includes 33 million addresses with UPRN standard"
+      },
+      "https://www.ordnancesurvey.co.uk/products/os-open-names": {
+        "id": 88,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names",
+        "title": "OS Open Names Dataset",
+        "info": "Free dataset of place names, road numbers, and postcodes for Great Britain with 870k+ roads, 44k+ settlements, updated quarterly"
+      },
+      "https://www.ons.gov.uk/methodology/geography/geographicalproducts/postcodeproducts": {
+        "id": 89,
+        "publisher": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/methodology/geography/geographicalproducts/postcodeproducts",
+        "title": "ONS Postcode Products",
+        "info": "Free NSPL and ONSPD datasets updated quarterly with postcode-to-geography mapping for UK postcodes"
+      },
+      "https://www.poweredbypaf.com/pricing/": {
+        "id": 90,
+        "publisher": "Royal Mail",
+        "url": "https://www.poweredbypaf.com/pricing/",
+        "title": "PAF Pricing and Licensing",
+        "info": "Commercial licensing for Postcode Address File with tiered pricing including free access for microbusinesses and charities under specific criteria"
+      },
+      "https://ideal-postcodes.co.uk/pricing": {
+        "id": 91,
+        "publisher": "Ideal Postcodes",
+        "url": "https://ideal-postcodes.co.uk/pricing",
+        "title": "Ideal Postcodes Pricing",
+        "info": "Premium UK address API with pay-as-you-go pricing £9-900 for 200-32,100 credits, includes UPRN and rooftop geocodes"
+      },
+      "https://developers.google.com/maps/documentation/address-validation/coverage": {
+        "id": 92,
+        "publisher": "Google",
+        "url": "https://developers.google.com/maps/documentation/address-validation/coverage",
+        "title": "Address Validation API Coverage",
+        "info": "Google's address validation API with full support for UK including residential/commercial address metadata"
+      },
+      "https://mapsplatform.google.com/pricing/": {
+        "id": 93,
+        "publisher": "Google",
+        "url": "https://mapsplatform.google.com/pricing/",
+        "title": "Google Maps Platform Pricing",
+        "info": "Maps Platform pricing from $100-1,200/month with up to 250k monthly calls, includes geocoding and address validation"
+      },
+      "https://www.api.gov.uk/os/os-places-api/": {
+        "id": 94,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.api.gov.uk/os/os-places-api/",
+        "title": "OS Places API",
+        "info": "UK's most comprehensive online address database with postcode and address search capabilities for England, Scotland, Wales"
+      },
+      "https://coordable.co/blog/uk-address-postal-data-faq/": {
+        "id": 95,
+        "publisher": "Coordable",
+        "url": "https://coordable.co/blog/uk-address-postal-data-faq/",
+        "title": "UK Address and Postal Data FAQ",
+        "info": "Comprehensive FAQ covering AddressBase, UPRN, PAF, and alternatives including OpenStreetMap and crowdsourced solutions"
+      },
+      "https://www.ordnancesurvey.co.uk/products/addressbase": {
+        "id": 96,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/addressbase",
+        "title": "AddressBase Product Details",
+        "info": "Addresses 29 million Royal Mail postal addresses matched to UPRNs, updated every six weeks, free for PSGA members"
+      }
+    },
+    "Ordnance Survey Street Data Research": {
+      "https://www.ordnancesurvey.co.uk/products/code-point-open": {
+        "id": 97,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/code-point-open",
+        "title": "Code-Point Open - Official Product Page",
+        "info": "Free dataset of 1.7 million postcodes in Great Britain, updated quarterly, includes administrative unit codes and NHS health authority codes"
+      },
+      "https://www.ordnancesurvey.co.uk/products/os-open-names": {
+        "id": 98,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-names",
+        "title": "OS Open Names - Official Product Page",
+        "info": "Comprehensive free dataset with 870,000+ named roads, 44,000+ settlements, 1.6 million+ postcodes, updated quarterly under OGL license"
+      },
+      "https://www.ordnancesurvey.co.uk/products/addressbase": {
+        "id": 99,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/addressbase",
+        "title": "AddressBase - Official Product Page",
+        "info": "Matches 29M Royal Mail addresses to UPRNs, includes PAF data with coordinates, updated every six weeks, commercial product with free samples available"
+      },
+      "https://www.ordnancesurvey.co.uk/products/os-open-uprn": {
+        "id": 100,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-uprn",
+        "title": "OS Open UPRN - Official Product Page",
+        "info": "Free UPRN identifiers for 40M addressable locations in Great Britain, updated every six weeks, available in CSV and GeoPackage formats"
+      },
+      "https://www.ordnancesurvey.co.uk/products/os-open-roads": {
+        "id": 101,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/os-open-roads",
+        "title": "OS Open Roads - Official Product Page",
+        "info": "High-level road network data (replaces discontinued Meridian 2), includes motorways to country lanes, updated twice yearly (April/Nov), free under OGL"
+      },
+      "https://www.ordnancesurvey.co.uk/products/addressbase-core": {
+        "id": 102,
+        "publisher": "Ordnance Survey",
+        "url": "https://www.ordnancesurvey.co.uk/products/addressbase-core",
+        "title": "AddressBase Core - Official Product Page",
+        "info": "33M+ unique addresses with UPRNs and coordinates, weekly updates, free for PSGA members, commercial licensing available through partners"
+      },
+      "https://www.api.gov.uk/os/os-names-api/": {
+        "id": 103,
+        "publisher": "UK Government API Catalogue",
+        "url": "https://www.api.gov.uk/os/os-names-api/",
+        "title": "OS Names API - Official Documentation",
+        "info": "Free API for searching populated places, road names, road numbers, and postcodes across England, Scotland, Wales, launched July 2020"
+      },
+      "https://www.api.gov.uk/os/os-places-api/": {
+        "id": 104,
+        "publisher": "UK Government API Catalogue",
+        "url": "https://www.api.gov.uk/os/os-places-api/",
+        "title": "OS Places API - Official Documentation",
+        "info": "Secure address lookup API for UK addresses, supports postcode and address search, includes geosearch tool for closest properties, launched July 2020"
+      },
+      "https://www.gov.uk/guidance/access-free-address-data-using-addressbase": {
+        "id": 105,
+        "publisher": "GOV.UK",
+        "url": "https://www.gov.uk/guidance/access-free-address-data-using-addressbase",
+        "title": "Access free address data using AddressBase",
+        "info": "Government guidance on free AddressBase access through PSGA for public sector, includes UPRN standard compliance and weekly updates information"
+      },
+      "https://osdatahub.os.uk/plans": {
+        "id": 106,
+        "publisher": "Ordnance Survey",
+        "url": "https://osdatahub.os.uk/plans",
+        "title": "OS Data Hub Plans and Pricing",
+        "info": "£1,000 monthly free allowance for premium data, OS OpenData always free, pricing model for APIs and premium datasets"
       }
     }
   }
