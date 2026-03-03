@@ -1,5 +1,6 @@
 // AI Etymology Suggestion Edge Function
 // Uses pattern matching and linguistic rules to suggest etymologies
+// Algorithm docs: docs/ai_ml/suggest_etymology_algorithm.md
 
 Deno.serve(async (req) => {
   const corsHeaders = {
