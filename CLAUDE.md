@@ -72,14 +72,21 @@ Streets-Past/
 │   ├── screenshots/           # Browser screenshots
 │   └── user_data/             # Browser profile data
 │
-├── docs/                      # Research documentation
-│   ├── ai_ml/                 # AI/ML etymology analysis research
+├── docs/                      # Project documentation
+│   ├── ai_ml/                 # AI/ML etymology analysis + algorithm docs
+│   ├── api/                   # Edge Function & client query API specs
+│   ├── architecture/          # Architecture decision records (10 ADRs)
 │   ├── auth/                  # Authentication & community analysis
-│   ├── database/              # Database solution analysis
+│   ├── data/                  # OS OpenNames ETL pipeline guide
+│   ├── database/              # Database analysis + full schema docs
+│   ├── deployment/            # Production launch runbook
+│   ├── development/           # Testing strategy (Vitest + Playwright)
 │   ├── domain/                # Domain & SSL cost analysis
 │   ├── hosting/               # Hosting platform comparison
-│   ├── mapping/               # Mapping service analysis
+│   ├── mapping/               # Mapping analysis + OSM compliance
 │   ├── open_data/             # UK open data research
+│   ├── operations/            # Monitoring, alerting & ops runbook
+│   ├── security/              # Security hardening & GDPR guide
 │   └── storage/               # Storage cost analysis & calculations
 │
 ├── .memory/                   # Internal metadata (todo tracking, URL sources)
@@ -285,9 +292,17 @@ SUPABASE_SERVICE_ROLE_KEY  # Auto-provided by Supabase
 | `street-etymology/.env.example` | Environment variable template |
 | `supabase/functions/suggest-etymology/index.ts` | Etymology pattern matching engine (57 suffix + 34 prefix patterns) |
 | `docs/ai_ml/suggest_etymology_algorithm.md` | Full algorithm documentation for etymology engine |
+| `docs/database/schema.md` | Complete table definitions, RLS policies, indexes |
+| `docs/api/edge-functions.md` | API specs for Edge Functions + client queries |
+| `docs/data/os-opennames-import.md` | ETL pipeline for OS OpenNames (~790k streets) |
+| `docs/deployment/production-launch.md` | Full deployment runbook |
+| `docs/architecture/decisions.md` | 10 architecture decision records |
+| `docs/security/guide.md` | Security hardening, GDPR, incident response |
+| `docs/operations/runbook.md` | Ops runbook, troubleshooting, maintenance |
+| `docs/mapping/osm-compliance.md` | OSM tile usage compliance checklist |
+| `CONTRIBUTING.md` | Contributing guidelines, code style, dev setup |
 | `complete_street_etymology_website_setup.md` | 390+ line production setup guide with cost breakdowns |
 | `memory/research_history_record.json` | 8 completed research initiatives tracking |
-| `docs/` | Extensive research docs for all technical decisions |
 
 ## Database Schema (Core Tables)
 
