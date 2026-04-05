@@ -10,7 +10,7 @@ export function NewsletterSignup() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!email.trim()) {
       toast.error('Please enter your email address');
       return;
@@ -43,55 +43,47 @@ export function NewsletterSignup() {
 
   if (subscribed) {
     return (
-      <div className="bg-green-50 rounded-xl p-6 text-center">
-        <CheckCircle className="w-10 h-10 text-green-600 mx-auto mb-3" />
-        <h3 className="text-lg font-semibold text-green-800 mb-1">
-          Successfully Subscribed
-        </h3>
-        <p className="text-green-700 text-sm">
-          You will receive updates about new etymological discoveries and features.
+      <div className="surface-glass rounded-2xl p-6 text-center">
+        <CheckCircle className="mx-auto mb-3 h-10 w-10 text-primary" />
+        <h3 className="mb-1 font-display text-lg font-semibold text-foreground">Subscribed</h3>
+        <p className="text-sm text-muted-foreground">
+          You will receive occasional updates on etymology and new features.
         </p>
       </div>
     );
   }
 
   return (
-    <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200">
-      <div className="flex items-center space-x-3 mb-4">
-        <div className="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center">
-          <Mail className="w-5 h-5 text-amber-700" />
+    <div className="surface-glass rounded-2xl p-6">
+      <div className="mb-4 flex items-center gap-3">
+        <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-border bg-accent/80">
+          <Mail className="h-5 w-5 text-primary" />
         </div>
         <div>
-          <h3 className="font-semibold text-stone-800">Etymology Newsletter</h3>
-          <p className="text-sm text-stone-600">Stay updated on street name discoveries</p>
+          <h3 className="font-display font-semibold text-foreground">Newsletter</h3>
+          <p className="text-sm text-muted-foreground">Quiet updates — no clutter.</p>
         </div>
       </div>
-      
-      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
+
+      <form onSubmit={handleSubmit} className="flex flex-col gap-3 sm:flex-row">
         <input
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="Enter your email"
-          className="flex-1 px-4 py-2 border border-amber-200 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all bg-white"
+          placeholder="Your email"
+          className="flex-1 rounded-xl border border-border bg-background px-4 py-2.5 text-foreground placeholder:text-muted-foreground focus:border-primary/40 focus:outline-none focus:ring-2 focus:ring-ring/30"
           required
         />
         <button
           type="submit"
           disabled={isSubmitting}
-          className="px-6 py-2 bg-amber-700 hover:bg-amber-800 disabled:bg-amber-400 text-white font-medium rounded-lg transition-colors flex items-center justify-center space-x-2"
+          className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-2.5 font-medium text-primary-foreground transition-opacity disabled:opacity-50"
         >
-          {isSubmitting ? (
-            <Loader2 className="w-5 h-5 animate-spin" />
-          ) : (
-            <span>Subscribe</span>
-          )}
+          {isSubmitting ? <Loader2 className="h-5 w-5 animate-spin" /> : <span>Subscribe</span>}
         </button>
       </form>
-      
-      <p className="mt-3 text-xs text-stone-500">
-        We respect your privacy. Unsubscribe at any time.
-      </p>
+
+      <p className="mt-3 text-xs text-muted-foreground">Unsubscribe any time. We keep data minimal.</p>
     </div>
   );
 }

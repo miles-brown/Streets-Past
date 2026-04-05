@@ -1,17 +1,10 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { MapView } from '../components/MapView';
 import { SearchBar } from '../components/SearchBar';
+import { ThemeToggle } from '../components/ThemeToggle';
 import { Street } from '../lib/supabase';
-import { 
-  MapPin, 
-  List, 
-  Grid,
-  X,
-  Clock,
-  ChevronRight,
-  CheckCircle
-} from 'lucide-react';
+import { MapPin, List, Grid, X, Clock, ChevronRight, CheckCircle } from 'lucide-react';
 
 export function MapPage() {
   const navigate = useNavigate();
@@ -24,186 +17,169 @@ export function MapPage() {
   };
 
   return (
-    <div className="h-screen flex flex-col">
-      {/* Top Bar */}
-      <div className="bg-white border-b border-stone-200 p-4">
-        <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
-          <div className="flex items-center space-x-2">
-            <MapPin className="w-6 h-6 text-amber-600" />
-            <h1 className="text-xl font-serif font-bold text-stone-800">
-              UK Street Map
-            </h1>
-          </div>
-          
-          <div className="flex-1 max-w-xl">
-            <SearchBar 
-              onSelect={handleStreetSelect} 
-              placeholder="Search for a street..."
-            />
+    <div className="flex h-screen flex-col">
+      <div className="border-b border-border bg-card/90 p-4 backdrop-blur-md">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4">
+          <Link to="/" className="flex shrink-0 items-center gap-2 text-foreground hover:opacity-80">
+            <MapPin className="h-6 w-6 text-primary" />
+            <h1 className="font-display text-xl font-bold">UK street map</h1>
+          </Link>
+
+          <div className="max-w-xl flex-1">
+            <SearchBar onSelect={handleStreetSelect} placeholder="Search for a street…" />
           </div>
 
-          <div className="hidden md:flex items-center space-x-2">
+          <div className="hidden items-center gap-2 md:flex">
+            <ThemeToggle />
             <button
+              type="button"
               onClick={() => setShowSidebar(!showSidebar)}
-              className={`p-2 rounded-lg transition-colors ${
-                showSidebar 
-                  ? 'bg-amber-100 text-amber-700' 
-                  : 'text-stone-600 hover:bg-stone-100'
+              className={`rounded-lg p-2 transition-colors ${
+                showSidebar ? 'bg-accent text-accent-foreground' : 'text-muted-foreground hover:bg-muted'
               }`}
               title={showSidebar ? 'Hide sidebar' : 'Show sidebar'}
             >
-              <List className="w-5 h-5" />
+              <List className="h-5 w-5" />
             </button>
+          </div>
+
+          <div className="flex md:hidden">
+            <ThemeToggle />
           </div>
         </div>
       </div>
 
-      {/* Map and Sidebar */}
-      <div className="flex-1 flex overflow-hidden">
-        {/* Map */}
-        <div className="flex-1 relative">
-          <MapView 
+      <div className="flex flex-1 overflow-hidden">
+        <div className="relative flex-1">
+          <MapView
             selectedStreet={selectedStreet}
             onStreetSelect={handleStreetSelect}
             height="100%"
           />
 
-          {/* Mobile Selected Street Card */}
           {selectedStreet && (
-            <div className="absolute bottom-4 left-4 right-4 md:hidden bg-white rounded-xl shadow-xl border border-stone-200 p-4">
+            <div className="absolute bottom-4 left-4 right-4 surface-glass rounded-xl p-4 md:hidden">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
-                  <div className="flex items-center space-x-2 text-sm text-stone-500 mb-1">
-                    <MapPin className="w-4 h-4 text-amber-600" />
-                    <span>{selectedStreet.city}, {selectedStreet.county}</span>
+                  <div className="mb-1 flex items-center gap-2 text-sm text-muted-foreground">
+                    <MapPin className="h-4 w-4 text-primary" />
+                    <span>
+                      {selectedStreet.city}, {selectedStreet.county}
+                    </span>
                   </div>
-                  <h3 className="text-lg font-semibold text-stone-800">
-                    {selectedStreet.name}
-                  </h3>
+                  <h3 className="text-lg font-semibold text-foreground">{selectedStreet.name}</h3>
                   {selectedStreet.etymology_suggestion && (
-                    <p className="text-sm text-stone-600 mt-1 line-clamp-2">
+                    <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">
                       {selectedStreet.etymology_suggestion}
                     </p>
                   )}
                   <button
+                    type="button"
                     onClick={() => navigate(`/street/${selectedStreet.id}`)}
-                    className="mt-3 flex items-center space-x-1 text-amber-700 font-medium text-sm"
+                    className="mt-3 flex items-center gap-1 text-sm font-medium text-primary"
                   >
-                    <span>View Details</span>
-                    <ChevronRight className="w-4 h-4" />
+                    <span>View details</span>
+                    <ChevronRight className="h-4 w-4" />
                   </button>
                 </div>
                 <button
+                  type="button"
                   onClick={() => setSelectedStreet(null)}
-                  className="p-1 text-stone-400 hover:text-stone-600"
+                  className="p-1 text-muted-foreground hover:text-foreground"
                 >
-                  <X className="w-5 h-5" />
+                  <X className="h-5 w-5" />
                 </button>
               </div>
             </div>
           )}
         </div>
 
-        {/* Sidebar */}
         {showSidebar && (
-          <div className="hidden md:block w-96 bg-white border-l border-stone-200 overflow-y-auto">
+          <div className="hidden w-96 overflow-y-auto border-l border-border bg-card md:block">
             {selectedStreet ? (
               <div className="p-6">
-                <div className="flex items-start justify-between mb-4">
-                  <div className="flex items-center space-x-2">
+                <div className="mb-4 flex items-start justify-between">
+                  <div className="flex items-center gap-2">
                     {selectedStreet.etymology_verified ? (
-                      <span className="flex items-center space-x-1 px-2 py-0.5 bg-green-100 text-green-700 rounded-full text-xs font-medium">
-                        <CheckCircle className="w-3 h-3" />
+                      <span className="flex items-center gap-1 rounded-full bg-emerald-500/15 px-2 py-0.5 text-xs font-medium text-emerald-800 dark:bg-emerald-500/20 dark:text-emerald-300">
+                        <CheckCircle className="h-3 w-3" />
                         <span>Verified</span>
                       </span>
                     ) : (
-                      <span className="px-2 py-0.5 bg-amber-100 text-amber-700 rounded-full text-xs font-medium">
+                      <span className="rounded-full bg-accent px-2 py-0.5 text-xs font-medium text-accent-foreground">
                         Unverified
                       </span>
                     )}
                   </div>
                   <button
+                    type="button"
                     onClick={() => setSelectedStreet(null)}
-                    className="p-1 text-stone-400 hover:text-stone-600"
+                    className="p-1 text-muted-foreground hover:text-foreground"
                   >
-                    <X className="w-5 h-5" />
+                    <X className="h-5 w-5" />
                   </button>
                 </div>
 
-                <div className="flex items-center space-x-2 text-sm text-stone-500 mb-2">
-                  <MapPin className="w-4 h-4 text-amber-600" />
+                <div className="mb-2 flex items-center gap-2 text-sm text-muted-foreground">
+                  <MapPin className="h-4 w-4 text-primary" />
                   <span>{[selectedStreet.city, selectedStreet.county].filter(Boolean).join(', ')}</span>
                 </div>
 
-                <h2 className="text-2xl font-serif font-bold text-stone-800 mb-4">
-                  {selectedStreet.name}
-                </h2>
+                <h2 className="mb-4 font-display text-2xl font-bold text-foreground">{selectedStreet.name}</h2>
 
                 {selectedStreet.etymology_suggestion ? (
-                  <div className="prose prose-stone prose-sm max-w-none mb-4">
-                    <p className="text-stone-700 leading-relaxed">
-                      {selectedStreet.etymology_suggestion}
-                    </p>
+                  <div className="prose prose-sm mb-4 max-w-none">
+                    <p className="leading-relaxed text-muted-foreground">{selectedStreet.etymology_suggestion}</p>
                   </div>
                 ) : (
-                  <p className="text-stone-500 italic mb-4">
-                    Etymology not yet researched
-                  </p>
+                  <p className="mb-4 italic text-muted-foreground">Etymology not yet researched</p>
                 )}
 
                 {selectedStreet.first_recorded_date && (
-                  <div className="flex items-center space-x-2 text-sm text-stone-600 mb-4 pb-4 border-b border-stone-200">
-                    <Clock className="w-4 h-4" />
+                  <div className="mb-4 flex items-center gap-2 border-b border-border pb-4 text-sm text-muted-foreground">
+                    <Clock className="h-4 w-4" />
                     <span>First recorded: {selectedStreet.first_recorded_date}</span>
                   </div>
                 )}
 
                 {selectedStreet.latitude && selectedStreet.longitude && (
-                  <div className="text-sm text-stone-500 mb-6">
-                    <span className="font-medium">Coordinates:</span>{' '}
+                  <div className="mb-6 font-mono text-sm text-muted-foreground">
+                    <span className="font-sans font-medium text-foreground">Coordinates:</span>{' '}
                     {selectedStreet.latitude.toFixed(5)}, {selectedStreet.longitude.toFixed(5)}
                   </div>
                 )}
 
                 <button
+                  type="button"
                   onClick={() => navigate(`/street/${selectedStreet.id}`)}
-                  className="w-full flex items-center justify-center space-x-2 px-4 py-3 bg-amber-700 hover:bg-amber-800 text-white rounded-lg transition-colors font-medium"
+                  className="flex w-full items-center justify-center gap-2 rounded-lg bg-primary px-4 py-3 font-medium text-primary-foreground transition-opacity hover:opacity-90"
                 >
-                  <span>View Full Details</span>
-                  <ChevronRight className="w-4 h-4" />
+                  <span>View full details</span>
+                  <ChevronRight className="h-4 w-4" />
                 </button>
               </div>
             ) : (
               <div className="p-6">
-                <div className="text-center py-12">
-                  <div className="w-16 h-16 bg-stone-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                    <Grid className="w-8 h-8 text-stone-400" />
+                <div className="py-12 text-center">
+                  <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl border border-border bg-muted/50">
+                    <Grid className="h-8 w-8 text-muted-foreground" />
                   </div>
-                  <h3 className="text-lg font-semibold text-stone-800 mb-2">
-                    Select a Street
-                  </h3>
-                  <p className="text-stone-600 text-sm">
-                    Click on any marker on the map or use the search bar to select a street 
-                    and view its etymology.
+                  <h3 className="mb-2 text-lg font-semibold text-foreground">Select a street</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Click a marker or search to load etymology in this panel.
                   </p>
                 </div>
 
                 <div className="mt-8">
-                  <h4 className="text-sm font-semibold text-stone-800 uppercase tracking-wider mb-3">
-                    Quick Tips
-                  </h4>
-                  <ul className="space-y-3 text-sm text-stone-600">
-                    <li className="flex items-start space-x-2">
-                      <MapPin className="w-4 h-4 text-amber-600 mt-0.5 flex-shrink-0" />
-                      <span>Click on any marker to see street details</span>
+                  <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-foreground">Quick tips</h4>
+                  <ul className="space-y-3 text-sm text-muted-foreground">
+                    <li className="flex items-start gap-2">
+                      <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                      <span>Markers open street context here.</span>
                     </li>
-                    <li className="flex items-start space-x-2">
-                      <MapPin className="w-4 h-4 text-amber-600 mt-0.5 flex-shrink-0" />
-                      <span>Use scroll wheel to zoom in and out</span>
-                    </li>
-                    <li className="flex items-start space-x-2">
-                      <MapPin className="w-4 h-4 text-amber-600 mt-0.5 flex-shrink-0" />
-                      <span>Drag the map to explore different areas</span>
+                    <li className="flex items-start gap-2">
+                      <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                      <span>Scroll to zoom; drag to pan.</span>
                     </li>
                   </ul>
                 </div>

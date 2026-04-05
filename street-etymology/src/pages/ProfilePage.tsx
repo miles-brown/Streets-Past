@@ -2,17 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { supabase, Contribution, Street } from '../lib/supabase';
-import {
-  User,
-  Mail,
-  Calendar,
-  Edit2,
-  Loader2,
-  CheckCircle,
-  Clock,
-  XCircle,
-  MapPin
-} from 'lucide-react';
+import { User, Mail, Calendar, Edit2, Loader2, CheckCircle, Clock, XCircle, MapPin } from 'lucide-react';
 import toast from 'react-hot-toast';
 
 type ContributionWithStreet = Contribution & { street?: Street };
@@ -52,17 +42,16 @@ export function ProfilePage() {
 
         if (error) throw error;
 
-        // Fetch street names
         if (contributionsData && contributionsData.length > 0) {
-          const streetIds = [...new Set(contributionsData.map(c => c.street_id))];
+          const streetIds = [...new Set(contributionsData.map((c) => c.street_id))];
           const { data: streets } = await supabase
             .from('streets')
             .select('id, name, city, county')
             .in('id', streetIds);
 
-          const contributionsWithStreets = contributionsData.map(c => ({
+          const contributionsWithStreets = contributionsData.map((c) => ({
             ...c,
-            street: streets?.find(s => s.id === c.street_id)
+            street: streets?.find((s) => s.id === c.street_id),
           }));
 
           setContributions(contributionsWithStreets);
@@ -104,11 +93,11 @@ export function ProfilePage() {
   const getStatusIcon = (status: string) => {
     switch (status) {
       case 'approved':
-        return <CheckCircle className="w-5 h-5 text-green-600" />;
+        return <CheckCircle className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />;
       case 'rejected':
-        return <XCircle className="w-5 h-5 text-red-600" />;
+        return <XCircle className="h-5 w-5 text-red-600 dark:text-red-400" />;
       default:
-        return <Clock className="w-5 h-5 text-amber-600" />;
+        return <Clock className="h-5 w-5 text-primary" />;
     }
   };
 
@@ -119,14 +108,14 @@ export function ProfilePage() {
       case 'rejected':
         return 'Rejected';
       default:
-        return 'Pending Review';
+        return 'Pending review';
     }
   };
 
   if (authLoading) {
     return (
-      <div className="min-h-screen bg-stone-50 flex items-center justify-center">
-        <Loader2 className="w-10 h-10 text-amber-600 animate-spin" />
+      <div className="flex min-h-screen items-center justify-center bg-background">
+        <Loader2 className="h-10 w-10 animate-spin text-primary" />
       </div>
     );
   }
@@ -136,27 +125,27 @@ export function ProfilePage() {
   }
 
   return (
-    <div className="min-h-screen bg-stone-50 py-8">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Profile Card */}
-        <div className="bg-white rounded-2xl shadow-sm border border-stone-200 p-6 md:p-8 mb-8">
-          <div className="flex items-start justify-between mb-6">
-            <h1 className="text-2xl font-serif font-bold text-stone-800">My Profile</h1>
+    <div className="min-h-screen bg-background py-8">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <div className="surface-glass mb-8 rounded-2xl p-6 md:p-8">
+          <div className="mb-6 flex items-start justify-between">
+            <h1 className="font-display text-2xl font-bold text-foreground">My profile</h1>
             {!isEditing && (
               <button
+                type="button"
                 onClick={() => setIsEditing(true)}
-                className="flex items-center space-x-1 px-3 py-2 text-stone-600 hover:bg-stone-100 rounded-lg transition-colors text-sm"
+                className="flex items-center gap-1 rounded-lg px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
               >
-                <Edit2 className="w-4 h-4" />
+                <Edit2 className="h-4 w-4" />
                 <span>Edit</span>
               </button>
             )}
           </div>
 
           <div className="space-y-4">
-            <div className="flex items-center space-x-4">
-              <div className="w-16 h-16 bg-gradient-to-br from-amber-600 to-amber-800 rounded-full flex items-center justify-center">
-                <User className="w-8 h-8 text-white" />
+            <div className="flex items-center gap-4">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary/85 text-primary-foreground">
+                <User className="h-8 w-8" />
               </div>
               <div>
                 {isEditing ? (
@@ -165,86 +154,77 @@ export function ProfilePage() {
                     value={fullName}
                     onChange={(e) => setFullName(e.target.value)}
                     placeholder="Your name"
-                    className="text-xl font-semibold text-stone-800 px-3 py-1 border border-stone-200 rounded-lg focus:ring-2 focus:ring-amber-500"
+                    className="rounded-lg border border-border bg-background px-3 py-1 text-xl font-semibold text-foreground focus:border-primary/40 focus:outline-none focus:ring-2 focus:ring-ring/30"
                   />
                 ) : (
-                  <h2 className="text-xl font-semibold text-stone-800">
-                    {profile?.full_name || 'Anonymous User'}
-                  </h2>
+                  <h2 className="text-xl font-semibold text-foreground">{profile?.full_name || 'Anonymous user'}</h2>
                 )}
-                <div className="flex items-center space-x-1 text-stone-500 mt-1">
-                  <Mail className="w-4 h-4" />
+                <div className="mt-1 flex items-center gap-1 text-muted-foreground">
+                  <Mail className="h-4 w-4" />
                   <span className="text-sm">{user.email}</span>
                 </div>
               </div>
             </div>
 
-            <div className="flex items-center space-x-6 pt-4 border-t border-stone-200">
-              <div className="flex items-center space-x-2 text-sm text-stone-600">
-                <Calendar className="w-4 h-4" />
+            <div className="flex flex-wrap items-center gap-6 border-t border-border pt-4">
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <Calendar className="h-4 w-4" />
                 <span>
-                  Joined {new Date(user.created_at).toLocaleDateString('en-GB', {
+                  Joined{' '}
+                  {new Date(user.created_at).toLocaleDateString('en-GB', {
                     month: 'long',
-                    year: 'numeric'
+                    year: 'numeric',
                   })}
                 </span>
               </div>
-              <div className="text-sm text-stone-600">
-                <span className="font-semibold text-amber-700">{contributions.length}</span> contributions
+              <div className="text-sm text-muted-foreground">
+                <span className="font-semibold text-primary">{contributions.length}</span> contributions
               </div>
             </div>
 
             {isEditing && (
-              <div className="flex items-center justify-end space-x-3 pt-4 border-t border-stone-200">
+              <div className="flex items-center justify-end gap-3 border-t border-border pt-4">
                 <button
+                  type="button"
                   onClick={() => {
                     setIsEditing(false);
                     setFullName(profile?.full_name || '');
                   }}
-                  className="px-4 py-2 text-stone-600 hover:bg-stone-100 rounded-lg transition-colors"
+                  className="rounded-lg px-4 py-2 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
                 >
                   Cancel
                 </button>
                 <button
+                  type="button"
                   onClick={handleSaveProfile}
                   disabled={isSaving}
-                  className="flex items-center space-x-2 px-4 py-2 bg-amber-700 hover:bg-amber-800 disabled:bg-amber-400 text-white rounded-lg transition-colors"
+                  className="flex items-center gap-2 rounded-lg bg-primary px-4 py-2 font-medium text-primary-foreground transition-opacity disabled:opacity-50"
                 >
-                  {isSaving ? (
-                    <Loader2 className="w-4 h-4 animate-spin" />
-                  ) : (
-                    <span>Save Changes</span>
-                  )}
+                  {isSaving ? <Loader2 className="h-4 w-4 animate-spin" /> : <span>Save changes</span>}
                 </button>
               </div>
             )}
           </div>
         </div>
 
-        {/* Contributions */}
-        <div className="bg-white rounded-2xl shadow-sm border border-stone-200 p-6 md:p-8">
-          <h2 className="text-xl font-serif font-bold text-stone-800 mb-6">
-            My Contributions
-          </h2>
+        <div className="surface-glass rounded-2xl p-6 md:p-8">
+          <h2 className="mb-6 font-display text-xl font-bold text-foreground">My contributions</h2>
 
           {isLoading ? (
             <div className="flex items-center justify-center py-12">
-              <Loader2 className="w-8 h-8 text-amber-600 animate-spin" />
+              <Loader2 className="h-8 w-8 animate-spin text-primary" />
             </div>
           ) : contributions.length === 0 ? (
-            <div className="text-center py-12">
-              <MapPin className="w-16 h-16 text-stone-300 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-stone-800 mb-2">
-                No contributions yet
-              </h3>
-              <p className="text-stone-600 mb-4">
-                Start contributing by researching street etymologies
-              </p>
+            <div className="py-12 text-center">
+              <MapPin className="mx-auto mb-4 h-16 w-16 text-muted-foreground/40" />
+              <h3 className="mb-2 text-lg font-semibold text-foreground">No contributions yet</h3>
+              <p className="mb-4 text-muted-foreground">Start by researching street etymologies.</p>
               <button
+                type="button"
                 onClick={() => navigate('/search')}
-                className="px-4 py-2 bg-amber-700 hover:bg-amber-800 text-white rounded-lg transition-colors"
+                className="rounded-lg bg-primary px-4 py-2 font-medium text-primary-foreground transition-opacity hover:opacity-90"
               >
-                Explore Streets
+                Explore streets
               </button>
             </div>
           ) : (
@@ -252,40 +232,42 @@ export function ProfilePage() {
               {contributions.map((contribution) => (
                 <div
                   key={contribution.id}
-                  className="bg-stone-50 rounded-xl p-4 hover:bg-stone-100 transition-colors cursor-pointer"
+                  className="cursor-pointer rounded-xl border border-border bg-muted/30 p-4 transition-colors hover:bg-muted/50"
                   onClick={() => navigate(`/street/${contribution.street_id}`)}
                 >
-                  <div className="flex items-start justify-between mb-2">
+                  <div className="mb-2 flex items-start justify-between">
                     <div>
-                      <div className="flex items-center space-x-2 text-sm text-stone-500 mb-1">
-                        <MapPin className="w-4 h-4 text-amber-600" />
-                        <span>{contribution.street?.name || 'Unknown Street'}</span>
+                      <div className="mb-1 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+                        <MapPin className="h-4 w-4 shrink-0 text-primary" />
+                        <span>{contribution.street?.name || 'Unknown street'}</span>
                         {contribution.street?.city && (
                           <>
-                            <span className="text-stone-300">|</span>
+                            <span className="text-border">|</span>
                             <span>{contribution.street.city}</span>
                           </>
                         )}
                       </div>
-                      <p className="text-xs text-stone-400">
+                      <p className="text-xs text-muted-foreground/80">
                         Submitted {new Date(contribution.created_at).toLocaleDateString()}
                       </p>
                     </div>
-                    <div className="flex items-center space-x-2">
+                    <div className="flex items-center gap-2">
                       {getStatusIcon(contribution.status)}
-                      <span className={`text-sm font-medium ${
-                        contribution.status === 'approved' ? 'text-green-600' :
-                        contribution.status === 'rejected' ? 'text-red-600' :
-                        'text-amber-600'
-                      }`}>
+                      <span
+                        className={`text-sm font-medium ${
+                          contribution.status === 'approved'
+                            ? 'text-emerald-600 dark:text-emerald-400'
+                            : contribution.status === 'rejected'
+                              ? 'text-red-600 dark:text-red-400'
+                              : 'text-primary'
+                        }`}
+                      >
                         {getStatusLabel(contribution.status)}
                       </span>
                     </div>
                   </div>
 
-                  <p className="text-stone-700 text-sm line-clamp-2">
-                    {contribution.etymology_suggestion}
-                  </p>
+                  <p className="line-clamp-2 text-sm text-muted-foreground">{contribution.etymology_suggestion}</p>
                 </div>
               ))}
             </div>

@@ -22,7 +22,7 @@ import './index.css';
 // Layout component with header and footer
 function MainLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex min-h-screen flex-col bg-background text-foreground">
       <Header />
       <main className="flex-1">{children}</main>
       <Footer />
@@ -32,7 +32,7 @@ function MainLayout({ children }: { children: React.ReactNode }) {
 
 // Full-screen layout (no header/footer) for map page
 function FullScreenLayout({ children }: { children: React.ReactNode }) {
-  return <div className="h-screen">{children}</div>;
+  return <div className="h-screen bg-background text-foreground">{children}</div>;
 }
 
 function App() {
@@ -43,21 +43,20 @@ function App() {
           position="top-center"
           toastOptions={{
             duration: 4000,
+            className: '!bg-card !text-card-foreground !border !border-border shadow-paper dark:!shadow-paper-dark',
             style: {
-              background: '#292524',
-              color: '#fafaf9',
               borderRadius: '0.75rem',
             },
             success: {
               iconTheme: {
-                primary: '#f59e0b',
-                secondary: '#fafaf9',
+                primary: 'hsl(var(--primary))',
+                secondary: 'hsl(var(--card))',
               },
             },
             error: {
               iconTheme: {
-                primary: '#ef4444',
-                secondary: '#fafaf9',
+                primary: 'hsl(var(--destructive))',
+                secondary: 'hsl(var(--card))',
               },
             },
           }}

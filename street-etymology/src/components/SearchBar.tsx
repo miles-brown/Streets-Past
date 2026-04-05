@@ -9,7 +9,11 @@ interface SearchBarProps {
   placeholder?: string;
 }
 
-export function SearchBar({ large = false, onSelect, placeholder = "Search UK street names..." }: SearchBarProps) {
+export function SearchBar({
+  large = false,
+  onSelect,
+  placeholder = 'Search UK street names…',
+}: SearchBarProps) {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<Street[]>([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -18,7 +22,6 @@ export function SearchBar({ large = false, onSelect, placeholder = "Search UK st
   const dropdownRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
 
-  // Debounced search
   useEffect(() => {
     if (query.length < 2) {
       setResults([]);
@@ -50,7 +53,6 @@ export function SearchBar({ large = false, onSelect, placeholder = "Search UK st
     return () => clearTimeout(timeoutId);
   }, [query]);
 
-  // Close dropdown on outside click
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (
@@ -84,14 +86,18 @@ export function SearchBar({ large = false, onSelect, placeholder = "Search UK st
     inputRef.current?.focus();
   };
 
+  const inputClass = `block w-full rounded-xl border border-border bg-card text-foreground placeholder:text-muted-foreground transition-all focus:border-primary/50 focus:outline-none focus:ring-2 focus:ring-ring/40 ${
+    large ? 'py-5 pl-14 pr-12 text-lg shadow-paper dark:shadow-paper-dark' : 'py-3 pl-12 pr-10 text-base'
+  }`;
+
   return (
     <div className="relative w-full">
-      <div className={`relative ${large ? 'shadow-lg' : 'shadow-sm'}`}>
-        <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+      <div className={`relative ${large ? '' : ''}`}>
+        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
           {isLoading ? (
-            <Loader2 className={`${large ? 'w-6 h-6' : 'w-5 h-5'} text-amber-600 animate-spin`} />
+            <Loader2 className={`${large ? 'h-6 w-6' : 'h-5 w-5'} animate-spin text-primary`} />
           ) : (
-            <Search className={`${large ? 'w-6 h-6' : 'w-5 h-5'} text-stone-400`} />
+            <Search className={`${large ? 'h-6 w-6' : 'h-5 w-5'} text-muted-foreground`} />
           )}
         </div>
         <input
@@ -101,49 +107,40 @@ export function SearchBar({ large = false, onSelect, placeholder = "Search UK st
           onChange={(e) => setQuery(e.target.value)}
           onFocus={() => query.length >= 2 && setIsOpen(true)}
           placeholder={placeholder}
-          className={`block w-full bg-white border border-stone-200 rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all ${
-            large 
-              ? 'pl-14 pr-12 py-5 text-lg' 
-              : 'pl-12 pr-10 py-3 text-base'
-          }`}
+          className={inputClass}
         />
         {query && (
-          <button
-            onClick={clearQuery}
-            className="absolute inset-y-0 right-0 pr-4 flex items-center"
-          >
-            <X className={`${large ? 'w-6 h-6' : 'w-5 h-5'} text-stone-400 hover:text-stone-600`} />
+          <button type="button" onClick={clearQuery} className="absolute inset-y-0 right-0 flex items-center pr-4">
+            <X className={`${large ? 'h-6 w-6' : 'h-5 w-5'} text-muted-foreground hover:text-foreground`} />
           </button>
         )}
       </div>
 
-      {/* Dropdown Results */}
       {isOpen && results.length > 0 && (
         <div
           ref={dropdownRef}
-          className="absolute z-50 w-full mt-2 bg-white rounded-xl shadow-xl border border-stone-200 overflow-hidden"
+          className="absolute z-50 mt-2 w-full overflow-hidden rounded-xl border border-border bg-popover text-popover-foreground shadow-paper dark:shadow-paper-dark"
         >
           <ul className="max-h-96 overflow-y-auto">
             {results.map((street) => (
               <li key={street.id}>
                 <button
+                  type="button"
                   onClick={() => handleSelect(street)}
-                  className="w-full px-4 py-3 flex items-start space-x-3 hover:bg-amber-50 transition-colors text-left"
+                  className="flex w-full items-start gap-3 px-4 py-3 text-left transition-colors hover:bg-muted/80"
                 >
-                  <MapPin className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
-                  <div className="flex-1 min-w-0">
-                    <p className="font-medium text-stone-900 truncate">{street.name}</p>
-                    <p className="text-sm text-stone-500 truncate">
+                  <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
+                  <div className="min-w-0 flex-1">
+                    <p className="truncate font-medium text-foreground">{street.name}</p>
+                    <p className="truncate text-sm text-muted-foreground">
                       {[street.city, street.county, street.postcode_area].filter(Boolean).join(', ')}
                     </p>
                     {street.etymology_suggestion && (
-                      <p className="text-xs text-stone-400 mt-1 line-clamp-1">
-                        {street.etymology_suggestion}
-                      </p>
+                      <p className="mt-1 line-clamp-1 text-xs text-muted-foreground">{street.etymology_suggestion}</p>
                     )}
                   </div>
                   {street.etymology_verified && (
-                    <span className="flex-shrink-0 px-2 py-0.5 text-xs font-medium bg-green-100 text-green-700 rounded-full">
+                    <span className="shrink-0 rounded-full bg-emerald-500/15 px-2 py-0.5 text-xs font-medium text-emerald-800 dark:bg-emerald-500/20 dark:text-emerald-300">
                       Verified
                     </span>
                   )}
@@ -151,23 +148,22 @@ export function SearchBar({ large = false, onSelect, placeholder = "Search UK st
               </li>
             ))}
           </ul>
-          <div className="px-4 py-2 bg-stone-50 border-t border-stone-200">
-            <p className="text-xs text-stone-500">
-              {results.length} result{results.length !== 1 ? 's' : ''} found
+          <div className="border-t border-border bg-muted/40 px-4 py-2">
+            <p className="text-xs text-muted-foreground">
+              {results.length} result{results.length !== 1 ? 's' : ''}
             </p>
           </div>
         </div>
       )}
 
-      {/* No Results */}
       {isOpen && query.length >= 2 && results.length === 0 && !isLoading && (
         <div
           ref={dropdownRef}
-          className="absolute z-50 w-full mt-2 bg-white rounded-xl shadow-xl border border-stone-200 p-6 text-center"
+          className="absolute z-50 mt-2 w-full rounded-xl border border-border bg-popover p-6 text-center shadow-paper dark:shadow-paper-dark"
         >
-          <Search className="w-12 h-12 text-stone-300 mx-auto mb-3" />
-          <p className="text-stone-600 font-medium">No streets found</p>
-          <p className="text-sm text-stone-400 mt-1">Try a different search term</p>
+          <Search className="mx-auto mb-3 h-12 w-12 text-muted-foreground/50" />
+          <p className="font-medium text-foreground">No streets found</p>
+          <p className="mt-1 text-sm text-muted-foreground">Try another spelling or place name.</p>
         </div>
       )}
     </div>

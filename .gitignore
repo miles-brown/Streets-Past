@@ -898,3 +898,11 @@
 # uploads/
 # downloads/
 
+# Local editor / agent caches (never commit)
+.agents/
+.claude/
+.kilocode/
+.roo/
+.npm-cache/
+skills-lock.json
+
