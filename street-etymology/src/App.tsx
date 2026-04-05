@@ -16,6 +16,8 @@ import { AdminPage } from './pages/AdminPage';
 import { AboutPage } from './pages/AboutPage';
 import { PrivacyPage } from './pages/PrivacyPage';
 import { TermsPage } from './pages/TermsPage';
+import { ExplorePage } from './pages/ExplorePage';
+import { ContributePage } from './pages/ContributePage';
 
 import './index.css';
 
@@ -95,6 +97,14 @@ function App() {
             }
           />
           <Route
+            path="/explore"
+            element={
+              <MainLayout>
+                <ExplorePage />
+              </MainLayout>
+            }
+          />
+          <Route
             path="/street/:id"
             element={
               <MainLayout>
@@ -130,7 +140,7 @@ function App() {
             path="/contribute"
             element={
               <MainLayout>
-                <SearchPage />
+                <ContributePage />
               </MainLayout>
             }
           />

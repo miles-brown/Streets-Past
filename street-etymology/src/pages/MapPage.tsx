@@ -4,9 +4,15 @@ import { MapView } from '../components/MapView';
 import { SearchBar } from '../components/SearchBar';
 import { ThemeToggle } from '../components/ThemeToggle';
 import { Street } from '../lib/supabase';
+import { usePageMeta } from '../hooks/usePageMeta';
 import { MapPin, List, Grid, X, Clock, ChevronRight, CheckCircle } from 'lucide-react';
 
 export function MapPage() {
+  usePageMeta({
+    title: 'UK street map',
+    description: 'Interactive map of UK streets — open markers to read names and etymology.',
+  });
+
   const navigate = useNavigate();
   const [selectedStreet, setSelectedStreet] = useState<Street | null>(null);
   const [showSidebar, setShowSidebar] = useState(true);

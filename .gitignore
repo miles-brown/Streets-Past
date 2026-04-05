@@ -597,6 +597,9 @@
 # PostgreSQL
 **/*.backup
 **/*.sql
+# Track repo-authored SQL (migrations + operational scripts); keep dumps/backups ignored.
+!supabase/migrations/**/*.sql
+!scripts/**/*.sql
 
 # MongoDB
 **/dump/

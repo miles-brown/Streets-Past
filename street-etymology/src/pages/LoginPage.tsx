@@ -2,10 +2,17 @@ import { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { ThemeToggle } from '../components/ThemeToggle';
+import { usePageMeta } from '../hooks/usePageMeta';
 import { MapPin, Loader2, AlertCircle, Mail, Lock } from 'lucide-react';
 import toast from 'react-hot-toast';
 
 export function LoginPage() {
+  usePageMeta({
+    title: 'Sign in',
+    description: 'Sign in to contribute etymology and manage your profile.',
+    noIndex: true,
+  });
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [isLoading, setIsLoading] = useState(false);

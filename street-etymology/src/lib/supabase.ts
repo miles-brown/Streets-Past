@@ -82,6 +82,9 @@ export interface Street {
   etymology_source: string | null;
   first_recorded_date: string | null;
   historical_notes: string | null;
+  /** Broad era label (e.g. Medieval, Victorian). Shown on street detail when present. */
+  historical_period?: string | null;
+  created_at?: string;
   updated_at?: string | null;
 }
 
@@ -95,4 +98,11 @@ export interface Contribution {
   status: 'pending' | 'approved' | 'rejected';
   created_at: string;
   reviewed_at: string | null;
+}
+
+export interface SavedStreet {
+  id: string;
+  user_id: string;
+  street_id: string;
+  created_at: string;
 }

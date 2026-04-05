@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { SearchBar } from '../components/SearchBar';
 import { MapView } from '../components/MapView';
 import { NewsletterSignup } from '../components/NewsletterSignup';
 import { supabase, Street } from '../lib/supabase';
+import { fetchRandomStreetIdWithEtymology } from '../lib/explore';
+import { usePageMeta } from '../hooks/usePageMeta';
 import {
   MapPin,
   BookOpen,
@@ -13,9 +15,21 @@ import {
   ChevronRight,
   Landmark,
   Scroll,
+  Shuffle,
+  Loader2,
+  Compass,
 } from 'lucide-react';
+import toast from 'react-hot-toast';
 
 export function HomePage() {
+  usePageMeta({
+    title: 'Street Etymology UK',
+    description:
+      'Discover the linguistic heritage of UK street names — search, map, and community-sourced etymologies.',
+  });
+
+  const navigate = useNavigate();
+  const [randomBusy, setRandomBusy] = useState(false);
   const [featuredStreets, setFeaturedStreets] = useState<Street[]>([]);
   const [stats, setStats] = useState({ streets: 0, contributions: 0, cities: 0 });
 
@@ -49,6 +63,20 @@ export function HomePage() {
 
     loadData();
   }, []);
+
+  const onSurprise = async () => {
+    setRandomBusy(true);
+    try {
+      const sid = await fetchRandomStreetIdWithEtymology();
+      if (!sid) {
+        toast.error('No streets with etymology found');
+        return;
+      }
+      navigate(`/street/${sid}`);
+    } finally {
+      setRandomBusy(false);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -96,6 +124,22 @@ export function HomePage() {
                 <MapPin className="h-4 w-4 text-primary" />
                 <span>Explore map</span>
               </Link>
+              <Link
+                to="/explore"
+                className="inline-flex items-center gap-2 rounded-xl border border-border bg-card/90 px-6 py-3 font-medium text-foreground shadow-sm backdrop-blur-sm transition-colors hover:bg-muted/80"
+              >
+                <Compass className="h-4 w-4 text-primary" />
+                <span>Explore hub</span>
+              </Link>
+              <button
+                type="button"
+                onClick={onSurprise}
+                disabled={randomBusy}
+                className="inline-flex items-center gap-2 rounded-xl border border-border bg-card/90 px-6 py-3 font-medium text-foreground shadow-sm backdrop-blur-sm transition-colors hover:bg-muted/80 disabled:opacity-60"
+              >
+                {randomBusy ? <Loader2 className="h-4 w-4 animate-spin text-primary" /> : <Shuffle className="h-4 w-4 text-primary" />}
+                <span>Surprise me</span>
+              </button>
             </div>
           </div>
         </div>

@@ -1,6 +1,12 @@
 import { ContentPageLayout } from '../components/ContentPageLayout';
+import { usePageMeta } from '../hooks/usePageMeta';
 
 export function PrivacyPage() {
+  usePageMeta({
+    title: 'Privacy policy',
+    description: 'How Street Etymology UK handles your data, cookies, and privacy rights.',
+  });
+
   return (
     <ContentPageLayout
       title="Privacy policy"

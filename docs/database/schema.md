@@ -3,7 +3,7 @@
 **Supabase project ID:** `nadbmxfqknnnyuadhdtk`
 **Runtime:** PostgreSQL 15 with PostGIS extension
 **Derived from:** Source code audit of `street-etymology/src/` (all pages, components, and contexts), plus `supabase/functions/` edge function code.
-**Date documented:** 2026-03-04
+**Date documented:** 2026-04-05
 
 ---
 
@@ -15,10 +15,11 @@
 4. [Table: profiles](#4-table-profiles)
 5. [Table: newsletter_subscribers](#5-table-newsletter_subscribers)
 6. [Table: historical_maps](#6-table-historical_maps)
-7. [Indexes](#7-indexes)
-8. [Row Level Security Policies](#8-row-level-security-policies)
-9. [Storage Bucket: historical-maps](#9-storage-bucket-historical-maps)
-10. [Source Confidence Notes](#10-source-confidence-notes)
+7. [Table: saved_streets](#7-table-saved_streets)
+8. [Indexes](#8-indexes)
+9. [Row Level Security Policies](#9-row-level-security-policies)
+10. [Storage Bucket: historical-maps](#10-storage-bucket-historical-maps)
+11. [Source Confidence Notes](#11-source-confidence-notes)
 
 ---
 
@@ -95,9 +96,7 @@ CREATE TABLE streets (
     historical_notes    TEXT,
 
     -- Broad historical era label (e.g. "Medieval", "Victorian", "Roman"). Nullable.
-    -- Confirmed in CLAUDE.md schema description; not directly accessed by a specific column reference
-    -- in frontend code (inferred from the type definition in src/lib/supabase.ts which is not present
-    -- in the repository — see Source Confidence Notes).
+    -- Confirmed: Street type and StreetDetailPage.tsx render when non-null.
     historical_period   TEXT,
 
     -- Audit timestamps.
@@ -313,7 +312,34 @@ CREATE TABLE historical_maps (
 
 ---
 
-## 7. Indexes
+## 7. Table: saved_streets
+
+User-specific bookmarks for “My atlas”. Authenticated users insert/delete their own rows; each user can only `SELECT` their own saves. Schema matches [`supabase/migrations/20260405120000_saved_streets.sql`](../../supabase/migrations/20260405120000_saved_streets.sql) (duplicate for manual runs: [`scripts/apply-saved-streets.sql`](../../scripts/apply-saved-streets.sql)).
+
+`street_id` is **TEXT** and references `streets(id)` (OS OpenNames-style string identifiers).
+
+```sql
+CREATE TABLE saved_streets (
+    id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id     UUID NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
+    street_id   TEXT NOT NULL REFERENCES streets(id) ON DELETE CASCADE,
+    created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    UNIQUE (user_id, street_id)
+);
+
+CREATE INDEX saved_streets_user_id_idx ON saved_streets (user_id);
+CREATE INDEX saved_streets_street_id_idx ON saved_streets (street_id);
+```
+
+### Row Level Security (summary)
+
+- RLS enabled on `saved_streets`.
+- Policies: authenticated users may `SELECT`, `INSERT`, and `DELETE` only where `auth.uid() = user_id`.
+- `GRANT SELECT, INSERT, DELETE ON saved_streets TO authenticated`.
+
+---
+
+## 8. Indexes
 
 ### streets
 
@@ -382,9 +408,16 @@ CREATE INDEX idx_historical_maps_street_id ON historical_maps (street_id)
     WHERE street_id IS NOT NULL;
 ```
 
+### saved_streets
+
+```sql
+CREATE INDEX saved_streets_user_id_idx ON saved_streets (user_id);
+CREATE INDEX saved_streets_street_id_idx ON saved_streets (street_id);
+```
+
 ---
 
-## 8. Row Level Security Policies
+## 9. Row Level Security Policies
 
 All tables use Supabase's built-in RLS. The auth patterns are confirmed from `AuthContext.tsx` (role check: `profile.role === 'admin' || 'moderator'`), `ContributionForm.tsx` (anonymous insert allowed), and `StreetDetailPage.tsx` (public read).
 
@@ -396,6 +429,7 @@ ALTER TABLE contributions         ENABLE ROW LEVEL SECURITY;
 ALTER TABLE profiles              ENABLE ROW LEVEL SECURITY;
 ALTER TABLE newsletter_subscribers ENABLE ROW LEVEL SECURITY;
 ALTER TABLE historical_maps       ENABLE ROW LEVEL SECURITY;
+ALTER TABLE saved_streets         ENABLE ROW LEVEL SECURITY;
 ```
 
 ### streets policies
@@ -617,9 +651,30 @@ CREATE POLICY "historical_maps_admin_delete"
     );
 ```
 
+### saved_streets policies
+
+```sql
+CREATE POLICY "saved_streets_select_own"
+    ON saved_streets FOR SELECT
+    TO authenticated
+    USING ((SELECT auth.uid()) = user_id);
+
+CREATE POLICY "saved_streets_insert_own"
+    ON saved_streets FOR INSERT
+    TO authenticated
+    WITH CHECK ((SELECT auth.uid()) = user_id);
+
+CREATE POLICY "saved_streets_delete_own"
+    ON saved_streets FOR DELETE
+    TO authenticated
+    USING ((SELECT auth.uid()) = user_id);
+
+GRANT SELECT, INSERT, DELETE ON TABLE saved_streets TO authenticated;
+```
+
 ---
 
-## 9. Storage Bucket: historical-maps
+## 10. Storage Bucket: historical-maps
 
 Configuration confirmed from `supabase/functions/create-bucket-historical-maps-temp/index.ts`.
 
@@ -675,7 +730,7 @@ CREATE POLICY "historical_maps_storage_admin_delete"
 
 ---
 
-## 10. Source Confidence Notes
+## 11. Source Confidence Notes
 
 The schema above was derived entirely from reading the frontend TypeScript source code. This section records where each design decision comes from and what level of confidence to assign.
 
@@ -693,8 +748,10 @@ The schema above was derived entirely from reading the frontend TypeScript sourc
 | `streets.etymology_verified` | `.eq('etymology_verified', true)` in HomePage.tsx; boolean checks throughout |
 | `streets.etymology_source` | `street.etymology_source` in StreetDetailPage.tsx:265 |
 | `streets.first_recorded_date` (text) | `street.first_recorded_date` in StreetDetailPage.tsx:121; sort in SearchPage.tsx:94 |
-| `streets.historical_notes` | `street.historical_notes` in StreetDetailPage.tsx:291 |
-| `streets.updated_at` | AdminPage.tsx:102, ProfilePage.tsx (profile update writes `updated_at`) |
+| `streets.historical_notes` | `street.historical_notes` in StreetDetailPage.tsx |
+| `streets.historical_period` (nullable text) | `Street` in `supabase.ts`; rendered on StreetDetailPage when non-null |
+| `streets.created_at` | returned by `.select('*')` on streets; on `Street` in `supabase.ts` |
+| `streets.updated_at` | AdminPage.tsx approve handler; ProfilePage profile update |
 | `contributions.id` (uuid) | `.eq('id', contribution.id)` in AdminPage.tsx |
 | `contributions.street_id` | ContributionForm.tsx insert; AdminPage.tsx join logic |
 | `contributions.user_id` (nullable uuid) | `user?.id \|\| null` in ContributionForm.tsx |
@@ -712,15 +769,13 @@ The schema above was derived entirely from reading the frontend TypeScript sourc
 | `profiles.updated_at` | `updated_at: new Date().toISOString()` in ProfilePage.tsx:89 |
 | `newsletter_subscribers.email` (unique) | insert in NewsletterSignup.tsx; error code 23505 handled |
 | `historical-maps` bucket config | create-bucket-historical-maps-temp/index.ts: public, 10MB, image/*, application/pdf |
+| `saved_streets` (id, user_id, street_id, created_at) | StreetDetailPage.tsx (save/remove); ProfilePage.tsx (“My atlas” list); types in `supabase.ts` (`SavedStreet`) |
 
 ### Inferred from CLAUDE.md only (medium confidence)
 
 | Item | Note |
 |---|---|
-| `streets.historical_period` | Listed in CLAUDE.md schema description. Not accessed by any TypeScript column reference found in `src/`. Included as nullable text column. |
 | `historical_maps` table schema | CLAUDE.md lists the table name only. No frontend component queries it. Columns are speculative. |
-| `streets.id` being OS OpenNames identifier | CLAUDE.md states data is sourced from OS OpenNames. The id type (text vs uuid) is inferred from the TypeScript string parameter; a uuid primary key would also be valid if OS identifiers are stored separately. |
+| `streets.id` being OS OpenNames identifier | CLAUDE.md states data is sourced from OS OpenNames. The id type (text) matches `Street.id` and `saved_streets.street_id`. |
 
-### File not found in repository
-
-`street-etymology/src/lib/supabase.ts` is referenced by every component (`import { supabase, Street } from '../lib/supabase'`) but does not exist at the path discovered during this audit. This file would normally contain the canonical TypeScript `Street`, `Profile`, and `Contribution` interface definitions. Its absence means the column list was reconstructed entirely from how the objects are accessed at call sites. If the file is regenerated or recovered, compare its interfaces against this document to catch any missing columns.
+Canonical TypeScript types for `Street`, `Profile`, `Contribution`, and `SavedStreet` live in `street-etymology/src/lib/supabase.ts`; keep them aligned with live Postgres after schema changes.
