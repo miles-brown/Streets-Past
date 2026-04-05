@@ -126,7 +126,8 @@ export function StreetDetailPage() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${street.name.replace(/\s+/g, '_')}_etymology.json`;
+    const safeName = String(street.name ?? 'street').replace(/\s+/g, '_');
+    a.download = `${safeName}_etymology.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
