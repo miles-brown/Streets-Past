@@ -19,6 +19,9 @@
 **/eggs/
 **/.eggs/
 **/lib/
+# Vite app shared modules (not Python site-packages)
+!street-etymology/src/lib/
+!street-etymology/src/lib/**
 **/lib64/
 **/parts/
 **/sdist/
