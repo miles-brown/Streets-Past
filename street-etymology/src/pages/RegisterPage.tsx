@@ -2,10 +2,17 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { ThemeToggle } from '../components/ThemeToggle';
+import { usePageMeta } from '../hooks/usePageMeta';
 import { MapPin, Loader2, AlertCircle, Mail, Lock, User, CheckCircle } from 'lucide-react';
 import toast from 'react-hot-toast';
 
 export function RegisterPage() {
+  usePageMeta({
+    title: 'Register',
+    description: 'Create an account to submit street etymologies and build your profile.',
+    noIndex: true,
+  });
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');

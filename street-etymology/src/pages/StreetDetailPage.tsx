@@ -1,9 +1,12 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { supabase, Street, Contribution } from '../lib/supabase';
 import { MapView } from '../components/MapView';
 import { ContributionForm } from '../components/ContributionForm';
 import { useAuth } from '../contexts/AuthContext';
+import { usePageMeta } from '../hooks/usePageMeta';
+import { absoluteUrl, getSiteOrigin } from '../lib/site';
+import { buildSearchPath } from '../lib/searchUrl';
 import {
   MapPin,
   Clock,
@@ -16,17 +19,26 @@ import {
   AlertCircle,
   Sparkles,
   Download,
+  ChevronDown,
+  Bookmark,
 } from 'lucide-react';
 import toast from 'react-hot-toast';
+
+function sectionClass(open?: boolean) {
+  return `group rounded-2xl border border-border bg-card/40 ${open ? 'shadow-sm' : ''}`;
+}
 
 export function StreetDetailPage() {
   const { id } = useParams<{ id: string }>();
   const { user } = useAuth();
   const [street, setStreet] = useState<Street | null>(null);
   const [contributions, setContributions] = useState<Contribution[]>([]);
+  const [related, setRelated] = useState<Pick<Street, 'id' | 'name' | 'city' | 'county'>[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isGeneratingAI, setIsGeneratingAI] = useState(false);
   const [aiSuggestion, setAiSuggestion] = useState<string | null>(null);
+  const [savedRowId, setSavedRowId] = useState<string | null>(null);
+  const [saveBusy, setSaveBusy] = useState(false);
 
   useEffect(() => {
     async function loadStreet() {
@@ -62,6 +74,139 @@ export function StreetDetailPage() {
     loadStreet();
   }, [id]);
 
+  useEffect(() => {
+    async function loadRelated() {
+      if (!street) {
+        setRelated([]);
+        return;
+      }
+      let q = supabase
+        .from('streets')
+        .select('id,name,city,county')
+        .neq('id', street.id)
+        .limit(5);
+      if (street.city) {
+        q = q.eq('city', street.city);
+      } else if (street.county) {
+        q = q.eq('county', street.county);
+      } else {
+        setRelated([]);
+        return;
+      }
+      const { data, error } = await q;
+      if (error) {
+        console.error('related streets:', error);
+        setRelated([]);
+        return;
+      }
+      setRelated(data || []);
+    }
+    loadRelated();
+  }, [street]);
+
+  useEffect(() => {
+    const streetId = street?.id;
+    async function loadSaved() {
+      if (!user || !streetId) {
+        setSavedRowId(null);
+        return;
+      }
+      const { data, error } = await supabase
+        .from('saved_streets')
+        .select('id')
+        .eq('user_id', user.id)
+        .eq('street_id', streetId)
+        .maybeSingle();
+      if (error) {
+        setSavedRowId(null);
+        return;
+      }
+      setSavedRowId(data?.id ?? null);
+    }
+    loadSaved();
+  }, [user, street?.id]);
+
+  const pageTitle = useMemo(() => {
+    if (isLoading) return 'Loading';
+    if (!street) return 'Street not found';
+    return `${street.name}${street.city ? ` — ${street.city}` : ''}`;
+  }, [isLoading, street]);
+
+  const metaDescription = useMemo(() => {
+    if (!street) return undefined;
+    const base = street.etymology_suggestion?.trim();
+    if (base) {
+      const t = base.length > 155 ? `${base.slice(0, 152).trim()}…` : base;
+      return t;
+    }
+    return `Etymology and history for ${street.name}${street.city ? `, ${street.city}` : ''} — UK street names.`;
+  }, [street]);
+
+  usePageMeta({
+    title: pageTitle,
+    description: metaDescription,
+    canonicalUrl: id ? absoluteUrl(`/street/${id}`) : undefined,
+  });
+
+  useEffect(() => {
+    if (!street || !id) return;
+
+    const canonical = absoluteUrl(`/street/${id}`);
+    const desc =
+      metaDescription ||
+      `Etymology and history for ${street.name}${street.city ? `, ${street.city}` : ''} — UK street names.`;
+
+    const graph: Record<string, unknown>[] = [
+      {
+        '@type': 'WebPage',
+        '@id': canonical,
+        url: canonical,
+        name: `${street.name}${street.city ? ` — ${street.city}` : ''} · Street Etymology UK`,
+        description: desc,
+        isPartOf: {
+          '@type': 'WebSite',
+          name: 'Street Etymology UK',
+          url: getSiteOrigin(),
+        },
+      },
+    ];
+
+    if (street.latitude != null && street.longitude != null) {
+      graph.push({
+        '@type': 'Place',
+        name: street.name,
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: street.latitude,
+          longitude: street.longitude,
+        },
+        address: {
+          '@type': 'PostalAddress',
+          ...(street.city ? { addressLocality: street.city } : {}),
+          ...(street.county ? { addressRegion: street.county } : {}),
+        },
+      });
+    }
+
+    const payload = {
+      '@context': 'https://schema.org',
+      '@graph': graph,
+    };
+
+    let el = document.getElementById('jsonld-street') as HTMLScriptElement | null;
+    if (!el) {
+      el = document.createElement('script');
+      el.id = 'jsonld-street';
+      el.type = 'application/ld+json';
+      document.head.appendChild(el);
+    }
+    el.textContent = JSON.stringify(payload);
+
+    return () => {
+      el?.remove();
+    };
+  }, [street, id, metaDescription]);
+
   const generateAISuggestion = async () => {
     if (!street) return;
 
@@ -82,6 +227,37 @@ export function StreetDetailPage() {
       toast.error('Failed to generate AI suggestion');
     } finally {
       setIsGeneratingAI(false);
+    }
+  };
+
+  const toggleSave = async () => {
+    if (!street) return;
+    if (!user) {
+      toast.error('Sign in to save streets to My atlas');
+      return;
+    }
+    setSaveBusy(true);
+    try {
+      if (savedRowId) {
+        const { error } = await supabase.from('saved_streets').delete().eq('id', savedRowId);
+        if (error) throw error;
+        setSavedRowId(null);
+        toast.success('Removed from My atlas');
+      } else {
+        const { data, error } = await supabase
+          .from('saved_streets')
+          .insert({ user_id: user.id, street_id: street.id })
+          .select('id')
+          .single();
+        if (error) throw error;
+        setSavedRowId(data.id);
+        toast.success('Saved to My atlas');
+      }
+    } catch (e) {
+      console.error(e);
+      toast.error('Could not update saved streets');
+    } finally {
+      setSaveBusy(false);
     }
   };
 
@@ -118,6 +294,7 @@ export function StreetDetailPage() {
       etymology: street.etymology_suggestion,
       verified: street.etymology_verified,
       first_recorded: street.first_recorded_date,
+      historical_period: street.historical_period,
       historical_notes: street.historical_notes,
       exported_at: new Date().toISOString(),
     };
@@ -158,6 +335,29 @@ export function StreetDetailPage() {
     );
   }
 
+  const areaLinks = (
+    <div className="flex flex-wrap gap-2">
+      {street.city && (
+        <Link
+          to={buildSearchPath({ city: street.city })}
+          className="inline-flex items-center gap-1 rounded-full border border-border bg-muted/40 px-3 py-1 text-sm text-foreground transition-colors hover:border-primary/30 hover:bg-muted/70"
+        >
+          More in {street.city}
+          <ChevronRight className="h-3.5 w-3.5 opacity-70" />
+        </Link>
+      )}
+      {street.county && (
+        <Link
+          to={buildSearchPath({ county: street.county })}
+          className="inline-flex items-center gap-1 rounded-full border border-border bg-muted/40 px-3 py-1 text-sm text-foreground transition-colors hover:border-primary/30 hover:bg-muted/70"
+        >
+          More in {street.county}
+          <ChevronRight className="h-3.5 w-3.5 opacity-70" />
+        </Link>
+      )}
+    </div>
+  );
+
   return (
     <div className="min-h-screen bg-background">
       <div className="border-b border-border bg-card/50">
@@ -194,7 +394,7 @@ export function StreetDetailPage() {
                   <h1 className="font-display text-3xl font-bold text-foreground">{street.name}</h1>
                 </div>
 
-                <div className="flex shrink-0 items-center gap-2">
+                <div className="flex shrink-0 flex-col items-end gap-2 sm:flex-row sm:items-center">
                   {street.etymology_verified ? (
                     <span className="flex items-center gap-1 rounded-full bg-emerald-500/15 px-3 py-1 text-sm font-medium text-emerald-800 dark:text-emerald-300">
                       <CheckCircle className="h-4 w-4" />
@@ -209,7 +409,26 @@ export function StreetDetailPage() {
                 </div>
               </div>
 
+              <div className="mb-4">{areaLinks}</div>
+
               <div className="flex flex-wrap gap-2">
+                <button
+                  type="button"
+                  onClick={toggleSave}
+                  disabled={saveBusy}
+                  className={`flex items-center gap-1 rounded-lg px-3 py-2 text-sm transition-colors disabled:opacity-50 ${
+                    savedRowId
+                      ? 'bg-primary/15 text-primary'
+                      : 'text-muted-foreground hover:bg-muted hover:text-foreground'
+                  }`}
+                >
+                  {saveBusy ? (
+                    <Loader2 className="h-4 w-4 animate-spin" />
+                  ) : (
+                    <Bookmark className={`h-4 w-4 ${savedRowId ? 'fill-current' : ''}`} />
+                  )}
+                  <span>{savedRowId ? 'Saved' : 'Save to My atlas'}</span>
+                </button>
                 <button
                   type="button"
                   onClick={shareStreet}
@@ -229,43 +448,84 @@ export function StreetDetailPage() {
               </div>
             </div>
 
-            <div className="surface-glass rounded-2xl p-6">
-              <div className="mb-4 flex items-center gap-2">
-                <BookOpen className="h-5 w-5 text-primary" />
-                <h2 className="text-xl font-semibold text-foreground">Etymology</h2>
-              </div>
-
-              {street.etymology_suggestion ? (
-                <div className="prose prose-sm max-w-none dark:prose-invert">
-                  <p className="whitespace-pre-line leading-relaxed text-muted-foreground">{street.etymology_suggestion}</p>
-                </div>
-              ) : (
-                <div className="rounded-xl border border-border bg-muted/40 p-4 text-center">
-                  <p className="mb-4 text-muted-foreground">The etymology of this street has not yet been researched.</p>
-                  <button
-                    type="button"
-                    onClick={generateAISuggestion}
-                    disabled={isGeneratingAI}
-                    className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 font-medium text-primary-foreground transition-opacity disabled:opacity-50"
-                  >
-                    {isGeneratingAI ? (
-                      <Loader2 className="h-5 w-5 animate-spin" />
-                    ) : (
-                      <Sparkles className="h-5 w-5" />
-                    )}
-                    <span>Generate AI suggestion</span>
-                  </button>
-                </div>
-              )}
-
-              {street.etymology_source && (
-                <div className="mt-4 border-t border-border pt-4">
-                  <p className="text-sm text-muted-foreground">
-                    <span className="font-medium text-foreground">Source:</span> {street.etymology_source}
+            <details open className={sectionClass(true)}>
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-2 rounded-2xl px-5 py-4 font-display text-lg font-semibold text-foreground marker:content-none">
+                <span className="flex items-center gap-2">
+                  <BookOpen className="h-5 w-5 text-primary" />
+                  Etymology
+                </span>
+                <ChevronDown className="h-5 w-5 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
+              </summary>
+              <div className="border-t border-border px-5 pb-5 pt-2">
+                {street.etymology_suggestion ? (
+                  <div className="prose prose-sm max-w-none dark:prose-invert">
+                    <p className="whitespace-pre-line leading-relaxed text-muted-foreground">{street.etymology_suggestion}</p>
+                  </div>
+                ) : (
+                  <div className="rounded-xl border border-border bg-muted/40 p-4 text-center">
+                    <p className="mb-4 text-muted-foreground">The etymology of this street has not yet been researched.</p>
+                    <button
+                      type="button"
+                      onClick={generateAISuggestion}
+                      disabled={isGeneratingAI}
+                      className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 font-medium text-primary-foreground transition-opacity disabled:opacity-50"
+                    >
+                      {isGeneratingAI ? (
+                        <Loader2 className="h-5 w-5 animate-spin" />
+                      ) : (
+                        <Sparkles className="h-5 w-5" />
+                      )}
+                      <span>Generate AI suggestion</span>
+                    </button>
+                  </div>
+                )}
+                {street.historical_period?.trim() && (
+                  <p className="mt-4 border-t border-border pt-4 text-sm text-muted-foreground">
+                    <span className="font-medium text-foreground">Historical period: </span>
+                    {street.historical_period.trim()}
                   </p>
+                )}
+              </div>
+            </details>
+
+            {street.historical_notes && (
+              <details className={sectionClass()}>
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-2 rounded-2xl px-5 py-4 font-display text-lg font-semibold text-foreground marker:content-none">
+                  <span>Historical notes</span>
+                  <ChevronDown className="h-5 w-5 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
+                </summary>
+                <div className="border-t border-border px-5 pb-5 pt-2">
+                  <p className="leading-relaxed text-muted-foreground">{street.historical_notes}</p>
                 </div>
-              )}
-            </div>
+              </details>
+            )}
+
+            {street.etymology_source && (
+              <details className={sectionClass()}>
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-2 rounded-2xl px-5 py-4 font-display text-lg font-semibold text-foreground marker:content-none">
+                  <span>Sources</span>
+                  <ChevronDown className="h-5 w-5 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
+                </summary>
+                <div className="border-t border-border px-5 pb-5 pt-2">
+                  <p className="text-sm leading-relaxed text-muted-foreground">{street.etymology_source}</p>
+                </div>
+              </details>
+            )}
+
+            {street.first_recorded_date && (
+              <details className={sectionClass()}>
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-2 rounded-2xl px-5 py-4 font-display text-lg font-semibold text-foreground marker:content-none">
+                  <span className="flex items-center gap-2">
+                    <Clock className="h-5 w-5 text-primary" />
+                    First recorded
+                  </span>
+                  <ChevronDown className="h-5 w-5 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
+                </summary>
+                <div className="border-t border-border px-5 pb-5 pt-2">
+                  <p className="font-mono text-sm text-muted-foreground">{street.first_recorded_date}</p>
+                </div>
+              </details>
+            )}
 
             {aiSuggestion && (
               <div className="rounded-2xl border border-primary/20 bg-accent/60 p-6 dark:bg-accent/30">
@@ -280,22 +540,25 @@ export function StreetDetailPage() {
               </div>
             )}
 
-            {street.historical_notes && (
+            {related.length > 0 && (
               <div className="surface-glass rounded-2xl p-6">
-                <h2 className="mb-4 text-xl font-semibold text-foreground">Historical notes</h2>
-                <p className="leading-relaxed text-muted-foreground">{street.historical_notes}</p>
-              </div>
-            )}
-
-            {street.first_recorded_date && (
-              <div className="surface-glass rounded-2xl p-6">
-                <div className="flex items-center gap-2">
-                  <Clock className="h-5 w-5 text-primary" />
-                  <span className="text-muted-foreground">
-                    <span className="font-medium text-foreground">First recorded:</span>{' '}
-                    <span className="font-mono text-sm">{street.first_recorded_date}</span>
-                  </span>
-                </div>
+                <h2 className="mb-4 font-display text-xl font-semibold text-foreground">
+                  More nearby
+                  {street.city ? ` — ${street.city}` : street.county ? ` — ${street.county}` : ''}
+                </h2>
+                <ul className="space-y-2">
+                  {related.map((r) => (
+                    <li key={r.id}>
+                      <Link
+                        to={`/street/${r.id}`}
+                        className="flex items-center justify-between gap-2 rounded-xl border border-transparent px-3 py-2 text-foreground transition-colors hover:border-primary/20 hover:bg-muted/50"
+                      >
+                        <span className="font-medium">{r.name}</span>
+                        <ChevronRight className="h-4 w-4 shrink-0 text-muted-foreground" />
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
             )}
 

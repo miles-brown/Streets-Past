@@ -1,16 +1,27 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { supabase, Contribution, Street } from '../lib/supabase';
-import { User, Mail, Calendar, Edit2, Loader2, CheckCircle, Clock, XCircle, MapPin } from 'lucide-react';
+import { usePageMeta } from '../hooks/usePageMeta';
+import { User, Mail, Calendar, Edit2, Loader2, CheckCircle, Clock, XCircle, MapPin, Bookmark } from 'lucide-react';
 import toast from 'react-hot-toast';
 
 type ContributionWithStreet = Contribution & { street?: Street };
 
+type SavedStreetRow = { savedId: string; street: Pick<Street, 'id' | 'name' | 'city' | 'county'> };
+
 export function ProfilePage() {
+  usePageMeta({
+    title: 'Profile',
+    description: 'Your Street Etymology UK profile, saved streets, and contribution status.',
+    noIndex: true,
+  });
+
   const { user, profile, loading: authLoading } = useAuth();
   const navigate = useNavigate();
   const [contributions, setContributions] = useState<ContributionWithStreet[]>([]);
+  const [savedStreets, setSavedStreets] = useState<SavedStreetRow[]>([]);
+  const [savedLoading, setSavedLoading] = useState(true);
   const [isLoading, setIsLoading] = useState(true);
   const [isEditing, setIsEditing] = useState(false);
   const [fullName, setFullName] = useState(profile?.full_name || '');
@@ -66,6 +77,55 @@ export function ProfilePage() {
     }
 
     loadContributions();
+  }, [user]);
+
+  useEffect(() => {
+    async function loadSaved() {
+      if (!user) {
+        setSavedStreets([]);
+        setSavedLoading(false);
+        return;
+      }
+
+      setSavedLoading(true);
+      try {
+        const { data: saves, error } = await supabase
+          .from('saved_streets')
+          .select('id, street_id, created_at')
+          .eq('user_id', user.id)
+          .order('created_at', { ascending: false });
+
+        if (error) throw error;
+        if (!saves?.length) {
+          setSavedStreets([]);
+          return;
+        }
+
+        const ids = saves.map((s) => s.street_id);
+        const { data: streets, error: stErr } = await supabase
+          .from('streets')
+          .select('id, name, city, county')
+          .in('id', ids);
+
+        if (stErr) throw stErr;
+
+        const list: SavedStreetRow[] = saves
+          .map((s) => {
+            const street = streets?.find((t) => t.id === s.street_id);
+            return street ? { savedId: s.id, street } : null;
+          })
+          .filter((x): x is SavedStreetRow => x !== null);
+
+        setSavedStreets(list);
+      } catch (e) {
+        console.error('Error loading saved streets:', e);
+        setSavedStreets([]);
+      } finally {
+        setSavedLoading(false);
+      }
+    }
+
+    loadSaved();
   }, [user]);
 
   const handleSaveProfile = async () => {
@@ -205,6 +265,51 @@ export function ProfilePage() {
               </div>
             )}
           </div>
+        </div>
+
+        <div className="surface-glass mb-8 rounded-2xl p-6 md:p-8">
+          <div className="mb-6 flex items-center gap-2">
+            <Bookmark className="h-6 w-6 text-primary" />
+            <h2 className="font-display text-xl font-bold text-foreground">My atlas</h2>
+          </div>
+          <p className="mb-6 text-sm text-muted-foreground">
+            Streets you have saved from detail pages appear here for quick return visits.
+          </p>
+
+          {savedLoading ? (
+            <div className="flex items-center justify-center py-12">
+              <Loader2 className="h-8 w-8 animate-spin text-primary" />
+            </div>
+          ) : savedStreets.length === 0 ? (
+            <div className="rounded-xl border border-dashed border-border py-10 text-center">
+              <p className="mb-4 text-muted-foreground">No saved streets yet.</p>
+              <Link
+                to="/explore"
+                className="font-medium text-primary transition-opacity hover:opacity-90"
+              >
+                Explore streets
+              </Link>
+            </div>
+          ) : (
+            <div className="space-y-3">
+              {savedStreets.map(({ savedId, street }) => (
+                <Link
+                  key={savedId}
+                  to={`/street/${street.id}`}
+                  className="flex items-center justify-between gap-3 rounded-xl border border-border bg-muted/30 p-4 transition-colors hover:bg-muted/50"
+                >
+                  <div className="min-w-0">
+                    <div className="mb-0.5 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+                      <MapPin className="h-4 w-4 shrink-0 text-primary" />
+                      <span className="truncate">{[street.city, street.county].filter(Boolean).join(', ') || 'UK'}</span>
+                    </div>
+                    <div className="truncate font-medium text-foreground">{street.name}</div>
+                  </div>
+                  <span className="shrink-0 text-xs text-muted-foreground">View</span>
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
 
         <div className="surface-glass rounded-2xl p-6 md:p-8">

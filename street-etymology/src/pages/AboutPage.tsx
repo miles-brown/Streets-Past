@@ -1,10 +1,16 @@
 import { Link } from 'react-router-dom';
 import { NewsletterSignup } from '../components/NewsletterSignup';
+import { usePageMeta } from '../hooks/usePageMeta';
 import { MapPin, BookOpen, Users, Globe, Database, Github, Mail, ArrowRight, Scroll } from 'lucide-react';
 
 const featureIconWrap = 'flex h-16 w-16 items-center justify-center rounded-2xl bg-accent text-primary mx-auto mb-4';
 
 export function AboutPage() {
+  usePageMeta({
+    title: 'About',
+    description: 'How Street Etymology UK works — open data, community research, and the project mission.',
+  });
+
   return (
     <div className="min-h-screen bg-background">
       <section className="relative overflow-hidden border-b border-border bg-gradient-to-b from-accent/40 via-background to-background dark:from-muted/80 dark:via-background dark:to-background">

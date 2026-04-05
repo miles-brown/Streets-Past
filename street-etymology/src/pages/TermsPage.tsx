@@ -1,6 +1,12 @@
 import { ContentPageLayout } from '../components/ContentPageLayout';
+import { usePageMeta } from '../hooks/usePageMeta';
 
 export function TermsPage() {
+  usePageMeta({
+    title: 'Terms of service',
+    description: 'Terms governing use of Street Etymology UK and community contributions.',
+  });
+
   return (
     <ContentPageLayout
       title="Terms of service"

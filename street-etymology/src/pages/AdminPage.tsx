@@ -2,12 +2,19 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { supabase, Contribution, Street } from '../lib/supabase';
+import { usePageMeta } from '../hooks/usePageMeta';
 import { Shield, CheckCircle, XCircle, Clock, Loader2, Eye, MapPin } from 'lucide-react';
 import toast from 'react-hot-toast';
 
 type ContributionWithStreet = Contribution & { street?: Street };
 
 export function AdminPage() {
+  usePageMeta({
+    title: 'Admin',
+    description: 'Moderation dashboard for pending street etymology contributions.',
+    noIndex: true,
+  });
+
   const { isAdmin, loading: authLoading } = useAuth();
   const navigate = useNavigate();
   const [contributions, setContributions] = useState<ContributionWithStreet[]>([]);

@@ -52,6 +52,11 @@ Streets-Past/
 │   ├── components.json        # shadcn/ui config (new-york style, lucide icons)
 │   └── index.html             # SPA entry with SEO meta tags + structured data
 │
+├── next/                      # Optional Next.js 15 + @supabase/ssr (cookie sessions; sample page)
+│   ├── app/                   # App Router (page.tsx lists sample `streets` rows)
+│   ├── utils/supabase/        # server / client / middleware helpers + root middleware.ts
+│   └── README.md              # Setup: npm install, .env.local, npm run dev
+│
 ├── supabase/                  # Supabase Edge Functions (Deno runtime)
 │   └── functions/
 │       ├── suggest-etymology/ # AI etymology suggestion via pattern matching
@@ -149,6 +154,8 @@ pnpm preview
 # Clean install (nuclear option)
 pnpm run clean
 ```
+
+Optional **Next.js** sample (`next/`): `cd next && npm install && npm run dev` (see `next/README.md`).
 
 **Note:** The `dev`, `build`, `lint`, and `preview` scripts all auto-run `pnpm install --prefer-offline` first. The pnpm store is configured via `.npmrc` to use `/tmp/.pnpm-store`.
 
@@ -306,9 +313,10 @@ SUPABASE_SERVICE_ROLE_KEY  # Auto-provided by Supabase
 
 ## Database Schema (Core Tables)
 
-- **streets**: `id`, `name`, `city`, `county`, `postcode`, `latitude`, `longitude`, `etymology_suggestion`, `etymology_verified`, `historical_period`, metadata
-- **contributions**: `id`, `street_id`, `user_id`, `etymology_text`, `sources`, `status` (pending/approved/rejected)
-- **profiles**: `user_id`, `email`, `full_name`, `role` (user/moderator/admin), `contribution_count`
+- **streets**: `id`, `name`, `city`, `county`, `postcode_area`, `latitude`, `longitude`, `etymology_suggestion`, `etymology_verified`, `etymology_source`, `first_recorded_date`, `historical_notes`, `historical_period`, `created_at`, `updated_at`
+- **contributions**: `id`, `street_id`, `user_id`, `user_email`, `etymology_suggestion`, `sources`, `status` (pending/approved/rejected), `reviewed_at`, `created_at`
+- **profiles**: `user_id`, `email`, `full_name`, `role` (user/moderator/admin), `contribution_count`, `created_at`, `updated_at`
+- **saved_streets**: user bookmarks for “My atlas” (`user_id`, `street_id`, `created_at`); RLS limits rows to the owning user
 - **newsletter_subscribers**: email subscription management
 - **historical_maps**: map image metadata linked to streets
 

@@ -1,13 +1,29 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useSearchParams } from 'react-router-dom';
 import { supabase, Street } from '../lib/supabase';
+import { absoluteUrl } from '../lib/site';
+import { usePageMeta } from '../hooks/usePageMeta';
 import { Search, MapPin, Filter, Clock, ChevronDown, Loader2, ArrowUpDown, CheckCircle } from 'lucide-react';
 
+function readSearchParam(name: string): string {
+  if (typeof window === 'undefined') return '';
+  return new URLSearchParams(window.location.search).get(name) || '';
+}
+
 export function SearchPage() {
+  const location = useLocation();
+
+  usePageMeta({
+    title: 'Search streets',
+    description: 'Browse and filter UK streets by name, city, county, and verification status.',
+    canonicalUrl: absoluteUrl(`${location.pathname}${location.search}`),
+  });
+
+  const [searchParams, setSearchParams] = useSearchParams();
   const [streets, setStreets] = useState<Street[]>([]);
   const [filteredStreets, setFilteredStreets] = useState<Street[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState(() => readSearchParam('q'));
   const [selectedCounty, setSelectedCounty] = useState('');
   const [selectedCity, setSelectedCity] = useState('');
   const [verifiedOnly, setVerifiedOnly] = useState(false);
@@ -15,6 +31,31 @@ export function SearchPage() {
   const [counties, setCounties] = useState<string[]>([]);
   const [cities, setCities] = useState<string[]>([]);
   const [showFilters, setShowFilters] = useState(false);
+
+  useEffect(() => {
+    const city = searchParams.get('city') || '';
+    const county = searchParams.get('county') || '';
+    const q = searchParams.get('q') || '';
+    setSelectedCity(city);
+    setSelectedCounty(county);
+    setSearchQuery(q);
+    if (city || county || q) setShowFilters(true);
+  }, [searchParams]);
+
+  useEffect(() => {
+    const handle = setTimeout(() => {
+      setSearchParams(
+        (prev) => {
+          const n = new URLSearchParams(prev);
+          if (searchQuery.trim()) n.set('q', searchQuery.trim());
+          else n.delete('q');
+          return n;
+        },
+        { replace: true }
+      );
+    }, 400);
+    return () => clearTimeout(handle);
+  }, [searchQuery, setSearchParams]);
 
   useEffect(() => {
     async function loadStreets() {
@@ -87,9 +128,10 @@ export function SearchPage() {
     setSelectedCity('');
     setVerifiedOnly(false);
     setSortBy('name');
+    setSearchParams({}, { replace: true });
   };
 
-  const activeFilterCount = [selectedCounty, selectedCity, verifiedOnly].filter(Boolean).length;
+  const activeFilterCount = [selectedCounty, selectedCity, verifiedOnly, searchQuery.trim()].filter(Boolean).length;
 
   return (
     <div className="min-h-screen bg-background py-8">
@@ -151,7 +193,19 @@ export function SearchPage() {
                 <label className="mb-1 block text-sm font-medium text-foreground">County</label>
                 <select
                   value={selectedCounty}
-                  onChange={(e) => setSelectedCounty(e.target.value)}
+                  onChange={(e) => {
+                    const v = e.target.value;
+                    setSelectedCounty(v);
+                    setSearchParams(
+                      (prev) => {
+                        const n = new URLSearchParams(prev);
+                        if (v) n.set('county', v);
+                        else n.delete('county');
+                        return n;
+                      },
+                      { replace: true }
+                    );
+                  }}
                   className="w-full rounded-lg border border-border bg-background px-3 py-2 text-foreground focus:border-primary/40 focus:outline-none focus:ring-2 focus:ring-ring/30"
                 >
                   <option value="">All counties</option>
@@ -167,7 +221,19 @@ export function SearchPage() {
                 <label className="mb-1 block text-sm font-medium text-foreground">City</label>
                 <select
                   value={selectedCity}
-                  onChange={(e) => setSelectedCity(e.target.value)}
+                  onChange={(e) => {
+                    const v = e.target.value;
+                    setSelectedCity(v);
+                    setSearchParams(
+                      (prev) => {
+                        const n = new URLSearchParams(prev);
+                        if (v) n.set('city', v);
+                        else n.delete('city');
+                        return n;
+                      },
+                      { replace: true }
+                    );
+                  }}
                   className="w-full rounded-lg border border-border bg-background px-3 py-2 text-foreground focus:border-primary/40 focus:outline-none focus:ring-2 focus:ring-ring/30"
                 >
                   <option value="">All cities</option>
