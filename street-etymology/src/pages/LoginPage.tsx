@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import { ThemeToggle } from '../components/ThemeToggle';
 import { MapPin, Loader2, AlertCircle, Mail, Lock } from 'lucide-react';
 import toast from 'react-hot-toast';
 
@@ -9,7 +10,7 @@ export function LoginPage() {
   const [password, setPassword] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  
+
   const { signIn } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
@@ -23,14 +24,14 @@ export function LoginPage() {
 
     try {
       const { error } = await signIn(email, password);
-      
+
       if (error) {
         setError(error.message);
       } else {
         toast.success('Welcome back!');
         navigate(from, { replace: true });
       }
-    } catch (err) {
+    } catch {
       setError('An unexpected error occurred');
     } finally {
       setIsLoading(false);
@@ -38,50 +39,48 @@ export function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-stone-50 flex items-center justify-center px-4 py-12">
+    <div className="relative flex min-h-screen items-center justify-center bg-background px-4 py-12 text-foreground">
+      <div className="absolute right-4 top-4">
+        <ThemeToggle />
+      </div>
+
       <div className="w-full max-w-md">
-        {/* Logo */}
-        <div className="text-center mb-8">
-          <Link to="/" className="inline-flex items-center space-x-2">
-            <div className="w-12 h-12 bg-gradient-to-br from-amber-600 to-amber-800 rounded-xl flex items-center justify-center">
-              <MapPin className="w-7 h-7 text-white" />
+        <div className="mb-8 text-center">
+          <Link to="/" className="inline-flex items-center gap-2">
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-primary/85 text-primary-foreground shadow-paper dark:shadow-paper-dark">
+              <MapPin className="h-7 w-7" />
             </div>
             <div className="text-left">
-              <h1 className="text-xl font-serif font-bold text-stone-800">Street Etymology</h1>
-              <p className="text-xs text-stone-500">UK Street Name Research</p>
+              <h1 className="font-display text-xl font-bold">Street Etymology</h1>
+              <p className="text-xs text-muted-foreground">UK street name research</p>
             </div>
           </Link>
         </div>
 
-        {/* Card */}
-        <div className="bg-white rounded-2xl shadow-sm border border-stone-200 p-8">
-          <h2 className="text-2xl font-serif font-bold text-stone-800 text-center mb-2">
-            Welcome Back
-          </h2>
-          <p className="text-stone-600 text-center mb-6">
-            Sign in to contribute to street etymologies
-          </p>
+        <div className="surface-glass rounded-2xl p-8">
+          <h2 className="mb-2 text-center font-display text-2xl font-bold">Welcome back</h2>
+          <p className="mb-6 text-center text-muted-foreground">Sign in to contribute etymologies</p>
 
           {error && (
-            <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex items-start space-x-3">
-              <AlertCircle className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
-              <p className="text-sm text-red-700">{error}</p>
+            <div className="mb-6 flex items-start gap-3 rounded-lg border border-red-200 bg-red-500/10 p-4 dark:border-red-900/50 dark:bg-red-950/40">
+              <AlertCircle className="mt-0.5 h-5 w-5 shrink-0 text-red-600 dark:text-red-400" />
+              <p className="text-sm text-red-800 dark:text-red-200">{error}</p>
             </div>
           )}
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-stone-700 mb-1">
-                Email Address
+              <label htmlFor="email" className="mb-1 block text-sm font-medium text-foreground">
+                Email
               </label>
               <div className="relative">
-                <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-stone-400" />
+                <Mail className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
                 <input
                   id="email"
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full pl-10 pr-4 py-3 border border-stone-200 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent"
+                  className="w-full rounded-lg border border-border bg-background py-3 pl-10 pr-4 text-foreground placeholder:text-muted-foreground focus:border-primary/40 focus:outline-none focus:ring-2 focus:ring-ring/30"
                   placeholder="you@example.com"
                   required
                 />
@@ -89,18 +88,18 @@ export function LoginPage() {
             </div>
 
             <div>
-              <label htmlFor="password" className="block text-sm font-medium text-stone-700 mb-1">
+              <label htmlFor="password" className="mb-1 block text-sm font-medium text-foreground">
                 Password
               </label>
               <div className="relative">
-                <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-stone-400" />
+                <Lock className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
                 <input
                   id="password"
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="w-full pl-10 pr-4 py-3 border border-stone-200 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent"
-                  placeholder="Enter your password"
+                  className="w-full rounded-lg border border-border bg-background py-3 pl-10 pr-4 text-foreground placeholder:text-muted-foreground focus:border-primary/40 focus:outline-none focus:ring-2 focus:ring-ring/30"
+                  placeholder="••••••••"
                   required
                 />
               </div>
@@ -109,23 +108,23 @@ export function LoginPage() {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full flex items-center justify-center space-x-2 py-3 bg-amber-700 hover:bg-amber-800 disabled:bg-amber-400 text-white font-medium rounded-lg transition-colors"
+              className="flex w-full items-center justify-center gap-2 rounded-lg bg-primary py-3 font-medium text-primary-foreground transition-opacity disabled:opacity-50"
             >
               {isLoading ? (
                 <>
-                  <Loader2 className="w-5 h-5 animate-spin" />
-                  <span>Signing in...</span>
+                  <Loader2 className="h-5 w-5 animate-spin" />
+                  <span>Signing in…</span>
                 </>
               ) : (
-                <span>Sign In</span>
+                <span>Sign in</span>
               )}
             </button>
           </form>
 
           <div className="mt-6 text-center">
-            <p className="text-sm text-stone-600">
-              Do not have an account?{' '}
-              <Link to="/register" className="text-amber-700 hover:text-amber-800 font-medium">
+            <p className="text-sm text-muted-foreground">
+              No account?{' '}
+              <Link to="/register" className="font-medium text-primary hover:opacity-90">
                 Register
               </Link>
             </p>

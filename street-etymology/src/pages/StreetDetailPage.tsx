@@ -4,10 +4,10 @@ import { supabase, Street, Contribution } from '../lib/supabase';
 import { MapView } from '../components/MapView';
 import { ContributionForm } from '../components/ContributionForm';
 import { useAuth } from '../contexts/AuthContext';
-import { 
-  MapPin, 
-  Clock, 
-  BookOpen, 
+import {
+  MapPin,
+  Clock,
+  BookOpen,
   ChevronRight,
   Share2,
   Loader2,
@@ -15,7 +15,7 @@ import {
   XCircle,
   AlertCircle,
   Sparkles,
-  Download
+  Download,
 } from 'lucide-react';
 import toast from 'react-hot-toast';
 
@@ -43,7 +43,6 @@ export function StreetDetailPage() {
         if (streetError) throw streetError;
         setStreet(streetData);
 
-        // Load approved contributions
         const { data: contributionsData } = await supabase
           .from('contributions')
           .select('*')
@@ -69,7 +68,7 @@ export function StreetDetailPage() {
     setIsGeneratingAI(true);
     try {
       const { data, error } = await supabase.functions.invoke('suggest-etymology', {
-        body: { streetName: street.name }
+        body: { streetName: street.name },
       });
 
       if (error) throw error;
@@ -93,8 +92,8 @@ export function StreetDetailPage() {
     if (navigator.share) {
       try {
         await navigator.share({ title: street?.name, text, url });
-      } catch (error) {
-        // User cancelled or error
+      } catch {
+        /* noop */
       }
     } else {
       await navigator.clipboard.writeText(url);
@@ -134,24 +133,24 @@ export function StreetDetailPage() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-stone-50 flex items-center justify-center">
-        <Loader2 className="w-10 h-10 text-amber-600 animate-spin" />
+      <div className="flex min-h-screen items-center justify-center bg-background">
+        <Loader2 className="h-10 w-10 animate-spin text-primary" />
       </div>
     );
   }
 
   if (!street) {
     return (
-      <div className="min-h-screen bg-stone-50 flex items-center justify-center">
+      <div className="flex min-h-screen items-center justify-center bg-background px-4">
         <div className="text-center">
-          <XCircle className="w-16 h-16 text-stone-300 mx-auto mb-4" />
-          <h2 className="text-xl font-semibold text-stone-800 mb-2">Street Not Found</h2>
-          <p className="text-stone-600 mb-4">The requested street could not be found.</p>
+          <XCircle className="mx-auto mb-4 h-16 w-16 text-muted-foreground/40" />
+          <h2 className="mb-2 text-xl font-semibold text-foreground">Street not found</h2>
+          <p className="mb-4 text-muted-foreground">The requested street could not be found.</p>
           <Link
             to="/search"
-            className="inline-flex items-center space-x-2 px-4 py-2 bg-amber-700 text-white rounded-lg"
+            className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 font-medium text-primary-foreground transition-opacity hover:opacity-90"
           >
-            <span>Back to Search</span>
+            <span>Back to search</span>
           </Link>
         </div>
       </div>
@@ -159,177 +158,159 @@ export function StreetDetailPage() {
   }
 
   return (
-    <div className="min-h-screen bg-stone-50">
-      {/* Breadcrumb */}
-      <div className="bg-white border-b border-stone-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-          <nav className="flex items-center space-x-2 text-sm">
-            <Link to="/" className="text-stone-500 hover:text-stone-700">Home</Link>
-            <ChevronRight className="w-4 h-4 text-stone-400" />
-            <Link to="/search" className="text-stone-500 hover:text-stone-700">Search</Link>
-            <ChevronRight className="w-4 h-4 text-stone-400" />
-            <span className="text-stone-800 font-medium">{street.name}</span>
+    <div className="min-h-screen bg-background">
+      <div className="border-b border-border bg-card/50">
+        <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
+          <nav className="flex items-center gap-2 text-sm text-muted-foreground">
+            <Link to="/" className="transition-colors hover:text-foreground">
+              Home
+            </Link>
+            <ChevronRight className="h-4 w-4 shrink-0 opacity-60" />
+            <Link to="/search" className="transition-colors hover:text-foreground">
+              Search
+            </Link>
+            <ChevronRight className="h-4 w-4 shrink-0 opacity-60" />
+            <span className="font-medium text-foreground">{street.name}</span>
           </nav>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Main Content */}
-          <div className="lg:col-span-2 space-y-6">
-            {/* Header */}
-            <div className="bg-white rounded-xl shadow-sm border border-stone-200 p-6">
-              <div className="flex items-start justify-between mb-4">
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+          <div className="space-y-6 lg:col-span-2">
+            <div className="surface-glass rounded-2xl p-6">
+              <div className="mb-4 flex items-start justify-between gap-4">
                 <div>
-                  <div className="flex items-center space-x-2 text-sm text-stone-500 mb-2">
-                    <MapPin className="w-4 h-4 text-amber-600" />
+                  <div className="mb-2 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+                    <MapPin className="h-4 w-4 shrink-0 text-primary" />
                     <span>{[street.city, street.county].filter(Boolean).join(', ')}</span>
                     {street.postcode_area && (
-                      <span className="px-2 py-0.5 bg-stone-100 rounded text-xs">
+                      <span className="rounded-full bg-muted px-2 py-0.5 font-mono text-xs text-muted-foreground">
                         {street.postcode_area}
                       </span>
                     )}
                   </div>
-                  <h1 className="text-3xl font-serif font-bold text-stone-800">
-                    {street.name}
-                  </h1>
+                  <h1 className="font-display text-3xl font-bold text-foreground">{street.name}</h1>
                 </div>
-                
-                <div className="flex items-center space-x-2">
+
+                <div className="flex shrink-0 items-center gap-2">
                   {street.etymology_verified ? (
-                    <span className="flex items-center space-x-1 px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">
-                      <CheckCircle className="w-4 h-4" />
+                    <span className="flex items-center gap-1 rounded-full bg-emerald-500/15 px-3 py-1 text-sm font-medium text-emerald-800 dark:text-emerald-300">
+                      <CheckCircle className="h-4 w-4" />
                       <span>Verified</span>
                     </span>
                   ) : (
-                    <span className="flex items-center space-x-1 px-3 py-1 bg-amber-100 text-amber-700 rounded-full text-sm font-medium">
-                      <AlertCircle className="w-4 h-4" />
+                    <span className="flex items-center gap-1 rounded-full bg-accent px-3 py-1 text-sm font-medium text-accent-foreground">
+                      <AlertCircle className="h-4 w-4" />
                       <span>Unverified</span>
                     </span>
                   )}
                 </div>
               </div>
 
-              {/* Action Buttons */}
               <div className="flex flex-wrap gap-2">
                 <button
+                  type="button"
                   onClick={shareStreet}
-                  className="flex items-center space-x-1 px-3 py-2 text-sm text-stone-600 hover:bg-stone-100 rounded-lg transition-colors"
+                  className="flex items-center gap-1 rounded-lg px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
                 >
-                  <Share2 className="w-4 h-4" />
+                  <Share2 className="h-4 w-4" />
                   <span>Share</span>
                 </button>
                 <button
+                  type="button"
                   onClick={exportData}
-                  className="flex items-center space-x-1 px-3 py-2 text-sm text-stone-600 hover:bg-stone-100 rounded-lg transition-colors"
+                  className="flex items-center gap-1 rounded-lg px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
                 >
-                  <Download className="w-4 h-4" />
+                  <Download className="h-4 w-4" />
                   <span>Export</span>
                 </button>
               </div>
             </div>
 
-            {/* Etymology */}
-            <div className="bg-white rounded-xl shadow-sm border border-stone-200 p-6">
-              <div className="flex items-center space-x-2 mb-4">
-                <BookOpen className="w-5 h-5 text-amber-600" />
-                <h2 className="text-xl font-semibold text-stone-800">Etymology</h2>
+            <div className="surface-glass rounded-2xl p-6">
+              <div className="mb-4 flex items-center gap-2">
+                <BookOpen className="h-5 w-5 text-primary" />
+                <h2 className="text-xl font-semibold text-foreground">Etymology</h2>
               </div>
 
               {street.etymology_suggestion ? (
-                <div className="prose prose-stone max-w-none">
-                  <p className="text-stone-700 leading-relaxed whitespace-pre-line">
-                    {street.etymology_suggestion}
-                  </p>
+                <div className="prose prose-sm max-w-none dark:prose-invert">
+                  <p className="whitespace-pre-line leading-relaxed text-muted-foreground">{street.etymology_suggestion}</p>
                 </div>
               ) : (
-                <div className="bg-stone-50 rounded-lg p-4 text-center">
-                  <p className="text-stone-600 mb-4">
-                    The etymology of this street has not yet been researched.
-                  </p>
+                <div className="rounded-xl border border-border bg-muted/40 p-4 text-center">
+                  <p className="mb-4 text-muted-foreground">The etymology of this street has not yet been researched.</p>
                   <button
+                    type="button"
                     onClick={generateAISuggestion}
                     disabled={isGeneratingAI}
-                    className="inline-flex items-center space-x-2 px-4 py-2 bg-amber-700 hover:bg-amber-800 disabled:bg-amber-400 text-white rounded-lg transition-colors"
+                    className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 font-medium text-primary-foreground transition-opacity disabled:opacity-50"
                   >
                     {isGeneratingAI ? (
-                      <Loader2 className="w-5 h-5 animate-spin" />
+                      <Loader2 className="h-5 w-5 animate-spin" />
                     ) : (
-                      <Sparkles className="w-5 h-5" />
+                      <Sparkles className="h-5 w-5" />
                     )}
-                    <span>Generate AI Suggestion</span>
+                    <span>Generate AI suggestion</span>
                   </button>
                 </div>
               )}
 
               {street.etymology_source && (
-                <div className="mt-4 pt-4 border-t border-stone-200">
-                  <p className="text-sm text-stone-500">
-                    <span className="font-medium">Source:</span> {street.etymology_source}
+                <div className="mt-4 border-t border-border pt-4">
+                  <p className="text-sm text-muted-foreground">
+                    <span className="font-medium text-foreground">Source:</span> {street.etymology_source}
                   </p>
                 </div>
               )}
             </div>
 
-            {/* AI Suggestion */}
             {aiSuggestion && (
-              <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl border border-amber-200 p-6">
-                <div className="flex items-center space-x-2 mb-4">
-                  <Sparkles className="w-5 h-5 text-amber-600" />
-                  <h3 className="text-lg font-semibold text-stone-800">AI-Generated Etymology</h3>
+              <div className="rounded-2xl border border-primary/20 bg-accent/60 p-6 dark:bg-accent/30">
+                <div className="mb-4 flex items-center gap-2">
+                  <Sparkles className="h-5 w-5 text-primary" />
+                  <h3 className="text-lg font-semibold text-foreground">AI-generated etymology</h3>
                 </div>
-                <p className="text-stone-700 leading-relaxed whitespace-pre-line">
-                  {aiSuggestion}
-                </p>
-                <p className="mt-4 text-xs text-stone-500">
+                <p className="whitespace-pre-line leading-relaxed text-muted-foreground">{aiSuggestion}</p>
+                <p className="mt-4 text-xs text-muted-foreground">
                   This suggestion was generated by AI and may require verification.
                 </p>
               </div>
             )}
 
-            {/* Historical Notes */}
             {street.historical_notes && (
-              <div className="bg-white rounded-xl shadow-sm border border-stone-200 p-6">
-                <h2 className="text-xl font-semibold text-stone-800 mb-4">Historical Notes</h2>
-                <p className="text-stone-700 leading-relaxed">
-                  {street.historical_notes}
-                </p>
+              <div className="surface-glass rounded-2xl p-6">
+                <h2 className="mb-4 text-xl font-semibold text-foreground">Historical notes</h2>
+                <p className="leading-relaxed text-muted-foreground">{street.historical_notes}</p>
               </div>
             )}
 
-            {/* Date Information */}
             {street.first_recorded_date && (
-              <div className="bg-white rounded-xl shadow-sm border border-stone-200 p-6">
-                <div className="flex items-center space-x-2">
-                  <Clock className="w-5 h-5 text-amber-600" />
-                  <span className="text-stone-700">
-                    <span className="font-medium">First Recorded:</span> {street.first_recorded_date}
+              <div className="surface-glass rounded-2xl p-6">
+                <div className="flex items-center gap-2">
+                  <Clock className="h-5 w-5 text-primary" />
+                  <span className="text-muted-foreground">
+                    <span className="font-medium text-foreground">First recorded:</span>{' '}
+                    <span className="font-mono text-sm">{street.first_recorded_date}</span>
                   </span>
                 </div>
               </div>
             )}
 
-            {/* Community Contributions */}
             {contributions.length > 0 && (
-              <div className="bg-white rounded-xl shadow-sm border border-stone-200 p-6">
-                <h2 className="text-xl font-semibold text-stone-800 mb-4">
-                  Community Contributions
-                </h2>
+              <div className="surface-glass rounded-2xl p-6">
+                <h2 className="mb-4 text-xl font-semibold text-foreground">Community contributions</h2>
                 <div className="space-y-4">
                   {contributions.map((contribution) => (
-                    <div
-                      key={contribution.id}
-                      className="bg-stone-50 rounded-lg p-4"
-                    >
-                      <p className="text-stone-700 mb-2">
-                        {contribution.etymology_suggestion}
-                      </p>
+                    <div key={contribution.id} className="rounded-xl border border-border bg-muted/30 p-4">
+                      <p className="mb-2 text-muted-foreground">{contribution.etymology_suggestion}</p>
                       {contribution.sources && (
-                        <p className="text-sm text-stone-500">
-                          <span className="font-medium">Sources:</span> {contribution.sources}
+                        <p className="text-sm text-muted-foreground">
+                          <span className="font-medium text-foreground">Sources:</span> {contribution.sources}
                         </p>
                       )}
-                      <p className="text-xs text-stone-400 mt-2">
+                      <p className="mt-2 text-xs text-muted-foreground/80">
                         Contributed on {new Date(contribution.created_at).toLocaleDateString()}
                       </p>
                     </div>
@@ -339,34 +320,28 @@ export function StreetDetailPage() {
             )}
           </div>
 
-          {/* Sidebar */}
           <div className="space-y-6">
-            {/* Map */}
             {street.latitude && street.longitude && (
-              <div className="bg-white rounded-xl shadow-sm border border-stone-200 overflow-hidden">
+              <div className="surface-glass overflow-hidden rounded-2xl">
                 <MapView selectedStreet={street} height="300px" />
-                <div className="p-4 border-t border-stone-200">
-                  <p className="text-sm text-stone-600">
-                    <span className="font-medium">Coordinates:</span>{' '}
-                    {street.latitude.toFixed(4)}, {street.longitude.toFixed(4)}
+                <div className="border-t border-border p-4">
+                  <p className="text-sm text-muted-foreground">
+                    <span className="font-medium text-foreground">Coordinates:</span>{' '}
+                    <span className="font-mono text-xs">
+                      {street.latitude.toFixed(4)}, {street.longitude.toFixed(4)}
+                    </span>
                   </p>
                 </div>
               </div>
             )}
 
-            {/* Contribute */}
-            <div className="bg-white rounded-xl shadow-sm border border-stone-200 p-6">
-              <h3 className="text-lg font-semibold text-stone-800 mb-4">
-                Contribute Etymology
-              </h3>
-              <p className="text-sm text-stone-600 mb-4">
+            <div className="surface-glass rounded-2xl p-6">
+              <h3 className="mb-4 text-lg font-semibold text-foreground">Contribute etymology</h3>
+              <p className="mb-4 text-sm text-muted-foreground">
                 Share your knowledge about the origin of this street name.
                 {!user && ' Sign in for faster submissions.'}
               </p>
-              <ContributionForm
-                streetId={street.id}
-                streetName={street.name}
-              />
+              <ContributionForm streetId={street.id} streetName={street.name} />
             </div>
           </div>
         </div>

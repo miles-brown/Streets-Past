@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import { ThemeToggle } from './ThemeToggle';
 import { Menu, X, MapPin, User, LogOut, Shield } from 'lucide-react';
 
 export function Header() {
@@ -18,30 +19,28 @@ export function Header() {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className="bg-white shadow-sm border-b border-stone-200 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          {/* Logo */}
+    <header className="sticky top-0 z-50 border-b border-border bg-background/85 backdrop-blur-md supports-[backdrop-filter]:bg-background/70">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-amber-600 to-amber-800 rounded-lg flex items-center justify-center">
-              <MapPin className="w-6 h-6 text-white" />
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-primary/80 text-primary-foreground shadow-sm">
+              <MapPin className="h-6 w-6" />
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-lg font-serif font-bold text-stone-800">Street Etymology</h1>
-              <p className="text-xs text-stone-500">Discover the History of UK Streets</p>
+              <h1 className="font-display text-lg font-bold text-foreground">Street Etymology</h1>
+              <p className="text-xs text-muted-foreground">Discover the history of UK streets</p>
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-1">
+          <nav className="hidden items-center space-x-1 md:flex">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 to={link.href}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                className={`rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
                   isActive(link.href)
-                    ? 'bg-amber-100 text-amber-800'
-                    : 'text-stone-600 hover:bg-stone-100 hover:text-stone-900'
+                    ? 'bg-accent text-accent-foreground'
+                    : 'text-muted-foreground hover:bg-muted hover:text-foreground'
                 }`}
               >
                 {link.label}
@@ -49,31 +48,32 @@ export function Header() {
             ))}
           </nav>
 
-          {/* Auth Buttons */}
-          <div className="hidden md:flex items-center space-x-3">
+          <div className="hidden items-center space-x-2 md:flex md:space-x-3">
+            <ThemeToggle />
             {user ? (
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-2">
                 {isAdmin && (
                   <Link
                     to="/admin"
-                    className="flex items-center space-x-1 px-3 py-2 text-sm font-medium text-amber-700 hover:bg-amber-50 rounded-lg transition-colors"
+                    className="flex items-center space-x-1 rounded-lg px-3 py-2 text-sm font-medium text-primary transition-colors hover:bg-accent"
                   >
-                    <Shield className="w-4 h-4" />
+                    <Shield className="h-4 w-4" />
                     <span>Admin</span>
                   </Link>
                 )}
                 <Link
                   to="/profile"
-                  className="flex items-center space-x-1 px-3 py-2 text-sm font-medium text-stone-600 hover:bg-stone-100 rounded-lg transition-colors"
+                  className="flex items-center space-x-1 rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
                 >
-                  <User className="w-4 h-4" />
+                  <User className="h-4 w-4" />
                   <span>Profile</span>
                 </Link>
                 <button
+                  type="button"
                   onClick={() => signOut()}
-                  className="flex items-center space-x-1 px-3 py-2 text-sm font-medium text-stone-600 hover:bg-stone-100 rounded-lg transition-colors"
+                  className="flex items-center space-x-1 rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
                 >
-                  <LogOut className="w-4 h-4" />
+                  <LogOut className="h-4 w-4" />
                   <span>Sign Out</span>
                 </button>
               </div>
@@ -81,13 +81,13 @@ export function Header() {
               <>
                 <Link
                   to="/login"
-                  className="px-4 py-2 text-sm font-medium text-stone-600 hover:text-stone-900 transition-colors"
+                  className="px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
                 >
                   Sign In
                 </Link>
                 <Link
                   to="/register"
-                  className="px-4 py-2 text-sm font-medium text-white bg-amber-700 hover:bg-amber-800 rounded-lg transition-colors"
+                  className="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-opacity hover:opacity-90"
                 >
                   Register
                 </Link>
@@ -95,62 +95,65 @@ export function Header() {
             )}
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 rounded-lg text-stone-600 hover:bg-stone-100"
-          >
-            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          <div className="flex items-center gap-2 md:hidden">
+            <ThemeToggle />
+            <button
+              type="button"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="rounded-lg p-2 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+            >
+              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
         </div>
 
-        {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-stone-200">
+          <div className="border-t border-border py-4 md:hidden">
             <nav className="flex flex-col space-y-2">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   to={link.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                  className={`rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
                     isActive(link.href)
-                      ? 'bg-amber-100 text-amber-800'
-                      : 'text-stone-600 hover:bg-stone-100'
+                      ? 'bg-accent text-accent-foreground'
+                      : 'text-muted-foreground hover:bg-muted'
                   }`}
                 >
                   {link.label}
                 </Link>
               ))}
-              <div className="pt-4 mt-4 border-t border-stone-200">
+              <div className="mt-4 border-t border-border pt-4">
                 {user ? (
                   <>
                     {isAdmin && (
                       <Link
                         to="/admin"
                         onClick={() => setIsMenuOpen(false)}
-                        className="flex items-center space-x-2 px-4 py-2 text-sm font-medium text-amber-700"
+                        className="flex items-center space-x-2 px-4 py-2 text-sm font-medium text-primary"
                       >
-                        <Shield className="w-4 h-4" />
+                        <Shield className="h-4 w-4" />
                         <span>Admin Dashboard</span>
                       </Link>
                     )}
                     <Link
                       to="/profile"
                       onClick={() => setIsMenuOpen(false)}
-                      className="flex items-center space-x-2 px-4 py-2 text-sm font-medium text-stone-600"
+                      className="flex items-center space-x-2 px-4 py-2 text-sm font-medium text-muted-foreground"
                     >
-                      <User className="w-4 h-4" />
+                      <User className="h-4 w-4" />
                       <span>Profile</span>
                     </Link>
                     <button
+                      type="button"
                       onClick={() => {
                         signOut();
                         setIsMenuOpen(false);
                       }}
-                      className="flex items-center space-x-2 px-4 py-2 text-sm font-medium text-stone-600 w-full text-left"
+                      className="flex w-full items-center space-x-2 px-4 py-2 text-left text-sm font-medium text-muted-foreground"
                     >
-                      <LogOut className="w-4 h-4" />
+                      <LogOut className="h-4 w-4" />
                       <span>Sign Out</span>
                     </button>
                   </>
@@ -159,14 +162,14 @@ export function Header() {
                     <Link
                       to="/login"
                       onClick={() => setIsMenuOpen(false)}
-                      className="px-4 py-2 text-sm font-medium text-stone-600"
+                      className="px-4 py-2 text-sm font-medium text-muted-foreground"
                     >
                       Sign In
                     </Link>
                     <Link
                       to="/register"
                       onClick={() => setIsMenuOpen(false)}
-                      className="mx-4 px-4 py-2 text-sm font-medium text-white bg-amber-700 rounded-lg text-center"
+                      className="mx-4 rounded-lg bg-primary px-4 py-2 text-center text-sm font-medium text-primary-foreground"
                     >
                       Register
                     </Link>

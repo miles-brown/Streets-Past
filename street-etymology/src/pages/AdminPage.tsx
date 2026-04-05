@@ -2,17 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { supabase, Contribution, Street } from '../lib/supabase';
-import {
-  Shield,
-  CheckCircle,
-  XCircle,
-  Clock,
-  Loader2,
-  ChevronDown,
-  Eye,
-  MapPin,
-  AlertTriangle
-} from 'lucide-react';
+import { Shield, CheckCircle, XCircle, Clock, Loader2, Eye, MapPin } from 'lucide-react';
 import toast from 'react-hot-toast';
 
 type ContributionWithStreet = Contribution & { street?: Street };
@@ -39,10 +29,7 @@ export function AdminPage() {
   async function loadContributions() {
     setIsLoading(true);
     try {
-      let query = supabase
-        .from('contributions')
-        .select('*')
-        .order('created_at', { ascending: false });
+      let query = supabase.from('contributions').select('*').order('created_at', { ascending: false });
 
       if (filter !== 'all') {
         query = query.eq('status', filter);
@@ -52,17 +39,16 @@ export function AdminPage() {
 
       if (error) throw error;
 
-      // Fetch street names for each contribution
       if (contributionsData && contributionsData.length > 0) {
-        const streetIds = [...new Set(contributionsData.map(c => c.street_id))];
+        const streetIds = [...new Set(contributionsData.map((c) => c.street_id))];
         const { data: streets } = await supabase
           .from('streets')
           .select('id, name, city, county')
           .in('id', streetIds);
 
-        const contributionsWithStreets = contributionsData.map(c => ({
+        const contributionsWithStreets = contributionsData.map((c) => ({
           ...c,
-          street: streets?.find(s => s.id === c.street_id)
+          street: streets?.find((s) => s.id === c.street_id),
         }));
 
         setContributions(contributionsWithStreets);
@@ -80,24 +66,22 @@ export function AdminPage() {
   async function handleApprove(contribution: ContributionWithStreet) {
     setProcessingId(contribution.id);
     try {
-      // Update contribution status
       const { error: updateError } = await supabase
         .from('contributions')
         .update({
           status: 'approved',
-          reviewed_at: new Date().toISOString()
+          reviewed_at: new Date().toISOString(),
         })
         .eq('id', contribution.id);
 
       if (updateError) throw updateError;
 
-      // Optionally update the street's etymology
       if (contribution.street_id) {
         await supabase
           .from('streets')
           .update({
             etymology_suggestion: contribution.etymology_suggestion,
-            updated_at: new Date().toISOString()
+            updated_at: new Date().toISOString(),
           })
           .eq('id', contribution.street_id);
       }
@@ -119,7 +103,7 @@ export function AdminPage() {
         .from('contributions')
         .update({
           status: 'rejected',
-          reviewed_at: new Date().toISOString()
+          reviewed_at: new Date().toISOString(),
         })
         .eq('id', contribution.id);
 
@@ -136,15 +120,15 @@ export function AdminPage() {
   }
 
   const statusCounts = {
-    pending: contributions.filter(c => c.status === 'pending').length,
-    approved: contributions.filter(c => c.status === 'approved').length,
-    rejected: contributions.filter(c => c.status === 'rejected').length,
+    pending: contributions.filter((c) => c.status === 'pending').length,
+    approved: contributions.filter((c) => c.status === 'approved').length,
+    rejected: contributions.filter((c) => c.status === 'rejected').length,
   };
 
   if (authLoading) {
     return (
-      <div className="min-h-screen bg-stone-50 flex items-center justify-center">
-        <Loader2 className="w-10 h-10 text-amber-600 animate-spin" />
+      <div className="flex min-h-screen items-center justify-center bg-background">
+        <Loader2 className="h-10 w-10 animate-spin text-primary" />
       </div>
     );
   }
@@ -154,65 +138,61 @@ export function AdminPage() {
   }
 
   return (
-    <div className="min-h-screen bg-stone-50 py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
+    <div className="min-h-screen bg-background py-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
-          <div className="flex items-center space-x-3 mb-2">
-            <Shield className="w-8 h-8 text-amber-600" />
-            <h1 className="text-3xl font-serif font-bold text-stone-800">
-              Admin Dashboard
-            </h1>
+          <div className="mb-2 flex items-center gap-3">
+            <Shield className="h-8 w-8 text-primary" />
+            <h1 className="font-display text-3xl font-bold text-foreground">Admin dashboard</h1>
           </div>
-          <p className="text-stone-600">
-            Review and moderate community contributions
-          </p>
+          <p className="text-muted-foreground">Review and moderate community contributions.</p>
         </div>
 
-        {/* Stats */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
-          <div className="bg-white rounded-xl shadow-sm border border-stone-200 p-6">
+        <div className="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <div className="surface-glass rounded-xl p-6">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm text-stone-600">Pending Review</p>
-                <p className="text-3xl font-bold text-amber-600">{statusCounts.pending}</p>
+                <p className="text-sm text-muted-foreground">Pending (this view)</p>
+                <p className="font-mono text-3xl font-bold text-primary">{statusCounts.pending}</p>
               </div>
-              <Clock className="w-10 h-10 text-amber-200" />
+              <Clock className="h-10 w-10 text-primary/30" />
             </div>
           </div>
-          <div className="bg-white rounded-xl shadow-sm border border-stone-200 p-6">
+          <div className="surface-glass rounded-xl p-6">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm text-stone-600">Approved</p>
-                <p className="text-3xl font-bold text-green-600">{statusCounts.approved}</p>
+                <p className="text-sm text-muted-foreground">Approved (this view)</p>
+                <p className="font-mono text-3xl font-bold text-emerald-600 dark:text-emerald-400">
+                  {statusCounts.approved}
+                </p>
               </div>
-              <CheckCircle className="w-10 h-10 text-green-200" />
+              <CheckCircle className="h-10 w-10 text-emerald-500/30" />
             </div>
           </div>
-          <div className="bg-white rounded-xl shadow-sm border border-stone-200 p-6">
+          <div className="surface-glass rounded-xl p-6">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm text-stone-600">Rejected</p>
-                <p className="text-3xl font-bold text-red-600">{statusCounts.rejected}</p>
+                <p className="text-sm text-muted-foreground">Rejected (this view)</p>
+                <p className="font-mono text-3xl font-bold text-red-600 dark:text-red-400">{statusCounts.rejected}</p>
               </div>
-              <XCircle className="w-10 h-10 text-red-200" />
+              <XCircle className="h-10 w-10 text-red-500/30" />
             </div>
           </div>
         </div>
 
-        {/* Filter */}
-        <div className="bg-white rounded-xl shadow-sm border border-stone-200 p-4 mb-6">
-          <div className="flex items-center space-x-2">
-            <span className="text-sm font-medium text-stone-700">Filter:</span>
-            <div className="flex space-x-2">
+        <div className="surface-glass mb-6 rounded-xl p-4">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-sm font-medium text-foreground">Filter:</span>
+            <div className="flex flex-wrap gap-2">
               {(['pending', 'approved', 'rejected', 'all'] as const).map((status) => (
                 <button
                   key={status}
+                  type="button"
                   onClick={() => setFilter(status)}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                  className={`rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
                     filter === status
-                      ? 'bg-amber-100 text-amber-800'
-                      : 'text-stone-600 hover:bg-stone-100'
+                      ? 'bg-accent text-accent-foreground'
+                      : 'text-muted-foreground hover:bg-muted'
                   }`}
                 >
                   {status.charAt(0).toUpperCase() + status.slice(1)}
@@ -222,97 +202,94 @@ export function AdminPage() {
           </div>
         </div>
 
-        {/* Contributions List */}
         {isLoading ? (
           <div className="flex items-center justify-center py-20">
-            <Loader2 className="w-8 h-8 text-amber-600 animate-spin" />
+            <Loader2 className="h-8 w-8 animate-spin text-primary" />
           </div>
         ) : contributions.length === 0 ? (
-          <div className="text-center py-20 bg-white rounded-xl border border-stone-200">
-            <CheckCircle className="w-16 h-16 text-green-300 mx-auto mb-4" />
-            <h3 className="text-lg font-semibold text-stone-800 mb-2">All caught up!</h3>
-            <p className="text-stone-600">No contributions to review at the moment.</p>
+          <div className="surface-glass rounded-xl py-20 text-center">
+            <CheckCircle className="mx-auto mb-4 h-16 w-16 text-muted-foreground/40" />
+            <h3 className="mb-2 text-lg font-semibold text-foreground">All caught up</h3>
+            <p className="text-muted-foreground">No contributions in this filter.</p>
           </div>
         ) : (
           <div className="space-y-4">
             {contributions.map((contribution) => (
-              <div
-                key={contribution.id}
-                className="bg-white rounded-xl shadow-sm border border-stone-200 p-6"
-              >
-                <div className="flex items-start justify-between mb-4">
+              <div key={contribution.id} className="surface-glass rounded-xl p-6">
+                <div className="mb-4 flex items-start justify-between gap-4">
                   <div>
-                    <div className="flex items-center space-x-2 text-sm text-stone-500 mb-1">
-                      <MapPin className="w-4 h-4 text-amber-600" />
-                      <span>{contribution.street?.name || 'Unknown Street'}</span>
+                    <div className="mb-1 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+                      <MapPin className="h-4 w-4 shrink-0 text-primary" />
+                      <span>{contribution.street?.name || 'Unknown street'}</span>
                       {contribution.street?.city && (
                         <>
-                          <span className="text-stone-300">|</span>
+                          <span className="text-border">|</span>
                           <span>{contribution.street.city}</span>
                         </>
                       )}
                     </div>
-                    <p className="text-xs text-stone-400">
+                    <p className="text-xs text-muted-foreground/80">
                       Submitted by {contribution.user_email} on{' '}
                       {new Date(contribution.created_at).toLocaleDateString()}
                     </p>
                   </div>
                   <span
-                    className={`px-3 py-1 rounded-full text-xs font-medium ${
+                    className={`shrink-0 rounded-full px-3 py-1 text-xs font-medium ${
                       contribution.status === 'pending'
-                        ? 'bg-amber-100 text-amber-700'
+                        ? 'bg-accent text-accent-foreground'
                         : contribution.status === 'approved'
-                        ? 'bg-green-100 text-green-700'
-                        : 'bg-red-100 text-red-700'
+                          ? 'bg-emerald-500/15 text-emerald-800 dark:text-emerald-300'
+                          : 'bg-red-500/15 text-red-800 dark:text-red-300'
                     }`}
                   >
                     {contribution.status}
                   </span>
                 </div>
 
-                <div className="bg-stone-50 rounded-lg p-4 mb-4">
-                  <h4 className="text-sm font-medium text-stone-700 mb-2">Etymology Suggestion:</h4>
-                  <p className="text-stone-800 whitespace-pre-line">
-                    {contribution.etymology_suggestion}
-                  </p>
+                <div className="mb-4 rounded-lg border border-border bg-muted/50 p-4">
+                  <h4 className="mb-2 text-sm font-medium text-foreground">Etymology suggestion</h4>
+                  <p className="whitespace-pre-line text-muted-foreground">{contribution.etymology_suggestion}</p>
                   {contribution.sources && (
-                    <div className="mt-3 pt-3 border-t border-stone-200">
-                      <h4 className="text-sm font-medium text-stone-700 mb-1">Sources:</h4>
-                      <p className="text-sm text-stone-600">{contribution.sources}</p>
+                    <div className="mt-3 border-t border-border pt-3">
+                      <h4 className="mb-1 text-sm font-medium text-foreground">Sources</h4>
+                      <p className="text-sm text-muted-foreground">{contribution.sources}</p>
                     </div>
                   )}
                 </div>
 
                 {contribution.status === 'pending' && (
-                  <div className="flex items-center justify-end space-x-3">
+                  <div className="flex flex-wrap items-center justify-end gap-3">
                     <button
+                      type="button"
                       onClick={() => navigate(`/street/${contribution.street_id}`)}
-                      className="flex items-center space-x-1 px-4 py-2 text-stone-600 hover:bg-stone-100 rounded-lg transition-colors"
+                      className="flex items-center gap-1 rounded-lg px-4 py-2 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
                     >
-                      <Eye className="w-4 h-4" />
-                      <span>View Street</span>
+                      <Eye className="h-4 w-4" />
+                      <span>View street</span>
                     </button>
                     <button
+                      type="button"
                       onClick={() => handleReject(contribution)}
                       disabled={processingId === contribution.id}
-                      className="flex items-center space-x-1 px-4 py-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors disabled:opacity-50"
+                      className="flex items-center gap-1 rounded-lg px-4 py-2 text-red-600 transition-colors hover:bg-red-500/10 disabled:opacity-50 dark:text-red-400"
                     >
                       {processingId === contribution.id ? (
-                        <Loader2 className="w-4 h-4 animate-spin" />
+                        <Loader2 className="h-4 w-4 animate-spin" />
                       ) : (
-                        <XCircle className="w-4 h-4" />
+                        <XCircle className="h-4 w-4" />
                       )}
                       <span>Reject</span>
                     </button>
                     <button
+                      type="button"
                       onClick={() => handleApprove(contribution)}
                       disabled={processingId === contribution.id}
-                      className="flex items-center space-x-1 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors disabled:opacity-50"
+                      className="flex items-center gap-1 rounded-lg bg-emerald-600 px-4 py-2 font-medium text-white transition-opacity hover:opacity-90 disabled:opacity-50 dark:bg-emerald-700"
                     >
                       {processingId === contribution.id ? (
-                        <Loader2 className="w-4 h-4 animate-spin" />
+                        <Loader2 className="h-4 w-4 animate-spin" />
                       ) : (
-                        <CheckCircle className="w-4 h-4" />
+                        <CheckCircle className="h-4 w-4" />
                       )}
                       <span>Approve</span>
                     </button>
