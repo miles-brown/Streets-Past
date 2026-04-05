@@ -30,8 +30,9 @@ const ATTR_LIGHT =
 const ATTR_DARK =
   '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
 
-function escapeHtml(s: string) {
-  return s
+function escapeHtml(s: string | null | undefined) {
+  const str = s == null ? '' : String(s);
+  return str
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
@@ -40,13 +41,14 @@ function escapeHtml(s: string) {
 }
 
 function buildPopupHtml(street: Street) {
-  const title = escapeHtml(street.name);
+  const title = escapeHtml(street.name ?? 'Unknown street');
   const meta = escapeHtml([street.city, street.county].filter(Boolean).join(', '));
-  const etym = street.etymology_suggestion
-    ? escapeHtml(
-        street.etymology_suggestion.substring(0, 150) + (street.etymology_suggestion.length > 150 ? '…' : ''),
-      )
-    : '';
+  const rawEtym = street.etymology_suggestion;
+  const etymText =
+    rawEtym != null && String(rawEtym).length > 0
+      ? String(rawEtym).substring(0, 150) + (String(rawEtym).length > 150 ? '…' : '')
+      : '';
+  const etym = etymText ? escapeHtml(etymText) : '';
   const etymBlock = etym
     ? `<p style="margin:0 0 8px 0;font-size:12px;line-height:1.4;color:hsl(var(--muted-foreground));">${etym}</p>`
     : '';
